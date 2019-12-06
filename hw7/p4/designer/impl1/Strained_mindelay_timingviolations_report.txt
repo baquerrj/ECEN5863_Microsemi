@@ -1,0 +1,86 @@
+Timing Violation Report Min Delay Analysis
+
+SmartTime Version v11.8
+Microsemi Corporation - Microsemi Libero Software Release v11.8 (Version 11.8.0.26)
+Date: Sun Nov 03 19:59:14 2019
+
+
+Design: Strained
+Family: SmartFusion
+Die: A2F500M3G
+Package: 208 PQFP
+Temperature Range: -40 - 100 C
+Voltage Range: 1.425 - 1.575 V
+Speed Grade: -1
+Design State: Post-Layout
+Data source: Silicon verified
+Min Operating Conditions: BEST - 1.575 V - -40 C
+Max Operating Conditions: WORST - 1.425 V - 100 C
+Using Enhanced Min Delay Analysis
+Scenario for Timing Analysis: Primary
+
+
+Path 1
+  From:                        reset
+  To:                          Q[17]:D
+  Delay (ns):                  1.214
+  Slack (ns):                  -0.240
+  Arrival (ns):                1.214
+  Required (ns):               1.454
+
+Path 2
+  From:                        reset
+  To:                          Q[13]:D
+  Delay (ns):                  1.261
+  Slack (ns):                  -0.208
+  Arrival (ns):                1.261
+  Required (ns):               1.469
+
+Path 3
+  From:                        reset
+  To:                          Q[5]:D
+  Delay (ns):                  1.366
+  Slack (ns):                  -0.102
+  Arrival (ns):                1.366
+  Required (ns):               1.468
+
+Path 4
+  From:                        reset
+  To:                          Q[11]:D
+  Delay (ns):                  1.385
+  Slack (ns):                  -0.084
+  Arrival (ns):                1.385
+  Required (ns):               1.469
+
+Path 5
+  From:                        reset
+  To:                          Q[12]:D
+  Delay (ns):                  1.387
+  Slack (ns):                  -0.081
+  Arrival (ns):                1.387
+  Required (ns):               1.468
+
+Path 6
+  From:                        reset
+  To:                          Q[10]:D
+  Delay (ns):                  1.397
+  Slack (ns):                  -0.072
+  Arrival (ns):                1.397
+  Required (ns):               1.469
+
+Path 7
+  From:                        reset
+  To:                          Q[0]:D
+  Delay (ns):                  1.412
+  Slack (ns):                  -0.046
+  Arrival (ns):                1.412
+  Required (ns):               1.458
+
+Path 8
+  From:                        reset
+  To:                          Q[14]:D
+  Delay (ns):                  1.459
+  Slack (ns):                  -0.009
+  Arrival (ns):                1.459
+  Required (ns):               1.468
+

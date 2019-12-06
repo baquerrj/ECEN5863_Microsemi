@@ -1,0 +1,21 @@
+HelpInfo,C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\html,fpgahelp.qhc,errormessages.mp,C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\bin\mbin\assistant
+Implementation;Synthesis;RootName:Strained
+Implementation;Synthesis||null||@N: Running in 64-bit mode||Strained.srr(11);liberoaction://cross_probe/hdl/file/'C:\Microsemi_Prj\hw7\p4\synthesis\Strained.srr'/linenumber/11||null;null
+Implementation;Synthesis||null||@N: Running in 64-bit mode||Strained.srr(15);liberoaction://cross_probe/hdl/file/'C:\Microsemi_Prj\hw7\p4\synthesis\Strained.srr'/linenumber/15||null;null
+Implementation;Synthesis|| CG364 ||@N: Synthesizing module Strained in library work.||Strained.srr(29);liberoaction://cross_probe/hdl/file/'C:\Microsemi_Prj\hw7\p4\synthesis\Strained.srr'/linenumber/29||Strained.v(21);liberoaction://cross_probe/hdl/file/'C:\Microsemi_Prj\hw7\p4\hdl\Strained.v'/linenumber/21
+Implementation;Synthesis||null||@N: Running in 64-bit mode||Strained.srr(41);liberoaction://cross_probe/hdl/file/'C:\Microsemi_Prj\hw7\p4\synthesis\Strained.srr'/linenumber/41||null;null
+Implementation;Synthesis||null||@N: Running in 64-bit mode||Strained.srr(62);liberoaction://cross_probe/hdl/file/'C:\Microsemi_Prj\hw7\p4\synthesis\Strained.srr'/linenumber/62||null;null
+Implementation;Synthesis|| MF248 ||@N: Running in 64-bit mode.||Strained.srr(86);liberoaction://cross_probe/hdl/file/'C:\Microsemi_Prj\hw7\p4\synthesis\Strained.srr'/linenumber/86||null;null
+Implementation;Synthesis|| MF667 ||@N: Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)||Strained.srr(87);liberoaction://cross_probe/hdl/file/'C:\Microsemi_Prj\hw7\p4\synthesis\Strained.srr'/linenumber/87||null;null
+Implementation;Synthesis|| BN225 ||@N: Writing default property annotation file C:\Microsemi_Prj\hw7\p4\synthesis\Strained.sap.||Strained.srr(109);liberoaction://cross_probe/hdl/file/'C:\Microsemi_Prj\hw7\p4\synthesis\Strained.srr'/linenumber/109||null;null
+Implementation;Synthesis|| MF248 ||@N: Running in 64-bit mode.||Strained.srr(136);liberoaction://cross_probe/hdl/file/'C:\Microsemi_Prj\hw7\p4\synthesis\Strained.srr'/linenumber/136||null;null
+Implementation;Synthesis|| MF667 ||@N: Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)||Strained.srr(137);liberoaction://cross_probe/hdl/file/'C:\Microsemi_Prj\hw7\p4\synthesis\Strained.srr'/linenumber/137||null;null
+Implementation;Synthesis|| MO231 ||@N: Found counter in view:work.Strained(verilog) instance Q[23:0] ||Strained.srr(155);liberoaction://cross_probe/hdl/file/'C:\Microsemi_Prj\hw7\p4\synthesis\Strained.srr'/linenumber/155||strained.v(34);liberoaction://cross_probe/hdl/file/'c:\microsemi_prj\hw7\p4\hdl\strained.v'/linenumber/34
+Implementation;Synthesis|| FP130 ||@N: Promoting Net clk_c on CLKBUF  clk_pad ||Strained.srr(183);liberoaction://cross_probe/hdl/file/'C:\Microsemi_Prj\hw7\p4\synthesis\Strained.srr'/linenumber/183||null;null
+Implementation;Synthesis|| MT615 ||@N: Found clock Strained|clk with period 15.00ns ||Strained.srr(231);liberoaction://cross_probe/hdl/file/'C:\Microsemi_Prj\hw7\p4\synthesis\Strained.srr'/linenumber/231||null;null
+Implementation;Synthesis|| MT320 ||@N: This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.||Strained.srr(248);liberoaction://cross_probe/hdl/file/'C:\Microsemi_Prj\hw7\p4\synthesis\Strained.srr'/linenumber/248||null;null
+Implementation;Compile;RootName:Strained
+Implementation;Compile||(null)||Please refer to the log file for details about 1 Info(s)||Strained_compile_log.rpt;liberoaction://open_report/file/Strained_compile_log.rpt||(null);(null)
+Implementation;Place and Route||OnlineHelp;liberoaction://open_online_help/98304003||Info: I/O Bank Assigner detected (1) out of (6) I/O Bank(s) with locked I/O technologies.||(null);(null)||(null);(null)
+Implementation;Place and Route;RootName:Strained
+Implementation;Place and Route||(null)||Please refer to the log file for details about 1 Warning(s) , 2 Info(s)||Strained_placeroute_log.rpt;liberoaction://open_report/file/Strained_placeroute_log.rpt||(null);(null)

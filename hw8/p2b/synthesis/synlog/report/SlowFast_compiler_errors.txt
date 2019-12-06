@@ -1,0 +1,2 @@
+@E: CG906 :"C:\Microsemi_Prj\hw8\p2b\hdl\SlowFast.v":19:31:19:40|Reference to unknown variable dataLocked.
+

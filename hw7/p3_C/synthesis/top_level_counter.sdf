@@ -1,0 +1,150 @@
+(DELAYFILE
+(SDFVERSION "OVI 2.1")
+(DESIGN "top_level_counter")
+(DATE "123")
+(VENDOR "ProASIC3")
+(PROGRAM "Synplify")
+(VERSION "mapact, Build 1920R")
+(DIVIDER /)
+(VOLTAGE 2.500000:2.500000:2.500000)
+(PROCESS "TYPICAL")
+(TEMPERATURE 70.000000:70.000000:70.000000)
+(TIMESCALE 1ns)
+(CELL
+  (CELLTYPE "top_level_counter")
+  (INSTANCE)
+  (TIMINGCHECK
+
+    (PATHCONSTRAINT Skewed_0/uQ\[3\]/CLK  Skewed_0/uQ\[3\]/Q  Skewed_0/uQ_m2_0_a2_1/B  Skewed_0/uQ_m2_0_a2_1/Y  Skewed_0/uQ_m4_0_a2_5/A  Skewed_0/uQ_m4_0_a2_5/Y  Skewed_0/uQ_m4_0_a2/A  Skewed_0/uQ_m4_0_a2/Y  Skewed_0/uQ_m1_0_a2/B  Skewed_0/uQ_m1_0_a2/Y  Skewed_0/uQ_n11_0/B  Skewed_0/uQ_n11_0/Y  Skewed_0/uQ\[11\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT Skewed_0/uQ\[2\]/CLK  Skewed_0/uQ\[2\]/Q  Skewed_0/uQ_m4_0_a2_3_3/C  Skewed_0/uQ_m4_0_a2_3_3/Y  Skewed_0/uQ_m4_0_a2_5/C  Skewed_0/uQ_m4_0_a2_5/Y  Skewed_0/uQ_m4_0_a2/A  Skewed_0/uQ_m4_0_a2/Y  Skewed_0/uQ_m1_0_a2/B  Skewed_0/uQ_m1_0_a2/Y  Skewed_0/uQ_n11_0/B  Skewed_0/uQ_n11_0/Y  Skewed_0/uQ\[11\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT Skewed_0/uQ\[4\]/CLK  Skewed_0/uQ\[4\]/Q  Skewed_0/uQ_m2_0_a2_1/A  Skewed_0/uQ_m2_0_a2_1/Y  Skewed_0/uQ_m4_0_a2_5/A  Skewed_0/uQ_m4_0_a2_5/Y  Skewed_0/uQ_m4_0_a2/A  Skewed_0/uQ_m4_0_a2/Y  Skewed_0/uQ_m1_0_a2/B  Skewed_0/uQ_m1_0_a2/Y  Skewed_0/uQ_n11_0/B  Skewed_0/uQ_n11_0/Y  Skewed_0/uQ\[11\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT Skewed_0/uQ\[3\]/CLK  Skewed_0/uQ\[3\]/Q  Skewed_0/uQ_m2_0_a2_1/B  Skewed_0/uQ_m2_0_a2_1/Y  Skewed_0/uQ_m4_0_a2_5/A  Skewed_0/uQ_m4_0_a2_5/Y  Skewed_0/uQ_m4_0_a2/A  Skewed_0/uQ_m4_0_a2/Y  Skewed_0/uQ_n10_0_o2/B  Skewed_0/uQ_n10_0_o2/Y  Skewed_0/uQ_n10_0/A  Skewed_0/uQ_n10_0/Y  Skewed_0/uQ\[10\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT Skewed_0/uQ\[5\]/CLK  Skewed_0/uQ\[5\]/Q  Skewed_0/uQ_m4_0_a2_1/B  Skewed_0/uQ_m4_0_a2_1/Y  Skewed_0/uQ_m4_0_a2_5/B  Skewed_0/uQ_m4_0_a2_5/Y  Skewed_0/uQ_m4_0_a2/A  Skewed_0/uQ_m4_0_a2/Y  Skewed_0/uQ_m1_0_a2/B  Skewed_0/uQ_m1_0_a2/Y  Skewed_0/uQ_n11_0/B  Skewed_0/uQ_n11_0/Y  Skewed_0/uQ\[11\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT Skewed_0/uQ\[0\]/CLK  Skewed_0/uQ\[0\]/Q  Skewed_0/uQ_n2_i_o2/B  Skewed_0/uQ_n2_i_o2/Y  Skewed_0/uQ_m4_0_a2/B  Skewed_0/uQ_m4_0_a2/Y  Skewed_0/uQ_m1_0_a2/B  Skewed_0/uQ_m1_0_a2/Y  Skewed_0/uQ_n11_0/B  Skewed_0/uQ_n11_0/Y  Skewed_0/uQ\[11\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT Skewed_0/uQ\[7\]/CLK  Skewed_0/uQ\[7\]/Q  Skewed_0/uQ_m4_0_a2_1/A  Skewed_0/uQ_m4_0_a2_1/Y  Skewed_0/uQ_m4_0_a2_5/B  Skewed_0/uQ_m4_0_a2_5/Y  Skewed_0/uQ_m4_0_a2/A  Skewed_0/uQ_m4_0_a2/Y  Skewed_0/uQ_m1_0_a2/B  Skewed_0/uQ_m1_0_a2/Y  Skewed_0/uQ_n11_0/B  Skewed_0/uQ_n11_0/Y  Skewed_0/uQ\[11\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT Skewed_0/uQ\[6\]/CLK  Skewed_0/uQ\[6\]/Q  Skewed_0/uQ_m4_0_a2_3_3/A  Skewed_0/uQ_m4_0_a2_3_3/Y  Skewed_0/uQ_m4_0_a2_5/C  Skewed_0/uQ_m4_0_a2_5/Y  Skewed_0/uQ_m4_0_a2/A  Skewed_0/uQ_m4_0_a2/Y  Skewed_0/uQ_m1_0_a2/B  Skewed_0/uQ_m1_0_a2/Y  Skewed_0/uQ_n11_0/B  Skewed_0/uQ_n11_0/Y  Skewed_0/uQ\[11\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT Skewed_0/uQ\[8\]/CLK  Skewed_0/uQ\[8\]/Q  Skewed_0/uQ_m4_0_a2_3_3/B  Skewed_0/uQ_m4_0_a2_3_3/Y  Skewed_0/uQ_m4_0_a2_5/C  Skewed_0/uQ_m4_0_a2_5/Y  Skewed_0/uQ_m4_0_a2/A  Skewed_0/uQ_m4_0_a2/Y  Skewed_0/uQ_m1_0_a2/B  Skewed_0/uQ_m1_0_a2/Y  Skewed_0/uQ_n11_0/B  Skewed_0/uQ_n11_0/Y  Skewed_0/uQ\[11\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT Skewed_0/uQ\[3\]/CLK  Skewed_0/uQ\[3\]/Q  Skewed_0/uQ_m2_0_a2_1/B  Skewed_0/uQ_m2_0_a2_1/Y  Skewed_0/uQ_m4_0_a2_5/A  Skewed_0/uQ_m4_0_a2_5/Y  Skewed_0/uQ_m4_0_a2/A  Skewed_0/uQ_m4_0_a2/Y  Skewed_0/uQ_n8_i/C  Skewed_0/uQ_n8_i/Y  Skewed_0/uQ\[8\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT Skewed_0/uQ\[1\]/CLK  Skewed_0/uQ\[1\]/Q  Skewed_0/uQ_n2_i_o2/A  Skewed_0/uQ_n2_i_o2/Y  Skewed_0/uQ_m4_0_a2/B  Skewed_0/uQ_m4_0_a2/Y  Skewed_0/uQ_m1_0_a2/B  Skewed_0/uQ_m1_0_a2/Y  Skewed_0/uQ_n11_0/B  Skewed_0/uQ_n11_0/Y  Skewed_0/uQ\[11\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT Skewed_0/uQ\[3\]/CLK  Skewed_0/uQ\[3\]/Q  Skewed_0/uQ_m2_0_a2_1/B  Skewed_0/uQ_m2_0_a2_1/Y  Skewed_0/uQ_m4_0_a2_5/A  Skewed_0/uQ_m4_0_a2_5/Y  Skewed_0/uQ_m4_0_a2/A  Skewed_0/uQ_m4_0_a2/Y  Skewed_0/uQ_n9_0/A  Skewed_0/uQ_n9_0/Y  Skewed_0/uQ\[9\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT Skewed_0/uQ\[0\]/CLK  Skewed_0/uQ\[0\]/Q  Skewed_0/uQ_n2_i_o2/B  Skewed_0/uQ_n2_i_o2/Y  Skewed_0/uQ_n3_i_o2/B  Skewed_0/uQ_n3_i_o2/Y  Skewed_0/uQ_n4_i_0/A  Skewed_0/uQ_n4_i_0/Y  Skewed_0/uQ_n4_i/B  Skewed_0/uQ_n4_i/Y  Skewed_0/uQ\[4\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT Skewed_0/uQ\[3\]/CLK  Skewed_0/uQ\[3\]/Q  Skewed_0/uQ_m2_0_a2_1/B  Skewed_0/uQ_m2_0_a2_1/Y  Skewed_0/uQ_m2_0_a2/B  Skewed_0/uQ_m2_0_a2/Y  Skewed_0/uQ_n8_i_a2/B  Skewed_0/uQ_n8_i_a2/Y  Skewed_0/uQ_n8_i/B  Skewed_0/uQ_n8_i/Y  Skewed_0/uQ\[8\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT Skewed_0/uQ\[0\]/CLK  Skewed_0/uQ\[0\]/Q  Skewed_0/uQ_n2_i_o2/B  Skewed_0/uQ_n2_i_o2/Y  Skewed_0/uQ_m2_0_a2/C  Skewed_0/uQ_m2_0_a2/Y  Skewed_0/uQ_n8_i_a2/B  Skewed_0/uQ_n8_i_a2/Y  Skewed_0/uQ_n8_i/B  Skewed_0/uQ_n8_i/Y  Skewed_0/uQ\[8\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT Skewed_0/uQ\[2\]/CLK  Skewed_0/uQ\[2\]/Q  Skewed_0/uQ_m2_0_a2_2/C  Skewed_0/uQ_m2_0_a2_2/Y  Skewed_0/uQ_m2_0_a2/A  Skewed_0/uQ_m2_0_a2/Y  Skewed_0/uQ_n8_i_a2/B  Skewed_0/uQ_n8_i_a2/Y  Skewed_0/uQ_n8_i/B  Skewed_0/uQ_n8_i/Y  Skewed_0/uQ\[8\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT Skewed_0/uQ\[6\]/CLK  Skewed_0/uQ\[6\]/Q  Skewed_0/uQ_m2_0_a2_2/B  Skewed_0/uQ_m2_0_a2_2/Y  Skewed_0/uQ_m2_0_a2/A  Skewed_0/uQ_m2_0_a2/Y  Skewed_0/uQ_n8_i_a2/B  Skewed_0/uQ_n8_i_a2/Y  Skewed_0/uQ_n8_i/B  Skewed_0/uQ_n8_i/Y  Skewed_0/uQ\[8\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT Skewed_0/uQ\[0\]/CLK  Skewed_0/uQ\[0\]/Q  Skewed_0/uQ_n2_i_o2/B  Skewed_0/uQ_n2_i_o2/Y  Skewed_0/uQ_n3_i_o2/B  Skewed_0/uQ_n3_i_o2/Y  Skewed_0/uQ_n3_i/A  Skewed_0/uQ_n3_i/Y  Skewed_0/uQ\[3\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT Skewed_0/uQ\[5\]/CLK  Skewed_0/uQ\[5\]/Q  Skewed_0/uQ_m2_0_a2_2/A  Skewed_0/uQ_m2_0_a2_2/Y  Skewed_0/uQ_m2_0_a2/A  Skewed_0/uQ_m2_0_a2/Y  Skewed_0/uQ_n8_i_a2/B  Skewed_0/uQ_n8_i_a2/Y  Skewed_0/uQ_n8_i/B  Skewed_0/uQ_n8_i/Y  Skewed_0/uQ\[8\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT Skewed_0/uQ\[0\]/CLK  Skewed_0/uQ\[0\]/Q  Skewed_0/uQ_n2_i_o2/B  Skewed_0/uQ_n2_i_o2/Y  Skewed_0/uQ_m2_0_a2/C  Skewed_0/uQ_m2_0_a2/Y  Skewed_0/uQ_n7_i/A  Skewed_0/uQ_n7_i/Y  Skewed_0/uQ\[7\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT Skewed_0/uQ\[0\]/CLK  Skewed_0/uQ\[0\]/Q  Skewed_0/uQ_n2_i_o2/B  Skewed_0/uQ_n2_i_o2/Y  Skewed_0/uQ_n2_i_0/A  Skewed_0/uQ_n2_i_0/Y  Skewed_0/uQ_n2_i/B  Skewed_0/uQ_n2_i/Y  Skewed_0/uQ\[2\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT Skewed_0/uQ\[3\]/CLK  Skewed_0/uQ\[3\]/Q  Skewed_0/uQ_m2_0_a2_1/B  Skewed_0/uQ_m2_0_a2_1/Y  Skewed_0/uQ_m4_0_a2_3/A  Skewed_0/uQ_m4_0_a2_3/Y  Skewed_0/uQ_n6_i_1/A  Skewed_0/uQ_n6_i_1/Y  Skewed_0/uQ\[6\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT Skewed_0/uQ\[3\]/CLK  Skewed_0/uQ\[3\]/Q  Skewed_0/uQ_m2_0_a2_1/B  Skewed_0/uQ_m2_0_a2_1/Y  Skewed_0/uQ_m1_0_a2_0/A  Skewed_0/uQ_m1_0_a2_0/Y  Skewed_0/uQ_n5_i/A  Skewed_0/uQ_n5_i/Y  Skewed_0/uQ\[5\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT Skewed_0/uQ\[0\]/CLK  Skewed_0/uQ\[0\]/Q  Skewed_0/uQ_n2_i_o2/B  Skewed_0/uQ_n2_i_o2/Y  Skewed_0/uQ_m1_0_a2_0/C  Skewed_0/uQ_m1_0_a2_0/Y  Skewed_0/uQ_n5_i/A  Skewed_0/uQ_n5_i/Y  Skewed_0/uQ\[5\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT Skewed_0/uQ\[0\]/CLK  Skewed_0/uQ\[0\]/Q  Skewed_0/uQ_n2_i_o2/B  Skewed_0/uQ_n2_i_o2/Y  Skewed_0/uQ_m4_0_a2_3/C  Skewed_0/uQ_m4_0_a2_3/Y  Skewed_0/uQ_n6_i_1/A  Skewed_0/uQ_n6_i_1/Y  Skewed_0/uQ\[6\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT Skewed_0/uQ\[2\]/CLK  Skewed_0/uQ\[2\]/Q  Skewed_0/uQ_n3_i_o2/A  Skewed_0/uQ_n3_i_o2/Y  Skewed_0/uQ_n4_i_0/A  Skewed_0/uQ_n4_i_0/Y  Skewed_0/uQ_n4_i/B  Skewed_0/uQ_n4_i/Y  Skewed_0/uQ\[4\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT Skewed_0/uQ\[9\]/CLK  Skewed_0/uQ\[9\]/Q  Skewed_0/uQ_m1_0_a2_0_2/B  Skewed_0/uQ_m1_0_a2_0_2/Y  Skewed_0/uQ_m1_0_a2/A  Skewed_0/uQ_m1_0_a2/Y  Skewed_0/uQ_n11_0/B  Skewed_0/uQ_n11_0/Y  Skewed_0/uQ\[11\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT Skewed_0/uQ\[2\]/CLK  Skewed_0/uQ\[2\]/Q  Skewed_0/uQ_m4_0_a2_3_0/B  Skewed_0/uQ_m4_0_a2_3_0/Y  Skewed_0/uQ_m4_0_a2_3/B  Skewed_0/uQ_m4_0_a2_3/Y  Skewed_0/uQ_n6_i_1/A  Skewed_0/uQ_n6_i_1/Y  Skewed_0/uQ\[6\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT Skewed_0/uQ\[10\]/CLK  Skewed_0/uQ\[10\]/Q  Skewed_0/uQ_m1_0_a2_0_2/A  Skewed_0/uQ_m1_0_a2_0_2/Y  Skewed_0/uQ_m1_0_a2/A  Skewed_0/uQ_m1_0_a2/Y  Skewed_0/uQ_n11_0/B  Skewed_0/uQ_n11_0/Y  Skewed_0/uQ\[11\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT Skewed_0/uQ\[5\]/CLK  Skewed_0/uQ\[5\]/Q  Skewed_0/uQ_m4_0_a2_3_0/A  Skewed_0/uQ_m4_0_a2_3_0/Y  Skewed_0/uQ_m4_0_a2_3/B  Skewed_0/uQ_m4_0_a2_3/Y  Skewed_0/uQ_n6_i_1/A  Skewed_0/uQ_n6_i_1/Y  Skewed_0/uQ\[6\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT Skewed_0/uQ\[2\]/CLK  Skewed_0/uQ\[2\]/Q  Skewed_0/uQ_n2_i_0/B  Skewed_0/uQ_n2_i_0/Y  Skewed_0/uQ_n2_i/B  Skewed_0/uQ_n2_i/Y  Skewed_0/uQ\[2\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT Skewed_0/uQ\[2\]/CLK  Skewed_0/uQ\[2\]/Q  Skewed_0/uQ_m1_0_a2_0/B  Skewed_0/uQ_m1_0_a2_0/Y  Skewed_0/uQ_n5_i/A  Skewed_0/uQ_n5_i/Y  Skewed_0/uQ\[5\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT Skewed_0/uQ\[3\]/CLK  Skewed_0/uQ\[3\]/Q  Skewed_0/uQ_n4_i_0/B  Skewed_0/uQ_n4_i_0/Y  Skewed_0/uQ_n4_i/B  Skewed_0/uQ_n4_i/Y  Skewed_0/uQ\[4\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT Skewed_0/uQ\[7\]/CLK  Skewed_0/uQ\[7\]/Q  Skewed_0/uQ_n8_i_a2/A  Skewed_0/uQ_n8_i_a2/Y  Skewed_0/uQ_n8_i/B  Skewed_0/uQ_n8_i/Y  Skewed_0/uQ\[8\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT Skewed_0/uQ\[9\]/CLK  Skewed_0/uQ\[9\]/Q  Skewed_0/uQ_n10_0_o2/A  Skewed_0/uQ_n10_0_o2/Y  Skewed_0/uQ_n10_0/A  Skewed_0/uQ_n10_0/Y  Skewed_0/uQ\[10\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT Skewed_0/uQ\[1\]/CLK  Skewed_0/uQ\[1\]/Q  Skewed_0/uQ_n1_i_0/B  Skewed_0/uQ_n1_i_0/Y  Skewed_0/uQ_n1_i/B  Skewed_0/uQ_n1_i/Y  Skewed_0/uQ\[1\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT Skewed_0/uQ\[0\]/CLK  Skewed_0/uQ\[0\]/Q  Skewed_0/uQ_n1_i_0/A  Skewed_0/uQ_n1_i_0/Y  Skewed_0/uQ_n1_i/B  Skewed_0/uQ_n1_i/Y  Skewed_0/uQ\[1\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT Skewed_0/uQ\[5\]/CLK  Skewed_0/uQ\[5\]/Q  Skewed_0/uQ_n5_i/B  Skewed_0/uQ_n5_i/Y  Skewed_0/uQ\[5\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT Skewed_0/uQ\[7\]/CLK  Skewed_0/uQ\[7\]/Q  Skewed_0/uQ_n7_i/B  Skewed_0/uQ_n7_i/Y  Skewed_0/uQ\[7\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT Skewed_0/uQ\[6\]/CLK  Skewed_0/uQ\[6\]/Q  Skewed_0/uQ_n6_i_1/B  Skewed_0/uQ_n6_i_1/Y  Skewed_0/uQ\[6\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT Skewed_0/uQ\[9\]/CLK  Skewed_0/uQ\[9\]/Q  Skewed_0/uQ_n9_0/B  Skewed_0/uQ_n9_0/Y  Skewed_0/uQ\[9\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT Skewed_0/uQ\[3\]/CLK  Skewed_0/uQ\[3\]/Q  Skewed_0/uQ_n3_i/B  Skewed_0/uQ_n3_i/Y  Skewed_0/uQ\[3\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT Skewed_0/uQ\[8\]/CLK  Skewed_0/uQ\[8\]/Q  Skewed_0/uQ_n8_i_a2/C  Skewed_0/uQ_n8_i_a2/Y  Skewed_0/uQ_n8_i/B  Skewed_0/uQ_n8_i/Y  Skewed_0/uQ\[8\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT Skewed_0/uQ\[4\]/CLK  Skewed_0/uQ\[4\]/Q  Skewed_0/uQ_n4_i_0/C  Skewed_0/uQ_n4_i_0/Y  Skewed_0/uQ_n4_i/B  Skewed_0/uQ_n4_i/Y  Skewed_0/uQ\[4\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT Skewed_0/uQ\[10\]/CLK  Skewed_0/uQ\[10\]/Q  Skewed_0/uQ_n10_0/B  Skewed_0/uQ_n10_0/Y  Skewed_0/uQ\[10\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT skewedClock_0/DFN1P0_3/CLK  skewedClock_0/DFN1P0_3/Q  skewedClock_0/INV_2/A  skewedClock_0/INV_2/Y  skewedClock_0/DFN1P0_3/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT Skewed_0/uQ\[0\]/CLK  Skewed_0/uQ\[0\]/Q  Skewed_0/uQ_n0_i_a2/B  Skewed_0/uQ_n0_i_a2/Y  Skewed_0/uQ\[0\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT Skewed_0/uQ\[11\]/CLK  Skewed_0/uQ\[11\]/Q  Skewed_0/uQ_n11_0/A  Skewed_0/uQ_n11_0/Y  Skewed_0/uQ\[11\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT Skewed_0/uQ\[3\]/CLK  Skewed_0/uQ\[3\]/Q  Skewed_0/uQ_m2_0_a2_1/B  Skewed_0/uQ_m2_0_a2_1/Y  Skewed_0/uQ_m4_0_a2_5/A  Skewed_0/uQ_m4_0_a2_5/Y  Skewed_0/uQ_m4_0_a2/A  Skewed_0/uQ_m4_0_a2/Y  Skewed_0/uQ_m1_0_a2/B  Skewed_0/uQ_m1_0_a2/Y  Skewed_0/uQ_m1_0_a2_RNIPAPD1/C  Skewed_0/uQ_m1_0_a2_RNIPAPD1/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT Skewed_0/uQ\[2\]/CLK  Skewed_0/uQ\[2\]/Q  Q_pad\[6\]/D  Q_pad\[6\]/PAD  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT Skewed_0/uQ\[5\]/CLK  Skewed_0/uQ\[5\]/Q  Q_pad\[9\]/D  Q_pad\[9\]/PAD  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT Skewed_0/uQ\[3\]/CLK  Skewed_0/uQ\[3\]/Q  Q_pad\[7\]/D  Q_pad\[7\]/PAD  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT Skewed_0/uQ\[0\]/CLK  Skewed_0/uQ\[0\]/Q  Q_pad\[4\]/D  Q_pad\[4\]/PAD  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT Skewed_0/uQ\[7\]/CLK  Skewed_0/uQ\[7\]/Q  Q_pad\[11\]/D  Q_pad\[11\]/PAD  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT Skewed_0/uQ\[6\]/CLK  Skewed_0/uQ\[6\]/Q  Q_pad\[10\]/D  Q_pad\[10\]/PAD  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT Skewed_0/uQ\[9\]/CLK  Skewed_0/uQ\[9\]/Q  Q_pad\[13\]/D  Q_pad\[13\]/PAD  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT skewedClock_0/DFN1P0_3/CLK  skewedClock_0/DFN1P0_3/Q  Skewed_0/TC_9_1/B  Skewed_0/TC_9_1/Y  Skewed_0/TC_9/A  Skewed_0/TC_9/Y  Skewed_0/uQlde_i_a2/B  Skewed_0/uQlde_i_a2/Y  Skewed_0/uQ\[11\]/E  	(99999.6:99999.6:99999.6) )
+
+    (PATHCONSTRAINT skewedClock_0/DFN1P0_3/CLK  skewedClock_0/DFN1P0_3/Q  sQ3_pad/D  sQ3_pad/PAD  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT skewedClock_0/DFN1P0_3/CLK  skewedClock_0/DFN1P0_3/Q  skewedClock_0/DFN1P0_3_RNI7RRE/A  skewedClock_0/DFN1P0_3_RNI7RRE/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT Skewed_0/uQ\[4\]/CLK  Skewed_0/uQ\[4\]/Q  Q_pad\[8\]/D  Q_pad\[8\]/PAD  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT Skewed_0/uQ\[8\]/CLK  Skewed_0/uQ\[8\]/Q  Q_pad\[12\]/D  Q_pad\[12\]/PAD  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT Skewed_0/uQ\[1\]/CLK  Skewed_0/uQ\[1\]/Q  Q_pad\[5\]/D  Q_pad\[5\]/PAD  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT Skewed_0/uQ\[10\]/CLK  Skewed_0/uQ\[10\]/Q  Q_pad\[14\]/D  Q_pad\[14\]/PAD  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT Skewed_0/uQ\[11\]/CLK  Skewed_0/uQ\[11\]/Q  Q_pad\[15\]/D  Q_pad\[15\]/PAD  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT Skewed_0/uQ\[11\]/CLK  Skewed_0/uQ\[11\]/Q  Skewed_0/uQ_m1_0_a2_RNIPAPD1/A  Skewed_0/uQ_m1_0_a2_RNIPAPD1/Y  	(10.0:10.0:10.0) )
+
+  )
+)
+)

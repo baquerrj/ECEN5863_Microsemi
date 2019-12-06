@@ -1,0 +1,4 @@
+@W: CD434 :"C:\Microsemi_Prj\hw9\p2\hdl\fifo2x8.vhd":173:20:173:23|Signal clk1 in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.
+@W: CG296 :"C:\Microsemi_Prj\hw9\p2\hdl\fifo2x8.vhd":173:11:173:17|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
+@W: CG290 :"C:\Microsemi_Prj\hw9\p2\hdl\fifo2x8.vhd":175:19:175:22|Referenced variable clk2 is not in sensitivity list.
+

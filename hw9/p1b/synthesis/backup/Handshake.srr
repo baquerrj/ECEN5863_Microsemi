@@ -1,0 +1,789 @@
+#Build: Synplify Pro L-2016.09M-2, Build 065R, Nov 16 2016
+#install: C:\Microsemi\Libero_SoC_v11.8\SynplifyPro
+#OS: Windows 8 6.2
+#Hostname: MSI
+
+# Mon Dec 02 19:15:22 2019
+
+#Implementation: synthesis
+
+Synopsys HDL Compiler, version comp2016q3p1, Build 117R, built Nov 17 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys Verilog Compiler, version comp2016q3p1, Build 127R, built Nov 24 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@I::"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\proasic\smartfusion.v" (library work)
+@I::"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vlog\hypermods.v" (library __hyper__lib__)
+@I::"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vlog\umr_capim.v" (library snps_haps)
+@I::"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vlog\scemi_objects.v" (library snps_haps)
+@I::"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vlog\scemi_pipes.svh" (library snps_haps)
+@I::"C:\Microsemi_Prj\hw9\p1b\hdl\counter.v" (library work)
+@I::"C:\Microsemi_Prj\hw9\p1b\hdl\receiver_fsm.v" (library work)
+@I::"C:\Microsemi_Prj\hw9\p1b\hdl\receiver.v" (library work)
+@I::"C:\Microsemi_Prj\hw9\p1b\hdl\sender_fsm.v" (library work)
+@I::"C:\Microsemi_Prj\hw9\p1b\hdl\sender.v" (library work)
+@I::"C:\Microsemi_Prj\hw9\p1b\hdl\synchronizer.v" (library work)
+@I::"C:\Microsemi_Prj\hw9\p1b\hdl\Handshake.v" (library work)
+Verilog syntax check successful!
+Selecting top level module Handshake
+@N: CG364 :"C:\Microsemi_Prj\hw9\p1b\hdl\synchronizer.v":19:7:19:18|Synthesizing module synchronizer in library work.
+
+@N: CG364 :"C:\Microsemi_Prj\hw9\p1b\hdl\counter.v":21:7:21:13|Synthesizing module counter in library work.
+
+@N: CG364 :"C:\Microsemi_Prj\hw9\p1b\hdl\sender_fsm.v":21:7:21:16|Synthesizing module sender_fsm in library work.
+
+@N: CG364 :"C:\Microsemi_Prj\hw9\p1b\hdl\sender.v":21:7:21:12|Synthesizing module sender in library work.
+
+@N: CG364 :"C:\Microsemi_Prj\hw9\p1b\hdl\receiver_fsm.v":21:7:21:18|Synthesizing module receiver_fsm in library work.
+
+@N: CG364 :"C:\Microsemi_Prj\hw9\p1b\hdl\receiver.v":21:7:21:14|Synthesizing module receiver in library work.
+
+@N: CG364 :"C:\Microsemi_Prj\hw9\p1b\hdl\Handshake.v":21:7:21:15|Synthesizing module Handshake in library work.
+
+@N: CL201 :"C:\Microsemi_Prj\hw9\p1b\hdl\receiver_fsm.v":38:0:38:5|Trying to extract state machine for register state.
+Extracted state machine for register state
+State machine has 3 reachable states with original encodings of:
+   00
+   01
+   11
+@N: CL201 :"C:\Microsemi_Prj\hw9\p1b\hdl\sender_fsm.v":38:0:38:5|Trying to extract state machine for register state.
+Extracted state machine for register state
+State machine has 3 reachable states with original encodings of:
+   00
+   01
+   11
+
+At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 71MB peak: 72MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Mon Dec 02 19:15:22 2019
+
+###########################################################]
+Synopsys Netlist Linker, version comp2016q3p1, Build 117R, built Nov 17 2016
+@N|Running in 64-bit mode
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Mon Dec 02 19:15:23 2019
+
+###########################################################]
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Mon Dec 02 19:15:23 2019
+
+###########################################################]
+Synopsys Netlist Linker, version comp2016q3p1, Build 117R, built Nov 17 2016
+@N|Running in 64-bit mode
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Mon Dec 02 19:15:24 2019
+
+###########################################################]
+Pre-mapping Report
+
+# Mon Dec 02 19:15:24 2019
+
+Synopsys Microsemi Technology Pre-mapping, Version mapact, Build 1920R, Built Nov 17 2016 09:40:34
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version L-2016.09M-2
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
+
+@A: MF827 |No constraint file specified.
+@L: C:\Microsemi_Prj\hw9\p1b\synthesis\Handshake_scck.rpt 
+Printing clock  summary report in "C:\Microsemi_Prj\hw9\p1b\synthesis\Handshake_scck.rpt" file 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 102MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 102MB)
+
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 109MB peak: 110MB)
+
+
+
+Clock Summary
+*****************
+
+Start              Requested     Requested     Clock        Clock                   Clock
+Clock              Frequency     Period        Type         Group                   Load 
+-----------------------------------------------------------------------------------------
+Handshake|aclk     100.0 MHz     10.000        inferred     Inferred_clkgroup_1     21   
+Handshake|bclk     100.0 MHz     10.000        inferred     Inferred_clkgroup_0     14   
+=========================================================================================
+
+@W: MT530 :"c:\microsemi_prj\hw9\p1b\hdl\synchronizer.v":28:0:28:5|Found inferred clock Handshake|bclk which controls 14 sequential elements including a2b_sync.q1. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"c:\microsemi_prj\hw9\p1b\hdl\synchronizer.v":28:0:28:5|Found inferred clock Handshake|aclk which controls 21 sequential elements including b2a_sync.q1. This clock has no specified timing constraint which may adversely impact design performance. 
+
+Finished Pre Mapping Phase.
+@N: BN225 |Writing default property annotation file C:\Microsemi_Prj\hw9\p1b\synthesis\Handshake.sap.
+
+Starting constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 109MB peak: 110MB)
+
+Encoding state machine state_1[2:0] (in view: work.sender_fsm(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   11 -> 10
+Encoding state machine state_1[2:0] (in view: work.receiver_fsm(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   11 -> 10
+None
+None
+
+Finished constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 109MB peak: 110MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 25MB peak: 110MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Mon Dec 02 19:15:24 2019
+
+###########################################################]
+Map & Optimize Report
+
+# Mon Dec 02 19:15:24 2019
+
+Synopsys Microsemi Technology Mapper, Version mapact, Build 1920R, Built Nov 17 2016 09:40:34
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version L-2016.09M-2
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
+
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 109MB peak: 110MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 109MB peak: 110MB)
+
+@N: MO231 :"c:\microsemi_prj\hw9\p1b\hdl\counter.v":28:0:28:5|Found counter in view:work.counter(verilog) instance q[7:0] 
+Encoding state machine state_1[2:0] (in view: work.sender_fsm(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   11 -> 10
+Encoding state machine state_1[2:0] (in view: work.receiver_fsm(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   11 -> 10
+
+Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 109MB peak: 110MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 110MB peak: 110MB)
+
+
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 109MB peak: 110MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 110MB peak: 110MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 110MB peak: 111MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 110MB peak: 111MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 110MB peak: 111MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 110MB peak: 111MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 110MB peak: 111MB)
+
+@N: FP130 |Promoting Net aclk_c on CLKBUF  aclk_pad 
+@N: FP130 |Promoting Net bclk_c on CLKBUF  bclk_pad 
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 110MB peak: 111MB)
+
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 110MB peak: 111MB)
+
+
+
+@S |Clock Optimization Summary
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+Clock optimization not enabled
+2 non-gated/non-generated clock tree(s) driving 33 clock pin(s) of sequential element(s)
+0 gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+0 instances converted, 0 sequential instances remain driven by gated/generated clocks
+
+============================== Non-Gated/Non-Generated Clocks ==============================
+Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample Instance     
+--------------------------------------------------------------------------------------------
+@K:CKID0001       aclk                port                   20         data_source.adata[7]
+@K:CKID0002       bclk                port                   13         bloadq              
+============================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 110MB peak: 111MB)
+
+Writing Analyst data base C:\Microsemi_Prj\hw9\p1b\synthesis\synwork\Handshake_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 110MB peak: 111MB)
+
+Writing EDIF Netlist and constraint files
+L-2016.09M-2
+
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 110MB peak: 111MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 110MB peak: 111MB)
+
+@W: MT420 |Found inferred clock Handshake|aclk with period 10.00ns. Please declare a user-defined clock on object "p:aclk"
+@W: MT420 |Found inferred clock Handshake|bclk with period 10.00ns. Please declare a user-defined clock on object "p:bclk"
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Mon Dec 02 19:15:25 2019
+#
+
+
+Top view:               Handshake
+Library name:           smartfusion
+Operating conditions:   COMWCSTD ( T = 70.0, V = 1.42, P = 1.74, tree_type = balanced_tree )
+Requested Frequency:    100.0 MHz
+Wire load mode:         top
+Wire load model:        smartfusion
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: -0.839
+
+                   Requested     Estimated     Requested     Estimated                Clock        Clock              
+Starting Clock     Frequency     Frequency     Period        Period        Slack      Type         Group              
+----------------------------------------------------------------------------------------------------------------------
+Handshake|aclk     100.0 MHz     92.3 MHz      10.000        10.839        -0.839     inferred     Inferred_clkgroup_1
+Handshake|bclk     100.0 MHz     147.7 MHz     10.000        6.769         3.231      inferred     Inferred_clkgroup_0
+======================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                          |    rise  to  rise    |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+-----------------------------------------------------------------------------------------------------------------------
+Starting        Ending          |  constraint  slack   |  constraint  slack  |  constraint  slack  |  constraint  slack
+-----------------------------------------------------------------------------------------------------------------------
+Handshake|bclk  Handshake|bclk  |  10.000      3.231   |  No paths    -      |  No paths    -      |  No paths    -    
+Handshake|bclk  Handshake|aclk  |  Diff grp    -       |  No paths    -      |  No paths    -      |  No paths    -    
+Handshake|aclk  Handshake|bclk  |  Diff grp    -       |  No paths    -      |  No paths    -      |  No paths    -    
+Handshake|aclk  Handshake|aclk  |  10.000      -0.839  |  No paths    -      |  No paths    -      |  No paths    -    
+=======================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: Handshake|aclk
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                         Starting                                               Arrival           
+Instance                 Reference          Type       Pin     Net              Time        Slack 
+                         Clock                                                                    
+--------------------------------------------------------------------------------------------------
+data_generator.q[0]      Handshake|aclk     DFN1E1     Q       adatain_c[0]     0.737       -0.839
+data_generator.q[3]      Handshake|aclk     DFN1E1     Q       adatain_c[3]     0.737       -0.556
+data_source.adata[0]     Handshake|aclk     DFN1       Q       adata_c[0]       0.737       -0.381
+data_source.adata[3]     Handshake|aclk     DFN1       Q       adata_c[3]       0.737       -0.241
+data_source.adata[1]     Handshake|aclk     DFN1       Q       adata_c[1]       0.737       0.016 
+data_generator.q[1]      Handshake|aclk     DFN1E1     Q       adatain_c[1]     0.737       0.116 
+data_source.adata[4]     Handshake|aclk     DFN1       Q       adata_c[4]       0.737       0.155 
+data_generator.q[7]      Handshake|aclk     DFN1E1     Q       adatain_c[7]     0.737       0.170 
+data_generator.q[6]      Handshake|aclk     DFN1E1     Q       adatain_c[6]     0.737       0.226 
+data_generator.q[4]      Handshake|aclk     DFN1E1     Q       adatain_c[4]     0.737       0.256 
+==================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                               Starting                                                 Required           
+Instance                       Reference          Type       Pin     Net                Time         Slack 
+                               Clock                                                                       
+-----------------------------------------------------------------------------------------------------------
+data_source.adata[0]           Handshake|aclk     DFN1       D       adata_RNO[0]       9.427        -0.839
+data_source.adata[1]           Handshake|aclk     DFN1       D       adata_RNO[1]       9.427        -0.839
+data_source.adata[2]           Handshake|aclk     DFN1       D       adata_RNO[2]       9.427        -0.839
+data_source.adata[3]           Handshake|aclk     DFN1       D       adata_RNO[3]       9.427        -0.839
+data_source.adata[4]           Handshake|aclk     DFN1       D       adata_RNO[4]       9.427        -0.839
+data_source.adata[5]           Handshake|aclk     DFN1       D       adata_RNO[5]       9.427        -0.839
+data_source.adata[6]           Handshake|aclk     DFN1       D       adata_RNO[6]       9.427        -0.839
+data_source.adata[7]           Handshake|aclk     DFN1       D       adata_RNO[7]       9.427        -0.839
+data_generator.q[7]            Handshake|aclk     DFN1E1     D       q_n7               9.461        0.928 
+data_source.fsm.state_1[0]     Handshake|aclk     DFN1       D       state_1_nss[0]     9.427        1.470 
+===========================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            0.573
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.427
+
+    - Propagation time:                      10.266
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -0.839
+
+    Number of logic level(s):                7
+    Starting point:                          data_generator.q[0] / Q
+    Ending point:                            data_source.adata[0] / D
+    The start point is clocked by            Handshake|aclk [rising] on pin CLK
+    The end   point is clocked by            Handshake|aclk [rising] on pin CLK
+
+Instance / Net                                             Pin      Pin               Arrival     No. of    
+Name                                            Type       Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------------------------
+data_generator.q[0]                             DFN1E1     Q        Out     0.737     0.737       -         
+adatain_c[0]                                    Net        -        -       1.423     -           6         
+data_source.adata_RNI29CF[0]                    XOR2       B        In      -         2.160       -         
+data_source.adata_RNI29CF[0]                    XOR2       Y        Out     0.627     2.788       -         
+un1_anxtdata_0                                  Net        -        -       0.322     -           1         
+data_source.adata_RNI6KOU[1]                    XO1        C        In      -         3.109       -         
+data_source.adata_RNI6KOU[1]                    XO1        Y        Out     0.490     3.599       -         
+un1_anxtdata_NE_1                               Net        -        -       0.322     -           1         
+data_generator.q_RNISOHT1[7]                    OR3        C        In      -         3.921       -         
+data_generator.q_RNISOHT1[7]                    OR3        Y        Out     0.751     4.672       -         
+un1_anxtdata_NE_4                               Net        -        -       0.322     -           1         
+data_generator.q_RNI824R3[7]                    OR2        B        In      -         4.993       -         
+data_generator.q_RNI824R3[7]                    OR2        Y        Out     0.646     5.640       -         
+anxtdata_c                                      Net        -        -       0.806     -           3         
+data_source.fsm.state_1_ns_i_a3_RNI9MC14[1]     NOR2B      A        In      -         6.446       -         
+data_source.fsm.state_1_ns_i_a3_RNI9MC14[1]     NOR2B      Y        Out     0.514     6.960       -         
+aload_data                                      Net        -        -       1.639     -           8         
+data_source.adata_RNO_0[0]                      MX2        S        In      -         8.599       -         
+data_source.adata_RNO_0[0]                      MX2        Y        Out     0.396     8.995       -         
+N_3                                             Net        -        -       0.322     -           1         
+data_source.adata_RNO[0]                        NOR2A      A        In      -         9.317       -         
+data_source.adata_RNO[0]                        NOR2A      Y        Out     0.627     9.944       -         
+adata_RNO[0]                                    Net        -        -       0.322     -           1         
+data_source.adata[0]                            DFN1       D        In      -         10.266      -         
+============================================================================================================
+Total path delay (propagation time + setup) of 10.839 is 5.363(49.5%) logic and 5.476(50.5%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 2: 
+      Requested Period:                      10.000
+    - Setup time:                            0.573
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.427
+
+    - Propagation time:                      10.266
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -0.839
+
+    Number of logic level(s):                7
+    Starting point:                          data_generator.q[0] / Q
+    Ending point:                            data_source.adata[5] / D
+    The start point is clocked by            Handshake|aclk [rising] on pin CLK
+    The end   point is clocked by            Handshake|aclk [rising] on pin CLK
+
+Instance / Net                                             Pin      Pin               Arrival     No. of    
+Name                                            Type       Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------------------------
+data_generator.q[0]                             DFN1E1     Q        Out     0.737     0.737       -         
+adatain_c[0]                                    Net        -        -       1.423     -           6         
+data_source.adata_RNI29CF[0]                    XOR2       B        In      -         2.160       -         
+data_source.adata_RNI29CF[0]                    XOR2       Y        Out     0.627     2.788       -         
+un1_anxtdata_0                                  Net        -        -       0.322     -           1         
+data_source.adata_RNI6KOU[1]                    XO1        C        In      -         3.109       -         
+data_source.adata_RNI6KOU[1]                    XO1        Y        Out     0.490     3.599       -         
+un1_anxtdata_NE_1                               Net        -        -       0.322     -           1         
+data_generator.q_RNISOHT1[7]                    OR3        C        In      -         3.921       -         
+data_generator.q_RNISOHT1[7]                    OR3        Y        Out     0.751     4.672       -         
+un1_anxtdata_NE_4                               Net        -        -       0.322     -           1         
+data_generator.q_RNI824R3[7]                    OR2        B        In      -         4.993       -         
+data_generator.q_RNI824R3[7]                    OR2        Y        Out     0.646     5.640       -         
+anxtdata_c                                      Net        -        -       0.806     -           3         
+data_source.fsm.state_1_ns_i_a3_RNI9MC14[1]     NOR2B      A        In      -         6.446       -         
+data_source.fsm.state_1_ns_i_a3_RNI9MC14[1]     NOR2B      Y        Out     0.514     6.960       -         
+aload_data                                      Net        -        -       1.639     -           8         
+data_source.adata_RNO_0[5]                      MX2        S        In      -         8.599       -         
+data_source.adata_RNO_0[5]                      MX2        Y        Out     0.396     8.995       -         
+N_8                                             Net        -        -       0.322     -           1         
+data_source.adata_RNO[5]                        NOR2A      A        In      -         9.317       -         
+data_source.adata_RNO[5]                        NOR2A      Y        Out     0.627     9.944       -         
+adata_RNO[5]                                    Net        -        -       0.322     -           1         
+data_source.adata[5]                            DFN1       D        In      -         10.266      -         
+============================================================================================================
+Total path delay (propagation time + setup) of 10.839 is 5.363(49.5%) logic and 5.476(50.5%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 3: 
+      Requested Period:                      10.000
+    - Setup time:                            0.573
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.427
+
+    - Propagation time:                      10.266
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -0.839
+
+    Number of logic level(s):                7
+    Starting point:                          data_generator.q[0] / Q
+    Ending point:                            data_source.adata[6] / D
+    The start point is clocked by            Handshake|aclk [rising] on pin CLK
+    The end   point is clocked by            Handshake|aclk [rising] on pin CLK
+
+Instance / Net                                             Pin      Pin               Arrival     No. of    
+Name                                            Type       Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------------------------
+data_generator.q[0]                             DFN1E1     Q        Out     0.737     0.737       -         
+adatain_c[0]                                    Net        -        -       1.423     -           6         
+data_source.adata_RNI29CF[0]                    XOR2       B        In      -         2.160       -         
+data_source.adata_RNI29CF[0]                    XOR2       Y        Out     0.627     2.788       -         
+un1_anxtdata_0                                  Net        -        -       0.322     -           1         
+data_source.adata_RNI6KOU[1]                    XO1        C        In      -         3.109       -         
+data_source.adata_RNI6KOU[1]                    XO1        Y        Out     0.490     3.599       -         
+un1_anxtdata_NE_1                               Net        -        -       0.322     -           1         
+data_generator.q_RNISOHT1[7]                    OR3        C        In      -         3.921       -         
+data_generator.q_RNISOHT1[7]                    OR3        Y        Out     0.751     4.672       -         
+un1_anxtdata_NE_4                               Net        -        -       0.322     -           1         
+data_generator.q_RNI824R3[7]                    OR2        B        In      -         4.993       -         
+data_generator.q_RNI824R3[7]                    OR2        Y        Out     0.646     5.640       -         
+anxtdata_c                                      Net        -        -       0.806     -           3         
+data_source.fsm.state_1_ns_i_a3_RNI9MC14[1]     NOR2B      A        In      -         6.446       -         
+data_source.fsm.state_1_ns_i_a3_RNI9MC14[1]     NOR2B      Y        Out     0.514     6.960       -         
+aload_data                                      Net        -        -       1.639     -           8         
+data_source.adata_RNO_0[6]                      MX2        S        In      -         8.599       -         
+data_source.adata_RNO_0[6]                      MX2        Y        Out     0.396     8.995       -         
+N_9                                             Net        -        -       0.322     -           1         
+data_source.adata_RNO[6]                        NOR2A      A        In      -         9.317       -         
+data_source.adata_RNO[6]                        NOR2A      Y        Out     0.627     9.944       -         
+adata_RNO[6]                                    Net        -        -       0.322     -           1         
+data_source.adata[6]                            DFN1       D        In      -         10.266      -         
+============================================================================================================
+Total path delay (propagation time + setup) of 10.839 is 5.363(49.5%) logic and 5.476(50.5%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 4: 
+      Requested Period:                      10.000
+    - Setup time:                            0.573
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.427
+
+    - Propagation time:                      10.266
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -0.839
+
+    Number of logic level(s):                7
+    Starting point:                          data_generator.q[0] / Q
+    Ending point:                            data_source.adata[7] / D
+    The start point is clocked by            Handshake|aclk [rising] on pin CLK
+    The end   point is clocked by            Handshake|aclk [rising] on pin CLK
+
+Instance / Net                                             Pin      Pin               Arrival     No. of    
+Name                                            Type       Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------------------------
+data_generator.q[0]                             DFN1E1     Q        Out     0.737     0.737       -         
+adatain_c[0]                                    Net        -        -       1.423     -           6         
+data_source.adata_RNI29CF[0]                    XOR2       B        In      -         2.160       -         
+data_source.adata_RNI29CF[0]                    XOR2       Y        Out     0.627     2.788       -         
+un1_anxtdata_0                                  Net        -        -       0.322     -           1         
+data_source.adata_RNI6KOU[1]                    XO1        C        In      -         3.109       -         
+data_source.adata_RNI6KOU[1]                    XO1        Y        Out     0.490     3.599       -         
+un1_anxtdata_NE_1                               Net        -        -       0.322     -           1         
+data_generator.q_RNISOHT1[7]                    OR3        C        In      -         3.921       -         
+data_generator.q_RNISOHT1[7]                    OR3        Y        Out     0.751     4.672       -         
+un1_anxtdata_NE_4                               Net        -        -       0.322     -           1         
+data_generator.q_RNI824R3[7]                    OR2        B        In      -         4.993       -         
+data_generator.q_RNI824R3[7]                    OR2        Y        Out     0.646     5.640       -         
+anxtdata_c                                      Net        -        -       0.806     -           3         
+data_source.fsm.state_1_ns_i_a3_RNI9MC14[1]     NOR2B      A        In      -         6.446       -         
+data_source.fsm.state_1_ns_i_a3_RNI9MC14[1]     NOR2B      Y        Out     0.514     6.960       -         
+aload_data                                      Net        -        -       1.639     -           8         
+data_source.adata_RNO_0[7]                      MX2        S        In      -         8.599       -         
+data_source.adata_RNO_0[7]                      MX2        Y        Out     0.396     8.995       -         
+N_10                                            Net        -        -       0.322     -           1         
+data_source.adata_RNO[7]                        NOR2A      A        In      -         9.317       -         
+data_source.adata_RNO[7]                        NOR2A      Y        Out     0.627     9.944       -         
+adata_RNO[7]                                    Net        -        -       0.322     -           1         
+data_source.adata[7]                            DFN1       D        In      -         10.266      -         
+============================================================================================================
+Total path delay (propagation time + setup) of 10.839 is 5.363(49.5%) logic and 5.476(50.5%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 5: 
+      Requested Period:                      10.000
+    - Setup time:                            0.573
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.427
+
+    - Propagation time:                      10.266
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -0.839
+
+    Number of logic level(s):                7
+    Starting point:                          data_generator.q[0] / Q
+    Ending point:                            data_source.adata[4] / D
+    The start point is clocked by            Handshake|aclk [rising] on pin CLK
+    The end   point is clocked by            Handshake|aclk [rising] on pin CLK
+
+Instance / Net                                             Pin      Pin               Arrival     No. of    
+Name                                            Type       Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------------------------
+data_generator.q[0]                             DFN1E1     Q        Out     0.737     0.737       -         
+adatain_c[0]                                    Net        -        -       1.423     -           6         
+data_source.adata_RNI29CF[0]                    XOR2       B        In      -         2.160       -         
+data_source.adata_RNI29CF[0]                    XOR2       Y        Out     0.627     2.788       -         
+un1_anxtdata_0                                  Net        -        -       0.322     -           1         
+data_source.adata_RNI6KOU[1]                    XO1        C        In      -         3.109       -         
+data_source.adata_RNI6KOU[1]                    XO1        Y        Out     0.490     3.599       -         
+un1_anxtdata_NE_1                               Net        -        -       0.322     -           1         
+data_generator.q_RNISOHT1[7]                    OR3        C        In      -         3.921       -         
+data_generator.q_RNISOHT1[7]                    OR3        Y        Out     0.751     4.672       -         
+un1_anxtdata_NE_4                               Net        -        -       0.322     -           1         
+data_generator.q_RNI824R3[7]                    OR2        B        In      -         4.993       -         
+data_generator.q_RNI824R3[7]                    OR2        Y        Out     0.646     5.640       -         
+anxtdata_c                                      Net        -        -       0.806     -           3         
+data_source.fsm.state_1_ns_i_a3_RNI9MC14[1]     NOR2B      A        In      -         6.446       -         
+data_source.fsm.state_1_ns_i_a3_RNI9MC14[1]     NOR2B      Y        Out     0.514     6.960       -         
+aload_data                                      Net        -        -       1.639     -           8         
+data_source.adata_RNO_0[4]                      MX2        S        In      -         8.599       -         
+data_source.adata_RNO_0[4]                      MX2        Y        Out     0.396     8.995       -         
+N_7                                             Net        -        -       0.322     -           1         
+data_source.adata_RNO[4]                        NOR2A      A        In      -         9.317       -         
+data_source.adata_RNO[4]                        NOR2A      Y        Out     0.627     9.944       -         
+adata_RNO[4]                                    Net        -        -       0.322     -           1         
+data_source.adata[4]                            DFN1       D        In      -         10.266      -         
+============================================================================================================
+Total path delay (propagation time + setup) of 10.839 is 5.363(49.5%) logic and 5.476(50.5%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+
+====================================
+Detailed Report for Clock: Handshake|bclk
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                             Starting                                           Arrival          
+Instance                     Reference          Type     Pin     Net            Time        Slack
+                             Clock                                                               
+-------------------------------------------------------------------------------------------------
+data_sink.fsm.state_1[1]     Handshake|bclk     DFN1     Q       bvalid_c_c     0.737       3.231
+bloadq                       Handshake|bclk     DFN1     Q       bload_c        0.737       3.950
+data_sink.fsm.state_1[0]     Handshake|bclk     DFN1     Q       back_c_c       0.580       5.311
+a2b_sync.q                   Handshake|bclk     DFN1     Q       breq_c         0.737       5.803
+data_sink.bdata[0]           Handshake|bclk     DFN1     Q       bdata_c[0]     0.737       6.455
+data_sink.bdata[1]           Handshake|bclk     DFN1     Q       bdata_c[1]     0.737       6.455
+data_sink.bdata[2]           Handshake|bclk     DFN1     Q       bdata_c[2]     0.737       6.455
+data_sink.bdata[3]           Handshake|bclk     DFN1     Q       bdata_c[3]     0.737       6.455
+data_sink.bdata[4]           Handshake|bclk     DFN1     Q       bdata_c[4]     0.737       6.455
+data_sink.bdata[5]           Handshake|bclk     DFN1     Q       bdata_c[5]     0.737       6.455
+=================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                             Starting                                               Required          
+Instance                     Reference          Type     Pin     Net                Time         Slack
+                             Clock                                                                    
+------------------------------------------------------------------------------------------------------
+data_sink.bdata[0]           Handshake|bclk     DFN1     D       bdata_RNO[0]       9.427        3.231
+data_sink.bdata[1]           Handshake|bclk     DFN1     D       bdata_RNO[1]       9.427        3.231
+data_sink.bdata[2]           Handshake|bclk     DFN1     D       bdata_RNO[2]       9.427        3.231
+data_sink.bdata[3]           Handshake|bclk     DFN1     D       bdata_RNO[3]       9.427        3.231
+data_sink.bdata[4]           Handshake|bclk     DFN1     D       bdata_RNO[4]       9.427        3.231
+data_sink.bdata[5]           Handshake|bclk     DFN1     D       bdata_RNO[5]       9.427        3.231
+data_sink.bdata[6]           Handshake|bclk     DFN1     D       bdata_RNO[6]       9.427        3.231
+data_sink.bdata[7]           Handshake|bclk     DFN1     D       bdata_RNO[7]       9.427        3.231
+data_sink.fsm.state_1[1]     Handshake|bclk     DFN1     D       state_1_nss[1]     9.461        4.743
+bloadq                       Handshake|bclk     DFN1     D       bloadq_RNO         9.427        6.102
+======================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            0.573
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.427
+
+    - Propagation time:                      6.196
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 3.231
+
+    Number of logic level(s):                3
+    Starting point:                          data_sink.fsm.state_1[1] / Q
+    Ending point:                            data_sink.bdata[0] / D
+    The start point is clocked by            Handshake|bclk [rising] on pin CLK
+    The end   point is clocked by            Handshake|bclk [rising] on pin CLK
+
+Instance / Net                                 Pin      Pin               Arrival     No. of    
+Name                                 Type      Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------------
+data_sink.fsm.state_1[1]             DFN1      Q        Out     0.737     0.737       -         
+bvalid_c_c                           Net       -        -       1.639     -           8         
+data_sink.fsm.state_1_RNITSE8[1]     NOR2B     A        In      -         2.376       -         
+data_sink.fsm.state_1_RNITSE8[1]     NOR2B     Y        Out     0.514     2.890       -         
+bload_data                           Net       -        -       1.639     -           8         
+data_sink.bdata_RNO_0[0]             MX2       S        In      -         4.529       -         
+data_sink.bdata_RNO_0[0]             MX2       Y        Out     0.396     4.925       -         
+bdata_RNO_0[0]                       Net       -        -       0.322     -           1         
+data_sink.bdata_RNO[0]               NOR2A     A        In      -         5.247       -         
+data_sink.bdata_RNO[0]               NOR2A     Y        Out     0.627     5.874       -         
+bdata_RNO[0]                         Net       -        -       0.322     -           1         
+data_sink.bdata[0]                   DFN1      D        In      -         6.196       -         
+================================================================================================
+Total path delay (propagation time + setup) of 6.769 is 2.848(42.1%) logic and 3.921(57.9%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+None
+
+Finished final timing analysis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 110MB peak: 111MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 110MB peak: 111MB)
+
+--------------------------------------------------------------------------------
+Target Part: A2F200M3F_FBGA484_STD
+Report for cell Handshake.verilog
+  Core Cell usage:
+              cell count     area count*area
+               AX1     1      1.0        1.0
+               GND     8      0.0        0.0
+               INV     1      1.0        1.0
+               MX2    16      1.0       16.0
+              NOR2     3      1.0        3.0
+             NOR2A    23      1.0       23.0
+             NOR2B     8      1.0        8.0
+              NOR3     1      1.0        1.0
+             NOR3A     3      1.0        3.0
+              OA1B     1      1.0        1.0
+               OR2     4      1.0        4.0
+               OR3     2      1.0        2.0
+               VCC     8      0.0        0.0
+              XA1B     6      1.0        6.0
+               XO1     2      1.0        2.0
+              XOR2     6      1.0        6.0
+
+
+              DFN1    25      1.0       25.0
+            DFN1E1     8      1.0        8.0
+                   -----          ----------
+             TOTAL   126               110.0
+
+
+  IO Cell usage:
+              cell count
+            CLKBUF     2
+             INBUF     2
+            OUTBUF    38
+                   -----
+             TOTAL    42
+
+
+Core Cells         : 110 of 4608 (2%)
+IO Cells           : 42
+
+  RAM/ROM Usage Summary
+Block Rams : 0 of 8 (0%)
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 26MB peak: 111MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Mon Dec 02 19:15:25 2019
+
+###########################################################]

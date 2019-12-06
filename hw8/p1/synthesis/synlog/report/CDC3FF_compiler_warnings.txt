@@ -1,0 +1,5 @@
+@W: CL240 :"C:\Microsemi_Prj\hw8\p1\hdl\CDC3FF.vhd":29:3:29:6|Signal Dout is floating; a simulation mismatch is possible.
+@W: CL168 :"C:\Microsemi_Prj\hw8\p1\hdl\CDC3FF.vhd":51:3:51:4|Removing instance u3 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Microsemi_Prj\hw8\p1\hdl\CDC3FF.vhd":45:3:45:4|Removing instance u2 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Microsemi_Prj\hw8\p1\hdl\CDC3FF.vhd":39:3:39:4|Removing instance u1 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+

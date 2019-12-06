@@ -1,0 +1,43 @@
+----------------------------------------------------------------------
+Report for cell CDC3FF_MSS.rtl
+                                          Cell usage:
+                               cell       count     area    count*area
+                             CDC3FF         1       3.0        3.0
+                                GND         1       0.0        0.0
+                              INBUF         1       0.0        0.0
+                             OUTBUF         1       0.0        0.0
+                                VCC         1       0.0        0.0
+                     clk_source_MSS         1       0.0        0.0
+                            
+                         TOTAL              6                  3.0
+----------------------------------------------------------------------
+Report for cell clk_source_MSS.netlist
+     Instance path:  clk_source_MSS_0
+                                          Cell usage:
+                               cell       count     area    count*area
+                                GND         1       0.0        0.0
+                                VCC         1       0.0        0.0
+          clk_source_MSS_tmp_MSS_CCC_0_MSS_CCC         1       0.0        0.0
+                            
+                         TOTAL              3                  0.0
+----------------------------------------------------------------------
+Report for cell clk_source_MSS_tmp_MSS_CCC_0_MSS_CCC.netlist
+     Instance path:  clk_source_MSS_0.MSS_CCC_0
+                                          Cell usage:
+                               cell       count     area    count*area
+                                GND         1       0.0        0.0
+                            MSS_CCC         1       0.0        0.0
+                              RCOSC         1       0.0        0.0
+                                VCC         1       0.0        0.0
+                            
+                         TOTAL              4                  0.0
+----------------------------------------------------------------------
+Report for cell CDC3FF.netlist
+     Instance path:  CDC3FF_0
+                                          Cell usage:
+                               cell       count     area    count*area
+                             DFN1C1         3       1.0        3.0
+                                GND         1       0.0        0.0
+                                VCC         1       0.0        0.0
+                            
+                         TOTAL              5                  3.0

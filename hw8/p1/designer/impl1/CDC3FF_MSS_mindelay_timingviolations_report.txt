@@ -1,0 +1,30 @@
+Timing Violation Report Min Delay Analysis
+
+SmartTime Version v11.8
+Microsemi Corporation - Microsemi Libero Software Release v11.8 (Version 11.8.0.26)
+Date: Sun Nov 10 18:02:26 2019
+
+
+Design: CDC3FF_MSS
+Family: SmartFusion
+Die: A2F200M3F
+Package: 484 FBGA
+Temperature Range: 0 - 85 C
+Voltage Range: 1.425 - 1.575 V
+Speed Grade: STD
+Design State: Post-Layout
+Data source: Silicon verified
+Min Operating Conditions: BEST - 1.575 V - 0 C
+Max Operating Conditions: WORST - 1.425 V - 85 C
+Using Enhanced Min Delay Analysis
+Scenario for Timing Analysis: Primary
+
+
+Path 1
+  From:                        clk_source_MSS_0/MSS_CCC_0/I_MSSCCC/U_MSSCCC:CLKA
+  To:                          CDC3FF_0/u1:D
+  Delay (ns):                  1.238
+  Slack (ns):                  -4.108
+  Arrival (ns):                1.238
+  Required (ns):               5.346
+

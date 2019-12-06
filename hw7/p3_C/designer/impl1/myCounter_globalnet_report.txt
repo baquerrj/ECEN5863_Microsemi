@@ -1,0 +1,32 @@
+********************************************************************
+                            Global Net Report
+********************************************************************
+  
+Product: Designer
+Release: v11.8
+Version: 11.8.0.26
+Date: Sat Nov 02 22:12:21 2019
+Design Name: myCounter  Family: SmartFusion  Die: A2F200M3F  Package: 484 FBGA
+
+
+Automatic Global Net Placement Result:
+Status: Global net placement completed successfully
+
+
+Global Nets Information:
+
+        |-----------------------------------------------------|
+        |Global Nets         |Loads                           |
+        |-----------------------------------------------------|
+        |Name                |Core      |IO        |RAM       |
+        |-----------------------------------------------------|
+        |CLK_c               |       16 |        0 |        0 |
+        |-----------------------------------------------------|
+
+Summary of Global Net Placement:
+
+        |------------------------------------------------------------------------|
+        |Global Net          |Assignment          |Violation                     |
+        |------------------------------------------------------------------------|
+        |CLK_c               |MIDDLE_RIGHT        |                              |
+        |------------------------------------------------------------------------|

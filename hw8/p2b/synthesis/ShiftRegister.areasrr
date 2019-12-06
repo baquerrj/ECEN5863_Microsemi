@@ -1,0 +1,12 @@
+----------------------------------------------------------------------
+Report for cell ShiftRegister.verilog
+                                          Cell usage:
+                               cell       count     area    count*area
+                             CLKBUF         1       0.0        0.0
+                               DFN1         4       1.0        4.0
+                                GND         1       0.0        0.0
+                              INBUF         1       0.0        0.0
+                             OUTBUF         4       0.0        0.0
+                                VCC         1       0.0        0.0
+                            
+                         TOTAL             12                  4.0

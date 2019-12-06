@@ -1,0 +1,281 @@
+Microsemi Libero Software
+Version: 11.8.0.26
+Release: v11.8
+
+Info: The design Handshake.adb was last modified by software version 11.8.0.26.
+Opened an existing Libero design Handshake.adb.
+
+The Execute Script command succeeded ( 00:00:03 )
+Checking for software updates...
+Warning: File C:\Microsemi_Prj\hw9\p1b\designer\impl1\Handshake_ba.sdf
+         already exists.
+         Do you want to replace the file? [YES]
+Back-annotated to the file(s):
+   .\Handshake_ba.sdf
+   .\Handshake_ba.v
+
+The Back-Annotate command succeeded ( 00:00:01 )
+=====================================================================
+Parameters used to run compile:
+===============================
+
+Family      : SmartFusion
+Device      : A2F200M3F
+Package     : 484 FBGA
+Source      : C:\Microsemi_Prj\hw9\p1b\synthesis\Handshake.edn
+Format      : EDIF
+Topcell     : Handshake
+Speed grade : STD
+Temp        : 0:25:85
+Voltage     : 1.58:1.50:1.42
+
+Keep Existing Physical Constraints : Yes
+Keep Existing Timing Constraints   : Yes
+
+pdc_abort_on_error                 : Yes
+pdc_eco_display_unmatched_objects  : No
+pdc_eco_max_warnings               : 10000
+
+demote_globals                     : No
+promote_globals                    : No
+localclock_max_shared_instances    : 12
+localclock_buffer_tree_max_fanout  : 12
+
+combine_register                   : No
+delete_buffer_tree                 : No
+
+report_high_fanout_nets_limit      : 10
+
+=====================================================================
+Compile starts ...
+
+
+Netlist Optimization Report
+===========================
+
+Optimized macros:
+  - Dangling net drivers:   0
+  - Buffers:                0
+  - Inverters:              0
+  - Tieoff:                 0
+  - Logic combining:        1
+
+    Total macros optimized  1
+
+There were 0 error(s) and 0 warning(s) in this design.
+=====================================================================
+
+Reading previous post-compile physical placement constraints.
+
+
+There were 0 error(s) and 0 warning(s).
+
+=====================================================================
+Compile report:
+===============
+
+    Microcontroller Subsystem  Used:      0  Total:      1   (0.00%)
+    Fabric                     Used:    109  Total:   4608   (2.37%)
+    Fabric IO (W/ clocks)      Used:     42  Total:     94   (44.68%)
+    Fabric Differential IO     Used:      0  Total:     47   (0.00%)
+    Dedicated Analog IO        Used:      0  Total:     32   (0.00%)
+    Dedicated MSS IO           Used:      0  Total:     43   (0.00%)
+    GLOBAL (Chip+Quadrant)     Used:      2  Total:     15   (13.33%)
+    MSS GLOBAL                 Used:      0  Total:      3   (0.00%)
+    On-chip RC oscillator      Used:      0  Total:      1   (0.00%)
+    Main Crystal oscillator    Used:      0  Total:      1   (0.00%)
+    32 KHz Crystal oscillator  Used:      0  Total:      1   (0.00%)
+    RAM/FIFO                   Used:      0  Total:      8   (0.00%)
+    User JTAG                  Used:      0  Total:      1   (0.00%)
+
+Global Information:
+
+    Type            | Used   | Total
+    ----------------|--------|--------------
+    Chip global     | 2      | 3  (66.67%)*
+    Quadrant global | 0      | 12 (0.00%)
+    MSS global      | 0      | 3  (0.00%)
+
+    (*) Chip globals may be assigned to Quadrant globals using the Multi-View Navigator (MVN)
+        or Physical Design Constraints (PDC).
+        They may also be assigned to Quadrant globals automatically during Layout.
+
+Core Information:
+
+    Type    | Instances    | Core tiles
+    --------|--------------|-----------
+    COMB    | 76           | 76
+    SEQ     | 33           | 33
+
+I/O Function:
+
+    Type                                  | w/o register  | w/ register  | w/ DDR register
+    --------------------------------------|---------------|--------------|----------------
+    Input I/O                             | 4             | 0            | 0
+    Output I/O                            | 38            | 0            | 0
+    Bidirectional I/O                     | 0             | 0            | 0
+    Differential Input I/O Pairs          | 0             | 0            | 0
+    Differential Output I/O Pairs         | 0             | 0            | 0
+
+I/O Technology:
+
+                                    |   Voltages    |             I/Os
+    --------------------------------|-------|-------|-------|--------|--------------
+    I/O Standard(s)                 | Vcci  | Vref  | Input | Output | Bidirectional
+    --------------------------------|-------|-------|-------|--------|--------------
+    LVTTL                           | 3.30v | N/A   | 4     | 38     | 0
+
+I/O Placement:
+
+    Locked  :   0
+    Placed  :  42 ( 100.00% )
+    UnPlaced:   0
+
+Net information report:
+=======================
+
+The following nets have been assigned to a chip global resource:
+    Fanout  Type          Name
+    --------------------------
+    20      CLK_NET       Net   : aclk_c
+                          Driver: aclk_pad
+                          Source: NETLIST
+    13      CLK_NET       Net   : bclk_c
+                          Driver: bclk_pad
+                          Source: NETLIST
+
+High fanout nets in the post compile netlist:
+    Fanout  Type          Name
+    --------------------------
+    22      INT_NET       Net   : arst_c
+                          Driver: arst_pad
+    13      INT_NET       Net   : brst_c
+                          Driver: brst_pad
+    8       INT_NET       Net   : bvalid_c_c
+                          Driver: data_sink/fsm/state_1[1]
+    8       INT_NET       Net   : data_generator/qe
+                          Driver: data_generator/qlde
+    8       INT_NET       Net   : data_sink/bload_data
+                          Driver: data_sink/fsm/state_1_RNITSE8[1]
+    8       INT_NET       Net   : data_source/aload_data
+                          Driver: data_source/fsm/state_1_ns_i_a3_RNI9MC14[1]
+    6       INT_NET       Net   : adatain_c[0]
+                          Driver: data_generator/q[0]
+    5       INT_NET       Net   : aready_c
+                          Driver: data_source/fsm/state_1_ns_i_a3[1]
+    5       INT_NET       Net   : adatain_c[1]
+                          Driver: data_generator/q[1]
+    5       INT_NET       Net   : adatain_c[2]
+                          Driver: data_generator/q[2]
+
+Nets that are candidates for clock assignment and the resulting fanout:
+    Fanout  Type          Name
+    --------------------------
+    22      INT_NET       Net   : arst_c
+                          Driver: arst_pad
+    13      INT_NET       Net   : brst_c
+                          Driver: brst_pad
+    8       INT_NET       Net   : bvalid_c_c
+                          Driver: data_sink/fsm/state_1[1]
+    8       INT_NET       Net   : data_generator/qe
+                          Driver: data_generator/qlde
+    8       INT_NET       Net   : data_sink/bload_data
+                          Driver: data_sink/fsm/state_1_RNITSE8[1]
+    8       INT_NET       Net   : data_source/aload_data
+                          Driver: data_source/fsm/state_1_ns_i_a3_RNI9MC14[1]
+    6       INT_NET       Net   : adatain_c[0]
+                          Driver: data_generator/q[0]
+    5       INT_NET       Net   : aready_c
+                          Driver: data_source/fsm/state_1_ns_i_a3[1]
+    5       INT_NET       Net   : adatain_c[1]
+                          Driver: data_generator/q[1]
+    5       INT_NET       Net   : adatain_c[2]
+                          Driver: data_generator/q[2]
+
+The Compile command succeeded ( 00:00:01 )
+***** Layout Variables *********************************************
+
+Mode: TIMING_DRIVEN
+Power-driven Layout: OFF
+Incremental Placement: OFF
+Incremental Route: OFF
+High Effort Layout Mode: ON
+Sequential Optimization: ON
+Repair Hold Violations: ON
+
+
+Warning: The advanced layout option 'High Effort Layout Mode' is active.
+Info: I/O Bank Assigner detected (1) out of (6) I/O Bank(s) with locked I/O technologies.
+
+Running I/O Bank Assigner.
+
+I/O Bank Assigner completed successfully.
+ 
+
+Planning global net placement...
+
+
+Global net placement completed successfully.
+
+                        o - o - o - o - o - o
+
+Timing-driven Placer Started: Mon Dec 02 19:43:35 2019
+High-Effort Placer Started...
+
+Placer Finished: Mon Dec 02 19:43:42 2019
+Total Placer CPU Time:     00:00:07
+
+                        o - o - o - o - o - o
+
+
+
+Post-Layout Core Information:
+    Used:    114  Total:   4608   (2.47%)
+
+    Type       | Instances    | Core tiles
+    -----------|--------------|-----------
+    COMB       | 81           | 81
+    SEQ        | 33           | 33
+
+Timing-driven Router 
+Design: Handshake                       Started: Mon Dec 02 19:43:43 2019
+
+ 
+Iterative improvement...
+Iterative improvement...
+Repairing minimum delay violations ...
+
+  Initial analysis:
+    Number of violating paths:        2
+    Worst minimum delay slack:       -0.102 ns
+
+  Final analysis:
+    Number of violating paths:        0
+
+Timing-driven Router completed successfully.
+
+Design: Handshake                       
+Finished: Mon Dec 02 19:43:49 2019
+Total CPU Time:     00:00:05            Total Elapsed Time: 00:00:06
+Total Memory Usage: 163.4 Mbytes
+                        o - o - o - o - o - o
+
+Loading the Timing data for the design.
+Finished loading the Timing data.
+TIMER: Max delay timing requirements have been met.
+TIMER: Min delay timing requirements have been met.
+
+The Layout command succeeded ( 00:00:18 )
+Warning: Files
+          C:\Microsemi_Prj\hw9\p1b\designer\impl1\Handshake_ba.sdf
+          C:\Microsemi_Prj\hw9\p1b\designer\impl1\Handshake_ba.v
+         already exist.
+         Do you want to replace the files? [YES]
+Back-annotated to the file(s):
+   .\Handshake_ba.sdf
+   .\Handshake_ba.v
+
+The Back-Annotate command succeeded ( 00:00:00 )
+Design saved to file C:\Microsemi_Prj\hw9\p1b\designer\impl1\Handshake.adb.
+Design closed.
+

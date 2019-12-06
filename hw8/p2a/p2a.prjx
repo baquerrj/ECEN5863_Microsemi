@@ -1,0 +1,337 @@
+KEY LIBERO "11.8"
+KEY CAPTURE "11.8.0.26"
+KEY DEFAULT_IMPORT_LOC "X:\Projects\Interrupts_MSS_GPIO\Design\Verilog"
+KEY DEFAULT_OPEN_LOC ""
+KEY ProjectID "0"
+KEY HDLTechnology "VERILOG"
+KEY VERILOGMODE "VERILOG2001"
+KEY VHDLMODE "VHDL2008"
+KEY UseConstraintFlowTechnology "FALSE"
+KEY VendorTechnology_Family "SmartFusion"
+KEY VendorTechnology_Die "IP4X3M1"
+KEY VendorTechnology_Package "fg484"
+KEY VendorTechnology_Speed "STD"
+KEY VendorTechnology_DieVoltage "1.5"
+KEY VendorTechnology_PART_RANGE "COM"
+KEY VendorTechnology_DSW_VCCA_VOLTAGE_RAMP_RATE ""
+KEY VendorTechnology_IO_DEFT_STD "LVTTL"
+KEY VendorTechnology_OPCONR ""
+KEY VendorTechnology_PLL_SUPPLY ""
+KEY VendorTechnology_RAD_EXPOSURE ""
+KEY VendorTechnology_RESERVEMIGRATIONPINS "1"
+KEY VendorTechnology_RESTRICTPROBEPINS "1"
+KEY VendorTechnology_RESTRICTSPIPINS "0"
+KEY VendorTechnology_SYSTEM_CONTROLLER_SUSPEND_MODE ""
+KEY VendorTechnology_TARGETDEVICESFORMIGRATION "IP4X3M1"
+KEY VendorTechnology_TEMPR "COM"
+KEY VendorTechnology_UNUSED_MSS_IO_RESISTOR_PULL "None"
+KEY VendorTechnology_VCCI_1.5_VOLTR "COM"
+KEY VendorTechnology_VCCI_1.8_VOLTR "COM"
+KEY VendorTechnology_VCCI_2.5_VOLTR "COM"
+KEY VendorTechnology_VCCI_3.3_VOLTR "COM"
+KEY VendorTechnology_VOLTR "COM"
+KEY ProjectLocation "C:\Microsemi_Prj\hw8\p2a"
+KEY ProjectDescription ""
+KEY Pa4PeripheralNewSeq "GOOD"
+KEY SimulationType "VERILOG"
+KEY Vendor "Actel"
+KEY ActiveRoot "SlowFast::work"
+LIST REVISIONS
+VALUE="Impl1",NUM=1
+CURREV=1
+ENDLIST
+LIST FileManager
+VALUE "<project>\designer\impl1\ShiftRegister.ide_des,ide_des"
+STATE="utd"
+TIME="1574136358"
+SIZE="189"
+ENDFILE
+VALUE "<project>\designer\impl1\SlowFast.adb,adb"
+STATE="utd"
+TIME="1574306670"
+SIZE="9728"
+ENDFILE
+VALUE "<project>\designer\impl1\SlowFast.ide_des,ide_des"
+STATE="utd"
+TIME="1574139826"
+SIZE="184"
+ENDFILE
+VALUE "<project>\designer\impl1\SlowFast_ba.sdf,ba_sdf"
+STATE="utd"
+TIME="1574306752"
+SIZE="20098"
+ENDFILE
+VALUE "<project>\designer\impl1\SlowFast_ba.v,ba_hdl"
+STATE="utd"
+TIME="1574310242"
+SIZE="6463"
+ENDFILE
+VALUE "<project>\designer\impl1\SlowFast_ba_log.rpt,log"
+STATE="utd"
+TIME="1574310242"
+SIZE="764"
+ENDFILE
+VALUE "<project>\designer\impl1\SlowFast_compile_log.rpt,log"
+STATE="utd"
+TIME="1574306735"
+SIZE="7884"
+ENDFILE
+VALUE "<project>\designer\impl1\SlowFast_placeroute_log.rpt,log"
+STATE="utd"
+TIME="1574310232"
+SIZE="2613"
+ENDFILE
+VALUE "<project>\designer\impl1\SlowFast_verifytiming_log.rpt,log"
+STATE="utd"
+TIME="1574310296"
+SIZE="1124"
+ENDFILE
+VALUE "<project>\hdl\ShiftRegister.v,hdl"
+STATE="utd"
+TIME="1574137943"
+SIZE="220"
+ENDFILE
+VALUE "<project>\hdl\SlowFast.v,hdl"
+STATE="utd"
+TIME="1574307846"
+SIZE="1142"
+ENDFILE
+VALUE "<project>\hdl\Synchronizer.v,hdl"
+STATE="utd"
+TIME="1574137630"
+SIZE="566"
+ENDFILE
+VALUE "<project>\simulation\run.do,do"
+STATE="utd"
+TIME="1574139992"
+SIZE="694"
+ENDFILE
+VALUE "<project>\simulation\SlowFast_testbench_postlayout_simulation.log,log"
+STATE="utd"
+TIME="1574310143"
+SIZE="3048"
+ENDFILE
+VALUE "<project>\stimulus\SlowFast_testbench.v,tb_hdl"
+STATE="utd"
+TIME="1574310183"
+SIZE="2171"
+ENDFILE
+VALUE "<project>\synthesis\SlowFast.edn,syn_edn"
+STATE="utd"
+TIME="1574310215"
+SIZE="21370"
+ENDFILE
+VALUE "<project>\synthesis\SlowFast.so,so"
+STATE="utd"
+TIME="1574139822"
+SIZE="210"
+ENDFILE
+VALUE "<project>\synthesis\SlowFast_sdc.sdc,syn_sdc"
+STATE="utd"
+TIME="1574310215"
+SIZE="488"
+ENDFILE
+VALUE "<project>\synthesis\SlowFast_syn.prj,prj"
+STATE="utd"
+TIME="1574139822"
+SIZE="1816"
+ENDFILE
+ENDLIST
+LIST UsedFile
+ENDLIST
+LIST NewModulesInfo
+LIST "SlowFast::work"
+FILE "<project>\hdl\SlowFast.v,hdl"
+LIST AssociatedStimulus
+VALUE "<project>\stimulus\SlowFast_testbench.v,tb_hdl"
+ENDLIST
+LIST ProjectState5.1
+LIST Impl1
+LiberoState=Post_Layout
+ideSTIMULUS=StateSuccess
+ideSYNTHESIS(<project>\synthesis\SlowFast.edn,syn_edn)=StateSuccess
+ideDESIGNER(<project>\designer\impl1\SlowFast.adb,adb)=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+LIST PinReports
+VALUE "<project>\designer\impl1\SlowFast_report_pin_byname.txt,log"
+VALUE "<project>\designer\impl1\SlowFast_report_pin_bynumber.txt,log"
+ENDLIST
+ENDLIST
+ENDLIST
+LIST AssociatedStimulus
+LIST SlowFast
+VALUE "<project>\stimulus\SlowFast_testbench.v,tb_hdl"
+ENDLIST
+ENDLIST
+LIST Other_Association
+ENDLIST
+LIST SimulationOptions
+UseAutomaticDoFile=true
+IncludeWaveDo=false
+Type=max
+RunTime=1000ns
+Resolution=1ps
+VsimOpt=
+EntityName=SlowFast_testbench
+TopInstanceName=<top>_0
+DoFileName=
+DoFileName2=wave.do
+DoFileParams=
+DisplayDUTWave=false
+LogAllSignals=false
+DisablePulseFiltering=false
+DumpVCD=false
+VCDFileName=power.vcd
+VHDL2008=false
+Verilog2001=false
+SystemVerilog=false
+TimeUnit=1
+TimeUnitBase=ns
+Precision=100
+PrecisionBase=ps
+ENDLIST
+LIST ModelSimLibPath
+UseCustomPath=FALSE
+LibraryPath=
+ENDLIST
+LIST GlobalFlowOptions
+GenerateHDLAfterSynthesis=FALSE
+GenerateHDLAfterPhySynthesis=FALSE
+RunDRCAfterSynthesis=TRUE
+AutoCheckConstraints=TRUE
+UpdateModelSimIni=TRUE
+NoIOMode=FALSE
+PeriInitStandalone=FALSE
+EnableViewDraw=FALSE
+UpdateViewDrawIni=TRUE
+GenerateHDLFromSchematic=TRUE
+VmNetlistFlowOn=FALSE
+EnableDesignSeparationOn=FALSE
+EnableSETMitigationOn=FALSE
+DisplayFanoutLimit=10
+AbortFlowOnPDCErrorsOn=TRUE
+AbortFlowOnSDCErrorsOn=TRUE
+FlashProInputFile=fdb
+SmartGenCompileReport=T
+ENDLIST
+LIST PhySynthesisOptions
+ENDLIST
+LIST Profiles
+NAME="SoftConsole"
+FUNCTION="SoftwareIDE"
+TOOL="SoftConsole"
+LOCATION="eclipse.exe"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+NAME="Synplify Pro ME"
+FUNCTION="Synthesis"
+TOOL="Synplify Pro ME"
+LOCATION="C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\bin\synplify_pro.exe"
+PARAM="-licensetype synplifypro_actel -batch -log synplify.log"
+BATCH=1
+LICENSE=""
+IS32BIT="1"
+EndProfile
+NAME="ModelSim ME"
+FUNCTION="Simulation"
+TOOL="ModelSim"
+LOCATION="C:\Microsemi\Libero_SoC_v11.8\Modelsim\win32acoem\modelsim.exe"
+PARAM=" -l SlowFast_testbench_postlayout_simulation.log "
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+NAME="FPExpress"
+FUNCTION="Program"
+TOOL="FlashPro"
+LOCATION="C:\Microsemi\Libero_SoC_v11.8\Designer\bin\FPExpress.exe"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+NAME="Identify Debugger"
+FUNCTION="IdentifyDebugger"
+TOOL="Identify Debugger"
+LOCATION="C:\Microsemi\Libero_SoC_v11.8\Identify\bin\identify_debugger.exe"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+ENDLIST
+LIST ProjectState5.1
+LIST "SlowFast::work"
+LIST Impl1
+LiberoState=Post_Layout
+ideSTIMULUS=StateSuccess
+ideSYNTHESIS(<project>\synthesis\SlowFast.edn,syn_edn)=StateSuccess
+ideDESIGNER(<project>\designer\impl1\SlowFast.adb,adb)=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+ENDLIST
+LIST ExcludePackageForSimulation
+ENDLIST
+LIST ExcludePackageForSynthesis
+ENDLIST
+LIST IncludeModuleForSimulation
+ENDLIST
+LIST CDBOrder
+ENDLIST
+LIST UserCustomizedFileList
+ENDLIST
+LIST OpenedFileList
+ORIENTATION;HORIZONTAL
+Reports;Reports;0
+ReportsCurrentItem;Place and Route:SlowFast_placeroute_log.rpt
+HDL;hdl\ShiftRegister.v;0
+HDL;hdl\SlowFast.v;0
+HDL;hdl\Synchronizer.v;0
+StartPage;StartPage;0
+HDL;stimulus\SlowFast_testbench.v;0
+ACTIVEVIEW;Reports
+ENDLIST
+LIST ModuleSubBlockList
+LIST "ShiftRegister::work","hdl\ShiftRegister.v","FALSE","FALSE"
+ENDLIST
+LIST "SlowFast::work","hdl\SlowFast.v","FALSE","FALSE"
+SUBBLOCK "ShiftRegister::work","hdl\ShiftRegister.v","FALSE","FALSE"
+SUBBLOCK "Synchronizer::work","hdl\Synchronizer.v","FALSE","FALSE"
+ENDLIST
+LIST "Synchronizer::work","hdl\Synchronizer.v","FALSE","FALSE"
+ENDLIST
+LIST "SlowFast_testbench::work","stimulus\SlowFast_testbench.v","FALSE","TRUE"
+SUBBLOCK "SlowFast::work","hdl\SlowFast.v","FALSE","FALSE"
+ENDLIST
+ENDLIST
+LIST ActiveTestBenchList
+LIST "SlowFast::work"
+ACTIVETESTBENCH "SlowFast_testbench::work","stimulus\SlowFast_testbench.v","FALSE"
+ENDLIST
+ENDLIST
+LIST IOTabList
+ENDLIST
+LIST FPTabList
+ENDLIST
+LIST TimingTabList
+ENDLIST
+LIST FDCTabList
+ENDLIST

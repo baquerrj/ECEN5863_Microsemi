@@ -1,0 +1,112 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Microsemi_Prj/hw7/Counter/simulation
+vCounter
+Z1 !s110 1573093413
+!i10b 1
+!s100 =>ZB<:h^iA7_4@z?Q`eiY3
+IM:jcd@X@h6B9ShV6g<ABl1
+VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1573093324
+8C:/Microsemi_Prj/hw7/Counter/synthesis/Counter.v
+FC:/Microsemi_Prj/hw7/Counter/synthesis/Counter.v
+L0 5
+OW;L;10.5c;63
+r1
+!s85 0
+31
+Z2 !s108 1573093413.000000
+!s107 C:/Microsemi_Prj/hw7/Counter/synthesis/Counter.v|
+!s90 -reportprogress|300|-vlog01compat|-work|postsynth|C:/Microsemi_Prj/hw7/Counter/synthesis/Counter.v|
+!s101 -O0
+!i113 1
+o-vlog01compat -work postsynth -O0
+Z3 tCvgOpt 0
+n@counter
+Ecounter
+Z4 w1573093482
+Z5 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z6 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z7 8C:/Microsemi_Prj/hw7/Counter/synthesis/Counter.vhd
+Z8 FC:/Microsemi_Prj/hw7/Counter/synthesis/Counter.vhd
+l0
+L8
+VbDml9iZ_<Q1zB?4Jeba4]2
+!s100 EGUYf?9AnTkiE_omXTf2z3
+Z9 OW;C;10.5c;63
+33
+Z10 !s110 1573093487
+!i10b 1
+Z11 !s108 1573093487.000000
+Z12 !s90 -reportprogress|300|-2008|-explicit|-work|postsynth|C:/Microsemi_Prj/hw7/Counter/synthesis/Counter.vhd|
+Z13 !s107 C:/Microsemi_Prj/hw7/Counter/synthesis/Counter.vhd|
+!i113 1
+Z14 o-2008 -explicit -work postsynth -O0
+R3
+Adef_arch
+R5
+R6
+Z15 DEx4 work 7 counter 0 22 bDml9iZ_<Q1zB?4Jeba4]2
+l195
+L19
+Vic;Q0QSoOTK3dZYfH[Y2K0
+!s100 ZlXfA]eT1K8d0^F<CZW_h1
+R9
+33
+R10
+!i10b 1
+R11
+R12
+R13
+!i113 1
+R14
+R3
+Ecounter_tb
+Z16 w1573091328
+R5
+R6
+R0
+Z17 8C:/Microsemi_Prj/hw7/Counter/stimulus/Counter_tb.vhd
+Z18 FC:/Microsemi_Prj/hw7/Counter/stimulus/Counter_tb.vhd
+l0
+L32
+VT90XX9J=GNElN8Z2?DNLQ0
+!s100 FR3c?;`n4JF3cg_7AQ3@d1
+R9
+33
+R10
+!i10b 1
+R11
+Z19 !s90 -reportprogress|300|-2008|-explicit|-work|postsynth|C:/Microsemi_Prj/hw7/Counter/stimulus/Counter_tb.vhd|
+Z20 !s107 C:/Microsemi_Prj/hw7/Counter/stimulus/Counter_tb.vhd|
+!i113 1
+R14
+R3
+Acounter_arch
+R15
+R5
+R6
+Z21 DEx4 work 10 counter_tb 0 22 T90XX9J=GNElN8Z2?DNLQ0
+l45
+L34
+Z22 Vz>82024eP?:gCP@_GAS=M1
+Z23 !s100 m]hIzPO@<oZj0jN@j1jeM0
+R9
+33
+R10
+!i10b 1
+R11
+R19
+R20
+!i113 1
+R14
+R3

@@ -1,0 +1,1 @@
+@W: MT530 :"c:\microsemi_prj\hw9\p2\hdl\sync_write.vhd":23:3:23:4|Found inferred clock sync_write|clk which controls 3 sequential elements including wrptrq. This clock has no specified timing constraint which may adversely impact design performance. 

@@ -1,0 +1,14 @@
+@P:  Worst Slack : 0.965
+@P:  fifo2x8|clk1 - Estimated Frequency : 31.0 MHz
+@P:  fifo2x8|clk1 - Requested Frequency : 25.0 MHz
+@P:  fifo2x8|clk1 - Estimated Period : 32.284
+@P:  fifo2x8|clk1 - Requested Period : 40.000
+@P:  fifo2x8|clk1 - Slack : 1.462
+@P:  fifo2x8|clk2 - Estimated Frequency : 49.6 MHz
+@P:  fifo2x8|clk2 - Requested Frequency : 40.0 MHz
+@P:  fifo2x8|clk2 - Estimated Period : 20.177
+@P:  fifo2x8|clk2 - Requested Period : 25.000
+@P:  fifo2x8|clk2 - Slack : 0.965
+@P:  Total Area : 52.0
+@P:  Total Area : 52.0
+@P:  CPU Time : 0h:00m:00s

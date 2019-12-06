@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- *************************************************************************************
+FILE DESCRIPTION
+Max Top 5 critical clocks will be reported. For rest user needs to refer to Detailed report
+*******************************************************************************************-->
+<report_table display_priority="2" name="Timing Summary">
+<report_link name="Detailed report">
+<data>C:\Microsemi_Prj\hw9\p1b\synthesis\synlog\Handshake_fpga_mapper.srr</data>
+<title>START OF TIMING REPORT</title>
+</report_link>
+<row>
+<data tcl_name="clock_name">Clock Name</data>
+<data tcl_name="req_freq">Req Freq</data>
+<data tcl_name="est_freq">Est Freq</data>
+<data tcl_name="slack">Slack</data>
+</row>
+<row>
+<data>Handshake|aclk</data>
+<data>37.5 MHz</data>
+<data>92.3 MHz</data>
+<data>8.997</data>
+</row>
+<row>
+<data>Handshake|bclk</data>
+<data>25.0 MHz</data>
+<data>76.9 MHz</data>
+<data>9.795</data>
+</row>
+</report_table>

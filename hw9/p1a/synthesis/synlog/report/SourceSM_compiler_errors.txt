@@ -1,0 +1,2 @@
+@E: CL172 :"C:\Microsemi_Prj\hw9\p1a\hdl\SourceSM.v":30:9:30:18|Only one always block can assign a given variable next_state[1:0]
+

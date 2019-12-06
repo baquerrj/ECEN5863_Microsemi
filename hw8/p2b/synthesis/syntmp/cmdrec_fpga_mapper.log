@@ -1,0 +1,15 @@
+C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\bin64\m_proasic.exe  -prodtype  synplify_pro   -encrypt  -pro  -rundir  C:\Microsemi_Prj\hw8\p2b\synthesis   -part A2F200M3F  -package FBGA484  -grade STD    -globalthreshold 50 -maxfan 24 -opcond COMWC -report_path 4000 -RWCheckOnRam 0 -summaryfile C:\Microsemi_Prj\hw8\p2b\synthesis\synlog\report\SlowFast_fpga_mapper.xml  -top_level_module  SlowFast  -licensetype  synplifypro_actel  -flow mapping  -mp  4  -prjfile  C:\Microsemi_Prj\hw8\p2b\synthesis\scratchproject.prs  -implementation  synthesis  -multisrs  -oedif  C:\Microsemi_Prj\hw8\p2b\synthesis\SlowFast.edn   -freq 100.000   C:\Microsemi_Prj\hw8\p2b\synthesis\synwork\SlowFast_prem.srd  -sap  C:\Microsemi_Prj\hw8\p2b\synthesis\SlowFast.sap  -otap  C:\Microsemi_Prj\hw8\p2b\synthesis\SlowFast.tap  -omap  C:\Microsemi_Prj\hw8\p2b\synthesis\SlowFast.map  -devicelib  C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\proasic\smartfusion.v  -sap  C:\Microsemi_Prj\hw8\p2b\synthesis\SlowFast.sap  -ologparam  C:\Microsemi_Prj\hw8\p2b\synthesis\syntmp\SlowFast.plg  -osyn  C:\Microsemi_Prj\hw8\p2b\synthesis\SlowFast.srm  -prjdir  C:\Microsemi_Prj\hw8\p2b\synthesis\  -prjname  SlowFast_syn  -log  C:\Microsemi_Prj\hw8\p2b\synthesis\synlog\SlowFast_fpga_mapper.srr 
+rc:1 success:1 runtime:1
+file:C:\Microsemi_Prj\hw8\p2b\synthesis\scratchproject.prs|io:o|time:1574311147|size:1832|exec:0
+file:C:\Microsemi_Prj\hw8\p2b\synthesis\SlowFast.edn|io:o|time:1574311149|size:18189|exec:0
+file:C:\Microsemi_Prj\hw8\p2b\synthesis\synwork\SlowFast_prem.srd|io:i|time:1574311149|size:4180|exec:0
+file:C:\Microsemi_Prj\hw8\p2b\synthesis\SlowFast.sap|io:o|time:1574311149|size:729|exec:0
+file:C:\Microsemi_Prj\hw8\p2b\synthesis\SlowFast.tap|io:o|time:0|size:0|exec:0
+file:C:\Microsemi_Prj\hw8\p2b\synthesis\SlowFast.map|io:o|time:1574311149|size:28|exec:0
+file:C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\proasic\smartfusion.v|io:i|time:1487966850|size:72817|exec:0
+file:C:\Microsemi_Prj\hw8\p2b\synthesis\SlowFast.sap|io:o|time:1574311149|size:729|exec:0
+file:C:\Microsemi_Prj\hw8\p2b\synthesis\syntmp\SlowFast.plg|io:o|time:1574311149|size:626|exec:0
+file:C:\Microsemi_Prj\hw8\p2b\synthesis\SlowFast.srm|io:o|time:1574311149|size:68418|exec:0
+file:C:\Microsemi_Prj\hw8\p2b\synthesis\synlog\SlowFast_fpga_mapper.srr|io:o|time:1574311149|size:17908|exec:0
+file:C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\bin\m_proasic.exe|io:i|time:1479399434|size:10978304|exec:1
+file:C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\bin64\m_proasic.exe|io:i|time:1479400840|size:14125056|exec:1

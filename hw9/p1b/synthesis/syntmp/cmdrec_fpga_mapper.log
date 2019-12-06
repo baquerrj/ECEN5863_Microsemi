@@ -1,0 +1,16 @@
+C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\bin64\m_proasic.exe  -prodtype  synplify_pro   -encrypt  -pro  -rundir  C:\Microsemi_Prj\hw9\p1b\synthesis   -part A2F200M3F  -package FBGA484  -grade STD    -globalthreshold 50 -maxfan 24 -opcond COMWC -report_path 4000 -RWCheckOnRam 0 -summaryfile C:\Microsemi_Prj\hw9\p1b\synthesis\synlog\report\Handshake_fpga_mapper.xml  -top_level_module  Handshake  -licensetype  synplifypro_actel  -flow mapping  -mp  4  -prjfile  C:\Microsemi_Prj\hw9\p1b\synthesis\scratchproject.prs  -implementation  synthesis  -multisrs  -oedif  C:\Microsemi_Prj\hw9\p1b\synthesis\Handshake.edn   -freq 100.000   -tcl  C:\Microsemi_Prj\hw9\p1b\synthesis\Handshake.sdc  C:\Microsemi_Prj\hw9\p1b\synthesis\synwork\Handshake_prem.srd  -sap  C:\Microsemi_Prj\hw9\p1b\synthesis\Handshake.sap  -otap  C:\Microsemi_Prj\hw9\p1b\synthesis\Handshake.tap  -omap  C:\Microsemi_Prj\hw9\p1b\synthesis\Handshake.map  -devicelib  C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\proasic\smartfusion.v  -sap  C:\Microsemi_Prj\hw9\p1b\synthesis\Handshake.sap  -ologparam  C:\Microsemi_Prj\hw9\p1b\synthesis\syntmp\Handshake.plg  -osyn  C:\Microsemi_Prj\hw9\p1b\synthesis\Handshake.srm  -prjdir  C:\Microsemi_Prj\hw9\p1b\synthesis\  -prjname  Handshake_syn  -log  C:\Microsemi_Prj\hw9\p1b\synthesis\synlog\Handshake_fpga_mapper.srr 
+rc:0 success:1 runtime:1
+file:C:\Microsemi_Prj\hw9\p1b\synthesis\scratchproject.prs|io:o|time:1575341964|size:2150|exec:0
+file:C:\Microsemi_Prj\hw9\p1b\synthesis\Handshake.edn|io:o|time:1575341966|size:84612|exec:0
+file:C:\Microsemi_Prj\hw9\p1b\synthesis\Handshake.sdc|io:i|time:1575341944|size:458|exec:0
+file:C:\Microsemi_Prj\hw9\p1b\synthesis\synwork\Handshake_prem.srd|io:i|time:1575341966|size:12128|exec:0
+file:C:\Microsemi_Prj\hw9\p1b\synthesis\Handshake.sap|io:o|time:1575341966|size:985|exec:0
+file:C:\Microsemi_Prj\hw9\p1b\synthesis\Handshake.tap|io:o|time:0|size:0|exec:0
+file:C:\Microsemi_Prj\hw9\p1b\synthesis\Handshake.map|io:o|time:1575341966|size:28|exec:0
+file:C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\proasic\smartfusion.v|io:i|time:1487966850|size:72817|exec:0
+file:C:\Microsemi_Prj\hw9\p1b\synthesis\Handshake.sap|io:o|time:1575341966|size:985|exec:0
+file:C:\Microsemi_Prj\hw9\p1b\synthesis\syntmp\Handshake.plg|io:o|time:1575341966|size:754|exec:0
+file:C:\Microsemi_Prj\hw9\p1b\synthesis\Handshake.srm|io:o|time:1575341966|size:69568|exec:0
+file:C:\Microsemi_Prj\hw9\p1b\synthesis\synlog\Handshake_fpga_mapper.srr|io:o|time:1575341966|size:21426|exec:0
+file:C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\bin\m_proasic.exe|io:i|time:1479399434|size:10978304|exec:1
+file:C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\bin64\m_proasic.exe|io:i|time:1479400840|size:14125056|exec:1

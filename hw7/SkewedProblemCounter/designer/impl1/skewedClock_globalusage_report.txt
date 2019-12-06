@@ -1,0 +1,14 @@
+********************************************************************
+                            Global Usage Report
+********************************************************************
+  
+Product: Designer
+Release: v11.8
+Version: 11.8.0.26
+Date: Sat Nov 02 23:39:07 2019
+Design Name: skewedClock  Family: SmartFusion  Die: A2F200M3F  Package: 484 FBGA
+Design State: Post-Layout
+
+
+
+

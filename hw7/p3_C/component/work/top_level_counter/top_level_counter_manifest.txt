@@ -1,0 +1,11 @@
+Microsemi Corporation - Microsemi Libero Software Release v11.8 (Version 11.8.0.26)
+
+Date      :  Tue Nov 05 17:12:57 2019
+Project   :  C:\Microsemi_Prj\hw7\p3_C
+Component :  top_level_counter
+Family    :  SmartFusion
+
+
+HDL source files for all Synthesis and Simulation tools:
+    C:/Microsemi_Prj/hw7/p3_C/component/work/top_level_counter/top_level_counter.v
+

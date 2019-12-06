@@ -1,0 +1,28 @@
+(DELAYFILE
+(SDFVERSION "OVI 2.1")
+(DESIGN "CD3FF")
+(DATE "123")
+(VENDOR "ProASIC3")
+(PROGRAM "Synplify")
+(VERSION "mapact, Build 1920R")
+(DIVIDER /)
+(VOLTAGE 2.500000:2.500000:2.500000)
+(PROCESS "TYPICAL")
+(TEMPERATURE 70.000000:70.000000:70.000000)
+(TIMESCALE 1ns)
+(CELL
+  (CELLTYPE "CD3FF")
+  (INSTANCE)
+  (TIMINGCHECK
+
+    (PATHCONSTRAINT dataA/CLK  dataA/Q  dataA_RNO/B  dataA_RNO/Y  dataA/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT synchronizer/S2/CLK  synchronizer/S2/Q  synchronizer/sync_RNO/A  synchronizer/sync_RNO/Y  synchronizer/sync/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT synchronizer/S1/CLK  synchronizer/S1/Q  synchronizer/S2_0/A  synchronizer/S2_0/Y  synchronizer/S2/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT dataA/CLK  dataA/Q  dataLocked/D  	(99999.4:99999.4:99999.4) )
+
+  )
+)
+)

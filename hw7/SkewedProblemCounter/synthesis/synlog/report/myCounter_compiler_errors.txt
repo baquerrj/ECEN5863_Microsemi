@@ -1,0 +1,2 @@
+@E: CG906 :"C:\Microsemi_Prj\hw7\SkewedProblemCounter\hdl\myCounter.v":30:3:30:4|Reference to unknown variable reset.
+

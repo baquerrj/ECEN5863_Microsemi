@@ -1,0 +1,14 @@
+C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\bin64\m_proasic.exe  -mp  4  -prjfile  C:\Microsemi_Prj\hw8\p1a\synthesis\scratchproject.prs  -implementation  synthesis  -prodtype  synplify_pro   -encrypt  -pro  -rundir  C:\Microsemi_Prj\hw8\p1a\synthesis   -part A2F200M3F  -package FBGA484  -grade STD    -globalthreshold 50 -maxfan 24 -opcond COMWC -report_path 4000 -RWCheckOnRam 0 -summaryfile C:\Microsemi_Prj\hw8\p1a\synthesis\synlog\report\CD3FF_premap.xml  -top_level_module  work.CD3FF  -oedif  C:\Microsemi_Prj\hw8\p1a\synthesis\CD3FF.edn  -conchk_prepass  C:\Microsemi_Prj\hw8\p1a\synthesis\CD3FF_cck.rpt   -freq 100.000   C:\Microsemi_Prj\hw8\p1a\synthesis\synwork\CD3FF_mult.srs  -flow prepass  -gcc_prepass  -osrd  C:\Microsemi_Prj\hw8\p1a\synthesis\synwork\CD3FF_prem.srd  -qsap  C:\Microsemi_Prj\hw8\p1a\synthesis\CD3FF.sap  -devicelib  C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\proasic\smartfusion.v  -ologparam  C:\Microsemi_Prj\hw8\p1a\synthesis\syntmp\CD3FF.plg  -osyn  C:\Microsemi_Prj\hw8\p1a\synthesis\synwork\CD3FF_prem.srd  -prjdir  C:\Microsemi_Prj\hw8\p1a\synthesis\  -prjname  CD3FF_syn  -log  C:\Microsemi_Prj\hw8\p1a\synthesis\synlog\CD3FF_premap.srr 
+rc:1 success:1 runtime:1
+file:C:\Microsemi_Prj\hw8\p1a\synthesis\scratchproject.prs|io:o|time:1574043701|size:1780|exec:0
+file:C:\Microsemi_Prj\hw8\p1a\synthesis\CD3FF.edn|io:o|time:0|size:0|exec:0
+file:C:\Microsemi_Prj\hw8\p1a\synthesis\CD3FF_cck.rpt|io:o|time:1574131781|size:23737|exec:0
+file:C:\Microsemi_Prj\hw8\p1a\synthesis\synwork\CD3FF_mult.srs|io:i|time:1574131781|size:2952|exec:0
+file:C:\Microsemi_Prj\hw8\p1a\synthesis\synwork\CD3FF_prem.srd|io:o|time:1574131781|size:4081|exec:0
+file:C:\Microsemi_Prj\hw8\p1a\synthesis\CD3FF.sap|io:o|time:1574131781|size:645|exec:0
+file:C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\proasic\smartfusion.v|io:i|time:1487966850|size:72817|exec:0
+file:C:\Microsemi_Prj\hw8\p1a\synthesis\syntmp\CD3FF.plg|io:o|time:1574131781|size:0|exec:0
+file:C:\Microsemi_Prj\hw8\p1a\synthesis\synwork\CD3FF_prem.srd|io:o|time:1574131781|size:4081|exec:0
+file:C:\Microsemi_Prj\hw8\p1a\synthesis\synlog\CD3FF_premap.srr|io:o|time:1574131781|size:3214|exec:0
+file:C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\bin\m_proasic.exe|io:i|time:1479399434|size:10978304|exec:1
+file:C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\bin64\m_proasic.exe|io:i|time:1479400840|size:14125056|exec:1

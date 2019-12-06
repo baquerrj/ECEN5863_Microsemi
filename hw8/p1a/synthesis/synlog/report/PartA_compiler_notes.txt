@@ -1,0 +1,12 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CD720 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vhd2008\std.vhd":146:18:146:21|Setting time resolution to ps
+@N:"C:\Microsemi_Prj\hw8\p1a\component\work\PartA\PartA.vhd":17:7:17:11|Top entity is set to PartA.
+@N: CD231 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vhd2008\std1164.vhd":890:16:890:17|Using onehot encoding for type mvl9plus. For example, enumeration 'U' is mapped to "1000000000".
+@N: CD630 :"C:\Microsemi_Prj\hw8\p1a\component\work\PartA\PartA.vhd":17:7:17:11|Synthesizing work.parta.rtl.
+@N: CD630 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\proasic\smartfusion.vhd":2060:10:2060:12|Synthesizing smartfusion.mx2.syn_black_box.
+@N: CD630 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\proasic\smartfusion.vhd":1998:10:1998:12|Synthesizing smartfusion.inv.syn_black_box.
+@N: CD630 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\proasic\smartfusion.vhd":1407:10:1407:15|Synthesizing smartfusion.dfn1c1.syn_black_box.
+@N: CD630 :"C:\Microsemi_Prj\hw8\p1a\hdl\CDC3FF.vhd":24:7:24:12|Synthesizing work.cdc3ff.cdc3ff_arch.
+@N|Running in 64-bit mode
+

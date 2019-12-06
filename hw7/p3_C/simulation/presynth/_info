@@ -1,0 +1,172 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Microsemi_Prj/hw7/SkewedProblemCounter/simulation
+vmyCounter
+Z1 !s110 1572755912
+!i10b 1
+!s100 Ao<TjAdK=PCW82P7Ulg0U1
+IJIC<^dRO@o5QEMAZLVJCF0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1572754317
+8C:/Microsemi_Prj/hw7/SkewedProblemCounter/hdl/myCounter.v
+FC:/Microsemi_Prj/hw7/SkewedProblemCounter/hdl/myCounter.v
+Z3 L0 21
+Z4 OW;L;10.5c;63
+r1
+!s85 0
+31
+Z5 !s108 1572755912.000000
+!s107 C:/Microsemi_Prj/hw7/SkewedProblemCounter/hdl/myCounter.v|
+!s90 -reportprogress|300|-vlog01compat|-work|presynth|C:/Microsemi_Prj/hw7/SkewedProblemCounter/hdl/myCounter.v|
+!s101 -O0
+!i113 1
+Z6 o-vlog01compat -work presynth -O0
+Z7 tCvgOpt 0
+nmy@counter
+vmyCounter_tb
+!s110 1572745465
+!i10b 1
+!s100 mnzL=d79<Y3Snf>4dmdVW2
+I;GinP]W?1SAOWVYfkMO^g0
+R2
+R0
+w1572745294
+8C:/Microsemi_Prj/hw7/SkewedProblemCounter/stimulus/myCounter_tb.v
+FC:/Microsemi_Prj/hw7/SkewedProblemCounter/stimulus/myCounter_tb.v
+L0 30
+R4
+r1
+!s85 0
+31
+!s108 1572745465.000000
+!s107 C:/Microsemi_Prj/hw7/SkewedProblemCounter/stimulus/myCounter_tb.v|
+!s90 -reportprogress|300|+incdir+C:/Microsemi_Prj/hw7/SkewedProblemCounter/stimulus|-vlog01compat|-work|presynth|C:/Microsemi_Prj/hw7/SkewedProblemCounter/stimulus/myCounter_tb.v|
+!s101 -O0
+!i113 1
+R6
+Z8 !s92 +incdir+C:/Microsemi_Prj/hw7/SkewedProblemCounter/stimulus -vlog01compat -work presynth -O0
+R7
+nmy@counter_tb
+vSkewed
+Z9 !s110 1572969004
+!i10b 1
+!s100 kN`V=X6_k?VoG<?98FRO@2
+INNAm2g3_EnkI5R03Fgd:L1
+R2
+Z10 dC:/Microsemi_Prj/hw7/p3_C/simulation
+w1572967791
+8C:/Microsemi_Prj/hw7/p3_C/hdl/Skewed.v
+FC:/Microsemi_Prj/hw7/p3_C/hdl/Skewed.v
+R3
+R4
+r1
+!s85 0
+31
+Z11 !s108 1572969004.000000
+!s107 C:/Microsemi_Prj/hw7/p3_C/hdl/Skewed.v|
+!s90 -reportprogress|300|-vlog01compat|-work|presynth|C:/Microsemi_Prj/hw7/p3_C/hdl/Skewed.v|
+!s101 -O0
+!i113 1
+R6
+R7
+n@skewed
+vskewedClock
+R9
+!i10b 1
+!s100 lON69FILaV:P6XYG8PZ0>0
+INKGJ`PPj3A3_3m<B`NA[z2
+R2
+R10
+w1572968076
+8C:/Microsemi_Prj/hw7/p3_C/component/work/skewedClock/skewedClock.v
+FC:/Microsemi_Prj/hw7/p3_C/component/work/skewedClock/skewedClock.v
+L0 9
+R4
+r1
+!s85 0
+31
+R11
+!s107 C:/Microsemi_Prj/hw7/p3_C/component/work/skewedClock/skewedClock.v|
+!s90 -reportprogress|300|-vlog01compat|-work|presynth|C:/Microsemi_Prj/hw7/p3_C/component/work/skewedClock/skewedClock.v|
+!s101 -O0
+!i113 1
+R6
+R7
+nskewed@clock
+vskewedClock_tb
+!s110 1572757733
+!i10b 1
+!s100 Gdf`nCGTWDGZ7Wz:cjKkz3
+IRkH=eAYU?b=EW:DOR3h<=0
+R2
+R0
+w1572757565
+8C:/Microsemi_Prj/hw7/SkewedProblemCounter/stimulus/skewedClock_tb.v
+FC:/Microsemi_Prj/hw7/SkewedProblemCounter/stimulus/skewedClock_tb.v
+R3
+R4
+r1
+!s85 0
+31
+!s108 1572757733.000000
+!s107 C:/Microsemi_Prj/hw7/SkewedProblemCounter/stimulus/skewedClock_tb.v|
+!s90 -reportprogress|300|+incdir+C:/Microsemi_Prj/hw7/SkewedProblemCounter/stimulus|-vlog01compat|-work|presynth|C:/Microsemi_Prj/hw7/SkewedProblemCounter/stimulus/skewedClock_tb.v|
+!s101 -O0
+!i113 1
+R6
+R8
+R7
+nskewed@clock_tb
+vtop_level_counter
+R9
+!i10b 1
+!s100 ODmPhLbG3^WnbV43b;hhk1
+I_V0E?bA1_93ao@HzX?hU92
+R2
+R10
+w1572968086
+8C:/Microsemi_Prj/hw7/p3_C/component/work/top_level_counter/top_level_counter.v
+FC:/Microsemi_Prj/hw7/p3_C/component/work/top_level_counter/top_level_counter.v
+L0 9
+R4
+r1
+!s85 0
+31
+R11
+!s107 C:/Microsemi_Prj/hw7/p3_C/component/work/top_level_counter/top_level_counter.v|
+!s90 -reportprogress|300|-vlog01compat|-work|presynth|C:/Microsemi_Prj/hw7/p3_C/component/work/top_level_counter/top_level_counter.v|
+!s101 -O0
+!i113 1
+R6
+R7
+vtop_level_counter_tb
+R1
+!i10b 1
+!s100 H;@l:[FI6B8]Vg:c=zgnI3
+IDA=79X0VJ?jX]3LC1@^^O3
+R2
+R0
+w1572755907
+8C:/Microsemi_Prj/hw7/SkewedProblemCounter/stimulus/top_level_counter_tb.v
+FC:/Microsemi_Prj/hw7/SkewedProblemCounter/stimulus/top_level_counter_tb.v
+R3
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Microsemi_Prj/hw7/SkewedProblemCounter/stimulus/top_level_counter_tb.v|
+!s90 -reportprogress|300|+incdir+C:/Microsemi_Prj/hw7/SkewedProblemCounter/stimulus|-vlog01compat|-work|presynth|C:/Microsemi_Prj/hw7/SkewedProblemCounter/stimulus/top_level_counter_tb.v|
+!s101 -O0
+!i113 1
+R6
+R8
+R7

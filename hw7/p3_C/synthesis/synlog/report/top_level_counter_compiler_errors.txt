@@ -1,0 +1,2 @@
+@E: CL172 :"C:\Microsemi_Prj\hw7\SkewedProblemCounter\hdl\myCounter.v":31:4:31:5|Only one always block can assign a given variable Q0
+

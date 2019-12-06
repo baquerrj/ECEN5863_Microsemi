@@ -1,0 +1,16 @@
+----------------------------------------------------------------------
+Report for cell Strained.verilog
+                                          Cell usage:
+                               cell       count     area    count*area
+                             CLKBUF         1       0.0        0.0
+                               DFN1        24       1.0       24.0
+                                GND         1       0.0        0.0
+                              INBUF         1       0.0        0.0
+                               NOR2         1       1.0        1.0
+                              NOR2B        25       1.0       25.0
+                              NOR3C         7       1.0        7.0
+                             OUTBUF         1       0.0        0.0
+                                VCC         1       0.0        0.0
+                               XA1B        23       1.0       23.0
+                            
+                         TOTAL             85                 80.0

@@ -1,0 +1,11 @@
+Microsemi Corporation - Microsemi Libero Software Release v11.8 (Version 11.8.0.26)
+
+Date      :  Sun Nov 17 19:21:39 2019
+Project   :  C:\Microsemi_Prj\hw8\p1a
+Component :  CD3FF
+Family    :  SmartFusion
+
+
+HDL source files for all Synthesis and Simulation tools:
+    C:/Microsemi_Prj/hw8/p1a/component/work/CD3FF/CD3FF.vhd
+

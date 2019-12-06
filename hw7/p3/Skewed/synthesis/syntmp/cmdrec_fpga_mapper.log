@@ -1,0 +1,15 @@
+C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\bin64\m_proasic.exe  -prodtype  synplify_pro   -encrypt  -pro  -rundir  C:\Microsemi_Prj\hw7\p3\Skewed\synthesis   -part A2F200M3F  -package FBGA484  -grade STD    -globalthreshold 50 -maxfan 24 -opcond COMWC -report_path 4000 -RWCheckOnRam 0 -summaryfile C:\Microsemi_Prj\hw7\p3\Skewed\synthesis\synlog\report\Skewed_fpga_mapper.xml  -top_level_module  Skewed  -licensetype  synplifypro_actel  -flow mapping  -mp  4  -prjfile  C:\Microsemi_Prj\hw7\p3\Skewed\synthesis\scratchproject.prs  -implementation  synthesis  -multisrs  -oedif  C:\Microsemi_Prj\hw7\p3\Skewed\synthesis\Skewed.edn   -freq 100.000   C:\Microsemi_Prj\hw7\p3\Skewed\synthesis\synwork\Skewed_prem.srd  -sap  C:\Microsemi_Prj\hw7\p3\Skewed\synthesis\Skewed.sap  -otap  C:\Microsemi_Prj\hw7\p3\Skewed\synthesis\Skewed.tap  -omap  C:\Microsemi_Prj\hw7\p3\Skewed\synthesis\Skewed.map  -devicelib  C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\proasic\smartfusion.v  -sap  C:\Microsemi_Prj\hw7\p3\Skewed\synthesis\Skewed.sap  -ologparam  C:\Microsemi_Prj\hw7\p3\Skewed\synthesis\syntmp\Skewed.plg  -osyn  C:\Microsemi_Prj\hw7\p3\Skewed\synthesis\Skewed.srm  -prjdir  C:\Microsemi_Prj\hw7\p3\Skewed\synthesis\  -prjname  Skewed_syn  -log  C:\Microsemi_Prj\hw7\p3\Skewed\synthesis\synlog\Skewed_fpga_mapper.srr 
+rc:1 success:1 runtime:1
+file:C:\Microsemi_Prj\hw7\p3\Skewed\synthesis\scratchproject.prs|io:o|time:1572932544|size:1719|exec:0
+file:C:\Microsemi_Prj\hw7\p3\Skewed\synthesis\Skewed.edn|io:o|time:1572932792|size:32469|exec:0
+file:C:\Microsemi_Prj\hw7\p3\Skewed\synthesis\synwork\Skewed_prem.srd|io:i|time:1572932791|size:2515|exec:0
+file:C:\Microsemi_Prj\hw7\p3\Skewed\synthesis\Skewed.sap|io:o|time:1572932791|size:296|exec:0
+file:C:\Microsemi_Prj\hw7\p3\Skewed\synthesis\Skewed.tap|io:o|time:0|size:0|exec:0
+file:C:\Microsemi_Prj\hw7\p3\Skewed\synthesis\Skewed.map|io:o|time:1572932792|size:28|exec:0
+file:C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\proasic\smartfusion.v|io:i|time:1487966850|size:72817|exec:0
+file:C:\Microsemi_Prj\hw7\p3\Skewed\synthesis\Skewed.sap|io:o|time:1572932791|size:296|exec:0
+file:C:\Microsemi_Prj\hw7\p3\Skewed\synthesis\syntmp\Skewed.plg|io:o|time:1572932792|size:326|exec:0
+file:C:\Microsemi_Prj\hw7\p3\Skewed\synthesis\Skewed.srm|io:o|time:1572932792|size:71724|exec:0
+file:C:\Microsemi_Prj\hw7\p3\Skewed\synthesis\synlog\Skewed_fpga_mapper.srr|io:o|time:1572932792|size:15139|exec:0
+file:C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\bin\m_proasic.exe|io:i|time:1479399434|size:10978304|exec:1
+file:C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\bin64\m_proasic.exe|io:i|time:1479400840|size:14125056|exec:1

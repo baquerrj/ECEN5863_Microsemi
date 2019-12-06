@@ -1,0 +1,27 @@
+----------------------------------------------------------------------
+Report for cell CD3FF.verilog
+                                          Cell usage:
+                               cell       count     area    count*area
+                             CLKBUF         2       0.0        0.0
+                               DFN1         2       1.0        2.0
+                                GND         1       0.0        0.0
+                              INBUF         1       0.0        0.0
+                                MX2         1       1.0        1.0
+                               NOR2         1       1.0        1.0
+                              NOR2A         1       1.0        1.0
+                             OUTBUF         1       0.0        0.0
+                       Synchronizer         1       6.0        6.0
+                                VCC         1       0.0        0.0
+                            
+                         TOTAL             12                 11.0
+----------------------------------------------------------------------
+Report for cell Synchronizer.netlist
+     Instance path:  synchronizer
+                                          Cell usage:
+                               cell       count     area    count*area
+                               DFN1         3       1.0        3.0
+                                GND         1       0.0        0.0
+                              NOR2A         3       1.0        3.0
+                                VCC         1       0.0        0.0
+                            
+                         TOTAL              8                  6.0

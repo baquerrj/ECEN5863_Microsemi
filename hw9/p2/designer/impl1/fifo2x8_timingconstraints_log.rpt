@@ -1,0 +1,264 @@
+Microsemi Libero Software
+Version: 11.8.0.26
+Release: v11.8
+
+Info: The design fifo2x8.adb was last modified by software version 11.8.0.26.
+Opened an existing Libero design fifo2x8.adb.
+
+The Execute Script command succeeded ( 00:00:03 )
+Checking for software updates...
+Starting constraints checker...
+Completed constraints checker.
+Success.  All constraints are valid.
+Design saved to file C:\Microsemi_Prj\hw9\p2\designer\impl1\fifo2x8.adb.
+=====================================================================
+Parameters used to run compile:
+===============================
+
+Family      : SmartFusion
+Device      : A2F200M3F
+Package     : 484 FBGA
+Source      : C:\Microsemi_Prj\hw9\p2\synthesis\fifo2x8.edn
+Format      : EDIF
+Topcell     : fifo2x8
+Speed grade : STD
+Temp        : 0:25:85
+Voltage     : 1.58:1.50:1.42
+
+Keep Existing Physical Constraints : Yes
+Keep Existing Timing Constraints   : Yes
+
+pdc_abort_on_error                 : Yes
+pdc_eco_display_unmatched_objects  : No
+pdc_eco_max_warnings               : 10000
+
+demote_globals                     : No
+promote_globals                    : No
+localclock_max_shared_instances    : 12
+localclock_buffer_tree_max_fanout  : 12
+
+combine_register                   : No
+delete_buffer_tree                 : No
+
+report_high_fanout_nets_limit      : 10
+
+=====================================================================
+Compile starts ...
+
+
+Netlist Optimization Report
+===========================
+
+Optimized macros:
+  - Dangling net drivers:   0
+  - Buffers:                0
+  - Inverters:              0
+  - Tieoff:                 0
+  - Logic combining:        0
+
+    Total macros optimized  0
+
+Warning: CMP503: Remapped 18 enable flip-flop(s) to a 2-tile implementation because the CLR/PRE
+         pin on the enable flip-flop is not being driven by a global net.
+
+There were 0 error(s) and 1 warning(s) in this design.
+=====================================================================
+
+Reading previous post-compile physical placement constraints.
+
+
+There were 0 error(s) and 0 warning(s).
+
+=====================================================================
+Compile report:
+===============
+
+    Microcontroller Subsystem  Used:      0  Total:      1   (0.00%)
+    Fabric                     Used:     70  Total:   4608   (1.52%)
+    Fabric IO (W/ clocks)      Used:     27  Total:     94   (28.72%)
+    Fabric Differential IO     Used:      0  Total:     47   (0.00%)
+    Dedicated Analog IO        Used:      0  Total:     32   (0.00%)
+    Dedicated MSS IO           Used:      0  Total:     43   (0.00%)
+    GLOBAL (Chip+Quadrant)     Used:      2  Total:     15   (13.33%)
+    MSS GLOBAL                 Used:      0  Total:      3   (0.00%)
+    On-chip RC oscillator      Used:      0  Total:      1   (0.00%)
+    Main Crystal oscillator    Used:      0  Total:      1   (0.00%)
+    32 KHz Crystal oscillator  Used:      0  Total:      1   (0.00%)
+    RAM/FIFO                   Used:      0  Total:      8   (0.00%)
+    User JTAG                  Used:      0  Total:      1   (0.00%)
+
+Global Information:
+
+    Type            | Used   | Total
+    ----------------|--------|--------------
+    Chip global     | 2      | 3  (66.67%)*
+    Quadrant global | 0      | 12 (0.00%)
+    MSS global      | 0      | 3  (0.00%)
+
+    (*) Chip globals may be assigned to Quadrant globals using the Multi-View Navigator (MVN)
+        or Physical Design Constraints (PDC).
+        They may also be assigned to Quadrant globals automatically during Layout.
+
+Core Information:
+
+    Type    | Instances    | Core tiles
+    --------|--------------|-----------
+    COMB    | 38           | 38
+    SEQ     | 32           | 32
+
+I/O Function:
+
+    Type                                  | w/o register  | w/ register  | w/ DDR register
+    --------------------------------------|---------------|--------------|----------------
+    Input I/O                             | 17            | 0            | 0
+    Output I/O                            | 10            | 0            | 0
+    Bidirectional I/O                     | 0             | 0            | 0
+    Differential Input I/O Pairs          | 0             | 0            | 0
+    Differential Output I/O Pairs         | 0             | 0            | 0
+
+I/O Technology:
+
+                                    |   Voltages    |             I/Os
+    --------------------------------|-------|-------|-------|--------|--------------
+    I/O Standard(s)                 | Vcci  | Vref  | Input | Output | Bidirectional
+    --------------------------------|-------|-------|-------|--------|--------------
+    LVTTL                           | 3.30v | N/A   | 17    | 10     | 0
+
+I/O Placement:
+
+    Locked  :   0
+    Placed  :  27 ( 100.00% )
+    UnPlaced:   0
+
+Net information report:
+=======================
+
+The following nets drive enable flip-flops that have been remapped to a 2-tile implementation:
+    EffCnt  Type          Name
+    --------------------------
+    18      SET/RESET_NET Net   : rst_c
+                          Driver: rst_pad
+
+The following nets have been assigned to a chip global resource:
+    Fanout  Type          Name
+    --------------------------
+    20      CLK_NET       Net   : clk1_c
+                          Driver: clk1_pad
+                          Source: NETLIST
+    12      CLK_NET       Net   : clk2_c
+                          Driver: clk2_pad
+                          Source: NETLIST
+
+High fanout nets in the post compile netlist:
+    Fanout  Type          Name
+    --------------------------
+    20      SET/RESET_NET Net   : rst_c
+                          Driver: rst_pad
+    12      INT_NET       Net   : rdptr
+                          Driver: rdptr/U1
+    8       INT_NET       Net   : fifo_1_0_sqmuxa
+                          Driver: wr_pad_RNIS489
+    8       INT_NET       Net   : fifo_0_0_sqmuxa
+                          Driver: fifo_0_0_sqmuxa
+    8       INT_NET       Net   : rd_c
+                          Driver: rd_pad
+    6       INT_NET       Net   : wrptr
+                          Driver: wrptr/U1
+    4       INT_NET       Net   : rdptrclr_c
+                          Driver: rdptrclr_pad
+    4       INT_NET       Net   : wrptrclr_c
+                          Driver: wrptrclr_pad
+    2       INT_NET       Net   : reg_array.fifo_0[0]
+                          Driver: reg_array.fifo_0[0]/U1
+    2       INT_NET       Net   : reg_array.fifo_0[1]
+                          Driver: reg_array.fifo_0[1]/U1
+
+Nets that are candidates for clock assignment and the resulting fanout:
+    Fanout  Type          Name
+    --------------------------
+    20      SET/RESET_NET Net   : rst_c
+                          Driver: rst_pad
+    12      INT_NET       Net   : rdptr
+                          Driver: rdptr/U1
+    8       INT_NET       Net   : fifo_1_0_sqmuxa
+                          Driver: wr_pad_RNIS489
+    8       INT_NET       Net   : fifo_0_0_sqmuxa
+                          Driver: fifo_0_0_sqmuxa
+    8       INT_NET       Net   : rd_c
+                          Driver: rd_pad
+    6       INT_NET       Net   : wrptr
+                          Driver: wrptr/U1
+    4       INT_NET       Net   : rdptrclr_c
+                          Driver: rdptrclr_pad
+    4       INT_NET       Net   : wrptrclr_c
+                          Driver: wrptrclr_pad
+    2       INT_NET       Net   : reg_array.fifo_0[0]
+                          Driver: reg_array.fifo_0[0]/U1
+    2       INT_NET       Net   : reg_array.fifo_0[1]
+                          Driver: reg_array.fifo_0[1]/U1
+
+The Compile command succeeded ( 00:00:00 )
+***** Layout Variables *********************************************
+
+Mode: TIMING_DRIVEN
+Power-driven Layout: OFF
+Incremental Placement: OFF
+Incremental Route: OFF
+
+
+Info: I/O Bank Assigner detected (1) out of (6) I/O Bank(s) with locked I/O technologies.
+
+Running I/O Bank Assigner.
+
+I/O Bank Assigner completed successfully.
+ 
+
+Planning global net placement...
+
+
+Global net placement completed successfully.
+
+                        o - o - o - o - o - o
+
+Timing-driven Placer Started: Tue Dec 03 19:19:21 2019
+
+Placer Finished: Tue Dec 03 19:19:22 2019
+Total Placer CPU Time:     00:00:01
+
+                        o - o - o - o - o - o
+
+
+Timing-driven Router 
+Design: fifo2x8                         Started: Tue Dec 03 19:19:22 2019
+
+ 
+Iterative improvement...
+
+Timing-driven Router completed successfully.
+
+Design: fifo2x8                         
+Finished: Tue Dec 03 19:19:26 2019
+Total CPU Time:     00:00:02            Total Elapsed Time: 00:00:04
+Total Memory Usage: 161.4 Mbytes
+                        o - o - o - o - o - o
+
+Loading the Timing data for the design.
+Finished loading the Timing data.
+TIMER: Max delay timing requirements have been met.
+TIMER: Min delay timing requirements have been met.
+
+The Layout command succeeded ( 00:00:08 )
+Warning: Files
+          C:\Microsemi_Prj\hw9\p2\designer\impl1\fifo2x8_ba.sdf
+          C:\Microsemi_Prj\hw9\p2\designer\impl1\fifo2x8_ba.vhd
+         already exist.
+         Do you want to replace the files? [YES]
+Back-annotated to the file(s):
+   .\fifo2x8_ba.sdf
+   .\fifo2x8_ba.vhd
+
+The Back-Annotate command succeeded ( 00:00:01 )
+Design saved to file C:\Microsemi_Prj\hw9\p2\designer\impl1\fifo2x8.adb.
+Design saved to file C:\Microsemi_Prj\hw9\p2\designer\impl1\fifo2x8.adb.
+Design closed.
+

@@ -1,0 +1,29 @@
+#defaultlanguage:vhdl
+#OPTIONS:"|-layerid|0|-orig_srs|C:\\Microsemi_Prj\\hw9\\p2\\synthesis\\synwork\\fifo2x8_comp.srs|-top|work.fifo2x8|-prodtype|synplify_pro|-nram|-fixsmult|-divnmod|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-vhdl2008|-ignore_undefined_lib|-lib|work|-lib|work"
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.8\\SynplifyPro\\bin64\\c_vhdl.exe":1480007492
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.8\\SynplifyPro\\lib\\vhd2008\\location.map":1478833188
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.8\\SynplifyPro\\lib\\vhd2008\\std.vhd":1487970586
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.8\\SynplifyPro\\lib\\vhd\\snps_haps_pkg.vhd":1487970454
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.8\\SynplifyPro\\lib\\vhd2008\\std1164.vhd":1487970586
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.8\\SynplifyPro\\lib\\vhd2008\\std_textio.vhd":1487970586
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.8\\SynplifyPro\\lib\\vhd2008\\numeric.vhd":1487970586
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.8\\SynplifyPro\\lib\\vhd\\umr_capim.vhd":1487970454
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.8\\SynplifyPro\\lib\\vhd2008\\arith.vhd":1487970586
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.8\\SynplifyPro\\lib\\vhd2008\\unsigned.vhd":1487970586
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.8\\SynplifyPro\\lib\\vhd\\hyperents.vhd":1487970454
+#CUR:"C:\\Microsemi_Prj\\hw9\\p2\\hdl\\fifo_array_type.vhd":1575427140
+#CUR:"C:\\Microsemi_Prj\\hw9\\p2\\hdl\\fifo2x8.vhd":1575426805
+0 "C:\Microsemi_Prj\hw9\p2\hdl\fifo_array_type.vhd" vhdl
+1 "C:\Microsemi_Prj\hw9\p2\hdl\fifo2x8.vhd" vhdl
+
+# Dependency Lists (Uses list)
+0 -1
+1 0 
+
+# Dependency Lists (Users Of)
+0 1 
+1 -1
+
+# Design Unit to File Association
+arch work fifo2x8 archfifo2x8 1
+module work fifo2x8 1

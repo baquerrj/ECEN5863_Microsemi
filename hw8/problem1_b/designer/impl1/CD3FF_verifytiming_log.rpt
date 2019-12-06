@@ -1,0 +1,10 @@
+Microsemi Libero Software
+Version: 11.8.0.26
+Release: v11.8
+
+Error: Design "C:\Microsemi_Prj\hw8\problem1_b\designer\impl1\CD3FF.adb" is locked.
+       Cannot resolve lock when in non-interactive mode.
+Error: Failure when executing Tcl script. [ Line 1 ]
+
+The Execute Script command failed ( 00:00:00 )
+Checking for software updates...

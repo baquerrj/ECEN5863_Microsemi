@@ -1,0 +1,15 @@
+@P:  Worst Slack : 7.404
+@P:  PartA|Aclk - Estimated Frequency : 385.1 MHz
+@P:  PartA|Aclk - Requested Frequency : 100.0 MHz
+@P:  PartA|Aclk - Estimated Period : 2.596
+@P:  PartA|Aclk - Requested Period : 10.000
+@P:  PartA|Aclk - Slack : 7.404
+@P:  PartA|Bclk - Estimated Frequency : NA
+@P:  PartA|Bclk - Requested Frequency : 100.0 MHz
+@P:  PartA|Bclk - Estimated Period : NA
+@P:  PartA|Bclk - Requested Period : 10.000
+@P:  PartA|Bclk - Slack : NA
+@P:  Total Area : 8.0
+@P:  Total Area : 3.0
+@P:  Total Area : 8.0
+@P:  CPU Time : 0h:00m:00s

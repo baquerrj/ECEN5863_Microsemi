@@ -1,0 +1,324 @@
+KEY LIBERO "11.8"
+KEY CAPTURE "11.8.0.26"
+KEY DEFAULT_IMPORT_LOC ""
+KEY DEFAULT_OPEN_LOC ""
+KEY ProjectID "0"
+KEY HDLTechnology "VERILOG"
+KEY VERILOGMODE "VERILOG2001"
+KEY VHDLMODE "VHDL2008"
+KEY UseConstraintFlowTechnology "FALSE"
+KEY VendorTechnology_Family "SmartFusion"
+KEY VendorTechnology_Die "IP4X3M1"
+KEY VendorTechnology_Package "fg484"
+KEY VendorTechnology_Speed "STD"
+KEY VendorTechnology_DieVoltage "1.5"
+KEY VendorTechnology_PART_RANGE "COM"
+KEY VendorTechnology_DSW_VCCA_VOLTAGE_RAMP_RATE ""
+KEY VendorTechnology_IO_DEFT_STD "LVTTL"
+KEY VendorTechnology_OPCONR ""
+KEY VendorTechnology_PLL_SUPPLY ""
+KEY VendorTechnology_RAD_EXPOSURE ""
+KEY VendorTechnology_RESERVEMIGRATIONPINS "1"
+KEY VendorTechnology_RESTRICTPROBEPINS "1"
+KEY VendorTechnology_RESTRICTSPIPINS "0"
+KEY VendorTechnology_SYSTEM_CONTROLLER_SUSPEND_MODE ""
+KEY VendorTechnology_TARGETDEVICESFORMIGRATION "IP4X3M1"
+KEY VendorTechnology_TEMPR "COM"
+KEY VendorTechnology_UNUSED_MSS_IO_RESISTOR_PULL "None"
+KEY VendorTechnology_VCCI_1.5_VOLTR "COM"
+KEY VendorTechnology_VCCI_1.8_VOLTR "COM"
+KEY VendorTechnology_VCCI_2.5_VOLTR "COM"
+KEY VendorTechnology_VCCI_3.3_VOLTR "COM"
+KEY VendorTechnology_VOLTR "COM"
+KEY ProjectLocation "C:\Microsemi_Prj\hw7\p3\Skewed"
+KEY ProjectDescription ""
+KEY Pa4PeripheralNewSeq "GOOD"
+KEY SimulationType "VERILOG"
+KEY Vendor "Actel"
+KEY ActiveRoot "Skewed::work"
+LIST REVISIONS
+VALUE="Impl1",NUM=1
+CURREV=1
+ENDLIST
+LIST FileManager
+VALUE "<project>\designer\impl1\Skewed.adb,adb"
+STATE="utd"
+TIME="1572966885"
+SIZE="47104"
+ENDFILE
+VALUE "<project>\designer\impl1\Skewed.ide_des,ide_des"
+STATE="utd"
+TIME="1572966885"
+SIZE="952"
+ENDFILE
+VALUE "<project>\designer\impl1\Skewed_ba.sdf,ba_sdf"
+STATE="utd"
+TIME="1572963923"
+SIZE="29643"
+ENDFILE
+VALUE "<project>\designer\impl1\Skewed_ba.v,ba_hdl"
+STATE="utd"
+TIME="1572963923"
+SIZE="7707"
+ENDFILE
+VALUE "<project>\designer\impl1\Skewed_ba_log.rpt,log"
+STATE="utd"
+TIME="1572963923"
+SIZE="764"
+ENDFILE
+VALUE "<project>\designer\impl1\Skewed_compile_log.rpt,log"
+STATE="utd"
+TIME="1572932807"
+SIZE="7804"
+ENDFILE
+VALUE "<project>\designer\impl1\Skewed_placeroute_log.rpt,log"
+STATE="utd"
+TIME="1572932821"
+SIZE="2499"
+ENDFILE
+VALUE "<project>\designer\impl1\Skewed_verifytiming_log.rpt,log"
+STATE="utd"
+TIME="1572966885"
+SIZE="1120"
+ENDFILE
+VALUE "<project>\hdl\Skewed.v,hdl"
+STATE="utd"
+TIME="1572932783"
+SIZE="884"
+ENDFILE
+VALUE "<project>\simulation\run.do,do"
+STATE="utd"
+TIME="1572966506"
+SIZE="1019"
+ENDFILE
+VALUE "<project>\simulation\Skewed_tb_postlayout_simulation.log,log"
+STATE="utd"
+TIME="1572966671"
+SIZE="13880"
+ENDFILE
+VALUE "<project>\stimulus\Skewed_tb.v,tb_hdl"
+STATE="utd"
+TIME="1572966600"
+SIZE="1812"
+ENDFILE
+VALUE "<project>\synthesis\Skewed.edn,syn_edn"
+STATE="utd"
+TIME="1572932792"
+SIZE="32469"
+ENDFILE
+VALUE "<project>\synthesis\Skewed.so,so"
+STATE="utd"
+TIME="1572932792"
+SIZE="212"
+ENDFILE
+VALUE "<project>\synthesis\Skewed.v,syn_hdl"
+STATE="ood"
+TIME="1572932557"
+SIZE="5860"
+ENDFILE
+VALUE "<project>\synthesis\Skewed_sdc.sdc,syn_sdc"
+STATE="utd"
+TIME="1572932792"
+SIZE="395"
+ENDFILE
+VALUE "<project>\synthesis\Skewed_syn.prj,prj"
+STATE="utd"
+TIME="1572932792"
+SIZE="1689"
+ENDFILE
+VALUE "<project>\synthesis\synwork\layer0.so,so"
+STATE="utd"
+TIME="1572932765"
+SIZE="159"
+ENDFILE
+ENDLIST
+LIST UsedFile
+ENDLIST
+LIST NewModulesInfo
+LIST "Skewed::work"
+FILE "<project>\hdl\Skewed.v,hdl"
+LIST AssociatedStimulus
+VALUE "<project>\stimulus\Skewed_tb.v,tb_hdl"
+ENDLIST
+LIST ProjectState5.1
+LIST Impl1
+LiberoState=Post_Layout
+ideSTIMULUS=StateSuccess
+ideDESIGNER(<project>\designer\impl1\Skewed.adb,adb)=StateSuccess
+ideSYNTHESIS(<project>\synthesis\Skewed.edn,syn_edn)=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+LIST PinReports
+VALUE "<project>\designer\impl1\Skewed_report_pin_byname.txt,log"
+VALUE "<project>\designer\impl1\Skewed_report_pin_bynumber.txt,log"
+ENDLIST
+ENDLIST
+ENDLIST
+LIST AssociatedStimulus
+LIST Skewed
+VALUE "<project>\stimulus\Skewed_tb.v,tb_hdl"
+ENDLIST
+ENDLIST
+LIST Other_Association
+ENDLIST
+LIST SimulationOptions
+UseAutomaticDoFile=true
+IncludeWaveDo=false
+Type=max
+RunTime=1000ns
+Resolution=1ps
+VsimOpt=
+EntityName=Skewed_tb
+TopInstanceName=<top>_0
+DoFileName=
+DoFileName2=wave.do
+DoFileParams=
+DisplayDUTWave=false
+LogAllSignals=false
+DisablePulseFiltering=false
+DumpVCD=false
+VCDFileName=power.vcd
+VHDL2008=false
+Verilog2001=false
+SystemVerilog=false
+TimeUnit=1
+TimeUnitBase=ns
+Precision=100
+PrecisionBase=ps
+ENDLIST
+LIST ModelSimLibPath
+UseCustomPath=FALSE
+LibraryPath=
+ENDLIST
+LIST GlobalFlowOptions
+GenerateHDLAfterSynthesis=FALSE
+GenerateHDLAfterPhySynthesis=FALSE
+RunDRCAfterSynthesis=TRUE
+AutoCheckConstraints=TRUE
+UpdateModelSimIni=TRUE
+NoIOMode=FALSE
+PeriInitStandalone=FALSE
+EnableViewDraw=FALSE
+UpdateViewDrawIni=TRUE
+GenerateHDLFromSchematic=TRUE
+VmNetlistFlowOn=FALSE
+EnableDesignSeparationOn=FALSE
+EnableSETMitigationOn=FALSE
+DisplayFanoutLimit=10
+AbortFlowOnPDCErrorsOn=TRUE
+AbortFlowOnSDCErrorsOn=TRUE
+FlashProInputFile=fdb
+SmartGenCompileReport=T
+ENDLIST
+LIST PhySynthesisOptions
+ENDLIST
+LIST Profiles
+NAME="SoftConsole"
+FUNCTION="SoftwareIDE"
+TOOL="SoftConsole"
+LOCATION="eclipse.exe"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+NAME="Synplify Pro ME"
+FUNCTION="Synthesis"
+TOOL="Synplify Pro ME"
+LOCATION="C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\bin\synplify_pro.exe"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+NAME="ModelSim ME"
+FUNCTION="Simulation"
+TOOL="ModelSim"
+LOCATION="C:\Microsemi\Libero_SoC_v11.8\Modelsim\win32acoem\modelsim.exe"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+NAME="FPExpress"
+FUNCTION="Program"
+TOOL="FlashPro"
+LOCATION="C:\Microsemi\Libero_SoC_v11.8\Designer\bin\FPExpress.exe"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+NAME="Identify Debugger"
+FUNCTION="IdentifyDebugger"
+TOOL="Identify Debugger"
+LOCATION="C:\Microsemi\Libero_SoC_v11.8\Identify\bin\identify_debugger.exe"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+ENDLIST
+LIST ProjectState5.1
+LIST "Skewed::work"
+LIST Impl1
+LiberoState=Post_Layout
+ideSTIMULUS=StateSuccess
+ideDESIGNER(<project>\designer\impl1\Skewed.adb,adb)=StateSuccess
+ideSYNTHESIS(<project>\synthesis\Skewed.edn,syn_edn)=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+ENDLIST
+LIST ExcludePackageForSimulation
+ENDLIST
+LIST ExcludePackageForSynthesis
+ENDLIST
+LIST IncludeModuleForSimulation
+ENDLIST
+LIST CDBOrder
+ENDLIST
+LIST UserCustomizedFileList
+ENDLIST
+LIST OpenedFileList
+ORIENTATION;HORIZONTAL
+Reports;Reports;0
+ReportsCurrentItem;Verify Timing:Skewed_maxdelay_timing_report.txt
+StartPage;StartPage;0
+HDL;hdl\Skewed.v;0
+HDL;stimulus\Skewed_tb.v;0
+ACTIVEVIEW;Reports
+ENDLIST
+LIST ModuleSubBlockList
+LIST "Skewed::work","hdl\Skewed.v","FALSE","FALSE"
+ENDLIST
+LIST "Skewed_tb::work","stimulus\Skewed_tb.v","FALSE","TRUE"
+SUBBLOCK "Skewed::work","hdl\Skewed.v","FALSE","FALSE"
+ENDLIST
+ENDLIST
+LIST ActiveTestBenchList
+LIST "Skewed::work"
+ACTIVETESTBENCH "Skewed_tb::work","stimulus\Skewed_tb.v","FALSE"
+ENDLIST
+ENDLIST
+LIST IOTabList
+ENDLIST
+LIST FPTabList
+ENDLIST
+LIST TimingTabList
+ENDLIST
+LIST FDCTabList
+ENDLIST

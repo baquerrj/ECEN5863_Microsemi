@@ -1,0 +1,2 @@
+@W: MT116 |Paths from clock (fifo2x8|clk2:r) to clock (fifo2x8|clk1:r) are overconstrained because the required time of 5.00 ns is too small.  
+@W: MT116 |Paths from clock (fifo2x8|clk1:r) to clock (fifo2x8|clk2:r) are overconstrained because the required time of 5.00 ns is too small.  

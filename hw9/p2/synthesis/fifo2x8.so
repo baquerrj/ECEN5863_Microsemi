@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<SynplifyOutput>
+	<result>Success</result>
+	<design>fifo2x8</design>
+	<target_edif>C:\Microsemi_Prj\hw9\p2\synthesis\fifo2x8.edn</target_edif>
+</SynplifyOutput>

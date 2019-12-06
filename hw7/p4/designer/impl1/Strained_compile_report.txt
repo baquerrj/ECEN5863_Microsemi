@@ -1,0 +1,223 @@
+***************************************************************************
+                               Status Report
+                          Sun Nov 03 19:58:47 2019 ***************************************************************************
+
+Product: Designer
+Release: v11.8
+Version: 11.8.0.26
+File Name: C:\Microsemi_Prj\hw7\p4\designer\impl1\Strained.adb
+Design Name: Strained  Design State: compile
+Last Saved: Sun Nov 03 19:57:57 2019
+
+***** Device Data **************************************************
+
+Family: SmartFusion  Die: A2F500M3G  Package: 208 PQFP
+Speed: -1  Voltage: 1.5
+
+Restrict JTAG Pins: YES
+Restrict Probe Pins: YES
+
+Junction Temperature Range:   IND
+Voltage Range:   IND
+
+***** Import Variables *********************************************
+
+Source File(s) Imported on Sun Nov 03 19:58:46 2019:
+        C:\Microsemi_Prj\hw7\p4\synthesis\Strained.edn
+        C:\Microsemi_Prj\hw7\p4\constraint\Strained.sdc
+
+
+***** CAE Variables ************************************************
+
+Back Annotation File: N/A
+
+
+***** Bitstream Variables ******************************************
+
+Bitstream File: N/A
+     Lock Mode: OFF
+
+
+***** Compile Variables ********************************************
+
+Netlist PIN properties overwrite existing properties: 0
+
+Compile Output:
+=====================================================================
+Parameters used to run compile:
+===============================
+
+Family      : SmartFusion
+Device      : A2F500M3G
+Package     : 208 PQFP
+Source      : C:\Microsemi_Prj\hw7\p4\synthesis\Strained.edn
+              C:\Microsemi_Prj\hw7\p4\constraint\Strained.sdc
+Format      : EDIF
+Topcell     : Strained
+Speed grade : -1
+Temp        : -40:25:100
+Voltage     : 1.58:1.50:1.42
+
+Keep Existing Physical Constraints : No
+Keep Existing Timing Constraints   : Yes
+
+pdc_abort_on_error                 : Yes
+pdc_eco_display_unmatched_objects  : No
+pdc_eco_max_warnings               : 10000
+
+demote_globals                     : No
+promote_globals                    : No
+localclock_max_shared_instances    : 12
+localclock_buffer_tree_max_fanout  : 12
+
+combine_register                   : No
+delete_buffer_tree                 : No
+
+report_high_fanout_nets_limit      : 10
+
+=====================================================================
+Compile starts ...
+
+
+Netlist Optimization Report
+===========================
+
+Optimized macros:
+  - Dangling net drivers:   0
+  - Buffers:                0
+  - Inverters:              0
+  - Tieoff:                 0
+  - Logic combining:        0
+
+    Total macros optimized  0
+
+There were 0 error(s) and 0 warning(s) in this design.
+=====================================================================
+
+Reading previous post-compile physical placement constraints.
+
+
+There were 0 error(s) and 0 warning(s).
+
+=====================================================================
+Compile report:
+===============
+
+    Microcontroller Subsystem  Used:      0  Total:      1   (0.00%)
+    Fabric                     Used:     80  Total:  11520   (0.69%)
+    Fabric IO (W/ clocks)      Used:      3  Total:     66   (4.55%)
+    Fabric Differential IO     Used:      0  Total:     32   (0.00%)
+    Dedicated Analog IO        Used:      0  Total:     31   (0.00%)
+    Dedicated MSS IO           Used:      0  Total:     23   (0.00%)
+    GLOBAL (Chip+Quadrant)     Used:      1  Total:     15   (6.67%)
+    MSS GLOBAL                 Used:      0  Total:      3   (0.00%)
+    Fabric CCC                 Used:      0  Total:      1   (0.00%)
+    MSS CCC                    Used:      0  Total:      1   (0.00%)
+    On-chip RC oscillator      Used:      0  Total:      1   (0.00%)
+    Main Crystal oscillator    Used:      0  Total:      1   (0.00%)
+    32 KHz Crystal oscillator  Used:      0  Total:      1   (0.00%)
+    RAM/FIFO                   Used:      0  Total:     24   (0.00%)
+    User JTAG                  Used:      0  Total:      1   (0.00%)
+
+Global Information:
+
+    Type            | Used   | Total
+    ----------------|--------|--------------
+    Chip global     | 1      | 3  (33.33%)*
+    Quadrant global | 0      | 12 (0.00%)
+    MSS global      | 0      | 3  (0.00%)
+
+    (*) Chip globals may be assigned to Quadrant globals using the Multi-View Navigator (MVN)
+        or Physical Design Constraints (PDC).
+        They may also be assigned to Quadrant globals automatically during Layout.
+
+Core Information:
+
+    Type    | Instances    | Core tiles
+    --------|--------------|-----------
+    COMB    | 56           | 56
+    SEQ     | 24           | 24
+
+I/O Function:
+
+    Type                                  | w/o register  | w/ register  | w/ DDR register
+    --------------------------------------|---------------|--------------|----------------
+    Input I/O                             | 2             | 0            | 0
+    Output I/O                            | 1             | 0            | 0
+    Bidirectional I/O                     | 0             | 0            | 0
+    Differential Input I/O Pairs          | 0             | 0            | 0
+    Differential Output I/O Pairs         | 0             | 0            | 0
+
+I/O Technology:
+
+                                    |   Voltages    |             I/Os
+    --------------------------------|-------|-------|-------|--------|--------------
+    I/O Standard(s)                 | Vcci  | Vref  | Input | Output | Bidirectional
+    --------------------------------|-------|-------|-------|--------|--------------
+    LVTTL                           | 3.30v | N/A   | 2     | 1      | 0
+
+I/O Placement:
+
+    Locked  :   0
+    Placed  :   3 ( 100.00% )
+    UnPlaced:   0
+
+Net information report:
+=======================
+
+The following nets have been assigned to a chip global resource:
+    Fanout  Type          Name
+    --------------------------
+    24      CLK_NET       Net   : clk_c
+                          Driver: clk_pad
+                          Source: NETLIST
+
+High fanout nets in the post compile netlist:
+    Fanout  Type          Name
+    --------------------------
+    24      INT_NET       Net   : reset_c
+                          Driver: reset_pad
+    3       INT_NET       Net   : Q[0]
+                          Driver: Q[0]
+    3       INT_NET       Net   : Q[5]
+                          Driver: Q[5]
+    3       INT_NET       Net   : Q[6]
+                          Driver: Q[6]
+    3       INT_NET       Net   : Q[7]
+                          Driver: Q[7]
+    3       INT_NET       Net   : Q[8]
+                          Driver: Q[8]
+    3       INT_NET       Net   : Q[9]
+                          Driver: Q[9]
+    3       INT_NET       Net   : Q[10]
+                          Driver: Q[10]
+    3       INT_NET       Net   : Q[11]
+                          Driver: Q[11]
+    3       INT_NET       Net   : Q[12]
+                          Driver: Q[12]
+
+Nets that are candidates for clock assignment and the resulting fanout:
+    Fanout  Type          Name
+    --------------------------
+    24      INT_NET       Net   : reset_c
+                          Driver: reset_pad
+    3       INT_NET       Net   : Q[0]
+                          Driver: Q[0]
+    3       INT_NET       Net   : Q[5]
+                          Driver: Q[5]
+    3       INT_NET       Net   : Q[6]
+                          Driver: Q[6]
+    3       INT_NET       Net   : Q[7]
+                          Driver: Q[7]
+    3       INT_NET       Net   : Q[8]
+                          Driver: Q[8]
+    3       INT_NET       Net   : Q[9]
+                          Driver: Q[9]
+    3       INT_NET       Net   : Q[10]
+                          Driver: Q[10]
+    3       INT_NET       Net   : Q[11]
+                          Driver: Q[11]
+    3       INT_NET       Net   : Q[12]
+                          Driver: Q[12]
+
+

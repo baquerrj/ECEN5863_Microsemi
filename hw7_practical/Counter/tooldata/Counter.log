@@ -1,0 +1,16 @@
+Project Name: Counter
+Location: C:\Microsemi_Prj\hw7_practical\Counter
+Description: 
+Preferred HDL Type: VHDL
+
+#-----------------------------------------------------
+                  Device Details
+#-----------------------------------------------------
+
+Part Number    : A2F200M3F-FG484
+Family         : SmartFusion
+Die            : A2F200M3F
+Package        : 484 FBGA
+Speed          : STD
+Core Voltage   : 1.5
+Range          : COM

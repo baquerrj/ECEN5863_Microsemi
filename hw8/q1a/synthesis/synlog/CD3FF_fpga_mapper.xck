@@ -1,0 +1,2 @@
+CKID0001:@|S:Aclk@|E:dataLocked@|F:@syn_sample_clock_path==CKID0001@|M:ClockId0001 
+CKID0002:@|S:Bclk@|E:Dout@|F:@syn_sample_clock_path==CKID0002@|M:ClockId0002 

@@ -1,0 +1,285 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Microsemi_Prj/hw8/p1a/simulation
+Ecd3ff
+Z1 w1574043922
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z4 8C:/Microsemi_Prj/hw8/p1a/synthesis/CD3FF.vhd
+Z5 FC:/Microsemi_Prj/hw8/p1a/synthesis/CD3FF.vhd
+l0
+L68
+VgJP:Vl=fGM7F9_IeC=nEP3
+!s100 SCO=SJioz=A_LlF^e34ZA2
+Z6 OW;C;10.5c;63
+33
+Z7 !s110 1574043954
+!i10b 1
+Z8 !s108 1574043954.000000
+Z9 !s90 -reportprogress|300|-2008|-explicit|-work|postsynth|C:/Microsemi_Prj/hw8/p1a/synthesis/CD3FF.vhd|
+Z10 !s107 C:/Microsemi_Prj/hw8/p1a/synthesis/CD3FF.vhd|
+!i113 1
+Z11 o-2008 -explicit -work postsynth -O0
+Z12 tCvgOpt 0
+Adef_arch
+Z13 DEx4 work 12 synchronizer 0 22 [E1T:U1UE?3f@9dfnH[4k1
+R2
+R3
+DEx4 work 5 cd3ff 0 22 gJP:Vl=fGM7F9_IeC=nEP3
+l144
+L78
+V<ZVXRcEhfOlkd4RaDCi1h0
+!s100 DDURZ]`KdiIf3K2UEcKkc3
+R6
+33
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Ecd3ff_testbench
+Z14 w1574043662
+R2
+R3
+R0
+Z15 8C:/Microsemi_Prj/hw8/p1a/stimulus/CD3FF_testbench.vhd
+Z16 FC:/Microsemi_Prj/hw8/p1a/stimulus/CD3FF_testbench.vhd
+l0
+L23
+VWkfFz5IJ]02V9C1K;zmkC3
+!s100 L<9HT2Gaj:dV0c`<Y5X2g0
+R6
+33
+R7
+!i10b 1
+R8
+Z17 !s90 -reportprogress|300|-2008|-explicit|-work|postsynth|C:/Microsemi_Prj/hw8/p1a/stimulus/CD3FF_testbench.vhd|
+Z18 !s107 C:/Microsemi_Prj/hw8/p1a/stimulus/CD3FF_testbench.vhd|
+!i113 1
+R11
+R12
+Abehavioral
+R2
+R3
+Z19 DEx4 work 15 cd3ff_testbench 0 22 WkfFz5IJ]02V9C1K;zmkC3
+l49
+L26
+Z20 VE6Tea3TfCAP26ST::H1_H3
+Z21 !s100 FaPj;?[<EJ4:a5F6<W48R1
+R6
+33
+R7
+!i10b 1
+R8
+R17
+R18
+!i113 1
+R11
+R12
+Ecdc3ff
+Z22 w1574041108
+R2
+R3
+R0
+Z23 8C:/Microsemi_Prj/hw8/p1a/synthesis/PartA.vhd
+Z24 FC:/Microsemi_Prj/hw8/p1a/synthesis/PartA.vhd
+l0
+L8
+V6D?lANNknR>NXNhOcjhH:3
+!s100 4_;>@HiR17QIZ[7U>:Hlc3
+R6
+33
+Z25 !s110 1574041381
+!i10b 1
+Z26 !s108 1574041381.000000
+Z27 !s90 -reportprogress|300|-2008|-explicit|-work|postsynth|C:/Microsemi_Prj/hw8/p1a/synthesis/PartA.vhd|
+Z28 !s107 C:/Microsemi_Prj/hw8/p1a/synthesis/PartA.vhd|
+!i113 1
+R11
+R12
+Adef_arch
+R2
+R3
+Z29 DEx4 work 6 cdc3ff 0 22 6D?lANNknR>NXNhOcjhH:3
+l40
+L18
+V]_gRE=5f1WEE?GRB2^6Q62
+!s100 ZjPFlY8W2IGXUzbbG_F7z3
+R6
+33
+R25
+!i10b 1
+R26
+R27
+R28
+!i113 1
+R11
+R12
+Ecdc3ff_tb
+Z30 w1573430883
+R2
+R3
+R0
+Z31 8C:/Microsemi_Prj/hw8/p1a/stimulus/CDC3FF_tb.vhd
+Z32 FC:/Microsemi_Prj/hw8/p1a/stimulus/CDC3FF_tb.vhd
+l0
+L32
+V]Q<GHk8^iC=_l4@1SmM6@3
+!s100 S:ecU[G@1QB9jnW8hz8@F1
+R6
+33
+Z33 !s110 1573434102
+!i10b 1
+Z34 !s108 1573434102.000000
+Z35 !s90 -reportprogress|300|-2008|-explicit|-work|postsynth|C:/Microsemi_Prj/hw8/p1a/stimulus/CDC3FF_tb.vhd|
+Z36 !s107 C:/Microsemi_Prj/hw8/p1a/stimulus/CDC3FF_tb.vhd|
+!i113 1
+R11
+R12
+Abehavioral
+R2
+R3
+DEx4 work 9 cdc3ff_tb 0 22 ]Q<GHk8^iC=_l4@1SmM6@3
+l59
+L35
+VeRneb<J>@OT9D[bZ@@dg@0
+!s100 Z@W9NiFJ3Ilk4L<AUilT`0
+R6
+33
+R33
+!i10b 1
+R34
+R35
+R36
+!i113 1
+R11
+R12
+Eparta
+R22
+R2
+R3
+R0
+R23
+R24
+l0
+L67
+VUSSI6:RUXBa@`lji14^3V0
+!s100 P35470`AcR]ILY7@e]DJm1
+R6
+33
+R25
+!i10b 1
+R26
+R27
+R28
+!i113 1
+R11
+R12
+Adef_arch
+R29
+R2
+R3
+DEx4 work 5 parta 0 22 USSI6:RUXBa@`lji14^3V0
+l143
+L77
+Vb^MPPKj2lLg4JP[`d[:S?1
+!s100 bI:Hzbo5O3eIElja4iOHb2
+R6
+33
+R25
+!i10b 1
+R26
+R27
+R28
+!i113 1
+R11
+R12
+Eparta_tb
+Z37 w1574041371
+R2
+R3
+R0
+Z38 8C:/Microsemi_Prj/hw8/p1a/stimulus/PartA_tb.vhd
+Z39 FC:/Microsemi_Prj/hw8/p1a/stimulus/PartA_tb.vhd
+l0
+L23
+Vi`=d4KMmP:QH]3ABE@N^61
+!s100 `[24?RL?KOXF9dPFmEKT_1
+R6
+33
+R25
+!i10b 1
+R26
+Z40 !s90 -reportprogress|300|-2008|-explicit|-work|postsynth|C:/Microsemi_Prj/hw8/p1a/stimulus/PartA_tb.vhd|
+Z41 !s107 C:/Microsemi_Prj/hw8/p1a/stimulus/PartA_tb.vhd|
+!i113 1
+R11
+R12
+Abehavioral
+R2
+R3
+DEx4 work 8 parta_tb 0 22 i`=d4KMmP:QH]3ABE@N^61
+l50
+L26
+V`kWE^m:DXO[1jmo4oX9Nn0
+!s100 eAQnhMDS^G8:1@]l:dLTi1
+R6
+33
+R25
+!i10b 1
+R26
+R40
+R41
+!i113 1
+R11
+R12
+Esynchronizer
+R1
+R2
+R3
+R0
+R4
+R5
+l0
+L8
+V[E1T:U1UE?3f@9dfnH[4k1
+!s100 Y=Cb;=[F3V5J7=c>A_On_0
+R6
+33
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Adef_arch
+R2
+R3
+R13
+l40
+L18
+Vcb4z;>Uf_mkU5>Q[TF6G72
+!s100 SbFVDQ3U2;XoA=;A6VQXK3
+R6
+33
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12

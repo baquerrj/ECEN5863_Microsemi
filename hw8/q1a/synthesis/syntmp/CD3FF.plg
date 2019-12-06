@@ -1,0 +1,15 @@
+@P:  Worst Slack : 7.371
+@P:  CD3FF|Aclk - Estimated Frequency : 380.3 MHz
+@P:  CD3FF|Aclk - Requested Frequency : 100.0 MHz
+@P:  CD3FF|Aclk - Estimated Period : 2.629
+@P:  CD3FF|Aclk - Requested Period : 10.000
+@P:  CD3FF|Aclk - Slack : 7.371
+@P:  CD3FF|Bclk - Estimated Frequency : NA
+@P:  CD3FF|Bclk - Requested Frequency : 100.0 MHz
+@P:  CD3FF|Bclk - Estimated Period : NA
+@P:  CD3FF|Bclk - Requested Period : 10.000
+@P:  CD3FF|Bclk - Slack : NA
+@P:  Total Area : 11.0
+@P:  Total Area : 6.0
+@P:  Total Area : 11.0
+@P:  CPU Time : 0h:00m:00s

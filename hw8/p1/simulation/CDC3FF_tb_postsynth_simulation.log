@@ -1,0 +1,2467 @@
+# Reading C:/Microsemi/Libero_SoC_v11.8/Modelsim/tcl/vsim/pref.tcl
+# do run.do
+# 
+# AMBA BFM Compiler (BETA Version 2.1.105 17Nov08) 
+#   Reading
+#    Processing test.bfm
+#    Processing user.bfm
+#   Enumerating
+#   Assigning
+#   Checking
+#    Checking Complete
+#    27 Global  localconstants Defined
+#   Writing Vectors test.vec
+#    Commands Generated 100
+#    Vectors Generated 371
+#    Vector CheckSum 5129b491
+# 
+# BFM Compiler Completed Okay
+# Model Technology ModelSim Microsemi vmap 10.5c Lib Mapping Utility 2016.07 Jul 21 2016
+# vmap postsynth postsynth 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vmap 10.5c Lib Mapping Utility 2016.07 Jul 21 2016
+# vmap smartfusion C:/Microsemi/Libero_SoC_v11.8/Designer/lib/modelsim/precompiled/vlog/smartfusion 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vmap 10.5c Lib Mapping Utility 2016.07 Jul 21 2016
+# vmap MSS_BFM_LIB ../component/Actel/SmartFusionMSS/MSS/2.5.200/mti/user_verilog/MSS_BFM_LIB 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vcom 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 13:50:52 on Nov 10,2019
+# vcom -reportprogress 300 -work MSS_BFM_LIB -force_refresh 
+# -- Skipping module acb_96_bit
+# -- Skipping module adc
+# -- Skipping module AddrDecM0
+# -- Skipping module AddrDecM1
+# -- Skipping module AddrDecM2
+# -- Skipping module AddrDecM3
+# -- Skipping module AddrDecM4
+# -- Skipping module AhbClient_HM
+# -- Skipping module AhbWrapper_FM
+# -- Skipping module AhbWrapper_HM
+# -- Skipping module analog_mux
+# -- Skipping module analog_mux_F060
+# -- Skipping module analog_quad
+# -- Skipping module ApbClient_HM
+# -- Skipping module ApbWrapper_FM
+# -- Skipping module BFM_MAIN
+# -- Skipping module Client_FM
+# -- Skipping module ClientAddrData_FM
+# -- Skipping module ClientAddrData_HM
+# -- Skipping module CMMaster0Stage
+# -- Skipping module CMMaster1Stage
+# -- Skipping module CMMaster2Stage
+# -- Skipping module CMMaster3Stage
+# -- Skipping module CMMaster4Stage
+# -- Skipping module CMSlaveStage
+# -- Skipping module DefaultSlaveSM
+# -- Skipping module dp512x32
+# -- Skipping module dp512x32_col
+# -- Skipping module drive_analog_input
+# -- Skipping module drive_analog_input_varef
+# -- Skipping module drive_analog_io
+# -- Skipping module drive_analog_io_39bit
+# -- Skipping module drive_current_inputs
+# -- Skipping module drive_current_monitor
+# -- Skipping module drive_differential_inputs
+# -- Skipping module drive_temperature_quad
+# -- Skipping module drive_varef_out
+# -- Skipping module DSSAB
+# -- Skipping module DSSAB_F060
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package em_pkg
+# -- Compiling entity EM_addr_gen
+# -- Compiling architecture rtl of EM_addr_gen
+# -- Compiling entity EM_ahb_int
+# -- Compiling architecture rtl of EM_ahb_int
+# -- Compiling entity EM_phase_gen
+# -- Compiling architecture rtl of EM_phase_gen
+# -- Compiling package em_pkg
+# -- Compiling package body em_pkg
+# -- Loading package em_pkg
+# -- Loading package em_pkg
+# -- Compiling entity EM_rdata_gen
+# -- Compiling architecture rtl of EM_rdata_gen
+# -- Compiling entity EM_wdata_gen
+# -- Compiling architecture rtl of EM_wdata_gen
+# -- Skipping module F2_ACE_512x16
+# -- Skipping module F2AB
+# -- Skipping module F2AB_F060
+# -- Skipping module F2DSS_ACE
+# -- Skipping module F2DSS_ACE_MISC
+# -- Skipping module F2DSS_ACE_MISC_APB3
+# -- Skipping module F2DSS_ACE_MISC_FDET
+# -- Skipping module F2DSS_ACE_MISC_FDET12
+# -- Skipping module F2DSS_ACE_MISC_INT_LOGIC
+# -- Skipping module F2DSS_ACE_MISC_PDMA
+# -- Skipping module F2DSS_ACE_MISC_RDET
+# -- Skipping module F2DSS_ACE_MISC_RDET12
+# -- Skipping module F2DSS_ACE_MISC_RDET32
+# -- Skipping module F2DSS_ACE_MISC_RDMUX
+# -- Skipping module F2DSS_ACE_MISC_STICKYFLAG
+# -- Skipping module F2DSS_ACE_MISC_STICKYFLAG21
+# -- Skipping module F2DSS_ACE_MISC_STICKYFLAG24
+# -- Skipping module F2DSS_ACE_MISC_STICKYFLAG32
+# -- Skipping module F2DSS_ACE_MISC_STICKYFLAG9
+# -- Skipping module F2DSS_ACE_MISC_SYNC
+# -- Skipping module F2DSS_ACE_MISC_SYNC12
+# -- Skipping module F2DSS_ACE_PPE
+# -- Skipping module F2DSS_ACE_PPE_ADDER
+# -- Skipping module F2DSS_ACE_PPE_ALU
+# -- Skipping module F2DSS_ACE_PPE_DPRAM
+# -- Skipping module F2DSS_ACE_PPE_DPRAM_CTRL
+# -- Skipping module F2DSS_ACE_PPE_FIFO
+# -- Skipping module F2DSS_ACE_PPE_FIFO_CTRL
+# -- Skipping module F2DSS_ACE_PPE_FSM
+# -- Skipping module F2DSS_ACE_PPE_FSM_STFILT
+# -- Skipping module F2DSS_ACE_PPE_MULT
+# -- Skipping module F2DSS_ACE_PPE_RDMUX
+# -- Skipping module F2DSS_ACE_PPE_SSE_CTRL
+# -- Skipping module F2DSS_ACE_PPE_THRFLAGS
+# -- Skipping module F2DSS_ACE_PPE_XFER_DINMUX
+# -- Skipping module F2DSS_ACE_RAMS
+# -- Skipping module F2DSS_COMMSMATRIX
+# -- Loading package ATTRIBUTES
+# -- Loading package std_logic_misc
+# -- Compiling entity F2DSS_EMC
+# -- Compiling architecture rtl of F2DSS_EMC
+# -- Skipping module F2DSS_FABRICIF
+# -- Skipping module F2DSS_GPIO
+# -- Skipping module F2DSS_SSE
+# -- Skipping module F2DSS_SSE_APB3_PPE_IF
+# -- Skipping module F2DSS_SSE_ENGINE
+# -- Skipping module F2DSS_SSE_PHASE_ACCUMS
+# -- Skipping module F2DSS_SSE_TDM_FSM
+# -- Skipping module FABRICIF_FM
+# -- Skipping module FABRICIF_HM
+# -- Skipping module M3_BFM
+# -- Skipping module Matrix5x8
+# -- Skipping module MSS_AHB
+# -- Skipping module MSS_AHB_F060
+# -- Skipping module MSS_AHB_F060_IP
+# -- Skipping module MSS_AHB_IP
+# -- Skipping module MSS_APB
+# -- Skipping module MSS_APB_F060
+# -- Skipping module MSS_APB_F060_IP
+# -- Skipping module MSS_APB_IP
+# -- Skipping module MSS_APBSLAVES
+# -- Skipping module MSS_BFM_AHB2APB
+# -- Skipping module MSS_BFM_AHBSLAVE
+# -- Skipping module MSS_BFM_AHBSLAVEEXT
+# -- Skipping module mss_clockgen
+# -- Skipping module MSS_SYSREG
+# -- Skipping module obd
+# -- Skipping module obd_mux
+# -- Skipping module read_39bit_analog_io
+# -- Skipping module read_analog_input
+# -- Skipping module read_analog_io
+# -- Skipping module SINGLE_PORT_RAM
+# -- Skipping module SlaveArbiter
+# -- Skipping module sp512x16
+# End time: 13:50:52 on Nov 10,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vlog 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 13:50:52 on Nov 10,2019
+# vlog -reportprogress 300 -work MSS_BFM_LIB -force_refresh 
+# -- Refreshing module acb_96_bit
+# -- Refreshing module adc
+# -- Refreshing module AddrDecM0
+# -- Refreshing module AddrDecM1
+# -- Refreshing module AddrDecM2
+# -- Refreshing module AddrDecM3
+# -- Refreshing module AddrDecM4
+# -- Refreshing module AhbClient_HM
+# -- Refreshing module AhbWrapper_FM
+# -- Refreshing module AhbWrapper_HM
+# -- Refreshing module analog_mux
+# -- Refreshing module analog_mux_F060
+# -- Refreshing module analog_quad
+# -- Refreshing module ApbClient_HM
+# -- Refreshing module ApbWrapper_FM
+# -- Refreshing module BFM_MAIN
+# -- Refreshing module Client_FM
+# -- Refreshing module ClientAddrData_FM
+# -- Refreshing module ClientAddrData_HM
+# -- Refreshing module CMMaster0Stage
+# -- Refreshing module CMMaster1Stage
+# -- Refreshing module CMMaster2Stage
+# -- Refreshing module CMMaster3Stage
+# -- Refreshing module CMMaster4Stage
+# -- Refreshing module CMSlaveStage
+# -- Refreshing module DefaultSlaveSM
+# -- Refreshing module dp512x32
+# -- Refreshing module dp512x32_col
+# -- Refreshing module drive_analog_input
+# -- Refreshing module drive_analog_input_varef
+# -- Refreshing module drive_analog_io
+# -- Refreshing module drive_analog_io_39bit
+# -- Refreshing module drive_current_inputs
+# -- Refreshing module drive_current_monitor
+# -- Refreshing module drive_differential_inputs
+# -- Refreshing module drive_temperature_quad
+# -- Refreshing module drive_varef_out
+# -- Refreshing module DSSAB
+# -- Refreshing module DSSAB_F060
+# -- Skipping entity em_addr_gen
+# -- Skipping entity em_ahb_int
+# -- Skipping entity em_phase_gen
+# -- Skipping package em_pkg
+# -- Skipping entity em_rdata_gen
+# -- Skipping entity em_wdata_gen
+# -- Refreshing module F2_ACE_512x16
+# -- Refreshing module F2AB
+# -- Refreshing module F2AB_F060
+# -- Refreshing module F2DSS_ACE
+# -- Refreshing module F2DSS_ACE_MISC
+# -- Refreshing module F2DSS_ACE_MISC_APB3
+# -- Refreshing module F2DSS_ACE_MISC_FDET
+# -- Refreshing module F2DSS_ACE_MISC_FDET12
+# -- Refreshing module F2DSS_ACE_MISC_INT_LOGIC
+# -- Refreshing module F2DSS_ACE_MISC_PDMA
+# -- Refreshing module F2DSS_ACE_MISC_RDET
+# -- Refreshing module F2DSS_ACE_MISC_RDET12
+# -- Refreshing module F2DSS_ACE_MISC_RDET32
+# -- Refreshing module F2DSS_ACE_MISC_RDMUX
+# -- Refreshing module F2DSS_ACE_MISC_STICKYFLAG
+# -- Refreshing module F2DSS_ACE_MISC_STICKYFLAG21
+# -- Refreshing module F2DSS_ACE_MISC_STICKYFLAG24
+# -- Refreshing module F2DSS_ACE_MISC_STICKYFLAG32
+# -- Refreshing module F2DSS_ACE_MISC_STICKYFLAG9
+# -- Refreshing module F2DSS_ACE_MISC_SYNC
+# -- Refreshing module F2DSS_ACE_MISC_SYNC12
+# -- Refreshing module F2DSS_ACE_PPE
+# -- Refreshing module F2DSS_ACE_PPE_ADDER
+# -- Refreshing module F2DSS_ACE_PPE_ALU
+# -- Refreshing module F2DSS_ACE_PPE_DPRAM
+# -- Refreshing module F2DSS_ACE_PPE_DPRAM_CTRL
+# -- Refreshing module F2DSS_ACE_PPE_FIFO
+# -- Refreshing module F2DSS_ACE_PPE_FIFO_CTRL
+# -- Refreshing module F2DSS_ACE_PPE_FSM
+# -- Refreshing module F2DSS_ACE_PPE_FSM_STFILT
+# -- Refreshing module F2DSS_ACE_PPE_MULT
+# -- Refreshing module F2DSS_ACE_PPE_RDMUX
+# -- Refreshing module F2DSS_ACE_PPE_SSE_CTRL
+# -- Refreshing module F2DSS_ACE_PPE_THRFLAGS
+# -- Refreshing module F2DSS_ACE_PPE_XFER_DINMUX
+# -- Refreshing module F2DSS_ACE_RAMS
+# -- Refreshing module F2DSS_COMMSMATRIX
+# -- Skipping entity f2dss_emc
+# -- Refreshing module F2DSS_FABRICIF
+# -- Refreshing module F2DSS_GPIO
+# -- Refreshing module F2DSS_SSE
+# -- Refreshing module F2DSS_SSE_APB3_PPE_IF
+# -- Refreshing module F2DSS_SSE_ENGINE
+# -- Refreshing module F2DSS_SSE_PHASE_ACCUMS
+# -- Refreshing module F2DSS_SSE_TDM_FSM
+# -- Refreshing module FABRICIF_FM
+# -- Refreshing module FABRICIF_HM
+# -- Refreshing module M3_BFM
+# -- Refreshing module Matrix5x8
+# -- Refreshing module MSS_AHB
+# -- Refreshing module MSS_AHB_F060
+# -- Refreshing module MSS_AHB_F060_IP
+# -- Refreshing module MSS_AHB_IP
+# -- Refreshing module MSS_APB
+# -- Refreshing module MSS_APB_F060
+# -- Refreshing module MSS_APB_F060_IP
+# -- Refreshing module MSS_APB_IP
+# -- Refreshing module MSS_APBSLAVES
+# -- Refreshing module MSS_BFM_AHB2APB
+# -- Refreshing module MSS_BFM_AHBSLAVE
+# -- Refreshing module MSS_BFM_AHBSLAVEEXT
+# -- Refreshing module mss_clockgen
+# -- Refreshing module MSS_SYSREG
+# -- Refreshing module obd
+# -- Refreshing module obd_mux
+# -- Refreshing module read_39bit_analog_io
+# -- Refreshing module read_analog_input
+# -- Refreshing module read_analog_io
+# -- Refreshing module SINGLE_PORT_RAM
+# -- Refreshing module SlaveArbiter
+# -- Refreshing module sp512x16
+# End time: 13:50:53 on Nov 10,2019, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vcom 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 13:50:53 on Nov 10,2019
+# vcom -reportprogress 300 -2008 -explicit -work postsynth C:/Microsemi_Prj/hw8/p1/synthesis/CDC3FF_MSS.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity clk_source_MSS_tmp_MSS_CCC_0_MSS_CCC
+# -- Compiling architecture DEF_ARCH of clk_source_MSS_tmp_MSS_CCC_0_MSS_CCC
+# -- Compiling entity clk_source_MSS
+# -- Compiling architecture DEF_ARCH of clk_source_MSS
+# -- Loading entity clk_source_MSS_tmp_MSS_CCC_0_MSS_CCC
+# -- Compiling entity CDC3FF
+# -- Compiling architecture DEF_ARCH of CDC3FF
+# -- Compiling entity CDC3FF_MSS
+# -- Compiling architecture DEF_ARCH of CDC3FF_MSS
+# -- Loading entity clk_source_MSS
+# -- Loading entity CDC3FF
+# End time: 13:50:54 on Nov 10,2019, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vcom 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 13:50:54 on Nov 10,2019
+# vcom -reportprogress 300 -2008 -explicit -work postsynth C:/Microsemi_Prj/hw8/p1/stimulus/CDC3FF_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity CDC3FF_tb
+# -- Compiling architecture behavioral of CDC3FF_tb
+# End time: 13:50:54 on Nov 10,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -L smartfusion -L postsynth -L MSS_BFM_LIB -t 1ps postsynth.CDC3FF_tb 
+# Start time: 13:50:54 on Nov 10,2019
+# //  ModelSim Microsemi 10.5c Jul 21 2016
+# //
+# //  Copyright 1991-2016 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim Microsemi and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading postsynth.cdc3ff_tb(behavioral)
+# Loading postsynth.cdc3ff_mss(def_arch)
+# Loading postsynth.clk_source_mss(def_arch)
+# Loading postsynth.clk_source_mss_tmp_mss_ccc_0_mss_ccc(def_arch)
+# Loading smartfusion.MSS_CCC
+# Loading smartfusion.MSS_CCC_IP
+# Loading smartfusion.PLLPRIM
+# Loading smartfusion.NGMUXPRIM
+# Loading smartfusion.SHREG
+# Loading smartfusion.VCC
+# Loading smartfusion.RCOSC
+# Loading smartfusion.GND
+# Loading smartfusion.INBUF
+# Loading postsynth.cdc3ff(def_arch)
+# Loading smartfusion.DFN1C1
+# Loading smartfusion.OUTBUF
+# Loading smartfusion.UFPRB
+#  ** Warning: OCDIVHALF unknown.
+#  Time: 0.0 Instance: cdc3ff_tb.CDC3FF_MSS_0.clk_source_MSS_0.MSS_CCC_0.I_MSSCCC.CCCP1.P1 
+#  ** Warning: OBDIVHALF unknown.
+#  Time: 0.0 Instance: cdc3ff_tb.CDC3FF_MSS_0.clk_source_MSS_0.MSS_CCC_0.I_MSSCCC.CCCP1.P1 
+#  ** Warning: OADIVHALF unknown.
+#  Time: 0.0 Instance: cdc3ff_tb.CDC3FF_MSS_0.clk_source_MSS_0.MSS_CCC_0.I_MSSCCC.CCCP1.P1 
+#  ** Warning: FBSEL is unknown.
+#  Time: 0.0 Instance: cdc3ff_tb.CDC3FF_MSS_0.clk_source_MSS_0.MSS_CCC_0.I_MSSCCC.CCCP1.P1 
+#  ** Warning: Illegal configuration. Only even OBDIV values from 2 to 28 (inclusive) are allowed with OBDIVHALF.
+#  Time: 0.0 Instance: cdc3ff_tb.CDC3FF_MSS_0.clk_source_MSS_0.MSS_CCC_0.I_MSSCCC.CCCP1.P1 
+vsim MSS_BFM_LIB.mss_clockgen
+# End time: 13:53:59 on Nov 10,2019, Elapsed time: 0:03:05
+# Errors: 0, Warnings: 0
+# vsim MSS_BFM_LIB.mss_clockgen 
+# Start time: 13:53:59 on Nov 10,2019
+# ** Fatal: (vsim-3611) Top-level design unit 'mss_clockgen' cannot be license neutral.
+#    Time: 0 ns  Iteration: 0  Root: / File: NOFILE
+# FATAL ERROR while loading design
+# Error loading design
+# End time: 13:53:59 on Nov 10,2019, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+do run.do
+# 
+# AMBA BFM Compiler (BETA Version 2.1.105 17Nov08) 
+#   Reading
+#    Processing test.bfm
+#    Processing user.bfm
+#   Enumerating
+#   Assigning
+#   Checking
+#    Checking Complete
+#    27 Global  localconstants Defined
+#   Writing Vectors test.vec
+#    Commands Generated 100
+#    Vectors Generated 371
+#    Vector CheckSum 5129b491
+# 
+# BFM Compiler Completed Okay
+# INFO: Simulation library postsynth already exists
+# Model Technology ModelSim Microsemi vmap 10.5c Lib Mapping Utility 2016.07 Jul 21 2016
+# vmap postsynth postsynth 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vmap 10.5c Lib Mapping Utility 2016.07 Jul 21 2016
+# vmap smartfusion C:/Microsemi/Libero_SoC_v11.8/Designer/lib/modelsim/precompiled/vlog/smartfusion 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vmap 10.5c Lib Mapping Utility 2016.07 Jul 21 2016
+# vmap MSS_BFM_LIB ../component/Actel/SmartFusionMSS/MSS/2.5.200/mti/user_verilog/MSS_BFM_LIB 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vcom 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 13:54:04 on Nov 10,2019
+# vcom -reportprogress 300 -work MSS_BFM_LIB -force_refresh 
+# -- Skipping module acb_96_bit
+# -- Skipping module adc
+# -- Skipping module AddrDecM0
+# -- Skipping module AddrDecM1
+# -- Skipping module AddrDecM2
+# -- Skipping module AddrDecM3
+# -- Skipping module AddrDecM4
+# -- Skipping module AhbClient_HM
+# -- Skipping module AhbWrapper_FM
+# -- Skipping module AhbWrapper_HM
+# -- Skipping module analog_mux
+# -- Skipping module analog_mux_F060
+# -- Skipping module analog_quad
+# -- Skipping module ApbClient_HM
+# -- Skipping module ApbWrapper_FM
+# -- Skipping module BFM_MAIN
+# -- Skipping module Client_FM
+# -- Skipping module ClientAddrData_FM
+# -- Skipping module ClientAddrData_HM
+# -- Skipping module CMMaster0Stage
+# -- Skipping module CMMaster1Stage
+# -- Skipping module CMMaster2Stage
+# -- Skipping module CMMaster3Stage
+# -- Skipping module CMMaster4Stage
+# -- Skipping module CMSlaveStage
+# -- Skipping module DefaultSlaveSM
+# -- Skipping module dp512x32
+# -- Skipping module dp512x32_col
+# -- Skipping module drive_analog_input
+# -- Skipping module drive_analog_input_varef
+# -- Skipping module drive_analog_io
+# -- Skipping module drive_analog_io_39bit
+# -- Skipping module drive_current_inputs
+# -- Skipping module drive_current_monitor
+# -- Skipping module drive_differential_inputs
+# -- Skipping module drive_temperature_quad
+# -- Skipping module drive_varef_out
+# -- Skipping module DSSAB
+# -- Skipping module DSSAB_F060
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package em_pkg
+# -- Compiling entity EM_addr_gen
+# -- Compiling architecture rtl of EM_addr_gen
+# -- Compiling entity EM_ahb_int
+# -- Compiling architecture rtl of EM_ahb_int
+# -- Compiling entity EM_phase_gen
+# -- Compiling architecture rtl of EM_phase_gen
+# -- Compiling package em_pkg
+# -- Compiling package body em_pkg
+# -- Loading package em_pkg
+# -- Loading package em_pkg
+# -- Compiling entity EM_rdata_gen
+# -- Compiling architecture rtl of EM_rdata_gen
+# -- Compiling entity EM_wdata_gen
+# -- Compiling architecture rtl of EM_wdata_gen
+# -- Skipping module F2_ACE_512x16
+# -- Skipping module F2AB
+# -- Skipping module F2AB_F060
+# -- Skipping module F2DSS_ACE
+# -- Skipping module F2DSS_ACE_MISC
+# -- Skipping module F2DSS_ACE_MISC_APB3
+# -- Skipping module F2DSS_ACE_MISC_FDET
+# -- Skipping module F2DSS_ACE_MISC_FDET12
+# -- Skipping module F2DSS_ACE_MISC_INT_LOGIC
+# -- Skipping module F2DSS_ACE_MISC_PDMA
+# -- Skipping module F2DSS_ACE_MISC_RDET
+# -- Skipping module F2DSS_ACE_MISC_RDET12
+# -- Skipping module F2DSS_ACE_MISC_RDET32
+# -- Skipping module F2DSS_ACE_MISC_RDMUX
+# -- Skipping module F2DSS_ACE_MISC_STICKYFLAG
+# -- Skipping module F2DSS_ACE_MISC_STICKYFLAG21
+# -- Skipping module F2DSS_ACE_MISC_STICKYFLAG24
+# -- Skipping module F2DSS_ACE_MISC_STICKYFLAG32
+# -- Skipping module F2DSS_ACE_MISC_STICKYFLAG9
+# -- Skipping module F2DSS_ACE_MISC_SYNC
+# -- Skipping module F2DSS_ACE_MISC_SYNC12
+# -- Skipping module F2DSS_ACE_PPE
+# -- Skipping module F2DSS_ACE_PPE_ADDER
+# -- Skipping module F2DSS_ACE_PPE_ALU
+# -- Skipping module F2DSS_ACE_PPE_DPRAM
+# -- Skipping module F2DSS_ACE_PPE_DPRAM_CTRL
+# -- Skipping module F2DSS_ACE_PPE_FIFO
+# -- Skipping module F2DSS_ACE_PPE_FIFO_CTRL
+# -- Skipping module F2DSS_ACE_PPE_FSM
+# -- Skipping module F2DSS_ACE_PPE_FSM_STFILT
+# -- Skipping module F2DSS_ACE_PPE_MULT
+# -- Skipping module F2DSS_ACE_PPE_RDMUX
+# -- Skipping module F2DSS_ACE_PPE_SSE_CTRL
+# -- Skipping module F2DSS_ACE_PPE_THRFLAGS
+# -- Skipping module F2DSS_ACE_PPE_XFER_DINMUX
+# -- Skipping module F2DSS_ACE_RAMS
+# -- Skipping module F2DSS_COMMSMATRIX
+# -- Loading package ATTRIBUTES
+# -- Loading package std_logic_misc
+# -- Compiling entity F2DSS_EMC
+# -- Compiling architecture rtl of F2DSS_EMC
+# -- Skipping module F2DSS_FABRICIF
+# -- Skipping module F2DSS_GPIO
+# -- Skipping module F2DSS_SSE
+# -- Skipping module F2DSS_SSE_APB3_PPE_IF
+# -- Skipping module F2DSS_SSE_ENGINE
+# -- Skipping module F2DSS_SSE_PHASE_ACCUMS
+# -- Skipping module F2DSS_SSE_TDM_FSM
+# -- Skipping module FABRICIF_FM
+# -- Skipping module FABRICIF_HM
+# -- Skipping module M3_BFM
+# -- Skipping module Matrix5x8
+# -- Skipping module MSS_AHB
+# -- Skipping module MSS_AHB_F060
+# -- Skipping module MSS_AHB_F060_IP
+# -- Skipping module MSS_AHB_IP
+# -- Skipping module MSS_APB
+# -- Skipping module MSS_APB_F060
+# -- Skipping module MSS_APB_F060_IP
+# -- Skipping module MSS_APB_IP
+# -- Skipping module MSS_APBSLAVES
+# -- Skipping module MSS_BFM_AHB2APB
+# -- Skipping module MSS_BFM_AHBSLAVE
+# -- Skipping module MSS_BFM_AHBSLAVEEXT
+# -- Skipping module mss_clockgen
+# -- Skipping module MSS_SYSREG
+# -- Skipping module obd
+# -- Skipping module obd_mux
+# -- Skipping module read_39bit_analog_io
+# -- Skipping module read_analog_input
+# -- Skipping module read_analog_io
+# -- Skipping module SINGLE_PORT_RAM
+# -- Skipping module SlaveArbiter
+# -- Skipping module sp512x16
+# End time: 13:54:04 on Nov 10,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vlog 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 13:54:05 on Nov 10,2019
+# vlog -reportprogress 300 -work MSS_BFM_LIB -force_refresh 
+# -- Refreshing module acb_96_bit
+# -- Refreshing module adc
+# -- Refreshing module AddrDecM0
+# -- Refreshing module AddrDecM1
+# -- Refreshing module AddrDecM2
+# -- Refreshing module AddrDecM3
+# -- Refreshing module AddrDecM4
+# -- Refreshing module AhbClient_HM
+# -- Refreshing module AhbWrapper_FM
+# -- Refreshing module AhbWrapper_HM
+# -- Refreshing module analog_mux
+# -- Refreshing module analog_mux_F060
+# -- Refreshing module analog_quad
+# -- Refreshing module ApbClient_HM
+# -- Refreshing module ApbWrapper_FM
+# -- Refreshing module BFM_MAIN
+# -- Refreshing module Client_FM
+# -- Refreshing module ClientAddrData_FM
+# -- Refreshing module ClientAddrData_HM
+# -- Refreshing module CMMaster0Stage
+# -- Refreshing module CMMaster1Stage
+# -- Refreshing module CMMaster2Stage
+# -- Refreshing module CMMaster3Stage
+# -- Refreshing module CMMaster4Stage
+# -- Refreshing module CMSlaveStage
+# -- Refreshing module DefaultSlaveSM
+# -- Refreshing module dp512x32
+# -- Refreshing module dp512x32_col
+# -- Refreshing module drive_analog_input
+# -- Refreshing module drive_analog_input_varef
+# -- Refreshing module drive_analog_io
+# -- Refreshing module drive_analog_io_39bit
+# -- Refreshing module drive_current_inputs
+# -- Refreshing module drive_current_monitor
+# -- Refreshing module drive_differential_inputs
+# -- Refreshing module drive_temperature_quad
+# -- Refreshing module drive_varef_out
+# -- Refreshing module DSSAB
+# -- Refreshing module DSSAB_F060
+# -- Skipping entity em_addr_gen
+# -- Skipping entity em_ahb_int
+# -- Skipping entity em_phase_gen
+# -- Skipping package em_pkg
+# -- Skipping entity em_rdata_gen
+# -- Skipping entity em_wdata_gen
+# -- Refreshing module F2_ACE_512x16
+# -- Refreshing module F2AB
+# -- Refreshing module F2AB_F060
+# -- Refreshing module F2DSS_ACE
+# -- Refreshing module F2DSS_ACE_MISC
+# -- Refreshing module F2DSS_ACE_MISC_APB3
+# -- Refreshing module F2DSS_ACE_MISC_FDET
+# -- Refreshing module F2DSS_ACE_MISC_FDET12
+# -- Refreshing module F2DSS_ACE_MISC_INT_LOGIC
+# -- Refreshing module F2DSS_ACE_MISC_PDMA
+# -- Refreshing module F2DSS_ACE_MISC_RDET
+# -- Refreshing module F2DSS_ACE_MISC_RDET12
+# -- Refreshing module F2DSS_ACE_MISC_RDET32
+# -- Refreshing module F2DSS_ACE_MISC_RDMUX
+# -- Refreshing module F2DSS_ACE_MISC_STICKYFLAG
+# -- Refreshing module F2DSS_ACE_MISC_STICKYFLAG21
+# -- Refreshing module F2DSS_ACE_MISC_STICKYFLAG24
+# -- Refreshing module F2DSS_ACE_MISC_STICKYFLAG32
+# -- Refreshing module F2DSS_ACE_MISC_STICKYFLAG9
+# -- Refreshing module F2DSS_ACE_MISC_SYNC
+# -- Refreshing module F2DSS_ACE_MISC_SYNC12
+# -- Refreshing module F2DSS_ACE_PPE
+# -- Refreshing module F2DSS_ACE_PPE_ADDER
+# -- Refreshing module F2DSS_ACE_PPE_ALU
+# -- Refreshing module F2DSS_ACE_PPE_DPRAM
+# -- Refreshing module F2DSS_ACE_PPE_DPRAM_CTRL
+# -- Refreshing module F2DSS_ACE_PPE_FIFO
+# -- Refreshing module F2DSS_ACE_PPE_FIFO_CTRL
+# -- Refreshing module F2DSS_ACE_PPE_FSM
+# -- Refreshing module F2DSS_ACE_PPE_FSM_STFILT
+# -- Refreshing module F2DSS_ACE_PPE_MULT
+# -- Refreshing module F2DSS_ACE_PPE_RDMUX
+# -- Refreshing module F2DSS_ACE_PPE_SSE_CTRL
+# -- Refreshing module F2DSS_ACE_PPE_THRFLAGS
+# -- Refreshing module F2DSS_ACE_PPE_XFER_DINMUX
+# -- Refreshing module F2DSS_ACE_RAMS
+# -- Refreshing module F2DSS_COMMSMATRIX
+# -- Skipping entity f2dss_emc
+# -- Refreshing module F2DSS_FABRICIF
+# -- Refreshing module F2DSS_GPIO
+# -- Refreshing module F2DSS_SSE
+# -- Refreshing module F2DSS_SSE_APB3_PPE_IF
+# -- Refreshing module F2DSS_SSE_ENGINE
+# -- Refreshing module F2DSS_SSE_PHASE_ACCUMS
+# -- Refreshing module F2DSS_SSE_TDM_FSM
+# -- Refreshing module FABRICIF_FM
+# -- Refreshing module FABRICIF_HM
+# -- Refreshing module M3_BFM
+# -- Refreshing module Matrix5x8
+# -- Refreshing module MSS_AHB
+# -- Refreshing module MSS_AHB_F060
+# -- Refreshing module MSS_AHB_F060_IP
+# -- Refreshing module MSS_AHB_IP
+# -- Refreshing module MSS_APB
+# -- Refreshing module MSS_APB_F060
+# -- Refreshing module MSS_APB_F060_IP
+# -- Refreshing module MSS_APB_IP
+# -- Refreshing module MSS_APBSLAVES
+# -- Refreshing module MSS_BFM_AHB2APB
+# -- Refreshing module MSS_BFM_AHBSLAVE
+# -- Refreshing module MSS_BFM_AHBSLAVEEXT
+# -- Refreshing module mss_clockgen
+# -- Refreshing module MSS_SYSREG
+# -- Refreshing module obd
+# -- Refreshing module obd_mux
+# -- Refreshing module read_39bit_analog_io
+# -- Refreshing module read_analog_input
+# -- Refreshing module read_analog_io
+# -- Refreshing module SINGLE_PORT_RAM
+# -- Refreshing module SlaveArbiter
+# -- Refreshing module sp512x16
+# End time: 13:54:05 on Nov 10,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vcom 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 13:54:06 on Nov 10,2019
+# vcom -reportprogress 300 -2008 -explicit -work postsynth C:/Microsemi_Prj/hw8/p1/synthesis/CDC3FF_MSS.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity clk_source_MSS_tmp_MSS_CCC_0_MSS_CCC
+# -- Compiling architecture DEF_ARCH of clk_source_MSS_tmp_MSS_CCC_0_MSS_CCC
+# -- Compiling entity clk_source_MSS
+# -- Compiling architecture DEF_ARCH of clk_source_MSS
+# -- Loading entity clk_source_MSS_tmp_MSS_CCC_0_MSS_CCC
+# -- Compiling entity CDC3FF
+# -- Compiling architecture DEF_ARCH of CDC3FF
+# -- Compiling entity CDC3FF_MSS
+# -- Compiling architecture DEF_ARCH of CDC3FF_MSS
+# -- Loading entity clk_source_MSS
+# -- Loading entity CDC3FF
+# End time: 13:54:06 on Nov 10,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vcom 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 13:54:06 on Nov 10,2019
+# vcom -reportprogress 300 -2008 -explicit -work postsynth C:/Microsemi_Prj/hw8/p1/stimulus/CDC3FF_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity CDC3FF_tb
+# -- Compiling architecture behavioral of CDC3FF_tb
+# End time: 13:54:06 on Nov 10,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -L smartfusion -L postsynth -L MSS_BFM_LIB -t 1ps postsynth.CDC3FF_tb 
+# Start time: 13:54:06 on Nov 10,2019
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading postsynth.cdc3ff_tb(behavioral)
+# Loading postsynth.cdc3ff_mss(def_arch)
+# Loading postsynth.clk_source_mss(def_arch)
+# Loading postsynth.clk_source_mss_tmp_mss_ccc_0_mss_ccc(def_arch)
+# Loading smartfusion.MSS_CCC
+# Loading smartfusion.MSS_CCC_IP
+# Loading smartfusion.PLLPRIM
+# Loading smartfusion.NGMUXPRIM
+# Loading smartfusion.SHREG
+# Loading smartfusion.VCC
+# Loading smartfusion.RCOSC
+# Loading smartfusion.GND
+# Loading smartfusion.INBUF
+# Loading postsynth.cdc3ff(def_arch)
+# Loading smartfusion.DFN1C1
+# Loading smartfusion.OUTBUF
+# Loading smartfusion.UFPRB
+#  ** Warning: OCDIVHALF unknown.
+#  Time: 0.0 Instance: cdc3ff_tb.CDC3FF_MSS_0.clk_source_MSS_0.MSS_CCC_0.I_MSSCCC.CCCP1.P1 
+#  ** Warning: OBDIVHALF unknown.
+#  Time: 0.0 Instance: cdc3ff_tb.CDC3FF_MSS_0.clk_source_MSS_0.MSS_CCC_0.I_MSSCCC.CCCP1.P1 
+#  ** Warning: OADIVHALF unknown.
+#  Time: 0.0 Instance: cdc3ff_tb.CDC3FF_MSS_0.clk_source_MSS_0.MSS_CCC_0.I_MSSCCC.CCCP1.P1 
+#  ** Warning: FBSEL is unknown.
+#  Time: 0.0 Instance: cdc3ff_tb.CDC3FF_MSS_0.clk_source_MSS_0.MSS_CCC_0.I_MSSCCC.CCCP1.P1 
+#  ** Warning: Illegal configuration. Only even OBDIV values from 2 to 28 (inclusive) are allowed with OBDIVHALF.
+#  Time: 0.0 Instance: cdc3ff_tb.CDC3FF_MSS_0.clk_source_MSS_0.MSS_CCC_0.I_MSSCCC.CCCP1.P1 
+add wave -position insertpoint sim:/cdc3ff_tb/CDC3FF_MSS_0/clk_source_MSS_0/*
+run
+run
+run
+run
+run
+run
+run
+run
+run
+do run.do
+# 
+# AMBA BFM Compiler (BETA Version 2.1.105 17Nov08) 
+#   Reading
+#    Processing test.bfm
+#    Processing user.bfm
+#   Enumerating
+#   Assigning
+#   Checking
+#    Checking Complete
+#    27 Global  localconstants Defined
+#   Writing Vectors test.vec
+#    Commands Generated 100
+#    Vectors Generated 371
+#    Vector CheckSum 5129b491
+# 
+# BFM Compiler Completed Okay
+# INFO: Simulation library postsynth already exists
+# Model Technology ModelSim Microsemi vmap 10.5c Lib Mapping Utility 2016.07 Jul 21 2016
+# vmap postsynth postsynth 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vmap 10.5c Lib Mapping Utility 2016.07 Jul 21 2016
+# vmap smartfusion C:/Microsemi/Libero_SoC_v11.8/Designer/lib/modelsim/precompiled/vlog/smartfusion 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vmap 10.5c Lib Mapping Utility 2016.07 Jul 21 2016
+# vmap MSS_BFM_LIB ../component/Actel/SmartFusionMSS/MSS/2.5.200/mti/user_verilog/MSS_BFM_LIB 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vcom 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 13:57:03 on Nov 10,2019
+# vcom -reportprogress 300 -work MSS_BFM_LIB -force_refresh 
+# -- Skipping module acb_96_bit
+# -- Skipping module adc
+# -- Skipping module AddrDecM0
+# -- Skipping module AddrDecM1
+# -- Skipping module AddrDecM2
+# -- Skipping module AddrDecM3
+# -- Skipping module AddrDecM4
+# -- Skipping module AhbClient_HM
+# -- Skipping module AhbWrapper_FM
+# -- Skipping module AhbWrapper_HM
+# -- Skipping module analog_mux
+# -- Skipping module analog_mux_F060
+# -- Skipping module analog_quad
+# -- Skipping module ApbClient_HM
+# -- Skipping module ApbWrapper_FM
+# -- Skipping module BFM_MAIN
+# -- Skipping module Client_FM
+# -- Skipping module ClientAddrData_FM
+# -- Skipping module ClientAddrData_HM
+# -- Skipping module CMMaster0Stage
+# -- Skipping module CMMaster1Stage
+# -- Skipping module CMMaster2Stage
+# -- Skipping module CMMaster3Stage
+# -- Skipping module CMMaster4Stage
+# -- Skipping module CMSlaveStage
+# -- Skipping module DefaultSlaveSM
+# -- Skipping module dp512x32
+# -- Skipping module dp512x32_col
+# -- Skipping module drive_analog_input
+# -- Skipping module drive_analog_input_varef
+# -- Skipping module drive_analog_io
+# -- Skipping module drive_analog_io_39bit
+# -- Skipping module drive_current_inputs
+# -- Skipping module drive_current_monitor
+# -- Skipping module drive_differential_inputs
+# -- Skipping module drive_temperature_quad
+# -- Skipping module drive_varef_out
+# -- Skipping module DSSAB
+# -- Skipping module DSSAB_F060
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package em_pkg
+# -- Compiling entity EM_addr_gen
+# -- Compiling architecture rtl of EM_addr_gen
+# -- Compiling entity EM_ahb_int
+# -- Compiling architecture rtl of EM_ahb_int
+# -- Compiling entity EM_phase_gen
+# -- Compiling architecture rtl of EM_phase_gen
+# -- Compiling package em_pkg
+# -- Compiling package body em_pkg
+# -- Loading package em_pkg
+# -- Loading package em_pkg
+# -- Compiling entity EM_rdata_gen
+# -- Compiling architecture rtl of EM_rdata_gen
+# -- Compiling entity EM_wdata_gen
+# -- Compiling architecture rtl of EM_wdata_gen
+# -- Skipping module F2_ACE_512x16
+# -- Skipping module F2AB
+# -- Skipping module F2AB_F060
+# -- Skipping module F2DSS_ACE
+# -- Skipping module F2DSS_ACE_MISC
+# -- Skipping module F2DSS_ACE_MISC_APB3
+# -- Skipping module F2DSS_ACE_MISC_FDET
+# -- Skipping module F2DSS_ACE_MISC_FDET12
+# -- Skipping module F2DSS_ACE_MISC_INT_LOGIC
+# -- Skipping module F2DSS_ACE_MISC_PDMA
+# -- Skipping module F2DSS_ACE_MISC_RDET
+# -- Skipping module F2DSS_ACE_MISC_RDET12
+# -- Skipping module F2DSS_ACE_MISC_RDET32
+# -- Skipping module F2DSS_ACE_MISC_RDMUX
+# -- Skipping module F2DSS_ACE_MISC_STICKYFLAG
+# -- Skipping module F2DSS_ACE_MISC_STICKYFLAG21
+# -- Skipping module F2DSS_ACE_MISC_STICKYFLAG24
+# -- Skipping module F2DSS_ACE_MISC_STICKYFLAG32
+# -- Skipping module F2DSS_ACE_MISC_STICKYFLAG9
+# -- Skipping module F2DSS_ACE_MISC_SYNC
+# -- Skipping module F2DSS_ACE_MISC_SYNC12
+# -- Skipping module F2DSS_ACE_PPE
+# -- Skipping module F2DSS_ACE_PPE_ADDER
+# -- Skipping module F2DSS_ACE_PPE_ALU
+# -- Skipping module F2DSS_ACE_PPE_DPRAM
+# -- Skipping module F2DSS_ACE_PPE_DPRAM_CTRL
+# -- Skipping module F2DSS_ACE_PPE_FIFO
+# -- Skipping module F2DSS_ACE_PPE_FIFO_CTRL
+# -- Skipping module F2DSS_ACE_PPE_FSM
+# -- Skipping module F2DSS_ACE_PPE_FSM_STFILT
+# -- Skipping module F2DSS_ACE_PPE_MULT
+# -- Skipping module F2DSS_ACE_PPE_RDMUX
+# -- Skipping module F2DSS_ACE_PPE_SSE_CTRL
+# -- Skipping module F2DSS_ACE_PPE_THRFLAGS
+# -- Skipping module F2DSS_ACE_PPE_XFER_DINMUX
+# -- Skipping module F2DSS_ACE_RAMS
+# -- Skipping module F2DSS_COMMSMATRIX
+# -- Loading package ATTRIBUTES
+# -- Loading package std_logic_misc
+# -- Compiling entity F2DSS_EMC
+# -- Compiling architecture rtl of F2DSS_EMC
+# -- Skipping module F2DSS_FABRICIF
+# -- Skipping module F2DSS_GPIO
+# -- Skipping module F2DSS_SSE
+# -- Skipping module F2DSS_SSE_APB3_PPE_IF
+# -- Skipping module F2DSS_SSE_ENGINE
+# -- Skipping module F2DSS_SSE_PHASE_ACCUMS
+# -- Skipping module F2DSS_SSE_TDM_FSM
+# -- Skipping module FABRICIF_FM
+# -- Skipping module FABRICIF_HM
+# -- Skipping module M3_BFM
+# -- Skipping module Matrix5x8
+# -- Skipping module MSS_AHB
+# -- Skipping module MSS_AHB_F060
+# -- Skipping module MSS_AHB_F060_IP
+# -- Skipping module MSS_AHB_IP
+# -- Skipping module MSS_APB
+# -- Skipping module MSS_APB_F060
+# -- Skipping module MSS_APB_F060_IP
+# -- Skipping module MSS_APB_IP
+# -- Skipping module MSS_APBSLAVES
+# -- Skipping module MSS_BFM_AHB2APB
+# -- Skipping module MSS_BFM_AHBSLAVE
+# -- Skipping module MSS_BFM_AHBSLAVEEXT
+# -- Skipping module mss_clockgen
+# -- Skipping module MSS_SYSREG
+# -- Skipping module obd
+# -- Skipping module obd_mux
+# -- Skipping module read_39bit_analog_io
+# -- Skipping module read_analog_input
+# -- Skipping module read_analog_io
+# -- Skipping module SINGLE_PORT_RAM
+# -- Skipping module SlaveArbiter
+# -- Skipping module sp512x16
+# End time: 13:57:03 on Nov 10,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vlog 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 13:57:04 on Nov 10,2019
+# vlog -reportprogress 300 -work MSS_BFM_LIB -force_refresh 
+# -- Refreshing module acb_96_bit
+# -- Refreshing module adc
+# -- Refreshing module AddrDecM0
+# -- Refreshing module AddrDecM1
+# -- Refreshing module AddrDecM2
+# -- Refreshing module AddrDecM3
+# -- Refreshing module AddrDecM4
+# -- Refreshing module AhbClient_HM
+# -- Refreshing module AhbWrapper_FM
+# -- Refreshing module AhbWrapper_HM
+# -- Refreshing module analog_mux
+# -- Refreshing module analog_mux_F060
+# -- Refreshing module analog_quad
+# -- Refreshing module ApbClient_HM
+# -- Refreshing module ApbWrapper_FM
+# -- Refreshing module BFM_MAIN
+# -- Refreshing module Client_FM
+# -- Refreshing module ClientAddrData_FM
+# -- Refreshing module ClientAddrData_HM
+# -- Refreshing module CMMaster0Stage
+# -- Refreshing module CMMaster1Stage
+# -- Refreshing module CMMaster2Stage
+# -- Refreshing module CMMaster3Stage
+# -- Refreshing module CMMaster4Stage
+# -- Refreshing module CMSlaveStage
+# -- Refreshing module DefaultSlaveSM
+# -- Refreshing module dp512x32
+# -- Refreshing module dp512x32_col
+# -- Refreshing module drive_analog_input
+# -- Refreshing module drive_analog_input_varef
+# -- Refreshing module drive_analog_io
+# -- Refreshing module drive_analog_io_39bit
+# -- Refreshing module drive_current_inputs
+# -- Refreshing module drive_current_monitor
+# -- Refreshing module drive_differential_inputs
+# -- Refreshing module drive_temperature_quad
+# -- Refreshing module drive_varef_out
+# -- Refreshing module DSSAB
+# -- Refreshing module DSSAB_F060
+# -- Skipping entity em_addr_gen
+# -- Skipping entity em_ahb_int
+# -- Skipping entity em_phase_gen
+# -- Skipping package em_pkg
+# -- Skipping entity em_rdata_gen
+# -- Skipping entity em_wdata_gen
+# -- Refreshing module F2_ACE_512x16
+# -- Refreshing module F2AB
+# -- Refreshing module F2AB_F060
+# -- Refreshing module F2DSS_ACE
+# -- Refreshing module F2DSS_ACE_MISC
+# -- Refreshing module F2DSS_ACE_MISC_APB3
+# -- Refreshing module F2DSS_ACE_MISC_FDET
+# -- Refreshing module F2DSS_ACE_MISC_FDET12
+# -- Refreshing module F2DSS_ACE_MISC_INT_LOGIC
+# -- Refreshing module F2DSS_ACE_MISC_PDMA
+# -- Refreshing module F2DSS_ACE_MISC_RDET
+# -- Refreshing module F2DSS_ACE_MISC_RDET12
+# -- Refreshing module F2DSS_ACE_MISC_RDET32
+# -- Refreshing module F2DSS_ACE_MISC_RDMUX
+# -- Refreshing module F2DSS_ACE_MISC_STICKYFLAG
+# -- Refreshing module F2DSS_ACE_MISC_STICKYFLAG21
+# -- Refreshing module F2DSS_ACE_MISC_STICKYFLAG24
+# -- Refreshing module F2DSS_ACE_MISC_STICKYFLAG32
+# -- Refreshing module F2DSS_ACE_MISC_STICKYFLAG9
+# -- Refreshing module F2DSS_ACE_MISC_SYNC
+# -- Refreshing module F2DSS_ACE_MISC_SYNC12
+# -- Refreshing module F2DSS_ACE_PPE
+# -- Refreshing module F2DSS_ACE_PPE_ADDER
+# -- Refreshing module F2DSS_ACE_PPE_ALU
+# -- Refreshing module F2DSS_ACE_PPE_DPRAM
+# -- Refreshing module F2DSS_ACE_PPE_DPRAM_CTRL
+# -- Refreshing module F2DSS_ACE_PPE_FIFO
+# -- Refreshing module F2DSS_ACE_PPE_FIFO_CTRL
+# -- Refreshing module F2DSS_ACE_PPE_FSM
+# -- Refreshing module F2DSS_ACE_PPE_FSM_STFILT
+# -- Refreshing module F2DSS_ACE_PPE_MULT
+# -- Refreshing module F2DSS_ACE_PPE_RDMUX
+# -- Refreshing module F2DSS_ACE_PPE_SSE_CTRL
+# -- Refreshing module F2DSS_ACE_PPE_THRFLAGS
+# -- Refreshing module F2DSS_ACE_PPE_XFER_DINMUX
+# -- Refreshing module F2DSS_ACE_RAMS
+# -- Refreshing module F2DSS_COMMSMATRIX
+# -- Skipping entity f2dss_emc
+# -- Refreshing module F2DSS_FABRICIF
+# -- Refreshing module F2DSS_GPIO
+# -- Refreshing module F2DSS_SSE
+# -- Refreshing module F2DSS_SSE_APB3_PPE_IF
+# -- Refreshing module F2DSS_SSE_ENGINE
+# -- Refreshing module F2DSS_SSE_PHASE_ACCUMS
+# -- Refreshing module F2DSS_SSE_TDM_FSM
+# -- Refreshing module FABRICIF_FM
+# -- Refreshing module FABRICIF_HM
+# -- Refreshing module M3_BFM
+# -- Refreshing module Matrix5x8
+# -- Refreshing module MSS_AHB
+# -- Refreshing module MSS_AHB_F060
+# -- Refreshing module MSS_AHB_F060_IP
+# -- Refreshing module MSS_AHB_IP
+# -- Refreshing module MSS_APB
+# -- Refreshing module MSS_APB_F060
+# -- Refreshing module MSS_APB_F060_IP
+# -- Refreshing module MSS_APB_IP
+# -- Refreshing module MSS_APBSLAVES
+# -- Refreshing module MSS_BFM_AHB2APB
+# -- Refreshing module MSS_BFM_AHBSLAVE
+# -- Refreshing module MSS_BFM_AHBSLAVEEXT
+# -- Refreshing module mss_clockgen
+# -- Refreshing module MSS_SYSREG
+# -- Refreshing module obd
+# -- Refreshing module obd_mux
+# -- Refreshing module read_39bit_analog_io
+# -- Refreshing module read_analog_input
+# -- Refreshing module read_analog_io
+# -- Refreshing module SINGLE_PORT_RAM
+# -- Refreshing module SlaveArbiter
+# -- Refreshing module sp512x16
+# End time: 13:57:05 on Nov 10,2019, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vcom 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 13:57:05 on Nov 10,2019
+# vcom -reportprogress 300 -2008 -explicit -work postsynth C:/Microsemi_Prj/hw8/p1/synthesis/CDC3FF_MSS.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity clk_source_MSS_tmp_MSS_CCC_0_MSS_CCC
+# -- Compiling architecture DEF_ARCH of clk_source_MSS_tmp_MSS_CCC_0_MSS_CCC
+# -- Compiling entity clk_source_MSS
+# -- Compiling architecture DEF_ARCH of clk_source_MSS
+# -- Loading entity clk_source_MSS_tmp_MSS_CCC_0_MSS_CCC
+# -- Compiling entity CDC3FF
+# -- Compiling architecture DEF_ARCH of CDC3FF
+# -- Compiling entity CDC3FF_MSS
+# -- Compiling architecture DEF_ARCH of CDC3FF_MSS
+# -- Loading entity clk_source_MSS
+# -- Loading entity CDC3FF
+# End time: 13:57:05 on Nov 10,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vcom 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 13:57:05 on Nov 10,2019
+# vcom -reportprogress 300 -2008 -explicit -work postsynth C:/Microsemi_Prj/hw8/p1/stimulus/CDC3FF_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity CDC3FF_tb
+# -- Compiling architecture behavioral of CDC3FF_tb
+# End time: 13:57:05 on Nov 10,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 13:57:06 on Nov 10,2019, Elapsed time: 0:03:00
+# Errors: 0, Warnings: 0
+# vsim -L smartfusion -L postsynth -L MSS_BFM_LIB -t 1ps postsynth.CDC3FF_tb 
+# Start time: 13:57:06 on Nov 10,2019
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading postsynth.cdc3ff_tb(behavioral)
+# Loading postsynth.cdc3ff_mss(def_arch)
+# Loading postsynth.clk_source_mss(def_arch)
+# Loading postsynth.clk_source_mss_tmp_mss_ccc_0_mss_ccc(def_arch)
+# Loading smartfusion.MSS_CCC
+# Loading smartfusion.MSS_CCC_IP
+# Loading smartfusion.PLLPRIM
+# Loading smartfusion.NGMUXPRIM
+# Loading smartfusion.SHREG
+# Loading smartfusion.VCC
+# Loading smartfusion.RCOSC
+# Loading smartfusion.GND
+# Loading smartfusion.INBUF
+# Loading postsynth.cdc3ff(def_arch)
+# Loading smartfusion.DFN1C1
+# Loading smartfusion.OUTBUF
+# Loading smartfusion.UFPRB
+#  ** Warning: OCDIVHALF unknown.
+#  Time: 0.0 Instance: cdc3ff_tb.CDC3FF_MSS_0.clk_source_MSS_0.MSS_CCC_0.I_MSSCCC.CCCP1.P1 
+#  ** Warning: OBDIVHALF unknown.
+#  Time: 0.0 Instance: cdc3ff_tb.CDC3FF_MSS_0.clk_source_MSS_0.MSS_CCC_0.I_MSSCCC.CCCP1.P1 
+#  ** Warning: OADIVHALF unknown.
+#  Time: 0.0 Instance: cdc3ff_tb.CDC3FF_MSS_0.clk_source_MSS_0.MSS_CCC_0.I_MSSCCC.CCCP1.P1 
+#  ** Warning: FBSEL is unknown.
+#  Time: 0.0 Instance: cdc3ff_tb.CDC3FF_MSS_0.clk_source_MSS_0.MSS_CCC_0.I_MSSCCC.CCCP1.P1 
+#  ** Warning: Illegal configuration. Only even OBDIV values from 2 to 28 (inclusive) are allowed with OBDIVHALF.
+#  Time: 0.0 Instance: cdc3ff_tb.CDC3FF_MSS_0.clk_source_MSS_0.MSS_CCC_0.I_MSSCCC.CCCP1.P1 
+do run.do
+# 
+# AMBA BFM Compiler (BETA Version 2.1.105 17Nov08) 
+#   Reading
+#    Processing test.bfm
+#    Processing user.bfm
+#   Enumerating
+#   Assigning
+#   Checking
+#    Checking Complete
+#    27 Global  localconstants Defined
+#   Writing Vectors test.vec
+#    Commands Generated 100
+#    Vectors Generated 371
+#    Vector CheckSum 5129b491
+# 
+# BFM Compiler Completed Okay
+# INFO: Simulation library postsynth already exists
+# Model Technology ModelSim Microsemi vmap 10.5c Lib Mapping Utility 2016.07 Jul 21 2016
+# vmap postsynth postsynth 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vmap 10.5c Lib Mapping Utility 2016.07 Jul 21 2016
+# vmap smartfusion C:/Microsemi/Libero_SoC_v11.8/Designer/lib/modelsim/precompiled/vlog/smartfusion 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vmap 10.5c Lib Mapping Utility 2016.07 Jul 21 2016
+# vmap MSS_BFM_LIB ../component/Actel/SmartFusionMSS/MSS/2.5.200/mti/user_verilog/MSS_BFM_LIB 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vcom 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 13:58:12 on Nov 10,2019
+# vcom -reportprogress 300 -work MSS_BFM_LIB -force_refresh 
+# -- Skipping module acb_96_bit
+# -- Skipping module adc
+# -- Skipping module AddrDecM0
+# -- Skipping module AddrDecM1
+# -- Skipping module AddrDecM2
+# -- Skipping module AddrDecM3
+# -- Skipping module AddrDecM4
+# -- Skipping module AhbClient_HM
+# -- Skipping module AhbWrapper_FM
+# -- Skipping module AhbWrapper_HM
+# -- Skipping module analog_mux
+# -- Skipping module analog_mux_F060
+# -- Skipping module analog_quad
+# -- Skipping module ApbClient_HM
+# -- Skipping module ApbWrapper_FM
+# -- Skipping module BFM_MAIN
+# -- Skipping module Client_FM
+# -- Skipping module ClientAddrData_FM
+# -- Skipping module ClientAddrData_HM
+# -- Skipping module CMMaster0Stage
+# -- Skipping module CMMaster1Stage
+# -- Skipping module CMMaster2Stage
+# -- Skipping module CMMaster3Stage
+# -- Skipping module CMMaster4Stage
+# -- Skipping module CMSlaveStage
+# -- Skipping module DefaultSlaveSM
+# -- Skipping module dp512x32
+# -- Skipping module dp512x32_col
+# -- Skipping module drive_analog_input
+# -- Skipping module drive_analog_input_varef
+# -- Skipping module drive_analog_io
+# -- Skipping module drive_analog_io_39bit
+# -- Skipping module drive_current_inputs
+# -- Skipping module drive_current_monitor
+# -- Skipping module drive_differential_inputs
+# -- Skipping module drive_temperature_quad
+# -- Skipping module drive_varef_out
+# -- Skipping module DSSAB
+# -- Skipping module DSSAB_F060
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package em_pkg
+# -- Compiling entity EM_addr_gen
+# -- Compiling architecture rtl of EM_addr_gen
+# -- Compiling entity EM_ahb_int
+# -- Compiling architecture rtl of EM_ahb_int
+# -- Compiling entity EM_phase_gen
+# -- Compiling architecture rtl of EM_phase_gen
+# -- Compiling package em_pkg
+# -- Compiling package body em_pkg
+# -- Loading package em_pkg
+# -- Loading package em_pkg
+# -- Compiling entity EM_rdata_gen
+# -- Compiling architecture rtl of EM_rdata_gen
+# -- Compiling entity EM_wdata_gen
+# -- Compiling architecture rtl of EM_wdata_gen
+# -- Skipping module F2_ACE_512x16
+# -- Skipping module F2AB
+# -- Skipping module F2AB_F060
+# -- Skipping module F2DSS_ACE
+# -- Skipping module F2DSS_ACE_MISC
+# -- Skipping module F2DSS_ACE_MISC_APB3
+# -- Skipping module F2DSS_ACE_MISC_FDET
+# -- Skipping module F2DSS_ACE_MISC_FDET12
+# -- Skipping module F2DSS_ACE_MISC_INT_LOGIC
+# -- Skipping module F2DSS_ACE_MISC_PDMA
+# -- Skipping module F2DSS_ACE_MISC_RDET
+# -- Skipping module F2DSS_ACE_MISC_RDET12
+# -- Skipping module F2DSS_ACE_MISC_RDET32
+# -- Skipping module F2DSS_ACE_MISC_RDMUX
+# -- Skipping module F2DSS_ACE_MISC_STICKYFLAG
+# -- Skipping module F2DSS_ACE_MISC_STICKYFLAG21
+# -- Skipping module F2DSS_ACE_MISC_STICKYFLAG24
+# -- Skipping module F2DSS_ACE_MISC_STICKYFLAG32
+# -- Skipping module F2DSS_ACE_MISC_STICKYFLAG9
+# -- Skipping module F2DSS_ACE_MISC_SYNC
+# -- Skipping module F2DSS_ACE_MISC_SYNC12
+# -- Skipping module F2DSS_ACE_PPE
+# -- Skipping module F2DSS_ACE_PPE_ADDER
+# -- Skipping module F2DSS_ACE_PPE_ALU
+# -- Skipping module F2DSS_ACE_PPE_DPRAM
+# -- Skipping module F2DSS_ACE_PPE_DPRAM_CTRL
+# -- Skipping module F2DSS_ACE_PPE_FIFO
+# -- Skipping module F2DSS_ACE_PPE_FIFO_CTRL
+# -- Skipping module F2DSS_ACE_PPE_FSM
+# -- Skipping module F2DSS_ACE_PPE_FSM_STFILT
+# -- Skipping module F2DSS_ACE_PPE_MULT
+# -- Skipping module F2DSS_ACE_PPE_RDMUX
+# -- Skipping module F2DSS_ACE_PPE_SSE_CTRL
+# -- Skipping module F2DSS_ACE_PPE_THRFLAGS
+# -- Skipping module F2DSS_ACE_PPE_XFER_DINMUX
+# -- Skipping module F2DSS_ACE_RAMS
+# -- Skipping module F2DSS_COMMSMATRIX
+# -- Loading package ATTRIBUTES
+# -- Loading package std_logic_misc
+# -- Compiling entity F2DSS_EMC
+# -- Compiling architecture rtl of F2DSS_EMC
+# -- Skipping module F2DSS_FABRICIF
+# -- Skipping module F2DSS_GPIO
+# -- Skipping module F2DSS_SSE
+# -- Skipping module F2DSS_SSE_APB3_PPE_IF
+# -- Skipping module F2DSS_SSE_ENGINE
+# -- Skipping module F2DSS_SSE_PHASE_ACCUMS
+# -- Skipping module F2DSS_SSE_TDM_FSM
+# -- Skipping module FABRICIF_FM
+# -- Skipping module FABRICIF_HM
+# -- Skipping module M3_BFM
+# -- Skipping module Matrix5x8
+# -- Skipping module MSS_AHB
+# -- Skipping module MSS_AHB_F060
+# -- Skipping module MSS_AHB_F060_IP
+# -- Skipping module MSS_AHB_IP
+# -- Skipping module MSS_APB
+# -- Skipping module MSS_APB_F060
+# -- Skipping module MSS_APB_F060_IP
+# -- Skipping module MSS_APB_IP
+# -- Skipping module MSS_APBSLAVES
+# -- Skipping module MSS_BFM_AHB2APB
+# -- Skipping module MSS_BFM_AHBSLAVE
+# -- Skipping module MSS_BFM_AHBSLAVEEXT
+# -- Skipping module mss_clockgen
+# -- Skipping module MSS_SYSREG
+# -- Skipping module obd
+# -- Skipping module obd_mux
+# -- Skipping module read_39bit_analog_io
+# -- Skipping module read_analog_input
+# -- Skipping module read_analog_io
+# -- Skipping module SINGLE_PORT_RAM
+# -- Skipping module SlaveArbiter
+# -- Skipping module sp512x16
+# End time: 13:58:12 on Nov 10,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vlog 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 13:58:13 on Nov 10,2019
+# vlog -reportprogress 300 -work MSS_BFM_LIB -force_refresh 
+# -- Refreshing module acb_96_bit
+# -- Refreshing module adc
+# -- Refreshing module AddrDecM0
+# -- Refreshing module AddrDecM1
+# -- Refreshing module AddrDecM2
+# -- Refreshing module AddrDecM3
+# -- Refreshing module AddrDecM4
+# -- Refreshing module AhbClient_HM
+# -- Refreshing module AhbWrapper_FM
+# -- Refreshing module AhbWrapper_HM
+# -- Refreshing module analog_mux
+# -- Refreshing module analog_mux_F060
+# -- Refreshing module analog_quad
+# -- Refreshing module ApbClient_HM
+# -- Refreshing module ApbWrapper_FM
+# -- Refreshing module BFM_MAIN
+# -- Refreshing module Client_FM
+# -- Refreshing module ClientAddrData_FM
+# -- Refreshing module ClientAddrData_HM
+# -- Refreshing module CMMaster0Stage
+# -- Refreshing module CMMaster1Stage
+# -- Refreshing module CMMaster2Stage
+# -- Refreshing module CMMaster3Stage
+# -- Refreshing module CMMaster4Stage
+# -- Refreshing module CMSlaveStage
+# -- Refreshing module DefaultSlaveSM
+# -- Refreshing module dp512x32
+# -- Refreshing module dp512x32_col
+# -- Refreshing module drive_analog_input
+# -- Refreshing module drive_analog_input_varef
+# -- Refreshing module drive_analog_io
+# -- Refreshing module drive_analog_io_39bit
+# -- Refreshing module drive_current_inputs
+# -- Refreshing module drive_current_monitor
+# -- Refreshing module drive_differential_inputs
+# -- Refreshing module drive_temperature_quad
+# -- Refreshing module drive_varef_out
+# -- Refreshing module DSSAB
+# -- Refreshing module DSSAB_F060
+# -- Skipping entity em_addr_gen
+# -- Skipping entity em_ahb_int
+# -- Skipping entity em_phase_gen
+# -- Skipping package em_pkg
+# -- Skipping entity em_rdata_gen
+# -- Skipping entity em_wdata_gen
+# -- Refreshing module F2_ACE_512x16
+# -- Refreshing module F2AB
+# -- Refreshing module F2AB_F060
+# -- Refreshing module F2DSS_ACE
+# -- Refreshing module F2DSS_ACE_MISC
+# -- Refreshing module F2DSS_ACE_MISC_APB3
+# -- Refreshing module F2DSS_ACE_MISC_FDET
+# -- Refreshing module F2DSS_ACE_MISC_FDET12
+# -- Refreshing module F2DSS_ACE_MISC_INT_LOGIC
+# -- Refreshing module F2DSS_ACE_MISC_PDMA
+# -- Refreshing module F2DSS_ACE_MISC_RDET
+# -- Refreshing module F2DSS_ACE_MISC_RDET12
+# -- Refreshing module F2DSS_ACE_MISC_RDET32
+# -- Refreshing module F2DSS_ACE_MISC_RDMUX
+# -- Refreshing module F2DSS_ACE_MISC_STICKYFLAG
+# -- Refreshing module F2DSS_ACE_MISC_STICKYFLAG21
+# -- Refreshing module F2DSS_ACE_MISC_STICKYFLAG24
+# -- Refreshing module F2DSS_ACE_MISC_STICKYFLAG32
+# -- Refreshing module F2DSS_ACE_MISC_STICKYFLAG9
+# -- Refreshing module F2DSS_ACE_MISC_SYNC
+# -- Refreshing module F2DSS_ACE_MISC_SYNC12
+# -- Refreshing module F2DSS_ACE_PPE
+# -- Refreshing module F2DSS_ACE_PPE_ADDER
+# -- Refreshing module F2DSS_ACE_PPE_ALU
+# -- Refreshing module F2DSS_ACE_PPE_DPRAM
+# -- Refreshing module F2DSS_ACE_PPE_DPRAM_CTRL
+# -- Refreshing module F2DSS_ACE_PPE_FIFO
+# -- Refreshing module F2DSS_ACE_PPE_FIFO_CTRL
+# -- Refreshing module F2DSS_ACE_PPE_FSM
+# -- Refreshing module F2DSS_ACE_PPE_FSM_STFILT
+# -- Refreshing module F2DSS_ACE_PPE_MULT
+# -- Refreshing module F2DSS_ACE_PPE_RDMUX
+# -- Refreshing module F2DSS_ACE_PPE_SSE_CTRL
+# -- Refreshing module F2DSS_ACE_PPE_THRFLAGS
+# -- Refreshing module F2DSS_ACE_PPE_XFER_DINMUX
+# -- Refreshing module F2DSS_ACE_RAMS
+# -- Refreshing module F2DSS_COMMSMATRIX
+# -- Skipping entity f2dss_emc
+# -- Refreshing module F2DSS_FABRICIF
+# -- Refreshing module F2DSS_GPIO
+# -- Refreshing module F2DSS_SSE
+# -- Refreshing module F2DSS_SSE_APB3_PPE_IF
+# -- Refreshing module F2DSS_SSE_ENGINE
+# -- Refreshing module F2DSS_SSE_PHASE_ACCUMS
+# -- Refreshing module F2DSS_SSE_TDM_FSM
+# -- Refreshing module FABRICIF_FM
+# -- Refreshing module FABRICIF_HM
+# -- Refreshing module M3_BFM
+# -- Refreshing module Matrix5x8
+# -- Refreshing module MSS_AHB
+# -- Refreshing module MSS_AHB_F060
+# -- Refreshing module MSS_AHB_F060_IP
+# -- Refreshing module MSS_AHB_IP
+# -- Refreshing module MSS_APB
+# -- Refreshing module MSS_APB_F060
+# -- Refreshing module MSS_APB_F060_IP
+# -- Refreshing module MSS_APB_IP
+# -- Refreshing module MSS_APBSLAVES
+# -- Refreshing module MSS_BFM_AHB2APB
+# -- Refreshing module MSS_BFM_AHBSLAVE
+# -- Refreshing module MSS_BFM_AHBSLAVEEXT
+# -- Refreshing module mss_clockgen
+# -- Refreshing module MSS_SYSREG
+# -- Refreshing module obd
+# -- Refreshing module obd_mux
+# -- Refreshing module read_39bit_analog_io
+# -- Refreshing module read_analog_input
+# -- Refreshing module read_analog_io
+# -- Refreshing module SINGLE_PORT_RAM
+# -- Refreshing module SlaveArbiter
+# -- Refreshing module sp512x16
+# End time: 13:58:14 on Nov 10,2019, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vcom 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 13:58:14 on Nov 10,2019
+# vcom -reportprogress 300 -2008 -explicit -work postsynth C:/Microsemi_Prj/hw8/p1/synthesis/CDC3FF_MSS.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity clk_source_MSS_tmp_MSS_CCC_0_MSS_CCC
+# -- Compiling architecture DEF_ARCH of clk_source_MSS_tmp_MSS_CCC_0_MSS_CCC
+# -- Compiling entity clk_source_MSS
+# -- Compiling architecture DEF_ARCH of clk_source_MSS
+# -- Loading entity clk_source_MSS_tmp_MSS_CCC_0_MSS_CCC
+# -- Compiling entity CDC3FF
+# -- Compiling architecture DEF_ARCH of CDC3FF
+# -- Compiling entity CDC3FF_MSS
+# -- Compiling architecture DEF_ARCH of CDC3FF_MSS
+# -- Loading entity clk_source_MSS
+# -- Loading entity CDC3FF
+# End time: 13:58:14 on Nov 10,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vcom 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 13:58:14 on Nov 10,2019
+# vcom -reportprogress 300 -2008 -explicit -work postsynth C:/Microsemi_Prj/hw8/p1/stimulus/CDC3FF_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity CDC3FF_tb
+# -- Compiling architecture behavioral of CDC3FF_tb
+# End time: 13:58:15 on Nov 10,2019, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 13:58:15 on Nov 10,2019, Elapsed time: 0:01:09
+# Errors: 0, Warnings: 0
+# vsim -L smartfusion -L postsynth -L MSS_BFM_LIB -t 1ps postsynth.CDC3FF_tb 
+# Start time: 13:58:15 on Nov 10,2019
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading postsynth.cdc3ff_tb(behavioral)
+# Loading postsynth.cdc3ff_mss(def_arch)
+# Loading postsynth.clk_source_mss(def_arch)
+# Loading postsynth.clk_source_mss_tmp_mss_ccc_0_mss_ccc(def_arch)
+# Loading smartfusion.MSS_CCC
+# Loading smartfusion.MSS_CCC_IP
+# Loading smartfusion.PLLPRIM
+# Loading smartfusion.NGMUXPRIM
+# Loading smartfusion.SHREG
+# Loading smartfusion.VCC
+# Loading smartfusion.RCOSC
+# Loading smartfusion.GND
+# Loading smartfusion.INBUF
+# Loading postsynth.cdc3ff(def_arch)
+# Loading smartfusion.DFN1C1
+# Loading smartfusion.OUTBUF
+# Loading smartfusion.UFPRB
+#  ** Warning: OCDIVHALF unknown.
+#  Time: 0.0 Instance: cdc3ff_tb.CDC3FF_MSS_0.clk_source_MSS_0.MSS_CCC_0.I_MSSCCC.CCCP1.P1 
+#  ** Warning: OBDIVHALF unknown.
+#  Time: 0.0 Instance: cdc3ff_tb.CDC3FF_MSS_0.clk_source_MSS_0.MSS_CCC_0.I_MSSCCC.CCCP1.P1 
+#  ** Warning: OADIVHALF unknown.
+#  Time: 0.0 Instance: cdc3ff_tb.CDC3FF_MSS_0.clk_source_MSS_0.MSS_CCC_0.I_MSSCCC.CCCP1.P1 
+#  ** Warning: FBSEL is unknown.
+#  Time: 0.0 Instance: cdc3ff_tb.CDC3FF_MSS_0.clk_source_MSS_0.MSS_CCC_0.I_MSSCCC.CCCP1.P1 
+#  ** Warning: Illegal configuration. Only even OBDIV values from 2 to 28 (inclusive) are allowed with OBDIVHALF.
+#  Time: 0.0 Instance: cdc3ff_tb.CDC3FF_MSS_0.clk_source_MSS_0.MSS_CCC_0.I_MSSCCC.CCCP1.P1 
+add wave -position insertpoint sim:/cdc3ff_tb/CDC3FF_MSS_0/CDC3FF_0/u2/*
+add wave -position insertpoint sim:/cdc3ff_tb/CDC3FF_MSS_0/CDC3FF_0/u3/*
+add wave -position insertpoint sim:/cdc3ff_tb/CDC3FF_MSS_0/CDC3FF_0/u1/*
+run
+do run.do
+# 
+# AMBA BFM Compiler (BETA Version 2.1.105 17Nov08) 
+#   Reading
+#    Processing test.bfm
+#    Processing user.bfm
+#   Enumerating
+#   Assigning
+#   Checking
+#    Checking Complete
+#    27 Global  localconstants Defined
+#   Writing Vectors test.vec
+#    Commands Generated 100
+#    Vectors Generated 371
+#    Vector CheckSum 5129b491
+# 
+# BFM Compiler Completed Okay
+# INFO: Simulation library postsynth already exists
+# Model Technology ModelSim Microsemi vmap 10.5c Lib Mapping Utility 2016.07 Jul 21 2016
+# vmap postsynth postsynth 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vmap 10.5c Lib Mapping Utility 2016.07 Jul 21 2016
+# vmap smartfusion C:/Microsemi/Libero_SoC_v11.8/Designer/lib/modelsim/precompiled/vlog/smartfusion 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vmap 10.5c Lib Mapping Utility 2016.07 Jul 21 2016
+# vmap MSS_BFM_LIB ../component/Actel/SmartFusionMSS/MSS/2.5.200/mti/user_verilog/MSS_BFM_LIB 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vcom 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 14:02:02 on Nov 10,2019
+# vcom -reportprogress 300 -work MSS_BFM_LIB -force_refresh 
+# -- Skipping module acb_96_bit
+# -- Skipping module adc
+# -- Skipping module AddrDecM0
+# -- Skipping module AddrDecM1
+# -- Skipping module AddrDecM2
+# -- Skipping module AddrDecM3
+# -- Skipping module AddrDecM4
+# -- Skipping module AhbClient_HM
+# -- Skipping module AhbWrapper_FM
+# -- Skipping module AhbWrapper_HM
+# -- Skipping module analog_mux
+# -- Skipping module analog_mux_F060
+# -- Skipping module analog_quad
+# -- Skipping module ApbClient_HM
+# -- Skipping module ApbWrapper_FM
+# -- Skipping module BFM_MAIN
+# -- Skipping module Client_FM
+# -- Skipping module ClientAddrData_FM
+# -- Skipping module ClientAddrData_HM
+# -- Skipping module CMMaster0Stage
+# -- Skipping module CMMaster1Stage
+# -- Skipping module CMMaster2Stage
+# -- Skipping module CMMaster3Stage
+# -- Skipping module CMMaster4Stage
+# -- Skipping module CMSlaveStage
+# -- Skipping module DefaultSlaveSM
+# -- Skipping module dp512x32
+# -- Skipping module dp512x32_col
+# -- Skipping module drive_analog_input
+# -- Skipping module drive_analog_input_varef
+# -- Skipping module drive_analog_io
+# -- Skipping module drive_analog_io_39bit
+# -- Skipping module drive_current_inputs
+# -- Skipping module drive_current_monitor
+# -- Skipping module drive_differential_inputs
+# -- Skipping module drive_temperature_quad
+# -- Skipping module drive_varef_out
+# -- Skipping module DSSAB
+# -- Skipping module DSSAB_F060
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package em_pkg
+# -- Compiling entity EM_addr_gen
+# -- Compiling architecture rtl of EM_addr_gen
+# -- Compiling entity EM_ahb_int
+# -- Compiling architecture rtl of EM_ahb_int
+# -- Compiling entity EM_phase_gen
+# -- Compiling architecture rtl of EM_phase_gen
+# -- Compiling package em_pkg
+# -- Compiling package body em_pkg
+# -- Loading package em_pkg
+# -- Loading package em_pkg
+# -- Compiling entity EM_rdata_gen
+# -- Compiling architecture rtl of EM_rdata_gen
+# -- Compiling entity EM_wdata_gen
+# -- Compiling architecture rtl of EM_wdata_gen
+# -- Skipping module F2_ACE_512x16
+# -- Skipping module F2AB
+# -- Skipping module F2AB_F060
+# -- Skipping module F2DSS_ACE
+# -- Skipping module F2DSS_ACE_MISC
+# -- Skipping module F2DSS_ACE_MISC_APB3
+# -- Skipping module F2DSS_ACE_MISC_FDET
+# -- Skipping module F2DSS_ACE_MISC_FDET12
+# -- Skipping module F2DSS_ACE_MISC_INT_LOGIC
+# -- Skipping module F2DSS_ACE_MISC_PDMA
+# -- Skipping module F2DSS_ACE_MISC_RDET
+# -- Skipping module F2DSS_ACE_MISC_RDET12
+# -- Skipping module F2DSS_ACE_MISC_RDET32
+# -- Skipping module F2DSS_ACE_MISC_RDMUX
+# -- Skipping module F2DSS_ACE_MISC_STICKYFLAG
+# -- Skipping module F2DSS_ACE_MISC_STICKYFLAG21
+# -- Skipping module F2DSS_ACE_MISC_STICKYFLAG24
+# -- Skipping module F2DSS_ACE_MISC_STICKYFLAG32
+# -- Skipping module F2DSS_ACE_MISC_STICKYFLAG9
+# -- Skipping module F2DSS_ACE_MISC_SYNC
+# -- Skipping module F2DSS_ACE_MISC_SYNC12
+# -- Skipping module F2DSS_ACE_PPE
+# -- Skipping module F2DSS_ACE_PPE_ADDER
+# -- Skipping module F2DSS_ACE_PPE_ALU
+# -- Skipping module F2DSS_ACE_PPE_DPRAM
+# -- Skipping module F2DSS_ACE_PPE_DPRAM_CTRL
+# -- Skipping module F2DSS_ACE_PPE_FIFO
+# -- Skipping module F2DSS_ACE_PPE_FIFO_CTRL
+# -- Skipping module F2DSS_ACE_PPE_FSM
+# -- Skipping module F2DSS_ACE_PPE_FSM_STFILT
+# -- Skipping module F2DSS_ACE_PPE_MULT
+# -- Skipping module F2DSS_ACE_PPE_RDMUX
+# -- Skipping module F2DSS_ACE_PPE_SSE_CTRL
+# -- Skipping module F2DSS_ACE_PPE_THRFLAGS
+# -- Skipping module F2DSS_ACE_PPE_XFER_DINMUX
+# -- Skipping module F2DSS_ACE_RAMS
+# -- Skipping module F2DSS_COMMSMATRIX
+# -- Loading package ATTRIBUTES
+# -- Loading package std_logic_misc
+# -- Compiling entity F2DSS_EMC
+# -- Compiling architecture rtl of F2DSS_EMC
+# -- Skipping module F2DSS_FABRICIF
+# -- Skipping module F2DSS_GPIO
+# -- Skipping module F2DSS_SSE
+# -- Skipping module F2DSS_SSE_APB3_PPE_IF
+# -- Skipping module F2DSS_SSE_ENGINE
+# -- Skipping module F2DSS_SSE_PHASE_ACCUMS
+# -- Skipping module F2DSS_SSE_TDM_FSM
+# -- Skipping module FABRICIF_FM
+# -- Skipping module FABRICIF_HM
+# -- Skipping module M3_BFM
+# -- Skipping module Matrix5x8
+# -- Skipping module MSS_AHB
+# -- Skipping module MSS_AHB_F060
+# -- Skipping module MSS_AHB_F060_IP
+# -- Skipping module MSS_AHB_IP
+# -- Skipping module MSS_APB
+# -- Skipping module MSS_APB_F060
+# -- Skipping module MSS_APB_F060_IP
+# -- Skipping module MSS_APB_IP
+# -- Skipping module MSS_APBSLAVES
+# -- Skipping module MSS_BFM_AHB2APB
+# -- Skipping module MSS_BFM_AHBSLAVE
+# -- Skipping module MSS_BFM_AHBSLAVEEXT
+# -- Skipping module mss_clockgen
+# -- Skipping module MSS_SYSREG
+# -- Skipping module obd
+# -- Skipping module obd_mux
+# -- Skipping module read_39bit_analog_io
+# -- Skipping module read_analog_input
+# -- Skipping module read_analog_io
+# -- Skipping module SINGLE_PORT_RAM
+# -- Skipping module SlaveArbiter
+# -- Skipping module sp512x16
+# End time: 14:02:02 on Nov 10,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vlog 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 14:02:03 on Nov 10,2019
+# vlog -reportprogress 300 -work MSS_BFM_LIB -force_refresh 
+# -- Refreshing module acb_96_bit
+# -- Refreshing module adc
+# -- Refreshing module AddrDecM0
+# -- Refreshing module AddrDecM1
+# -- Refreshing module AddrDecM2
+# -- Refreshing module AddrDecM3
+# -- Refreshing module AddrDecM4
+# -- Refreshing module AhbClient_HM
+# -- Refreshing module AhbWrapper_FM
+# -- Refreshing module AhbWrapper_HM
+# -- Refreshing module analog_mux
+# -- Refreshing module analog_mux_F060
+# -- Refreshing module analog_quad
+# -- Refreshing module ApbClient_HM
+# -- Refreshing module ApbWrapper_FM
+# -- Refreshing module BFM_MAIN
+# -- Refreshing module Client_FM
+# -- Refreshing module ClientAddrData_FM
+# -- Refreshing module ClientAddrData_HM
+# -- Refreshing module CMMaster0Stage
+# -- Refreshing module CMMaster1Stage
+# -- Refreshing module CMMaster2Stage
+# -- Refreshing module CMMaster3Stage
+# -- Refreshing module CMMaster4Stage
+# -- Refreshing module CMSlaveStage
+# -- Refreshing module DefaultSlaveSM
+# -- Refreshing module dp512x32
+# -- Refreshing module dp512x32_col
+# -- Refreshing module drive_analog_input
+# -- Refreshing module drive_analog_input_varef
+# -- Refreshing module drive_analog_io
+# -- Refreshing module drive_analog_io_39bit
+# -- Refreshing module drive_current_inputs
+# -- Refreshing module drive_current_monitor
+# -- Refreshing module drive_differential_inputs
+# -- Refreshing module drive_temperature_quad
+# -- Refreshing module drive_varef_out
+# -- Refreshing module DSSAB
+# -- Refreshing module DSSAB_F060
+# -- Skipping entity em_addr_gen
+# -- Skipping entity em_ahb_int
+# -- Skipping entity em_phase_gen
+# -- Skipping package em_pkg
+# -- Skipping entity em_rdata_gen
+# -- Skipping entity em_wdata_gen
+# -- Refreshing module F2_ACE_512x16
+# -- Refreshing module F2AB
+# -- Refreshing module F2AB_F060
+# -- Refreshing module F2DSS_ACE
+# -- Refreshing module F2DSS_ACE_MISC
+# -- Refreshing module F2DSS_ACE_MISC_APB3
+# -- Refreshing module F2DSS_ACE_MISC_FDET
+# -- Refreshing module F2DSS_ACE_MISC_FDET12
+# -- Refreshing module F2DSS_ACE_MISC_INT_LOGIC
+# -- Refreshing module F2DSS_ACE_MISC_PDMA
+# -- Refreshing module F2DSS_ACE_MISC_RDET
+# -- Refreshing module F2DSS_ACE_MISC_RDET12
+# -- Refreshing module F2DSS_ACE_MISC_RDET32
+# -- Refreshing module F2DSS_ACE_MISC_RDMUX
+# -- Refreshing module F2DSS_ACE_MISC_STICKYFLAG
+# -- Refreshing module F2DSS_ACE_MISC_STICKYFLAG21
+# -- Refreshing module F2DSS_ACE_MISC_STICKYFLAG24
+# -- Refreshing module F2DSS_ACE_MISC_STICKYFLAG32
+# -- Refreshing module F2DSS_ACE_MISC_STICKYFLAG9
+# -- Refreshing module F2DSS_ACE_MISC_SYNC
+# -- Refreshing module F2DSS_ACE_MISC_SYNC12
+# -- Refreshing module F2DSS_ACE_PPE
+# -- Refreshing module F2DSS_ACE_PPE_ADDER
+# -- Refreshing module F2DSS_ACE_PPE_ALU
+# -- Refreshing module F2DSS_ACE_PPE_DPRAM
+# -- Refreshing module F2DSS_ACE_PPE_DPRAM_CTRL
+# -- Refreshing module F2DSS_ACE_PPE_FIFO
+# -- Refreshing module F2DSS_ACE_PPE_FIFO_CTRL
+# -- Refreshing module F2DSS_ACE_PPE_FSM
+# -- Refreshing module F2DSS_ACE_PPE_FSM_STFILT
+# -- Refreshing module F2DSS_ACE_PPE_MULT
+# -- Refreshing module F2DSS_ACE_PPE_RDMUX
+# -- Refreshing module F2DSS_ACE_PPE_SSE_CTRL
+# -- Refreshing module F2DSS_ACE_PPE_THRFLAGS
+# -- Refreshing module F2DSS_ACE_PPE_XFER_DINMUX
+# -- Refreshing module F2DSS_ACE_RAMS
+# -- Refreshing module F2DSS_COMMSMATRIX
+# -- Skipping entity f2dss_emc
+# -- Refreshing module F2DSS_FABRICIF
+# -- Refreshing module F2DSS_GPIO
+# -- Refreshing module F2DSS_SSE
+# -- Refreshing module F2DSS_SSE_APB3_PPE_IF
+# -- Refreshing module F2DSS_SSE_ENGINE
+# -- Refreshing module F2DSS_SSE_PHASE_ACCUMS
+# -- Refreshing module F2DSS_SSE_TDM_FSM
+# -- Refreshing module FABRICIF_FM
+# -- Refreshing module FABRICIF_HM
+# -- Refreshing module M3_BFM
+# -- Refreshing module Matrix5x8
+# -- Refreshing module MSS_AHB
+# -- Refreshing module MSS_AHB_F060
+# -- Refreshing module MSS_AHB_F060_IP
+# -- Refreshing module MSS_AHB_IP
+# -- Refreshing module MSS_APB
+# -- Refreshing module MSS_APB_F060
+# -- Refreshing module MSS_APB_F060_IP
+# -- Refreshing module MSS_APB_IP
+# -- Refreshing module MSS_APBSLAVES
+# -- Refreshing module MSS_BFM_AHB2APB
+# -- Refreshing module MSS_BFM_AHBSLAVE
+# -- Refreshing module MSS_BFM_AHBSLAVEEXT
+# -- Refreshing module mss_clockgen
+# -- Refreshing module MSS_SYSREG
+# -- Refreshing module obd
+# -- Refreshing module obd_mux
+# -- Refreshing module read_39bit_analog_io
+# -- Refreshing module read_analog_input
+# -- Refreshing module read_analog_io
+# -- Refreshing module SINGLE_PORT_RAM
+# -- Refreshing module SlaveArbiter
+# -- Refreshing module sp512x16
+# End time: 14:02:04 on Nov 10,2019, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vcom 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 14:02:04 on Nov 10,2019
+# vcom -reportprogress 300 -2008 -explicit -work postsynth C:/Microsemi_Prj/hw8/p1/synthesis/CDC3FF_MSS.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity clk_source_MSS_tmp_MSS_CCC_0_MSS_CCC
+# -- Compiling architecture DEF_ARCH of clk_source_MSS_tmp_MSS_CCC_0_MSS_CCC
+# -- Compiling entity clk_source_MSS
+# -- Compiling architecture DEF_ARCH of clk_source_MSS
+# -- Loading entity clk_source_MSS_tmp_MSS_CCC_0_MSS_CCC
+# -- Compiling entity CDC3FF
+# -- Compiling architecture DEF_ARCH of CDC3FF
+# -- Compiling entity CDC3FF_MSS
+# -- Compiling architecture DEF_ARCH of CDC3FF_MSS
+# -- Loading entity clk_source_MSS
+# -- Loading entity CDC3FF
+# End time: 14:02:04 on Nov 10,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vcom 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 14:02:04 on Nov 10,2019
+# vcom -reportprogress 300 -2008 -explicit -work postsynth C:/Microsemi_Prj/hw8/p1/stimulus/CDC3FF_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity CDC3FF_tb
+# -- Compiling architecture behavioral of CDC3FF_tb
+# End time: 14:02:04 on Nov 10,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 14:02:05 on Nov 10,2019, Elapsed time: 0:03:50
+# Errors: 0, Warnings: 0
+# vsim -L smartfusion -L postsynth -L MSS_BFM_LIB -t 1ps postsynth.CDC3FF_tb 
+# Start time: 14:02:05 on Nov 10,2019
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading postsynth.cdc3ff_tb(behavioral)
+# Loading postsynth.cdc3ff_mss(def_arch)
+# Loading postsynth.clk_source_mss(def_arch)
+# Loading postsynth.clk_source_mss_tmp_mss_ccc_0_mss_ccc(def_arch)
+# Loading smartfusion.MSS_CCC
+# Loading smartfusion.MSS_CCC_IP
+# Loading smartfusion.PLLPRIM
+# Loading smartfusion.NGMUXPRIM
+# Loading smartfusion.SHREG
+# Loading smartfusion.VCC
+# Loading smartfusion.RCOSC
+# Loading smartfusion.GND
+# Loading smartfusion.INBUF
+# Loading postsynth.cdc3ff(def_arch)
+# Loading smartfusion.DFN1C1
+# Loading smartfusion.OUTBUF
+# Loading smartfusion.UFPRB
+# ** Error: (vish-4014) No objects found matching '/cdc3ff_tb/CDC3FF_MSS_0CDC3FF_0/u1/Q'.
+# Error in macro ./run.do line 24
+# (vish-4014) No objects found matching '/cdc3ff_tb/CDC3FF_MSS_0CDC3FF_0/u1/Q'.
+#     while executing
+# "add wave /cdc3ff_tb/CDC3FF_MSS_0CDC3FF_0/u1/Q"
+do run.do
+# 
+# AMBA BFM Compiler (BETA Version 2.1.105 17Nov08) 
+#   Reading
+#    Processing test.bfm
+#    Processing user.bfm
+#   Enumerating
+#   Assigning
+#   Checking
+#    Checking Complete
+#    27 Global  localconstants Defined
+#   Writing Vectors test.vec
+#    Commands Generated 100
+#    Vectors Generated 371
+#    Vector CheckSum 5129b491
+# 
+# BFM Compiler Completed Okay
+# INFO: Simulation library postsynth already exists
+# Model Technology ModelSim Microsemi vmap 10.5c Lib Mapping Utility 2016.07 Jul 21 2016
+# vmap postsynth postsynth 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vmap 10.5c Lib Mapping Utility 2016.07 Jul 21 2016
+# vmap smartfusion C:/Microsemi/Libero_SoC_v11.8/Designer/lib/modelsim/precompiled/vlog/smartfusion 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vmap 10.5c Lib Mapping Utility 2016.07 Jul 21 2016
+# vmap MSS_BFM_LIB ../component/Actel/SmartFusionMSS/MSS/2.5.200/mti/user_verilog/MSS_BFM_LIB 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vcom 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 14:02:24 on Nov 10,2019
+# vcom -reportprogress 300 -work MSS_BFM_LIB -force_refresh 
+# -- Skipping module acb_96_bit
+# -- Skipping module adc
+# -- Skipping module AddrDecM0
+# -- Skipping module AddrDecM1
+# -- Skipping module AddrDecM2
+# -- Skipping module AddrDecM3
+# -- Skipping module AddrDecM4
+# -- Skipping module AhbClient_HM
+# -- Skipping module AhbWrapper_FM
+# -- Skipping module AhbWrapper_HM
+# -- Skipping module analog_mux
+# -- Skipping module analog_mux_F060
+# -- Skipping module analog_quad
+# -- Skipping module ApbClient_HM
+# -- Skipping module ApbWrapper_FM
+# -- Skipping module BFM_MAIN
+# -- Skipping module Client_FM
+# -- Skipping module ClientAddrData_FM
+# -- Skipping module ClientAddrData_HM
+# -- Skipping module CMMaster0Stage
+# -- Skipping module CMMaster1Stage
+# -- Skipping module CMMaster2Stage
+# -- Skipping module CMMaster3Stage
+# -- Skipping module CMMaster4Stage
+# -- Skipping module CMSlaveStage
+# -- Skipping module DefaultSlaveSM
+# -- Skipping module dp512x32
+# -- Skipping module dp512x32_col
+# -- Skipping module drive_analog_input
+# -- Skipping module drive_analog_input_varef
+# -- Skipping module drive_analog_io
+# -- Skipping module drive_analog_io_39bit
+# -- Skipping module drive_current_inputs
+# -- Skipping module drive_current_monitor
+# -- Skipping module drive_differential_inputs
+# -- Skipping module drive_temperature_quad
+# -- Skipping module drive_varef_out
+# -- Skipping module DSSAB
+# -- Skipping module DSSAB_F060
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package em_pkg
+# -- Compiling entity EM_addr_gen
+# -- Compiling architecture rtl of EM_addr_gen
+# -- Compiling entity EM_ahb_int
+# -- Compiling architecture rtl of EM_ahb_int
+# -- Compiling entity EM_phase_gen
+# -- Compiling architecture rtl of EM_phase_gen
+# -- Compiling package em_pkg
+# -- Compiling package body em_pkg
+# -- Loading package em_pkg
+# -- Loading package em_pkg
+# -- Compiling entity EM_rdata_gen
+# -- Compiling architecture rtl of EM_rdata_gen
+# -- Compiling entity EM_wdata_gen
+# -- Compiling architecture rtl of EM_wdata_gen
+# -- Skipping module F2_ACE_512x16
+# -- Skipping module F2AB
+# -- Skipping module F2AB_F060
+# -- Skipping module F2DSS_ACE
+# -- Skipping module F2DSS_ACE_MISC
+# -- Skipping module F2DSS_ACE_MISC_APB3
+# -- Skipping module F2DSS_ACE_MISC_FDET
+# -- Skipping module F2DSS_ACE_MISC_FDET12
+# -- Skipping module F2DSS_ACE_MISC_INT_LOGIC
+# -- Skipping module F2DSS_ACE_MISC_PDMA
+# -- Skipping module F2DSS_ACE_MISC_RDET
+# -- Skipping module F2DSS_ACE_MISC_RDET12
+# -- Skipping module F2DSS_ACE_MISC_RDET32
+# -- Skipping module F2DSS_ACE_MISC_RDMUX
+# -- Skipping module F2DSS_ACE_MISC_STICKYFLAG
+# -- Skipping module F2DSS_ACE_MISC_STICKYFLAG21
+# -- Skipping module F2DSS_ACE_MISC_STICKYFLAG24
+# -- Skipping module F2DSS_ACE_MISC_STICKYFLAG32
+# -- Skipping module F2DSS_ACE_MISC_STICKYFLAG9
+# -- Skipping module F2DSS_ACE_MISC_SYNC
+# -- Skipping module F2DSS_ACE_MISC_SYNC12
+# -- Skipping module F2DSS_ACE_PPE
+# -- Skipping module F2DSS_ACE_PPE_ADDER
+# -- Skipping module F2DSS_ACE_PPE_ALU
+# -- Skipping module F2DSS_ACE_PPE_DPRAM
+# -- Skipping module F2DSS_ACE_PPE_DPRAM_CTRL
+# -- Skipping module F2DSS_ACE_PPE_FIFO
+# -- Skipping module F2DSS_ACE_PPE_FIFO_CTRL
+# -- Skipping module F2DSS_ACE_PPE_FSM
+# -- Skipping module F2DSS_ACE_PPE_FSM_STFILT
+# -- Skipping module F2DSS_ACE_PPE_MULT
+# -- Skipping module F2DSS_ACE_PPE_RDMUX
+# -- Skipping module F2DSS_ACE_PPE_SSE_CTRL
+# -- Skipping module F2DSS_ACE_PPE_THRFLAGS
+# -- Skipping module F2DSS_ACE_PPE_XFER_DINMUX
+# -- Skipping module F2DSS_ACE_RAMS
+# -- Skipping module F2DSS_COMMSMATRIX
+# -- Loading package ATTRIBUTES
+# -- Loading package std_logic_misc
+# -- Compiling entity F2DSS_EMC
+# -- Compiling architecture rtl of F2DSS_EMC
+# -- Skipping module F2DSS_FABRICIF
+# -- Skipping module F2DSS_GPIO
+# -- Skipping module F2DSS_SSE
+# -- Skipping module F2DSS_SSE_APB3_PPE_IF
+# -- Skipping module F2DSS_SSE_ENGINE
+# -- Skipping module F2DSS_SSE_PHASE_ACCUMS
+# -- Skipping module F2DSS_SSE_TDM_FSM
+# -- Skipping module FABRICIF_FM
+# -- Skipping module FABRICIF_HM
+# -- Skipping module M3_BFM
+# -- Skipping module Matrix5x8
+# -- Skipping module MSS_AHB
+# -- Skipping module MSS_AHB_F060
+# -- Skipping module MSS_AHB_F060_IP
+# -- Skipping module MSS_AHB_IP
+# -- Skipping module MSS_APB
+# -- Skipping module MSS_APB_F060
+# -- Skipping module MSS_APB_F060_IP
+# -- Skipping module MSS_APB_IP
+# -- Skipping module MSS_APBSLAVES
+# -- Skipping module MSS_BFM_AHB2APB
+# -- Skipping module MSS_BFM_AHBSLAVE
+# -- Skipping module MSS_BFM_AHBSLAVEEXT
+# -- Skipping module mss_clockgen
+# -- Skipping module MSS_SYSREG
+# -- Skipping module obd
+# -- Skipping module obd_mux
+# -- Skipping module read_39bit_analog_io
+# -- Skipping module read_analog_input
+# -- Skipping module read_analog_io
+# -- Skipping module SINGLE_PORT_RAM
+# -- Skipping module SlaveArbiter
+# -- Skipping module sp512x16
+# End time: 14:02:24 on Nov 10,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vlog 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 14:02:25 on Nov 10,2019
+# vlog -reportprogress 300 -work MSS_BFM_LIB -force_refresh 
+# -- Refreshing module acb_96_bit
+# -- Refreshing module adc
+# -- Refreshing module AddrDecM0
+# -- Refreshing module AddrDecM1
+# -- Refreshing module AddrDecM2
+# -- Refreshing module AddrDecM3
+# -- Refreshing module AddrDecM4
+# -- Refreshing module AhbClient_HM
+# -- Refreshing module AhbWrapper_FM
+# -- Refreshing module AhbWrapper_HM
+# -- Refreshing module analog_mux
+# -- Refreshing module analog_mux_F060
+# -- Refreshing module analog_quad
+# -- Refreshing module ApbClient_HM
+# -- Refreshing module ApbWrapper_FM
+# -- Refreshing module BFM_MAIN
+# -- Refreshing module Client_FM
+# -- Refreshing module ClientAddrData_FM
+# -- Refreshing module ClientAddrData_HM
+# -- Refreshing module CMMaster0Stage
+# -- Refreshing module CMMaster1Stage
+# -- Refreshing module CMMaster2Stage
+# -- Refreshing module CMMaster3Stage
+# -- Refreshing module CMMaster4Stage
+# -- Refreshing module CMSlaveStage
+# -- Refreshing module DefaultSlaveSM
+# -- Refreshing module dp512x32
+# -- Refreshing module dp512x32_col
+# -- Refreshing module drive_analog_input
+# -- Refreshing module drive_analog_input_varef
+# -- Refreshing module drive_analog_io
+# -- Refreshing module drive_analog_io_39bit
+# -- Refreshing module drive_current_inputs
+# -- Refreshing module drive_current_monitor
+# -- Refreshing module drive_differential_inputs
+# -- Refreshing module drive_temperature_quad
+# -- Refreshing module drive_varef_out
+# -- Refreshing module DSSAB
+# -- Refreshing module DSSAB_F060
+# -- Skipping entity em_addr_gen
+# -- Skipping entity em_ahb_int
+# -- Skipping entity em_phase_gen
+# -- Skipping package em_pkg
+# -- Skipping entity em_rdata_gen
+# -- Skipping entity em_wdata_gen
+# -- Refreshing module F2_ACE_512x16
+# -- Refreshing module F2AB
+# -- Refreshing module F2AB_F060
+# -- Refreshing module F2DSS_ACE
+# -- Refreshing module F2DSS_ACE_MISC
+# -- Refreshing module F2DSS_ACE_MISC_APB3
+# -- Refreshing module F2DSS_ACE_MISC_FDET
+# -- Refreshing module F2DSS_ACE_MISC_FDET12
+# -- Refreshing module F2DSS_ACE_MISC_INT_LOGIC
+# -- Refreshing module F2DSS_ACE_MISC_PDMA
+# -- Refreshing module F2DSS_ACE_MISC_RDET
+# -- Refreshing module F2DSS_ACE_MISC_RDET12
+# -- Refreshing module F2DSS_ACE_MISC_RDET32
+# -- Refreshing module F2DSS_ACE_MISC_RDMUX
+# -- Refreshing module F2DSS_ACE_MISC_STICKYFLAG
+# -- Refreshing module F2DSS_ACE_MISC_STICKYFLAG21
+# -- Refreshing module F2DSS_ACE_MISC_STICKYFLAG24
+# -- Refreshing module F2DSS_ACE_MISC_STICKYFLAG32
+# -- Refreshing module F2DSS_ACE_MISC_STICKYFLAG9
+# -- Refreshing module F2DSS_ACE_MISC_SYNC
+# -- Refreshing module F2DSS_ACE_MISC_SYNC12
+# -- Refreshing module F2DSS_ACE_PPE
+# -- Refreshing module F2DSS_ACE_PPE_ADDER
+# -- Refreshing module F2DSS_ACE_PPE_ALU
+# -- Refreshing module F2DSS_ACE_PPE_DPRAM
+# -- Refreshing module F2DSS_ACE_PPE_DPRAM_CTRL
+# -- Refreshing module F2DSS_ACE_PPE_FIFO
+# -- Refreshing module F2DSS_ACE_PPE_FIFO_CTRL
+# -- Refreshing module F2DSS_ACE_PPE_FSM
+# -- Refreshing module F2DSS_ACE_PPE_FSM_STFILT
+# -- Refreshing module F2DSS_ACE_PPE_MULT
+# -- Refreshing module F2DSS_ACE_PPE_RDMUX
+# -- Refreshing module F2DSS_ACE_PPE_SSE_CTRL
+# -- Refreshing module F2DSS_ACE_PPE_THRFLAGS
+# -- Refreshing module F2DSS_ACE_PPE_XFER_DINMUX
+# -- Refreshing module F2DSS_ACE_RAMS
+# -- Refreshing module F2DSS_COMMSMATRIX
+# -- Skipping entity f2dss_emc
+# -- Refreshing module F2DSS_FABRICIF
+# -- Refreshing module F2DSS_GPIO
+# -- Refreshing module F2DSS_SSE
+# -- Refreshing module F2DSS_SSE_APB3_PPE_IF
+# -- Refreshing module F2DSS_SSE_ENGINE
+# -- Refreshing module F2DSS_SSE_PHASE_ACCUMS
+# -- Refreshing module F2DSS_SSE_TDM_FSM
+# -- Refreshing module FABRICIF_FM
+# -- Refreshing module FABRICIF_HM
+# -- Refreshing module M3_BFM
+# -- Refreshing module Matrix5x8
+# -- Refreshing module MSS_AHB
+# -- Refreshing module MSS_AHB_F060
+# -- Refreshing module MSS_AHB_F060_IP
+# -- Refreshing module MSS_AHB_IP
+# -- Refreshing module MSS_APB
+# -- Refreshing module MSS_APB_F060
+# -- Refreshing module MSS_APB_F060_IP
+# -- Refreshing module MSS_APB_IP
+# -- Refreshing module MSS_APBSLAVES
+# -- Refreshing module MSS_BFM_AHB2APB
+# -- Refreshing module MSS_BFM_AHBSLAVE
+# -- Refreshing module MSS_BFM_AHBSLAVEEXT
+# -- Refreshing module mss_clockgen
+# -- Refreshing module MSS_SYSREG
+# -- Refreshing module obd
+# -- Refreshing module obd_mux
+# -- Refreshing module read_39bit_analog_io
+# -- Refreshing module read_analog_input
+# -- Refreshing module read_analog_io
+# -- Refreshing module SINGLE_PORT_RAM
+# -- Refreshing module SlaveArbiter
+# -- Refreshing module sp512x16
+# End time: 14:02:26 on Nov 10,2019, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vcom 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 14:02:26 on Nov 10,2019
+# vcom -reportprogress 300 -2008 -explicit -work postsynth C:/Microsemi_Prj/hw8/p1/synthesis/CDC3FF_MSS.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity clk_source_MSS_tmp_MSS_CCC_0_MSS_CCC
+# -- Compiling architecture DEF_ARCH of clk_source_MSS_tmp_MSS_CCC_0_MSS_CCC
+# -- Compiling entity clk_source_MSS
+# -- Compiling architecture DEF_ARCH of clk_source_MSS
+# -- Loading entity clk_source_MSS_tmp_MSS_CCC_0_MSS_CCC
+# -- Compiling entity CDC3FF
+# -- Compiling architecture DEF_ARCH of CDC3FF
+# -- Compiling entity CDC3FF_MSS
+# -- Compiling architecture DEF_ARCH of CDC3FF_MSS
+# -- Loading entity clk_source_MSS
+# -- Loading entity CDC3FF
+# End time: 14:02:26 on Nov 10,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vcom 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 14:02:26 on Nov 10,2019
+# vcom -reportprogress 300 -2008 -explicit -work postsynth C:/Microsemi_Prj/hw8/p1/stimulus/CDC3FF_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity CDC3FF_tb
+# -- Compiling architecture behavioral of CDC3FF_tb
+# End time: 14:02:26 on Nov 10,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 14:02:27 on Nov 10,2019, Elapsed time: 0:00:22
+# Errors: 3, Warnings: 0
+# vsim -L smartfusion -L postsynth -L MSS_BFM_LIB -t 1ps postsynth.CDC3FF_tb 
+# Start time: 14:02:27 on Nov 10,2019
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading postsynth.cdc3ff_tb(behavioral)
+# Loading postsynth.cdc3ff_mss(def_arch)
+# Loading postsynth.clk_source_mss(def_arch)
+# Loading postsynth.clk_source_mss_tmp_mss_ccc_0_mss_ccc(def_arch)
+# Loading smartfusion.MSS_CCC
+# Loading smartfusion.MSS_CCC_IP
+# Loading smartfusion.PLLPRIM
+# Loading smartfusion.NGMUXPRIM
+# Loading smartfusion.SHREG
+# Loading smartfusion.VCC
+# Loading smartfusion.RCOSC
+# Loading smartfusion.GND
+# Loading smartfusion.INBUF
+# Loading postsynth.cdc3ff(def_arch)
+# Loading smartfusion.DFN1C1
+# Loading smartfusion.OUTBUF
+# Loading smartfusion.UFPRB
+#  ** Warning: OCDIVHALF unknown.
+#  Time: 0.0 Instance: cdc3ff_tb.CDC3FF_MSS_0.clk_source_MSS_0.MSS_CCC_0.I_MSSCCC.CCCP1.P1 
+#  ** Warning: OBDIVHALF unknown.
+#  Time: 0.0 Instance: cdc3ff_tb.CDC3FF_MSS_0.clk_source_MSS_0.MSS_CCC_0.I_MSSCCC.CCCP1.P1 
+#  ** Warning: OADIVHALF unknown.
+#  Time: 0.0 Instance: cdc3ff_tb.CDC3FF_MSS_0.clk_source_MSS_0.MSS_CCC_0.I_MSSCCC.CCCP1.P1 
+#  ** Warning: FBSEL is unknown.
+#  Time: 0.0 Instance: cdc3ff_tb.CDC3FF_MSS_0.clk_source_MSS_0.MSS_CCC_0.I_MSSCCC.CCCP1.P1 
+#  ** Warning: Illegal configuration. Only even OBDIV values from 2 to 28 (inclusive) are allowed with OBDIVHALF.
+#  Time: 0.0 Instance: cdc3ff_tb.CDC3FF_MSS_0.clk_source_MSS_0.MSS_CCC_0.I_MSSCCC.CCCP1.P1 
+do mydo.do
+# 
+# AMBA BFM Compiler (BETA Version 2.1.105 17Nov08) 
+#   Reading
+#    Processing test.bfm
+#    Processing user.bfm
+#   Enumerating
+#   Assigning
+#   Checking
+#    Checking Complete
+#    27 Global  localconstants Defined
+#   Writing Vectors test.vec
+#    Commands Generated 100
+#    Vectors Generated 371
+#    Vector CheckSum 5129b491
+# 
+# BFM Compiler Completed Okay
+# INFO: Simulation library postsynth already exists
+# Model Technology ModelSim Microsemi vmap 10.5c Lib Mapping Utility 2016.07 Jul 21 2016
+# vmap postsynth postsynth 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vmap 10.5c Lib Mapping Utility 2016.07 Jul 21 2016
+# vmap smartfusion C:/Microsemi/Libero_SoC_v11.8/Designer/lib/modelsim/precompiled/vlog/smartfusion 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vmap 10.5c Lib Mapping Utility 2016.07 Jul 21 2016
+# vmap MSS_BFM_LIB ../component/Actel/SmartFusionMSS/MSS/2.5.200/mti/user_verilog/MSS_BFM_LIB 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vcom 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 14:32:21 on Nov 10,2019
+# vcom -reportprogress 300 -work MSS_BFM_LIB -force_refresh 
+# -- Skipping module acb_96_bit
+# -- Skipping module adc
+# -- Skipping module AddrDecM0
+# -- Skipping module AddrDecM1
+# -- Skipping module AddrDecM2
+# -- Skipping module AddrDecM3
+# -- Skipping module AddrDecM4
+# -- Skipping module AhbClient_HM
+# -- Skipping module AhbWrapper_FM
+# -- Skipping module AhbWrapper_HM
+# -- Skipping module analog_mux
+# -- Skipping module analog_mux_F060
+# -- Skipping module analog_quad
+# -- Skipping module ApbClient_HM
+# -- Skipping module ApbWrapper_FM
+# -- Skipping module BFM_MAIN
+# -- Skipping module Client_FM
+# -- Skipping module ClientAddrData_FM
+# -- Skipping module ClientAddrData_HM
+# -- Skipping module CMMaster0Stage
+# -- Skipping module CMMaster1Stage
+# -- Skipping module CMMaster2Stage
+# -- Skipping module CMMaster3Stage
+# -- Skipping module CMMaster4Stage
+# -- Skipping module CMSlaveStage
+# -- Skipping module DefaultSlaveSM
+# -- Skipping module dp512x32
+# -- Skipping module dp512x32_col
+# -- Skipping module drive_analog_input
+# -- Skipping module drive_analog_input_varef
+# -- Skipping module drive_analog_io
+# -- Skipping module drive_analog_io_39bit
+# -- Skipping module drive_current_inputs
+# -- Skipping module drive_current_monitor
+# -- Skipping module drive_differential_inputs
+# -- Skipping module drive_temperature_quad
+# -- Skipping module drive_varef_out
+# -- Skipping module DSSAB
+# -- Skipping module DSSAB_F060
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package em_pkg
+# -- Compiling entity EM_addr_gen
+# -- Compiling architecture rtl of EM_addr_gen
+# -- Compiling entity EM_ahb_int
+# -- Compiling architecture rtl of EM_ahb_int
+# -- Compiling entity EM_phase_gen
+# -- Compiling architecture rtl of EM_phase_gen
+# -- Compiling package em_pkg
+# -- Compiling package body em_pkg
+# -- Loading package em_pkg
+# -- Loading package em_pkg
+# -- Compiling entity EM_rdata_gen
+# -- Compiling architecture rtl of EM_rdata_gen
+# -- Compiling entity EM_wdata_gen
+# -- Compiling architecture rtl of EM_wdata_gen
+# -- Skipping module F2_ACE_512x16
+# -- Skipping module F2AB
+# -- Skipping module F2AB_F060
+# -- Skipping module F2DSS_ACE
+# -- Skipping module F2DSS_ACE_MISC
+# -- Skipping module F2DSS_ACE_MISC_APB3
+# -- Skipping module F2DSS_ACE_MISC_FDET
+# -- Skipping module F2DSS_ACE_MISC_FDET12
+# -- Skipping module F2DSS_ACE_MISC_INT_LOGIC
+# -- Skipping module F2DSS_ACE_MISC_PDMA
+# -- Skipping module F2DSS_ACE_MISC_RDET
+# -- Skipping module F2DSS_ACE_MISC_RDET12
+# -- Skipping module F2DSS_ACE_MISC_RDET32
+# -- Skipping module F2DSS_ACE_MISC_RDMUX
+# -- Skipping module F2DSS_ACE_MISC_STICKYFLAG
+# -- Skipping module F2DSS_ACE_MISC_STICKYFLAG21
+# -- Skipping module F2DSS_ACE_MISC_STICKYFLAG24
+# -- Skipping module F2DSS_ACE_MISC_STICKYFLAG32
+# -- Skipping module F2DSS_ACE_MISC_STICKYFLAG9
+# -- Skipping module F2DSS_ACE_MISC_SYNC
+# -- Skipping module F2DSS_ACE_MISC_SYNC12
+# -- Skipping module F2DSS_ACE_PPE
+# -- Skipping module F2DSS_ACE_PPE_ADDER
+# -- Skipping module F2DSS_ACE_PPE_ALU
+# -- Skipping module F2DSS_ACE_PPE_DPRAM
+# -- Skipping module F2DSS_ACE_PPE_DPRAM_CTRL
+# -- Skipping module F2DSS_ACE_PPE_FIFO
+# -- Skipping module F2DSS_ACE_PPE_FIFO_CTRL
+# -- Skipping module F2DSS_ACE_PPE_FSM
+# -- Skipping module F2DSS_ACE_PPE_FSM_STFILT
+# -- Skipping module F2DSS_ACE_PPE_MULT
+# -- Skipping module F2DSS_ACE_PPE_RDMUX
+# -- Skipping module F2DSS_ACE_PPE_SSE_CTRL
+# -- Skipping module F2DSS_ACE_PPE_THRFLAGS
+# -- Skipping module F2DSS_ACE_PPE_XFER_DINMUX
+# -- Skipping module F2DSS_ACE_RAMS
+# -- Skipping module F2DSS_COMMSMATRIX
+# -- Loading package ATTRIBUTES
+# -- Loading package std_logic_misc
+# -- Compiling entity F2DSS_EMC
+# -- Compiling architecture rtl of F2DSS_EMC
+# -- Skipping module F2DSS_FABRICIF
+# -- Skipping module F2DSS_GPIO
+# -- Skipping module F2DSS_SSE
+# -- Skipping module F2DSS_SSE_APB3_PPE_IF
+# -- Skipping module F2DSS_SSE_ENGINE
+# -- Skipping module F2DSS_SSE_PHASE_ACCUMS
+# -- Skipping module F2DSS_SSE_TDM_FSM
+# -- Skipping module FABRICIF_FM
+# -- Skipping module FABRICIF_HM
+# -- Skipping module M3_BFM
+# -- Skipping module Matrix5x8
+# -- Skipping module MSS_AHB
+# -- Skipping module MSS_AHB_F060
+# -- Skipping module MSS_AHB_F060_IP
+# -- Skipping module MSS_AHB_IP
+# -- Skipping module MSS_APB
+# -- Skipping module MSS_APB_F060
+# -- Skipping module MSS_APB_F060_IP
+# -- Skipping module MSS_APB_IP
+# -- Skipping module MSS_APBSLAVES
+# -- Skipping module MSS_BFM_AHB2APB
+# -- Skipping module MSS_BFM_AHBSLAVE
+# -- Skipping module MSS_BFM_AHBSLAVEEXT
+# -- Skipping module mss_clockgen
+# -- Skipping module MSS_SYSREG
+# -- Skipping module obd
+# -- Skipping module obd_mux
+# -- Skipping module read_39bit_analog_io
+# -- Skipping module read_analog_input
+# -- Skipping module read_analog_io
+# -- Skipping module SINGLE_PORT_RAM
+# -- Skipping module SlaveArbiter
+# -- Skipping module sp512x16
+# End time: 14:32:21 on Nov 10,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vlog 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 14:32:22 on Nov 10,2019
+# vlog -reportprogress 300 -work MSS_BFM_LIB -force_refresh 
+# -- Refreshing module acb_96_bit
+# -- Refreshing module adc
+# -- Refreshing module AddrDecM0
+# -- Refreshing module AddrDecM1
+# -- Refreshing module AddrDecM2
+# -- Refreshing module AddrDecM3
+# -- Refreshing module AddrDecM4
+# -- Refreshing module AhbClient_HM
+# -- Refreshing module AhbWrapper_FM
+# -- Refreshing module AhbWrapper_HM
+# -- Refreshing module analog_mux
+# -- Refreshing module analog_mux_F060
+# -- Refreshing module analog_quad
+# -- Refreshing module ApbClient_HM
+# -- Refreshing module ApbWrapper_FM
+# -- Refreshing module BFM_MAIN
+# -- Refreshing module Client_FM
+# -- Refreshing module ClientAddrData_FM
+# -- Refreshing module ClientAddrData_HM
+# -- Refreshing module CMMaster0Stage
+# -- Refreshing module CMMaster1Stage
+# -- Refreshing module CMMaster2Stage
+# -- Refreshing module CMMaster3Stage
+# -- Refreshing module CMMaster4Stage
+# -- Refreshing module CMSlaveStage
+# -- Refreshing module DefaultSlaveSM
+# -- Refreshing module dp512x32
+# -- Refreshing module dp512x32_col
+# -- Refreshing module drive_analog_input
+# -- Refreshing module drive_analog_input_varef
+# -- Refreshing module drive_analog_io
+# -- Refreshing module drive_analog_io_39bit
+# -- Refreshing module drive_current_inputs
+# -- Refreshing module drive_current_monitor
+# -- Refreshing module drive_differential_inputs
+# -- Refreshing module drive_temperature_quad
+# -- Refreshing module drive_varef_out
+# -- Refreshing module DSSAB
+# -- Refreshing module DSSAB_F060
+# -- Skipping entity em_addr_gen
+# -- Skipping entity em_ahb_int
+# -- Skipping entity em_phase_gen
+# -- Skipping package em_pkg
+# -- Skipping entity em_rdata_gen
+# -- Skipping entity em_wdata_gen
+# -- Refreshing module F2_ACE_512x16
+# -- Refreshing module F2AB
+# -- Refreshing module F2AB_F060
+# -- Refreshing module F2DSS_ACE
+# -- Refreshing module F2DSS_ACE_MISC
+# -- Refreshing module F2DSS_ACE_MISC_APB3
+# -- Refreshing module F2DSS_ACE_MISC_FDET
+# -- Refreshing module F2DSS_ACE_MISC_FDET12
+# -- Refreshing module F2DSS_ACE_MISC_INT_LOGIC
+# -- Refreshing module F2DSS_ACE_MISC_PDMA
+# -- Refreshing module F2DSS_ACE_MISC_RDET
+# -- Refreshing module F2DSS_ACE_MISC_RDET12
+# -- Refreshing module F2DSS_ACE_MISC_RDET32
+# -- Refreshing module F2DSS_ACE_MISC_RDMUX
+# -- Refreshing module F2DSS_ACE_MISC_STICKYFLAG
+# -- Refreshing module F2DSS_ACE_MISC_STICKYFLAG21
+# -- Refreshing module F2DSS_ACE_MISC_STICKYFLAG24
+# -- Refreshing module F2DSS_ACE_MISC_STICKYFLAG32
+# -- Refreshing module F2DSS_ACE_MISC_STICKYFLAG9
+# -- Refreshing module F2DSS_ACE_MISC_SYNC
+# -- Refreshing module F2DSS_ACE_MISC_SYNC12
+# -- Refreshing module F2DSS_ACE_PPE
+# -- Refreshing module F2DSS_ACE_PPE_ADDER
+# -- Refreshing module F2DSS_ACE_PPE_ALU
+# -- Refreshing module F2DSS_ACE_PPE_DPRAM
+# -- Refreshing module F2DSS_ACE_PPE_DPRAM_CTRL
+# -- Refreshing module F2DSS_ACE_PPE_FIFO
+# -- Refreshing module F2DSS_ACE_PPE_FIFO_CTRL
+# -- Refreshing module F2DSS_ACE_PPE_FSM
+# -- Refreshing module F2DSS_ACE_PPE_FSM_STFILT
+# -- Refreshing module F2DSS_ACE_PPE_MULT
+# -- Refreshing module F2DSS_ACE_PPE_RDMUX
+# -- Refreshing module F2DSS_ACE_PPE_SSE_CTRL
+# -- Refreshing module F2DSS_ACE_PPE_THRFLAGS
+# -- Refreshing module F2DSS_ACE_PPE_XFER_DINMUX
+# -- Refreshing module F2DSS_ACE_RAMS
+# -- Refreshing module F2DSS_COMMSMATRIX
+# -- Skipping entity f2dss_emc
+# -- Refreshing module F2DSS_FABRICIF
+# -- Refreshing module F2DSS_GPIO
+# -- Refreshing module F2DSS_SSE
+# -- Refreshing module F2DSS_SSE_APB3_PPE_IF
+# -- Refreshing module F2DSS_SSE_ENGINE
+# -- Refreshing module F2DSS_SSE_PHASE_ACCUMS
+# -- Refreshing module F2DSS_SSE_TDM_FSM
+# -- Refreshing module FABRICIF_FM
+# -- Refreshing module FABRICIF_HM
+# -- Refreshing module M3_BFM
+# -- Refreshing module Matrix5x8
+# -- Refreshing module MSS_AHB
+# -- Refreshing module MSS_AHB_F060
+# -- Refreshing module MSS_AHB_F060_IP
+# -- Refreshing module MSS_AHB_IP
+# -- Refreshing module MSS_APB
+# -- Refreshing module MSS_APB_F060
+# -- Refreshing module MSS_APB_F060_IP
+# -- Refreshing module MSS_APB_IP
+# -- Refreshing module MSS_APBSLAVES
+# -- Refreshing module MSS_BFM_AHB2APB
+# -- Refreshing module MSS_BFM_AHBSLAVE
+# -- Refreshing module MSS_BFM_AHBSLAVEEXT
+# -- Refreshing module mss_clockgen
+# -- Refreshing module MSS_SYSREG
+# -- Refreshing module obd
+# -- Refreshing module obd_mux
+# -- Refreshing module read_39bit_analog_io
+# -- Refreshing module read_analog_input
+# -- Refreshing module read_analog_io
+# -- Refreshing module SINGLE_PORT_RAM
+# -- Refreshing module SlaveArbiter
+# -- Refreshing module sp512x16
+# End time: 14:32:23 on Nov 10,2019, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vcom 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 14:32:23 on Nov 10,2019
+# vcom -reportprogress 300 -2008 -explicit -work postsynth C:/Microsemi_Prj/hw8/p1/synthesis/CDC3FF_MSS.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity clk_source_MSS_tmp_MSS_CCC_0_MSS_CCC
+# -- Compiling architecture DEF_ARCH of clk_source_MSS_tmp_MSS_CCC_0_MSS_CCC
+# -- Compiling entity clk_source_MSS
+# -- Compiling architecture DEF_ARCH of clk_source_MSS
+# -- Loading entity clk_source_MSS_tmp_MSS_CCC_0_MSS_CCC
+# -- Compiling entity CDC3FF
+# -- Compiling architecture DEF_ARCH of CDC3FF
+# -- Compiling entity CDC3FF_MSS
+# -- Compiling architecture DEF_ARCH of CDC3FF_MSS
+# -- Loading entity clk_source_MSS
+# -- Loading entity CDC3FF
+# End time: 14:32:23 on Nov 10,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vcom 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 14:32:23 on Nov 10,2019
+# vcom -reportprogress 300 -2008 -explicit -work postsynth C:/Microsemi_Prj/hw8/p1/stimulus/CDC3FF_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity CDC3FF_tb
+# -- Compiling architecture behavioral of CDC3FF_tb
+# End time: 14:32:23 on Nov 10,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 14:32:24 on Nov 10,2019, Elapsed time: 0:29:57
+# Errors: 0, Warnings: 0
+# vsim -L smartfusion -L postsynth -L MSS_BFM_LIB -t 1ps postsynth.CDC3FF_tb 
+# Start time: 14:32:24 on Nov 10,2019
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading postsynth.cdc3ff_tb(behavioral)
+# Loading postsynth.cdc3ff_mss(def_arch)
+# Loading postsynth.clk_source_mss(def_arch)
+# Loading postsynth.clk_source_mss_tmp_mss_ccc_0_mss_ccc(def_arch)
+# Loading smartfusion.MSS_CCC
+# Loading smartfusion.MSS_CCC_IP
+# Loading smartfusion.PLLPRIM
+# Loading smartfusion.NGMUXPRIM
+# Loading smartfusion.SHREG
+# Loading smartfusion.VCC
+# Loading smartfusion.RCOSC
+# Loading smartfusion.GND
+# Loading smartfusion.INBUF
+# Loading postsynth.cdc3ff(def_arch)
+# Loading smartfusion.DFN1C1
+# Loading smartfusion.OUTBUF
+# Loading smartfusion.UFPRB
+#  ** Warning: OCDIVHALF unknown.
+#  Time: 0.0 Instance: cdc3ff_tb.CDC3FF_MSS_0.clk_source_MSS_0.MSS_CCC_0.I_MSSCCC.CCCP1.P1 
+#  ** Warning: OBDIVHALF unknown.
+#  Time: 0.0 Instance: cdc3ff_tb.CDC3FF_MSS_0.clk_source_MSS_0.MSS_CCC_0.I_MSSCCC.CCCP1.P1 
+#  ** Warning: OADIVHALF unknown.
+#  Time: 0.0 Instance: cdc3ff_tb.CDC3FF_MSS_0.clk_source_MSS_0.MSS_CCC_0.I_MSSCCC.CCCP1.P1 
+#  ** Warning: FBSEL is unknown.
+#  Time: 0.0 Instance: cdc3ff_tb.CDC3FF_MSS_0.clk_source_MSS_0.MSS_CCC_0.I_MSSCCC.CCCP1.P1 
+#  ** Warning: Illegal configuration. Only even OBDIV values from 2 to 28 (inclusive) are allowed with OBDIVHALF.
+#  Time: 0.0 Instance: cdc3ff_tb.CDC3FF_MSS_0.clk_source_MSS_0.MSS_CCC_0.I_MSSCCC.CCCP1.P1 
+# End time: 14:42:38 on Nov 10,2019, Elapsed time: 0:10:14
+# Errors: 0, Warnings: 0

@@ -1,0 +1,266 @@
+***************************************************************************
+                               Status Report
+                          Tue Nov 05 17:13:38 2019 ***************************************************************************
+
+Product: Designer
+Release: v11.8
+Version: 11.8.0.26
+File Name: C:\Microsemi_Prj\hw7\p3_C\designer\impl1\top_level_counter.adb
+Design Name: top_level_counter  Design State: layout
+Last Saved: Tue Nov 05 17:13:27 2019
+
+***** Device Data **************************************************
+
+Family: SmartFusion  Die: A2F200M3F  Package: 484 FBGA
+Speed: STD  Voltage: 1.5
+
+Restrict JTAG Pins: YES
+Restrict Probe Pins: YES
+
+Junction Temperature Range:   COM
+Voltage Range:   COM
+
+***** Import Variables *********************************************
+
+Source File(s) Imported on Tue Nov 05 17:13:24 2019:
+        C:\Microsemi_Prj\hw7\p3_C\synthesis\top_level_counter.edn
+
+
+***** CAE Variables ************************************************
+
+Back Annotation File: N/A
+
+
+***** Bitstream Variables ******************************************
+
+Bitstream File: N/A
+     Lock Mode: OFF
+
+
+***** Compile Variables ********************************************
+
+Netlist PIN properties overwrite existing properties: 0
+
+Compile Output:
+=====================================================================
+Parameters used to run compile:
+===============================
+
+Family      : SmartFusion
+Device      : A2F200M3F
+Package     : 484 FBGA
+Source      : C:\Microsemi_Prj\hw7\p3_C\synthesis\top_level_counter.edn
+Format      : EDIF
+Topcell     : top_level_counter
+Speed grade : STD
+Temp        : 0:25:85
+Voltage     : 1.58:1.50:1.42
+
+Keep Existing Physical Constraints : No
+Keep Existing Timing Constraints   : Yes
+
+pdc_abort_on_error                 : Yes
+pdc_eco_display_unmatched_objects  : No
+pdc_eco_max_warnings               : 10000
+
+demote_globals                     : No
+promote_globals                    : No
+localclock_max_shared_instances    : 12
+localclock_buffer_tree_max_fanout  : 12
+
+combine_register                   : No
+delete_buffer_tree                 : No
+
+report_high_fanout_nets_limit      : 10
+
+=====================================================================
+Compile starts ...
+
+
+Netlist Optimization Report
+===========================
+
+Optimized macros:
+  - Dangling net drivers:   0
+  - Buffers:                0
+  - Inverters:              0
+  - Tieoff:                 0
+  - Logic combining:        3
+
+    Total macros optimized  3
+
+There were 0 error(s) and 0 warning(s) in this design.
+=====================================================================
+
+Reading previous post-compile physical placement constraints.
+
+
+There were 0 error(s) and 0 warning(s).
+
+=====================================================================
+Compile report:
+===============
+
+    Microcontroller Subsystem  Used:      0  Total:      1   (0.00%)
+    Fabric                     Used:     56  Total:   4608   (1.22%)
+    Fabric IO (W/ clocks)      Used:     24  Total:     94   (25.53%)
+    Fabric Differential IO     Used:      0  Total:     47   (0.00%)
+    Dedicated Analog IO        Used:      0  Total:     32   (0.00%)
+    Dedicated MSS IO           Used:      0  Total:     43   (0.00%)
+    GLOBAL (Chip+Quadrant)     Used:      1  Total:     15   (6.67%)
+    MSS GLOBAL                 Used:      0  Total:      3   (0.00%)
+    On-chip RC oscillator      Used:      0  Total:      1   (0.00%)
+    Main Crystal oscillator    Used:      0  Total:      1   (0.00%)
+    32 KHz Crystal oscillator  Used:      0  Total:      1   (0.00%)
+    RAM/FIFO                   Used:      0  Total:      8   (0.00%)
+    User JTAG                  Used:      0  Total:      1   (0.00%)
+
+Global Information:
+
+    Type            | Used   | Total
+    ----------------|--------|--------------
+    Chip global     | 1      | 3  (33.33%)*
+    Quadrant global | 0      | 12 (0.00%)
+    MSS global      | 0      | 3  (0.00%)
+
+    (*) Chip globals may be assigned to Quadrant globals using the Multi-View Navigator (MVN)
+        or Physical Design Constraints (PDC).
+        They may also be assigned to Quadrant globals automatically during Layout.
+
+Core Information:
+
+    Type    | Instances    | Core tiles
+    --------|--------------|-----------
+    COMB    | 40           | 40
+    SEQ     | 16           | 16
+
+I/O Function:
+
+    Type                                  | w/o register  | w/ register  | w/ DDR register
+    --------------------------------------|---------------|--------------|----------------
+    Input I/O                             | 3             | 0            | 0
+    Output I/O                            | 21            | 0            | 0
+    Bidirectional I/O                     | 0             | 0            | 0
+    Differential Input I/O Pairs          | 0             | 0            | 0
+    Differential Output I/O Pairs         | 0             | 0            | 0
+
+I/O Technology:
+
+                                    |   Voltages    |             I/Os
+    --------------------------------|-------|-------|-------|--------|--------------
+    I/O Standard(s)                 | Vcci  | Vref  | Input | Output | Bidirectional
+    --------------------------------|-------|-------|-------|--------|--------------
+    LVTTL                           | 3.30v | N/A   | 3     | 21     | 0
+
+I/O Placement:
+
+    Locked  :   0
+    Placed  :   8 ( 33.33% )
+    UnPlaced:  16 ( 66.67% )
+
+Net information report:
+=======================
+
+The following nets have been assigned to a chip global resource:
+    Fanout  Type          Name
+    --------------------------
+    13      CLK_NET       Net   : CLK_c
+                          Driver: CLK_pad
+                          Source: NETLIST
+
+High fanout nets in the post compile netlist:
+    Fanout  Type          Name
+    --------------------------
+    14      INT_NET       Net   : Skewed_0/TC_9
+                          Driver: Skewed_0/TC_9
+    12      INT_NET       Net   : Skewed_0/N_89
+                          Driver: Skewed_0/uQlde_i_a2
+    7       INT_NET       Net   : Q_c[6]
+                          Driver: Skewed_0/uQ[2]
+    6       INT_NET       Net   : Skewed_0/N_28
+                          Driver: Skewed_0/uQ_n2_i_o2
+    5       INT_NET       Net   : Q_c[9]
+                          Driver: Skewed_0/uQ[5]
+    5       INT_NET       Net   : sQ0
+                          Driver: skewedClock_0/DFN1P0_0
+    5       INT_NET       Net   : sQ1
+                          Driver: skewedClock_0/DFN1P0_1
+    5       INT_NET       Net   : sQ2
+                          Driver: skewedClock_0/DFN1P0_2
+    4       SET/RESET_NET Net   : PRE_c
+                          Driver: PRE_pad
+    4       INT_NET       Net   : Q_c[4]
+                          Driver: Skewed_0/uQ[0]
+
+Nets that are candidates for clock assignment and the resulting fanout:
+    Fanout  Type          Name
+    --------------------------
+    14      INT_NET       Net   : Skewed_0/TC_9
+                          Driver: Skewed_0/TC_9
+    12      INT_NET       Net   : Skewed_0/N_89
+                          Driver: Skewed_0/uQlde_i_a2
+    7       INT_NET       Net   : Q_c[6]
+                          Driver: Skewed_0/uQ[2]
+    6       INT_NET       Net   : Skewed_0/N_28
+                          Driver: Skewed_0/uQ_n2_i_o2
+    5       INT_NET       Net   : Q_c[9]
+                          Driver: Skewed_0/uQ[5]
+    5       INT_NET       Net   : sQ0
+                          Driver: skewedClock_0/DFN1P0_0
+    5       INT_NET       Net   : sQ1
+                          Driver: skewedClock_0/DFN1P0_1
+    5       INT_NET       Net   : sQ2
+                          Driver: skewedClock_0/DFN1P0_2
+    4       SET/RESET_NET Net   : PRE_c
+                          Driver: PRE_pad
+    4       INT_NET       Net   : Q_c[4]
+                          Driver: Skewed_0/uQ[0]
+
+
+Layout Output:
+***** Layout Variables *********************************************
+
+Mode: TIMING_DRIVEN
+Power-driven Layout: OFF
+Incremental Placement: OFF
+Incremental Route: OFF
+
+
+Info: I/O Bank Assigner detected (1) out of (6) I/O Bank(s) with locked I/O technologies.
+
+Running I/O Bank Assigner.
+
+I/O Bank Assigner completed successfully.
+
+
+Planning global net placement...
+
+
+Global net placement completed successfully.
+
+                        o - o - o - o - o - o
+
+Timing-driven Placer Started: Tue Nov 05 17:13:31 2019
+
+Placer Finished: Tue Nov 05 17:13:32 2019
+Total Placer CPU Time:     00:00:01
+
+                        o - o - o - o - o - o
+
+
+Timing-driven Router 
+Design: top_level_counter               Started: Tue Nov 05 17:13:33 2019
+
+ 
+Iterative improvement...
+
+Timing-driven Router completed successfully.
+
+Design: top_level_counter               
+Finished: Tue Nov 05 17:13:36 2019
+Total CPU Time:     00:00:03            Total Elapsed Time: 00:00:03
+Total Memory Usage: 161.2 Mbytes
+                        o - o - o - o - o - o
+
+
+

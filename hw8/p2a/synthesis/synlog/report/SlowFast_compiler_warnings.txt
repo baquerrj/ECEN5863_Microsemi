@@ -1,0 +1,8 @@
+@W: CS263 :"C:\Microsemi_Prj\hw8\p2a\hdl\SlowFast.v":25:39:25:49|Port-width mismatch for port data_out. The port definition is 4 bits, but the actual port connection bit width is 1. Adjust either the definition or the instantiation of this port.
+@W: CG360 :"C:\Microsemi_Prj\hw8\p2a\hdl\SlowFast.v":9:10:9:14|Removing wire dataA, as there is no assignment to it.
+@W: CL168 :"C:\Microsemi_Prj\hw8\p2a\hdl\SlowFast.v":23:14:23:26|Removing instance shiftRegister because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL169 :"C:\Microsemi_Prj\hw8\p2a\hdl\SlowFast.v":33:0:33:5|Pruning unused register shift_in. Make sure that there are no unused intermediate registers.
+@W: CL279 :"C:\Microsemi_Prj\hw8\p2a\hdl\SlowFast.v":40:0:40:5|Pruning register bits 3 to 1 of dataLocked[3:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"C:\Microsemi_Prj\hw8\p2a\hdl\SlowFast.v":48:0:48:5|Pruning register bits 3 to 1 of Dout[3:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL156 :"C:\Microsemi_Prj\hw8\p2a\hdl\SlowFast.v":9:10:9:14|*Input dataA[0] to expression [sdffre] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+

@@ -1,0 +1,387 @@
+#Build: Synplify Pro L-2016.09M-2, Build 065R, Nov 16 2016
+#install: C:\Microsemi\Libero_SoC_v11.8\SynplifyPro
+#OS: Windows 8 6.2
+#Hostname: MSI
+
+# Thu Nov 28 21:31:09 2019
+
+#Implementation: synthesis
+
+Synopsys HDL Compiler, version comp2016q3p1, Build 117R, built Nov 17 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys Verilog Compiler, version comp2016q3p1, Build 127R, built Nov 24 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@I::"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\proasic\smartfusion.v" (library work)
+@I::"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vlog\hypermods.v" (library __hyper__lib__)
+@I::"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vlog\umr_capim.v" (library snps_haps)
+@I::"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vlog\scemi_objects.v" (library snps_haps)
+@I::"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vlog\scemi_pipes.svh" (library snps_haps)
+@I::"C:\Microsemi_Prj\hw9\p1a\hdl\SinkSM.v" (library work)
+@I::"C:\Microsemi_Prj\hw9\p1a\hdl\counter.v" (library work)
+@I::"C:\Microsemi_Prj\hw9\p1a\hdl\DataSource.v" (library work)
+@I::"C:\Microsemi_Prj\hw9\p1a\hdl\SourceSM.v" (library work)
+@I::"C:\Microsemi_Prj\hw9\p1a\hdl\Synchronizer.v" (library work)
+@I::"C:\Microsemi_Prj\hw9\p1a\hdl\Handshake.v" (library work)
+Verilog syntax check successful!
+Selecting top level module Handshake
+@N: CG364 :"C:\Microsemi_Prj\hw9\p1a\hdl\counter.v":3:7:3:13|Synthesizing module Counter in library work.
+
+@N: CG364 :"C:\Microsemi_Prj\hw9\p1a\hdl\DataSource.v":3:7:3:16|Synthesizing module DataSource in library work.
+
+@N: CG364 :"C:\Microsemi_Prj\hw9\p1a\hdl\SourceSM.v":21:7:21:14|Synthesizing module SourceSM in library work.
+
+@N: CG364 :"C:\Microsemi_Prj\hw9\p1a\hdl\Synchronizer.v":1:7:1:18|Synthesizing module Synchronizer in library work.
+
+@N: CG364 :"C:\Microsemi_Prj\hw9\p1a\hdl\SinkSM.v":21:7:21:12|Synthesizing module SinkSM in library work.
+
+@W: CG296 :"C:\Microsemi_Prj\hw9\p1a\hdl\SinkSM.v":76:9:76:13|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
+@W: CG290 :"C:\Microsemi_Prj\hw9\p1a\hdl\SinkSM.v":83:17:83:19|Referenced variable din is not in sensitivity list.
+@W: CL118 :"C:\Microsemi_Prj\hw9\p1a\hdl\SinkSM.v":77:3:77:6|Latch generated from always block for signal ack; possible missing assignment in an if or case statement.
+@W: CL118 :"C:\Microsemi_Prj\hw9\p1a\hdl\SinkSM.v":77:3:77:6|Latch generated from always block for signal dout; possible missing assignment in an if or case statement.
+@N: CG364 :"C:\Microsemi_Prj\hw9\p1a\hdl\Handshake.v":21:7:21:15|Synthesizing module Handshake in library work.
+
+@W: CG781 :"C:\Microsemi_Prj\hw9\p1a\hdl\Handshake.v":55:7:55:12|Input din on instance sink_0 is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CS263 :"C:\Microsemi_Prj\hw9\p1a\hdl\Handshake.v":59:20:59:23|Port-width mismatch for port dout. The port definition is 1 bits, but the actual port connection bit width is 8. Adjust either the definition or the instantiation of this port.
+@N: CL201 :"C:\Microsemi_Prj\hw9\p1a\hdl\SinkSM.v":39:0:39:5|Trying to extract state machine for register state.
+Extracted state machine for register state
+State machine has 3 reachable states with original encodings of:
+   00
+   01
+   10
+@W: CL246 :"C:\Microsemi_Prj\hw9\p1a\hdl\SinkSM.v":24:24:24:26|Input port bits 7 to 1 of din[7:0] are unused. Assign logic for all port bits or change the input port size.
+@N: CL201 :"C:\Microsemi_Prj\hw9\p1a\hdl\SourceSM.v":42:0:42:5|Trying to extract state machine for register state.
+Extracted state machine for register state
+State machine has 3 reachable states with original encodings of:
+   00
+   01
+   10
+
+At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 71MB peak: 72MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Thu Nov 28 21:31:09 2019
+
+###########################################################]
+Synopsys Netlist Linker, version comp2016q3p1, Build 117R, built Nov 17 2016
+@N|Running in 64-bit mode
+@N: NF107 :"C:\Microsemi_Prj\hw9\p1a\hdl\Handshake.v":21:7:21:15|Selected library: work cell: Handshake view verilog as top level
+@N: NF107 :"C:\Microsemi_Prj\hw9\p1a\hdl\Handshake.v":21:7:21:15|Selected library: work cell: Handshake view verilog as top level
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Thu Nov 28 21:31:09 2019
+
+###########################################################]
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Thu Nov 28 21:31:09 2019
+
+###########################################################]
+Synopsys Netlist Linker, version comp2016q3p1, Build 117R, built Nov 17 2016
+@N|Running in 64-bit mode
+@N: NF107 :"C:\Microsemi_Prj\hw9\p1a\hdl\Handshake.v":21:7:21:15|Selected library: work cell: Handshake view verilog as top level
+@N: NF107 :"C:\Microsemi_Prj\hw9\p1a\hdl\Handshake.v":21:7:21:15|Selected library: work cell: Handshake view verilog as top level
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Thu Nov 28 21:31:10 2019
+
+###########################################################]
+Pre-mapping Report
+
+# Thu Nov 28 21:31:10 2019
+
+Synopsys Microsemi Technology Pre-mapping, Version mapact, Build 1920R, Built Nov 17 2016 09:40:34
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version L-2016.09M-2
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
+
+@A: MF827 |No constraint file specified.
+@L: C:\Microsemi_Prj\hw9\p1a\synthesis\Handshake_scck.rpt 
+Printing clock  summary report in "C:\Microsemi_Prj\hw9\p1a\synthesis\Handshake_scck.rpt" file 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 102MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 102MB)
+
+@W: MO129 :"c:\microsemi_prj\hw9\p1a\hdl\sinksm.v":77:3:77:6|Sequential instance sink_0.dout is reduced to a combinational gate by constant propagation.
+@N: BN115 :"c:\microsemi_prj\hw9\p1a\hdl\sourcesm.v":37:11:37:20|Removing instance dataSource (in view: work.SourceSM(verilog)) of type view:work.DataSource(verilog) because it does not drive other instances.
+@N: BN362 :"c:\microsemi_prj\hw9\p1a\hdl\datasource.v":16:0:16:5|Removing sequential instance dout[7:0] (in view: work.DataSource(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN115 :"c:\microsemi_prj\hw9\p1a\hdl\datasource.v":12:8:12:14|Removing instance counter (in view: work.DataSource(verilog)) of type view:work.Counter(verilog) because it does not drive other instances.
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 109MB peak: 110MB)
+
+
+
+Clock Summary
+*****************
+
+Start              Requested     Requested     Clock        Clock                   Clock
+Clock              Frequency     Period        Type         Group                   Load 
+-----------------------------------------------------------------------------------------
+Handshake|clkA     100.0 MHz     10.000        inferred     Inferred_clkgroup_1     6    
+Handshake|clkB     100.0 MHz     10.000        inferred     Inferred_clkgroup_0     6    
+=========================================================================================
+
+@W: MT530 :"c:\microsemi_prj\hw9\p1a\hdl\synchronizer.v":24:0:24:5|Found inferred clock Handshake|clkB which controls 6 sequential elements including sink_synch.sync. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"c:\microsemi_prj\hw9\p1a\hdl\sourcesm.v":42:0:42:5|Found inferred clock Handshake|clkA which controls 6 sequential elements including source_0.state[2:0]. This clock has no specified timing constraint which may adversely impact design performance. 
+
+Finished Pre Mapping Phase.
+@N: BN225 |Writing default property annotation file C:\Microsemi_Prj\hw9\p1a\synthesis\Handshake.sap.
+
+Starting constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 109MB peak: 110MB)
+
+Encoding state machine state[2:0] (in view: work.SourceSM(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+Encoding state machine state[2:0] (in view: work.SinkSM(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+None
+None
+
+Finished constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 109MB peak: 110MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 25MB peak: 110MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Thu Nov 28 21:31:10 2019
+
+###########################################################]
+Map & Optimize Report
+
+# Thu Nov 28 21:31:11 2019
+
+Synopsys Microsemi Technology Mapper, Version mapact, Build 1920R, Built Nov 17 2016 09:40:34
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version L-2016.09M-2
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
+
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 108MB peak: 110MB)
+
+@N: BN115 :"c:\microsemi_prj\hw9\p1a\hdl\handshake.v":55:7:55:12|Removing instance sink_0 (in view: work.Handshake(verilog)) of type view:work.SinkSM(verilog) because it does not drive other instances.
+@N: BN362 :"c:\microsemi_prj\hw9\p1a\hdl\synchronizer.v":24:0:24:5|Removing sequential instance sink_synch.sync (in view: work.Handshake(verilog)) of type view:PrimLib.sdffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\microsemi_prj\hw9\p1a\hdl\synchronizer.v":17:0:17:5|Removing sequential instance sink_synch.S2 (in view: work.Handshake(verilog)) of type view:PrimLib.sdffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\microsemi_prj\hw9\p1a\hdl\synchronizer.v":10:0:10:5|Removing sequential instance sink_synch.S1 (in view: work.Handshake(verilog)) of type view:PrimLib.sdffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\microsemi_prj\hw9\p1a\hdl\synchronizer.v":24:0:24:5|Removing sequential instance source_synch.sync (in view: work.Handshake(verilog)) of type view:PrimLib.sdffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\microsemi_prj\hw9\p1a\hdl\synchronizer.v":17:0:17:5|Removing sequential instance source_synch.S2 (in view: work.Handshake(verilog)) of type view:PrimLib.sdffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\microsemi_prj\hw9\p1a\hdl\synchronizer.v":10:0:10:5|Removing sequential instance source_synch.S1 (in view: work.Handshake(verilog)) of type view:PrimLib.sdffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\microsemi_prj\hw9\p1a\hdl\sourcesm.v":42:0:42:5|Removing sequential instance source_0.state[2:0] (in view: work.Handshake(verilog)) of type view:PrimLib.statemachine(prim) because it does not drive other instances.
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 108MB peak: 110MB)
+
+
+Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 108MB peak: 110MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 108MB peak: 110MB)
+
+
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 108MB peak: 110MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 108MB peak: 110MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 109MB peak: 110MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 109MB peak: 110MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 108MB peak: 110MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 109MB peak: 110MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 108MB peak: 110MB)
+
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 108MB peak: 110MB)
+
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 108MB peak: 110MB)
+
+
+
+@S |Clock Optimization Summary
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+Clock optimization not enabled
+0 non-gated/non-generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+0 gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+0 instances converted, 0 sequential instances remain driven by gated/generated clocks
+
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 108MB peak: 110MB)
+
+Writing Analyst data base C:\Microsemi_Prj\hw9\p1a\synthesis\synwork\Handshake_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 108MB peak: 110MB)
+
+Writing EDIF Netlist and constraint files
+L-2016.09M-2
+
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 109MB peak: 110MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 109MB peak: 110MB)
+
+@W: MT420 |Found inferred clock Handshake|clkA with period 10.00ns. Please declare a user-defined clock on object "p:clkA"
+@W: MT420 |Found inferred clock Handshake|clkB with period 10.00ns. Please declare a user-defined clock on object "p:clkB"
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Thu Nov 28 21:31:11 2019
+#
+
+
+Top view:               Handshake
+Library name:           smartfusion
+Operating conditions:   COMWCSTD ( T = 70.0, V = 1.42, P = 1.74, tree_type = balanced_tree )
+Requested Frequency:    100.0 MHz
+Wire load mode:         top
+Wire load model:        smartfusion
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: NA
+
+                   Requested     Estimated     Requested     Estimated               Clock        Clock              
+Starting Clock     Frequency     Frequency     Period        Period        Slack     Type         Group              
+---------------------------------------------------------------------------------------------------------------------
+Handshake|clkA     100.0 MHz     NA            10.000        NA            NA        inferred     Inferred_clkgroup_1
+Handshake|clkB     100.0 MHz     NA            10.000        NA            NA        inferred     Inferred_clkgroup_0
+=====================================================================================================================
+@N: MT582 |Estimated period and frequency not reported for given clock unless the clock has at least one timing path which is not a false or a max delay path and that does not have excessive slack
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks            |    rise  to  rise   |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+--------------------------------------------------------------------------------------------------------
+Starting  Ending  |  constraint  slack  |  constraint  slack  |  constraint  slack  |  constraint  slack
+--------------------------------------------------------------------------------------------------------
+========================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+None
+
+Finished final timing analysis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 109MB peak: 110MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 109MB peak: 110MB)
+
+--------------------------------------------------------------------------------
+Target Part: A2F200M3F_FBGA484_STD
+Report for cell Handshake.verilog
+  Core Cell usage:
+              cell count     area count*area
+               GND     1      0.0        0.0
+               VCC     1      0.0        0.0
+
+
+                   -----          ----------
+             TOTAL     2                 0.0
+
+
+  IO Cell usage:
+              cell count
+            OUTBUF     8
+                   -----
+             TOTAL     8
+
+
+Core Cells         : 0 of 4608 (0%)
+IO Cells           : 8
+
+  RAM/ROM Usage Summary
+Block Rams : 0 of 8 (0%)
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 25MB peak: 110MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Thu Nov 28 21:31:11 2019
+
+###########################################################]

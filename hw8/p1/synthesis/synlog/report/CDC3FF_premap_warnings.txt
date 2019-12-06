@@ -1,0 +1,1 @@
+@W: MT530 :"c:\microsemi_prj\hw8\p1\hdl\cdc3ff.vhd":50:3:50:4|Found inferred clock CDC3FF|Aclk which controls 3 sequential elements including u3. This clock has no specified timing constraint which may adversely impact design performance. 

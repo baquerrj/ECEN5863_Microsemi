@@ -1,0 +1,13 @@
+[Library]
+others = $MODEL_TECH/../modelsim.ini
+smartfusion = C:/Microsemi/Libero_SoC_v11.8/Designer/lib/modelsim/precompiled/vlog/smartfusion
+postsynth = postsynth
+syncad_vhdl_lib = C:\Microsemi\Libero_SoC_v11.8\Designer/lib/actel/syncad_vhdl_lib
+
+postlayout = ../designer/impl1/simulation/postlayout
+presynth = presynth
+[vcom]
+VHDL93 = 1
+
+[vsim]
+IterationLimit = 5000

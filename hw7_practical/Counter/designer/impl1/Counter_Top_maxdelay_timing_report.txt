@@ -1,0 +1,500 @@
+Timing Report Max Delay Analysis
+
+SmartTime Version v11.8
+Microsemi Corporation - Microsemi Libero Software Release v11.8 (Version 11.8.0.26)
+Date: Thu Nov 07 21:47:04 2019
+
+
+Design: Counter_Top
+Family: SmartFusion
+Die: A2F200M3F
+Package: 484 FBGA
+Temperature Range: 0 - 85 C
+Voltage Range: 1.425 - 1.575 V
+Speed Grade: STD
+Design State: Post-Layout
+Data source: Silicon verified
+Min Operating Conditions: BEST - 1.575 V - 0 C
+Max Operating Conditions: WORST - 1.425 V - 85 C
+Using Enhanced Min Delay Analysis
+Scenario for Timing Analysis: Primary
+
+
+-----------------------------------------------------
+SUMMARY
+
+Clock Domain:               CLK
+Period (ns):                22.365
+Frequency (MHz):            44.713
+Required Period (ns):       23.000
+Required Frequency (MHz):   43.478
+External Setup (ns):        6.868
+External Hold (ns):         -0.457
+Min Clock-To-Out (ns):      2.687
+Max Clock-To-Out (ns):      22.424
+
+                            Input to Output
+Min Delay (ns):             N/A
+Max Delay (ns):             N/A
+
+END SUMMARY
+-----------------------------------------------------
+
+Clock Domain CLK
+
+SET Register to Register
+
+Path 1
+  From:                        GEN_COUNTER.6.chain.ui/count[7]:CLK
+  To:                          GEN_COUNTER.49.chain.ui/count[5]:E
+  Delay (ns):                  21.992
+  Slack (ns):                  0.635
+  Arrival (ns):                23.924
+  Required (ns):               24.559
+  Setup (ns):                  0.395
+  Minimum Period (ns):         22.365
+
+Path 2
+  From:                        GEN_COUNTER.1.chain.ui/count[1]:CLK
+  To:                          GEN_COUNTER.1.chain.ui/count[13]:D
+  Delay (ns):                  21.809
+  Slack (ns):                  0.688
+  Arrival (ns):                23.716
+  Required (ns):               24.404
+  Setup (ns):                  0.522
+  Minimum Period (ns):         22.312
+
+Path 3
+  From:                        GEN_COUNTER.6.chain.ui/count[7]:CLK
+  To:                          GEN_COUNTER.49.chain.ui/count[14]:E
+  Delay (ns):                  21.827
+  Slack (ns):                  0.772
+  Arrival (ns):                23.759
+  Required (ns):               24.531
+  Setup (ns):                  0.395
+  Minimum Period (ns):         22.228
+
+Path 4
+  From:                        GEN_COUNTER.6.chain.ui/count[7]:CLK
+  To:                          GEN_COUNTER.49.chain.ui/count[3]:E
+  Delay (ns):                  21.728
+  Slack (ns):                  0.871
+  Arrival (ns):                23.660
+  Required (ns):               24.531
+  Setup (ns):                  0.395
+  Minimum Period (ns):         22.129
+
+Path 5
+  From:                        GEN_COUNTER.6.chain.ui/count[7]:CLK
+  To:                          GEN_COUNTER.49.chain.ui/count[15]:E
+  Delay (ns):                  21.728
+  Slack (ns):                  0.871
+  Arrival (ns):                23.660
+  Required (ns):               24.531
+  Setup (ns):                  0.395
+  Minimum Period (ns):         22.129
+
+
+Expanded Path 1
+  From: GEN_COUNTER.6.chain.ui/count[7]:CLK
+  To: GEN_COUNTER.49.chain.ui/count[5]:E
+  data required time                             24.559
+  data arrival time                          -   23.924
+  slack                                          0.635
+  ________________________________________________________
+  Data arrival time calculation
+  0.000                        CLK
+               +     0.000          Clock source
+  0.000                        CLK (r)
+               +     0.000          net: CLK
+  0.000                        CLK_pad/U0/U0:PAD (r)
+               +     0.935          cell: ADLIB:IOPAD_IN
+  0.935                        CLK_pad/U0/U0:Y (r)
+               +     0.000          net: CLK_pad/U0/NET1
+  0.935                        CLK_pad/U0/U1:A (r)
+               +     0.314          cell: ADLIB:CLKSRC
+  1.249                        CLK_pad/U0/U1:Y (r)
+               +     0.683          net: CLK_c
+  1.932                        GEN_COUNTER.6.chain.ui/count[7]:CLK (r)
+               +     0.671          cell: ADLIB:DFN1E1
+  2.603                        GEN_COUNTER.6.chain.ui/count[7]:Q (f)
+               +     0.306          net: GEN_COUNTER_6_chain_ui/count[7]
+  2.909                        GEN_COUNTER.6.chain.ui/count_m3_0_a2_1:B (f)
+               +     0.574          cell: ADLIB:NOR2B
+  3.483                        GEN_COUNTER.6.chain.ui/count_m3_0_a2_1:Y (f)
+               +     0.940          net: GEN_COUNTER_6_chain_ui/count_m3_0_a2_1
+  4.423                        GEN_COUNTER.6.chain.ui/count_m3_0_a2_11:B (f)
+               +     0.584          cell: ADLIB:NOR3C
+  5.007                        GEN_COUNTER.6.chain.ui/count_m3_0_a2_11:Y (f)
+               +     0.296          net: GEN_COUNTER_6_chain_ui/count_m3_0_a2_11
+  5.303                        GEN_COUNTER.6.chain.ui/count_m3_0_a2:C (f)
+               +     0.584          cell: ADLIB:NOR3C
+  5.887                        GEN_COUNTER.6.chain.ui/count_m3_0_a2:Y (f)
+               +     0.296          net: GEN_COUNTER_6_chain_ui/count_N_13_mux
+  6.183                        GEN_COUNTER.6.chain.ui/count_RNI09PF[15]:B (f)
+               +     0.571          cell: ADLIB:NOR2B
+  6.754                        GEN_COUNTER.6.chain.ui/count_RNI09PF[15]:Y (f)
+               +     0.306          net: GEN_COUNTER_6_chain_ui_un2_tc_0_a2_0
+  7.060                        GEN_COUNTER.11.chain.ui/count_RNIFJEH2[15]:B (f)
+               +     0.574          cell: ADLIB:NOR2B
+  7.634                        GEN_COUNTER.11.chain.ui/count_RNIFJEH2[15]:Y (f)
+               +     1.201          net: GEN_COUNTER_11_chain_ui/un2_m6_0_a2_5
+  8.835                        GEN_COUNTER.11.chain.ui/count_RNIAIKQ3[15]:C (f)
+               +     0.620          cell: ADLIB:NOR3C
+  9.455                        GEN_COUNTER.11.chain.ui/count_RNIAIKQ3[15]:Y (f)
+               +     0.285          net: GEN_COUNTER_11_chain_ui/un2_m6_0_a2_7
+  9.740                        GEN_COUNTER.11.chain.ui/count_RNIVKLG4[15]:A (f)
+               +     0.422          cell: ADLIB:NOR3C
+  10.162                       GEN_COUNTER.11.chain.ui/count_RNIVKLG4[15]:Y (f)
+               +     0.296          net: GEN_COUNTER_11_chain_ui/un2_m6_0_a2_9
+  10.458                       GEN_COUNTER.11.chain.ui/count_m6_0_a2_RNITBA27:B (f)
+               +     0.552          cell: ADLIB:NOR3C
+  11.010                       GEN_COUNTER.11.chain.ui/count_m6_0_a2_RNITBA27:Y (f)
+               +     0.296          net: GEN_COUNTER_11_chain_ui/un2_m6_0_a2_12
+  11.306                       GEN_COUNTER.11.chain.ui/count_m6_0_a2_RNICS528:B (f)
+               +     0.552          cell: ADLIB:NOR3C
+  11.858                       GEN_COUNTER.11.chain.ui/count_m6_0_a2_RNICS528:Y (f)
+               +     1.619          net: CTC[11]
+  13.477                       GEN_COUNTER.20.chain.ui/count_n15_0_o2_RNIH8J5E:B (f)
+               +     0.571          cell: ADLIB:NOR2B
+  14.048                       GEN_COUNTER.20.chain.ui/count_n15_0_o2_RNIH8J5E:Y (f)
+               +     2.151          net: count_n15_0_o2_RNIH8J5E
+  16.199                       GEN_COUNTER.20.chain.ui/count_n15_0_o2_RNIK9MUH:A (f)
+               +     0.351          cell: ADLIB:NOR2B
+  16.550                       GEN_COUNTER.20.chain.ui/count_n15_0_o2_RNIK9MUH:Y (f)
+               +     1.154          net: CTC[20]
+  17.704                       GEN_COUNTER.45.chain.ui/count_n15_0_o2_RNI9UI641:C (f)
+               +     0.620          cell: ADLIB:NOR3C
+  18.324                       GEN_COUNTER.45.chain.ui/count_n15_0_o2_RNI9UI641:Y (f)
+               +     0.728          net: CTC[45]
+  19.052                       GEN_COUNTER.48.chain.ui/count_RNID6L251[15]:B (f)
+               +     0.571          cell: ADLIB:NOR2B
+  19.623                       GEN_COUNTER.48.chain.ui/count_RNID6L251[15]:Y (f)
+               +     1.483          net: CTC[48]
+  21.106                       GEN_COUNTER.49.chain.ui/countlde:B (f)
+               +     0.592          cell: ADLIB:OR2A
+  21.698                       GEN_COUNTER.49.chain.ui/countlde:Y (f)
+               +     2.226          net: GEN_COUNTER_49_chain_ui/counte
+  23.924                       GEN_COUNTER.49.chain.ui/count[5]:E (f)
+                                    
+  23.924                       data arrival time
+  ________________________________________________________
+  Data required time calculation
+  23.000                       CLK
+               +     0.000          Clock source
+  23.000                       CLK (r)
+               +     0.000          net: CLK
+  23.000                       CLK_pad/U0/U0:PAD (r)
+               +     0.935          cell: ADLIB:IOPAD_IN
+  23.935                       CLK_pad/U0/U0:Y (r)
+               +     0.000          net: CLK_pad/U0/NET1
+  23.935                       CLK_pad/U0/U1:A (r)
+               +     0.314          cell: ADLIB:CLKSRC
+  24.249                       CLK_pad/U0/U1:Y (r)
+               +     0.705          net: CLK_c
+  24.954                       GEN_COUNTER.49.chain.ui/count[5]:CLK (r)
+               -     0.395          Library setup time: ADLIB:DFN1E1
+  24.559                       GEN_COUNTER.49.chain.ui/count[5]:E
+                                    
+  24.559                       data required time
+
+
+END SET Register to Register
+
+----------------------------------------------------
+
+SET External Setup
+
+Path 1
+  From:                        RESET
+  To:                          GEN_COUNTER.1.chain.ui/count[4]:E
+  Delay (ns):                  8.408
+  Slack (ns):                  14.932
+  Arrival (ns):                9.608
+  Required (ns):               24.540
+  Setup (ns):                  0.395
+  External Setup (ns):         6.868
+
+Path 2
+  From:                        RESET
+  To:                          GEN_COUNTER.1.chain.ui/count[10]:E
+  Delay (ns):                  8.269
+  Slack (ns):                  15.043
+  Arrival (ns):                9.469
+  Required (ns):               24.512
+  Setup (ns):                  0.395
+  External Setup (ns):         6.757
+
+Path 3
+  From:                        RESET
+  To:                          GEN_COUNTER.1.chain.ui/count[1]:E
+  Delay (ns):                  8.269
+  Slack (ns):                  15.043
+  Arrival (ns):                9.469
+  Required (ns):               24.512
+  Setup (ns):                  0.395
+  External Setup (ns):         6.757
+
+Path 4
+  From:                        RESET
+  To:                          GEN_COUNTER.1.chain.ui/count[3]:E
+  Delay (ns):                  8.042
+  Slack (ns):                  15.265
+  Arrival (ns):                9.242
+  Required (ns):               24.507
+  Setup (ns):                  0.395
+  External Setup (ns):         6.535
+
+Path 5
+  From:                        RESET
+  To:                          GEN_COUNTER.1.chain.ui/count[12]:E
+  Delay (ns):                  8.042
+  Slack (ns):                  15.272
+  Arrival (ns):                9.242
+  Required (ns):               24.514
+  Setup (ns):                  0.395
+  External Setup (ns):         6.528
+
+
+Expanded Path 1
+  From: RESET
+  To: GEN_COUNTER.1.chain.ui/count[4]:E
+  data required time                             24.540
+  data arrival time                          -   9.608
+  slack                                          14.932
+  ________________________________________________________
+  Data arrival time calculation
+  0.000                        CLK
+               +     1.200          Input Delay Constraint
+  1.200                        RESET (r)
+               +     0.000          net: RESET
+  1.200                        RESET_pad/U0/U0:PAD (r)
+               +     0.935          cell: ADLIB:IOPAD_IN
+  2.135                        RESET_pad/U0/U0:Y (r)
+               +     0.000          net: RESET_pad/U0/NET1
+  2.135                        RESET_pad/U0/U1:YIN (r)
+               +     0.039          cell: ADLIB:IOIN_IB
+  2.174                        RESET_pad/U0/U1:Y (r)
+               +     0.321          net: RESET_pad
+  2.495                        RESET_pad_RNIN4HC/U_CLKSRC:A (r)
+               +     0.829          cell: ADLIB:CLKSRC
+  3.324                        RESET_pad_RNIN4HC/U_CLKSRC:Y (r)
+               +     0.704          net: RESET_c
+  4.028                        GEN_COUNTER.1.chain.ui/countlde:C (r)
+               +     0.596          cell: ADLIB:AO1C
+  4.624                        GEN_COUNTER.1.chain.ui/countlde:Y (f)
+               +     4.984          net: GEN_COUNTER_1_chain_ui/counte
+  9.608                        GEN_COUNTER.1.chain.ui/count[4]:E (f)
+                                    
+  9.608                        data arrival time
+  ________________________________________________________
+  Data required time calculation
+  23.000                       CLK
+               +     0.000          Clock source
+  23.000                       CLK (r)
+               +     0.000          net: CLK
+  23.000                       CLK_pad/U0/U0:PAD (r)
+               +     0.935          cell: ADLIB:IOPAD_IN
+  23.935                       CLK_pad/U0/U0:Y (r)
+               +     0.000          net: CLK_pad/U0/NET1
+  23.935                       CLK_pad/U0/U1:A (r)
+               +     0.314          cell: ADLIB:CLKSRC
+  24.249                       CLK_pad/U0/U1:Y (r)
+               +     0.686          net: CLK_c
+  24.935                       GEN_COUNTER.1.chain.ui/count[4]:CLK (r)
+               -     0.395          Library setup time: ADLIB:DFN1E1
+  24.540                       GEN_COUNTER.1.chain.ui/count[4]:E
+                                    
+  24.540                       data required time
+
+
+END SET External Setup
+
+----------------------------------------------------
+
+SET Clock to Output
+
+Path 1
+  From:                        GEN_COUNTER.49.chain.ui/count[0]:CLK
+  To:                          TC
+  Delay (ns):                  20.498
+  Slack (ns):                  0.476
+  Arrival (ns):                22.424
+  Required (ns):               22.900
+  Clock to Out (ns):           22.424
+
+Path 2
+  From:                        GEN_COUNTER.25.chain.ui/count[4]:CLK
+  To:                          TC
+  Delay (ns):                  20.299
+  Slack (ns):                  0.659
+  Arrival (ns):                22.241
+  Required (ns):               22.900
+  Clock to Out (ns):           22.241
+
+Path 3
+  From:                        GEN_COUNTER.49.chain.ui/count[1]:CLK
+  To:                          TC
+  Delay (ns):                  20.258
+  Slack (ns):                  0.688
+  Arrival (ns):                22.212
+  Required (ns):               22.900
+  Clock to Out (ns):           22.212
+
+Path 4
+  From:                        GEN_COUNTER.25.chain.ui/count[7]:CLK
+  To:                          TC
+  Delay (ns):                  20.168
+  Slack (ns):                  0.817
+  Arrival (ns):                22.083
+  Required (ns):               22.900
+  Clock to Out (ns):           22.083
+
+Path 5
+  From:                        GEN_COUNTER.25.chain.ui/count[9]:CLK
+  To:                          TC
+  Delay (ns):                  20.044
+  Slack (ns):                  0.914
+  Arrival (ns):                21.986
+  Required (ns):               22.900
+  Clock to Out (ns):           21.986
+
+
+Expanded Path 1
+  From: GEN_COUNTER.49.chain.ui/count[0]:CLK
+  To: TC
+  data required time                             22.900
+  data arrival time                          -   22.424
+  slack                                          0.476
+  ________________________________________________________
+  Data arrival time calculation
+  0.000                        CLK
+               +     0.000          Clock source
+  0.000                        CLK (r)
+               +     0.000          net: CLK
+  0.000                        CLK_pad/U0/U0:PAD (r)
+               +     0.935          cell: ADLIB:IOPAD_IN
+  0.935                        CLK_pad/U0/U0:Y (r)
+               +     0.000          net: CLK_pad/U0/NET1
+  0.935                        CLK_pad/U0/U1:A (r)
+               +     0.314          cell: ADLIB:CLKSRC
+  1.249                        CLK_pad/U0/U1:Y (r)
+               +     0.677          net: CLK_c
+  1.926                        GEN_COUNTER.49.chain.ui/count[0]:CLK (r)
+               +     0.671          cell: ADLIB:DFN1E1
+  2.597                        GEN_COUNTER.49.chain.ui/count[0]:Q (f)
+               +     0.334          net: GEN_COUNTER_49_chain_ui/count[0]
+  2.931                        GEN_COUNTER.49.chain.ui/count_m5_0_a2_3:B (f)
+               +     0.574          cell: ADLIB:NOR2B
+  3.505                        GEN_COUNTER.49.chain.ui/count_m5_0_a2_3:Y (f)
+               +     0.944          net: GEN_COUNTER_49_chain_ui/count_m5_0_a2_3
+  4.449                        GEN_COUNTER.49.chain.ui/count_m5_0_a2_6:C (f)
+               +     0.620          cell: ADLIB:NOR3C
+  5.069                        GEN_COUNTER.49.chain.ui/count_m5_0_a2_6:Y (f)
+               +     0.305          net: GEN_COUNTER_49_chain_ui/count_m5_0_a2_6
+  5.374                        GEN_COUNTER.49.chain.ui/count_m5_0_a2:A (f)
+               +     0.468          cell: ADLIB:NOR2B
+  5.842                        GEN_COUNTER.49.chain.ui/count_m5_0_a2:Y (f)
+               +     0.334          net: GEN_COUNTER_49_chain_ui/count_N_11_mux
+  6.176                        GEN_COUNTER.49.chain.ui/count_n12_0_o2:C (f)
+               +     0.620          cell: ADLIB:OR3C
+  6.796                        GEN_COUNTER.49.chain.ui/count_n12_0_o2:Y (r)
+               +     0.325          net: GEN_COUNTER_49_chain_ui/N_87
+  7.121                        GEN_COUNTER.49.chain.ui/count_n13_0_o2:B (r)
+               +     0.538          cell: ADLIB:OR2A
+  7.659                        GEN_COUNTER.49.chain.ui/count_n13_0_o2:Y (r)
+               +     1.229          net: GEN_COUNTER_49_chain_ui/N_88
+  8.888                        GEN_COUNTER.49.chain.ui/count_n15_0_o2:C (r)
+               +     0.584          cell: ADLIB:OR3B
+  9.472                        GEN_COUNTER.49.chain.ui/count_n15_0_o2:Y (r)
+               +     0.311          net: GEN_COUNTER_49_chain_ui_N_90
+  9.783                        GEN_COUNTER.50.chain.ui/count_n15_0_o2_RNIGG0N:C (r)
+               +     0.422          cell: ADLIB:NOR3B
+  10.205                       GEN_COUNTER.50.chain.ui/count_n15_0_o2_RNIGG0N:Y (f)
+               +     0.296          net: GEN_COUNTER_50_chain_ui_un2_tc_0_a2_out
+  10.501                       GEN_COUNTER.54.chain.ui/un2_m6_0_a2_7_s:B (f)
+               +     0.571          cell: ADLIB:NOR2B
+  11.072                       GEN_COUNTER.54.chain.ui/un2_m6_0_a2_7_s:Y (f)
+               +     0.306          net: GEN_COUNTER_54_chain_ui_un2_m6_0_a2_7_out
+  11.378                       GEN_COUNTER.54.chain.ui/un2_m5_0_a2_2_1:B (f)
+               +     0.574          cell: ADLIB:NOR2B
+  11.952                       GEN_COUNTER.54.chain.ui/un2_m5_0_a2_2_1:Y (f)
+               +     1.780          net: GEN_COUNTER_54_chain_ui_un2_m5_0_a2_2_1
+  13.732                       GEN_COUNTER.68.chain.ui/count_n15_0_o2_RNIKJ9KH:B (f)
+               +     0.584          cell: ADLIB:NOR3C
+  14.316                       GEN_COUNTER.68.chain.ui/count_n15_0_o2_RNIKJ9KH:Y (f)
+               +     0.296          net: GEN_COUNTER_68_chain_ui/un2_m6_0_a2_9
+  14.612                       GEN_COUNTER.68.chain.ui/count_n15_0_o2_RNIEEJCA1:B (f)
+               +     0.552          cell: ADLIB:NOR3C
+  15.164                       GEN_COUNTER.68.chain.ui/count_n15_0_o2_RNIEEJCA1:Y (f)
+               +     0.296          net: GEN_COUNTER_68_chain_ui_un2_m6_0_a2_11
+  15.460                       GEN_COUNTER.74.last.ul/un2_tc_0_a2_1:B (f)
+               +     0.552          cell: ADLIB:NOR3C
+  16.012                       GEN_COUNTER.74.last.ul/un2_tc_0_a2_1:Y (f)
+               +     1.725          net: GEN_COUNTER_74_last_ul/un2_tc_0_a2_1
+  17.737                       GEN_COUNTER.74.last.ul/countlde_m6_0_a3_1_RNILHTSH1:A (f)
+               +     0.422          cell: ADLIB:NOR3C
+  18.159                       GEN_COUNTER.74.last.ul/countlde_m6_0_a3_1_RNILHTSH1:Y (f)
+               +     0.296          net: TC_c
+  18.455                       TC_pad/U0/U1:D (f)
+               +     0.600          cell: ADLIB:IOTRI_OB_EB
+  19.055                       TC_pad/U0/U1:DOUT (f)
+               +     0.000          net: TC_pad/U0/NET1
+  19.055                       TC_pad/U0/U0:D (f)
+               +     3.369          cell: ADLIB:IOPAD_TRI
+  22.424                       TC_pad/U0/U0:PAD (f)
+               +     0.000          net: TC
+  22.424                       TC (f)
+                                    
+  22.424                       data arrival time
+  ________________________________________________________
+  Data required time calculation
+  23.000                       CLK
+               +     0.000          Clock source
+  23.000                       CLK (r)
+               -     0.100          Output Delay Constraint
+  22.900                       TC (f)
+                                    
+  22.900                       data required time
+
+
+END SET Clock to Output
+
+----------------------------------------------------
+
+SET Register to Asynchronous
+
+No Path
+
+END SET Register to Asynchronous
+
+----------------------------------------------------
+
+SET External Recovery
+
+No Path
+
+END SET External Recovery
+
+----------------------------------------------------
+
+SET Asynchronous to Register
+
+No Path
+
+END SET Asynchronous to Register
+
+----------------------------------------------------
+
+Path set Pin to Pin
+
+SET Input to Output
+
+No Path
+
+END SET Input to Output
+
+----------------------------------------------------
+
+Path set User Sets
+

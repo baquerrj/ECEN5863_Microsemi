@@ -1,0 +1,89 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Microsemi_Prj/hw7_practical/Counter/simulation
+Ecounter
+Z1 w1573094522
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z4 8C:/Microsemi_Prj/hw7_practical/Counter/synthesis/Counter.vhd
+Z5 FC:/Microsemi_Prj/hw7_practical/Counter/synthesis/Counter.vhd
+l0
+L8
+VbDml9iZ_<Q1zB?4Jeba4]2
+!s100 EGUYf?9AnTkiE_omXTf2z3
+Z6 OW;C;10.5c;63
+33
+Z7 !s110 1573095297
+!i10b 1
+Z8 !s108 1573095297.000000
+Z9 !s90 -reportprogress|300|-2008|-explicit|-work|postsynth|C:/Microsemi_Prj/hw7_practical/Counter/synthesis/Counter.vhd|
+Z10 !s107 C:/Microsemi_Prj/hw7_practical/Counter/synthesis/Counter.vhd|
+!i113 1
+Z11 o-2008 -explicit -work postsynth -O0
+Z12 tCvgOpt 0
+Adef_arch
+R2
+R3
+Z13 DEx4 work 7 counter 0 22 bDml9iZ_<Q1zB?4Jeba4]2
+l195
+L19
+Vic;Q0QSoOTK3dZYfH[Y2K0
+!s100 ZlXfA]eT1K8d0^F<CZW_h1
+R6
+33
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Ecounter_tb
+Z14 w1573094730
+R2
+R3
+R0
+Z15 8C:/Microsemi_Prj/hw7_practical/Counter/stimulus/Counter_tb.vhd
+Z16 FC:/Microsemi_Prj/hw7_practical/Counter/stimulus/Counter_tb.vhd
+l0
+L33
+V`3TM3:a`2mP`j7kZghEzh1
+!s100 nWZ7zoPj2UISPelFSmS[31
+R6
+33
+R7
+!i10b 1
+R8
+Z17 !s90 -reportprogress|300|-2008|-explicit|-work|postsynth|C:/Microsemi_Prj/hw7_practical/Counter/stimulus/Counter_tb.vhd|
+Z18 !s107 C:/Microsemi_Prj/hw7_practical/Counter/stimulus/Counter_tb.vhd|
+!i113 1
+R11
+R12
+Acounter_arch
+R13
+R2
+R3
+Z19 DEx4 work 10 counter_tb 0 22 `3TM3:a`2mP`j7kZghEzh1
+l46
+L35
+Z20 V8[GW^AHA@1JV[nH6:``Cg0
+Z21 !s100 ?k1`B[IWGY9WB81Vg6U]m1
+R6
+33
+R7
+!i10b 1
+R8
+R17
+R18
+!i113 1
+R11
+R12

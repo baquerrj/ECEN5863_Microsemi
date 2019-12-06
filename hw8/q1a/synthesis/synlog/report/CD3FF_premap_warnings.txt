@@ -1,0 +1,2 @@
+@W: MT530 :"c:\microsemi_prj\hw8\q1a\hdl\synchronizer.v":10:0:10:5|Found inferred clock CD3FF|Bclk which controls 2 sequential elements including synchronizer.S1. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"c:\microsemi_prj\hw8\q1a\hdl\synchronizer.v":24:0:24:5|Found inferred clock CD3FF|Aclk which controls 5 sequential elements including synchronizer.sync. This clock has no specified timing constraint which may adversely impact design performance. 

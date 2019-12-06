@@ -1,0 +1,2 @@
+@W: CL118 :"C:\Microsemi_Prj\hw8\q1b\hdl\CD3FF.v":29:3:29:4|Latch generated from always block for signal dataLocked; possible missing assignment in an if or case statement.
+

@@ -1,0 +1,80 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Microsemi_Prj/hw8/q1a/simulation
+vCD3FF
+Z1 !s110 1574225395
+!i10b 1
+!s100 ^_i]>Z8^WFf[<9:55R<Q92
+Ih9<5b3end6XZJm6f:gY`M0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1574225036
+8C:/Microsemi_Prj/hw8/q1a/hdl/CD3FF.v
+FC:/Microsemi_Prj/hw8/q1a/hdl/CD3FF.v
+L0 1
+Z3 OW;L;10.5c;63
+r1
+!s85 0
+31
+Z4 !s108 1574225395.000000
+!s107 C:/Microsemi_Prj/hw8/q1a/hdl/CD3FF.v|
+!s90 -vlog01compat|-work|presynth|C:/Microsemi_Prj/hw8/q1a/hdl/CD3FF.v|
+!s101 -O0
+!i113 1
+Z5 o-vlog01compat -work presynth -O0
+Z6 tCvgOpt 0
+n@c@d3@f@f
+vCD3FF_testbench
+R1
+!i10b 1
+!s100 [?l^[l>zmGU<5LJe;oXG20
+I7]YzAe0Ce:;9U4mP<QJ3F2
+R2
+R0
+w1574225149
+8C:/Microsemi_Prj/hw8/q1a/stimulus/CD3FF_testbench.v
+FC:/Microsemi_Prj/hw8/q1a/stimulus/CD3FF_testbench.v
+L0 30
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Microsemi_Prj/hw8/q1a/stimulus/CD3FF_testbench.v|
+!s90 +incdir+C:/Microsemi_Prj/hw8/q1a/stimulus|-vlog01compat|-work|presynth|C:/Microsemi_Prj/hw8/q1a/stimulus/CD3FF_testbench.v|
+!s101 -O0
+!i113 1
+R5
+!s92 +incdir+C:/Microsemi_Prj/hw8/q1a/stimulus -vlog01compat -work presynth -O0
+R6
+n@c@d3@f@f_testbench
+vSynchronizer
+R1
+!i10b 1
+!s100 ]IT1L64?QY`F9<5;kLNWg2
+Iz5FMmVESB=fBRH0975lNl2
+R2
+R0
+w1574137630
+8C:/Microsemi_Prj/hw8/q1a/hdl/Synchronizer.v
+FC:/Microsemi_Prj/hw8/q1a/hdl/Synchronizer.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Microsemi_Prj/hw8/q1a/hdl/Synchronizer.v|
+!s90 -vlog01compat|-work|presynth|C:/Microsemi_Prj/hw8/q1a/hdl/Synchronizer.v|
+!s101 -O0
+!i113 1
+R5
+R6
+n@synchronizer

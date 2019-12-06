@@ -1,0 +1,9 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CD720 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vhd2008\std.vhd":146:18:146:21|Setting time resolution to ps
+@N:"C:\Microsemi_Prj\hw7_practical\Counter\hdl\Counter_Top.vhd":23:7:23:17|Top entity is set to Counter_Top.
+@N: CD231 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vhd2008\std1164.vhd":890:16:890:17|Using onehot encoding for type mvl9plus. For example, enumeration 'U' is mapped to "1000000000".
+@N: CD630 :"C:\Microsemi_Prj\hw7_practical\Counter\hdl\Counter_Top.vhd":23:7:23:17|Synthesizing work.counter_top.gen.
+@N: CD630 :"C:\Microsemi_Prj\hw7_practical\Counter\hdl\Counter.vhd":22:7:22:13|Synthesizing work.counter.counter_arch.
+@N|Running in 64-bit mode
+

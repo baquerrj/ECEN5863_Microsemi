@@ -1,0 +1,505 @@
+#Build: Synplify Pro L-2016.09M-2, Build 065R, Nov 16 2016
+#install: C:\Microsemi\Libero_SoC_v11.8\SynplifyPro
+#OS: Windows 8 6.2
+#Hostname: MSI
+
+# Sat Nov 30 07:38:27 2019
+
+#Implementation: synthesis
+
+Synopsys HDL Compiler, version comp2016q3p1, Build 117R, built Nov 17 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys VHDL Compiler, version comp2016q3p1, Build 127R, built Nov 24 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@N: CD720 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vhd2008\std.vhd":146:18:146:21|Setting time resolution to ps
+@N:"C:\Microsemi_Prj\hw9\p2\hdl\fifo2x8.vhd":23:7:23:13|Top entity is set to fifo2x8.
+VHDL syntax check successful!
+@N: CD231 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vhd2008\std1164.vhd":890:16:890:17|Using onehot encoding for type mvl9plus. For example, enumeration 'U' is mapped to "1000000000".
+@N: CD630 :"C:\Microsemi_Prj\hw9\p2\hdl\fifo2x8.vhd":23:7:23:13|Synthesizing work.fifo2x8.archfifo2x8.
+@N: CD364 :"C:\Microsemi_Prj\hw9\p2\hdl\fifo2x8.vhd":59:4:59:7|Removing redundant assignment.
+@W: CD434 :"C:\Microsemi_Prj\hw9\p2\hdl\fifo2x8.vhd":97:18:97:20|Signal rst in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.
+@W: CD434 :"C:\Microsemi_Prj\hw9\p2\hdl\fifo2x8.vhd":97:23:97:26|Signal clk1 in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.
+@W: CD434 :"C:\Microsemi_Prj\hw9\p2\hdl\fifo2x8.vhd":105:19:105:21|Signal rst in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.
+@W: CD434 :"C:\Microsemi_Prj\hw9\p2\hdl\fifo2x8.vhd":105:24:105:27|Signal clk2 in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.
+@N: CD364 :"C:\Microsemi_Prj\hw9\p2\hdl\fifo2x8.vhd":131:9:131:16|Removing redundant assignment.
+@W: CD638 :"C:\Microsemi_Prj\hw9\p2\hdl\fifo2x8.vhd":39:10:39:16|Signal wrptrd1 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Microsemi_Prj\hw9\p2\hdl\fifo2x8.vhd":39:19:39:25|Signal wrptrd2 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Microsemi_Prj\hw9\p2\hdl\fifo2x8.vhd":40:10:40:15|Signal rptrd1 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Microsemi_Prj\hw9\p2\hdl\fifo2x8.vhd":40:18:40:23|Signal rptrd2 is undriven. Either assign the signal a value or remove the signal declaration.
+Post processing for work.fifo2x8.archfifo2x8
+@W: CL240 :"C:\Microsemi_Prj\hw9\p2\hdl\fifo2x8.vhd":28:9:28:13|Signal empty is floating; a simulation mismatch is possible.
+@W: CL240 :"C:\Microsemi_Prj\hw9\p2\hdl\fifo2x8.vhd":28:3:28:6|Signal full is floating; a simulation mismatch is possible.
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 72MB peak: 73MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Sat Nov 30 07:38:27 2019
+
+###########################################################]
+Synopsys Netlist Linker, version comp2016q3p1, Build 117R, built Nov 17 2016
+@N|Running in 64-bit mode
+@N: NF107 :"C:\Microsemi_Prj\hw9\p2\hdl\fifo2x8.vhd":23:7:23:13|Selected library: work cell: fifo2x8 view archfifo2x8 as top level
+@N: NF107 :"C:\Microsemi_Prj\hw9\p2\hdl\fifo2x8.vhd":23:7:23:13|Selected library: work cell: fifo2x8 view archfifo2x8 as top level
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Sat Nov 30 07:38:27 2019
+
+###########################################################]
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Sat Nov 30 07:38:27 2019
+
+###########################################################]
+Synopsys Netlist Linker, version comp2016q3p1, Build 117R, built Nov 17 2016
+@N|Running in 64-bit mode
+@N: NF107 :"C:\Microsemi_Prj\hw9\p2\hdl\fifo2x8.vhd":23:7:23:13|Selected library: work cell: fifo2x8 view archfifo2x8 as top level
+@N: NF107 :"C:\Microsemi_Prj\hw9\p2\hdl\fifo2x8.vhd":23:7:23:13|Selected library: work cell: fifo2x8 view archfifo2x8 as top level
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Sat Nov 30 07:38:29 2019
+
+###########################################################]
+Pre-mapping Report
+
+# Sat Nov 30 07:38:29 2019
+
+Synopsys Microsemi Technology Pre-mapping, Version mapact, Build 1920R, Built Nov 17 2016 09:40:34
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version L-2016.09M-2
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
+
+@A: MF827 |No constraint file specified.
+@L: C:\Microsemi_Prj\hw9\p2\synthesis\fifo2x8_scck.rpt 
+Printing clock  summary report in "C:\Microsemi_Prj\hw9\p2\synthesis\fifo2x8_scck.rpt" file 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 102MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 102MB)
+
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 108MB peak: 110MB)
+
+
+
+Clock Summary
+*****************
+
+Start            Requested     Requested     Clock        Clock                   Clock
+Clock            Frequency     Period        Type         Group                   Load 
+---------------------------------------------------------------------------------------
+fifo2x8|clk1     100.0 MHz     10.000        inferred     Inferred_clkgroup_0     17   
+fifo2x8|clk2     100.0 MHz     10.000        inferred     Inferred_clkgroup_1     9    
+=======================================================================================
+
+@W: MT530 :"c:\microsemi_prj\hw9\p2\hdl\fifo2x8.vhd":83:3:83:4|Found inferred clock fifo2x8|clk1 which controls 17 sequential elements including wrptr. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"c:\microsemi_prj\hw9\p2\hdl\fifo2x8.vhd":69:3:69:4|Found inferred clock fifo2x8|clk2 which controls 9 sequential elements including rdptr. This clock has no specified timing constraint which may adversely impact design performance. 
+
+Finished Pre Mapping Phase.
+@N: BN225 |Writing default property annotation file C:\Microsemi_Prj\hw9\p2\synthesis\fifo2x8.sap.
+
+Starting constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 108MB peak: 110MB)
+
+None
+None
+
+Finished constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 109MB peak: 110MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 24MB peak: 110MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Sat Nov 30 07:38:29 2019
+
+###########################################################]
+Map & Optimize Report
+
+# Sat Nov 30 07:38:29 2019
+
+Synopsys Microsemi Technology Mapper, Version mapact, Build 1920R, Built Nov 17 2016 09:40:34
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version L-2016.09M-2
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
+
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 108MB peak: 110MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 108MB peak: 110MB)
+
+
+Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 109MB peak: 110MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 109MB peak: 110MB)
+
+
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 109MB peak: 110MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 109MB peak: 110MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 109MB peak: 110MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 109MB peak: 110MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 109MB peak: 110MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 109MB peak: 110MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 109MB peak: 110MB)
+
+@N: FP130 |Promoting Net clk1_c on CLKBUF  clk1_pad 
+@N: FP130 |Promoting Net clk2_c on CLKBUF  clk2_pad 
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 109MB peak: 110MB)
+
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 109MB peak: 110MB)
+
+
+
+@S |Clock Optimization Summary
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+Clock optimization not enabled
+2 non-gated/non-generated clock tree(s) driving 26 clock pin(s) of sequential element(s)
+0 gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+0 instances converted, 0 sequential instances remain driven by gated/generated clocks
+
+=========================== Non-Gated/Non-Generated Clocks ============================
+Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample Instance
+---------------------------------------------------------------------------------------
+@K:CKID0001       clk1                port                   17         wrptr          
+@K:CKID0002       clk2                port                   9          rdptr          
+=======================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 109MB peak: 110MB)
+
+Writing Analyst data base C:\Microsemi_Prj\hw9\p2\synthesis\synwork\fifo2x8_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 109MB peak: 110MB)
+
+Writing EDIF Netlist and constraint files
+L-2016.09M-2
+
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 109MB peak: 110MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 109MB peak: 110MB)
+
+@W: MT420 |Found inferred clock fifo2x8|clk1 with period 10.00ns. Please declare a user-defined clock on object "p:clk1"
+@W: MT420 |Found inferred clock fifo2x8|clk2 with period 10.00ns. Please declare a user-defined clock on object "p:clk2"
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Sat Nov 30 07:38:29 2019
+#
+
+
+Top view:               fifo2x8
+Library name:           smartfusion
+Operating conditions:   COMWCSTD ( T = 70.0, V = 1.42, P = 1.74, tree_type = balanced_tree )
+Requested Frequency:    100.0 MHz
+Wire load mode:         top
+Wire load model:        smartfusion
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: 5.695
+
+                   Requested     Estimated     Requested     Estimated               Clock        Clock              
+Starting Clock     Frequency     Frequency     Period        Period        Slack     Type         Group              
+---------------------------------------------------------------------------------------------------------------------
+fifo2x8|clk1       100.0 MHz     232.3 MHz     10.000        4.305         5.695     inferred     Inferred_clkgroup_0
+fifo2x8|clk2       100.0 MHz     255.6 MHz     10.000        3.912         6.088     inferred     Inferred_clkgroup_1
+=====================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                      |    rise  to  rise   |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+------------------------------------------------------------------------------------------------------------------
+Starting      Ending        |  constraint  slack  |  constraint  slack  |  constraint  slack  |  constraint  slack
+------------------------------------------------------------------------------------------------------------------
+fifo2x8|clk1  fifo2x8|clk1  |  10.000      5.695  |  No paths    -      |  No paths    -      |  No paths    -    
+fifo2x8|clk1  fifo2x8|clk2  |  Diff grp    -      |  No paths    -      |  No paths    -      |  No paths    -    
+fifo2x8|clk2  fifo2x8|clk2  |  10.000      6.088  |  No paths    -      |  No paths    -      |  No paths    -    
+==================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: fifo2x8|clk1
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+             Starting                                        Arrival          
+Instance     Reference        Type         Pin     Net       Time        Slack
+             Clock                                                            
+------------------------------------------------------------------------------
+wrptr        fifo2x8|clk1     DFN1E1C1     Q       wrptr     0.737       5.695
+==============================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                         Starting                                                  Required          
+Instance                 Reference        Type         Pin     Net                 Time         Slack
+                         Clock                                                                       
+-----------------------------------------------------------------------------------------------------
+reg_array\.fifo_1[0]     fifo2x8|clk1     DFN1E1C1     E       fifo_1_0_sqmuxa     9.392        5.695
+reg_array\.fifo_1[1]     fifo2x8|clk1     DFN1E1C1     E       fifo_1_0_sqmuxa     9.392        5.695
+reg_array\.fifo_1[2]     fifo2x8|clk1     DFN1E1C1     E       fifo_1_0_sqmuxa     9.392        5.695
+reg_array\.fifo_1[3]     fifo2x8|clk1     DFN1E1C1     E       fifo_1_0_sqmuxa     9.392        5.695
+reg_array\.fifo_1[4]     fifo2x8|clk1     DFN1E1C1     E       fifo_1_0_sqmuxa     9.392        5.695
+reg_array\.fifo_1[5]     fifo2x8|clk1     DFN1E1C1     E       fifo_1_0_sqmuxa     9.392        5.695
+reg_array\.fifo_1[6]     fifo2x8|clk1     DFN1E1C1     E       fifo_1_0_sqmuxa     9.392        5.695
+reg_array\.fifo_1[7]     fifo2x8|clk1     DFN1E1C1     E       fifo_1_0_sqmuxa     9.392        5.695
+reg_array\.fifo_0[0]     fifo2x8|clk1     DFN1E1C1     E       fifo_0_0_sqmuxa     9.392        5.980
+reg_array\.fifo_0[1]     fifo2x8|clk1     DFN1E1C1     E       fifo_0_0_sqmuxa     9.392        5.980
+=====================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            0.608
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.392
+
+    - Propagation time:                      3.697
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     5.695
+
+    Number of logic level(s):                1
+    Starting point:                          wrptr / Q
+    Ending point:                            reg_array\.fifo_1[0] / E
+    The start point is clocked by            fifo2x8|clk1 [rising] on pin CLK
+    The end   point is clocked by            fifo2x8|clk1 [rising] on pin CLK
+
+Instance / Net                        Pin      Pin               Arrival     No. of    
+Name                     Type         Name     Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------
+wrptr                    DFN1E1C1     Q        Out     0.737     0.737       -         
+wrptr                    Net          -        -       0.806     -           3         
+wr_pad_RNIS489           NOR2B        A        In      -         1.543       -         
+wr_pad_RNIS489           NOR2B        Y        Out     0.514     2.058       -         
+fifo_1_0_sqmuxa          Net          -        -       1.639     -           8         
+reg_array\.fifo_1[0]     DFN1E1C1     E        In      -         3.697       -         
+=======================================================================================
+Total path delay (propagation time + setup) of 4.305 is 1.860(43.2%) logic and 2.445(56.8%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+
+====================================
+Detailed Report for Clock: fifo2x8|clk2
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+             Starting                                        Arrival          
+Instance     Reference        Type         Pin     Net       Time        Slack
+             Clock                                                            
+------------------------------------------------------------------------------
+rdptr        fifo2x8|clk2     DFN1E1C1     Q       rdptr     0.737       6.088
+==============================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                Starting                                                     Required          
+Instance        Reference        Type         Pin     Net                    Time         Slack
+                Clock                                                                          
+-----------------------------------------------------------------------------------------------
+rdptr           fifo2x8|clk2     DFN1E1C1     D       read_cout\.rdptr_3     9.461        6.088
+data_out[0]     fifo2x8|clk2     DFN1E1       D       dmuxout[0]             9.461        6.255
+data_out[1]     fifo2x8|clk2     DFN1E1       D       dmuxout[1]             9.461        6.255
+data_out[2]     fifo2x8|clk2     DFN1E1       D       dmuxout[2]             9.461        6.255
+data_out[3]     fifo2x8|clk2     DFN1E1       D       dmuxout[3]             9.461        6.255
+data_out[4]     fifo2x8|clk2     DFN1E1       D       dmuxout[4]             9.461        6.255
+data_out[5]     fifo2x8|clk2     DFN1E1       D       dmuxout[5]             9.461        6.255
+data_out[6]     fifo2x8|clk2     DFN1E1       D       dmuxout[6]             9.461        6.255
+data_out[7]     fifo2x8|clk2     DFN1E1       D       dmuxout[7]             9.461        6.255
+===============================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            0.539
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.461
+
+    - Propagation time:                      3.373
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 6.088
+
+    Number of logic level(s):                1
+    Starting point:                          rdptr / Q
+    Ending point:                            rdptr / D
+    The start point is clocked by            fifo2x8|clk2 [rising] on pin CLK
+    The end   point is clocked by            fifo2x8|clk2 [rising] on pin CLK
+
+Instance / Net                      Pin      Pin               Arrival     No. of    
+Name                   Type         Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------
+rdptr                  DFN1E1C1     Q        Out     0.737     0.737       -         
+rdptr                  Net          -        -       1.669     -           9         
+rdptr_RNO              NOR2         B        In      -         2.405       -         
+rdptr_RNO              NOR2         Y        Out     0.646     3.052       -         
+read_cout\.rdptr_3     Net          -        -       0.322     -           1         
+rdptr                  DFN1E1C1     D        In      -         3.373       -         
+=====================================================================================
+Total path delay (propagation time + setup) of 3.912 is 1.922(49.1%) logic and 1.990(50.9%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+None
+
+Finished final timing analysis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 109MB peak: 110MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 109MB peak: 110MB)
+
+--------------------------------------------------------------------------------
+Target Part: A2F200M3F_FBGA484_STD
+Report for cell fifo2x8.archfifo2x8
+  Core Cell usage:
+              cell count     area count*area
+               GND     1      0.0        0.0
+               MX2     8      1.0        8.0
+              NOR2     2      1.0        2.0
+             NOR2A     1      1.0        1.0
+             NOR2B     1      1.0        1.0
+               OR2     2      1.0        2.0
+               VCC     1      0.0        0.0
+
+
+            DFN1E1     8      1.0        8.0
+          DFN1E1C1    18      1.0       18.0
+                   -----          ----------
+             TOTAL    42                40.0
+
+
+  IO Cell usage:
+              cell count
+            CLKBUF     2
+             INBUF    15
+            OUTBUF    10
+                   -----
+             TOTAL    27
+
+
+Core Cells         : 40 of 4608 (1%)
+IO Cells           : 27
+
+  RAM/ROM Usage Summary
+Block Rams : 0 of 8 (0%)
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 25MB peak: 110MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Sat Nov 30 07:38:29 2019
+
+###########################################################]

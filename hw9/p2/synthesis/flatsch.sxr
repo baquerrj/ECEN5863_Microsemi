@@ -1,0 +1,18 @@
+
+BeginView sync_write NoName
+EndView sync_write NoName
+
+BeginView CLKBUF NoName
+EndView CLKBUF NoName
+
+BeginView NOR2A NoName
+EndView NOR2A NoName
+
+BeginView DFN1 NoName
+EndView DFN1 NoName
+
+BeginView OUTBUF NoName
+EndView OUTBUF NoName
+
+BeginView INBUF NoName
+EndView INBUF NoName

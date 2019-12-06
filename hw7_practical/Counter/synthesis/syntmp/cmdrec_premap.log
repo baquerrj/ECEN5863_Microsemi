@@ -1,0 +1,14 @@
+C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\bin64\m_proasic.exe  -mp  4  -prjfile  C:\Microsemi_Prj\hw7_practical\Counter\synthesis\scratchproject.prs  -implementation  synthesis  -prodtype  synplify_pro   -encrypt  -pro  -rundir  C:\Microsemi_Prj\hw7_practical\Counter\synthesis   -part A2F200M3F  -package FBGA484  -grade STD    -globalthreshold 50 -maxfan 24 -opcond COMWC -report_path 4000 -RWCheckOnRam 0 -summaryfile C:\Microsemi_Prj\hw7_practical\Counter\synthesis\synlog\report\Counter_Top_premap.xml  -top_level_module  work.Counter_Top  -oedif  C:\Microsemi_Prj\hw7_practical\Counter\synthesis\Counter_Top.edn  -conchk_prepass  C:\Microsemi_Prj\hw7_practical\Counter\synthesis\Counter_Top_cck.rpt   -freq 100.000   C:\Microsemi_Prj\hw7_practical\Counter\synthesis\synwork\Counter_Top_mult.srs  -flow prepass  -gcc_prepass  -osrd  C:\Microsemi_Prj\hw7_practical\Counter\synthesis\synwork\Counter_Top_prem.srd  -qsap  C:\Microsemi_Prj\hw7_practical\Counter\synthesis\Counter_Top.sap  -devicelib  C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\proasic\smartfusion.v  -ologparam  C:\Microsemi_Prj\hw7_practical\Counter\synthesis\syntmp\Counter_Top.plg  -osyn  C:\Microsemi_Prj\hw7_practical\Counter\synthesis\synwork\Counter_Top_prem.srd  -prjdir  C:\Microsemi_Prj\hw7_practical\Counter\synthesis\  -prjname  Counter_Top_syn  -log  C:\Microsemi_Prj\hw7_practical\Counter\synthesis\synlog\Counter_Top_premap.srr 
+rc:1 success:1 runtime:1
+file:C:\Microsemi_Prj\hw7_practical\Counter\synthesis\scratchproject.prs|io:o|time:1573095292|size:1846|exec:0
+file:C:\Microsemi_Prj\hw7_practical\Counter\synthesis\Counter_Top.edn|io:o|time:1573187875|size:1850134|exec:0
+file:C:\Microsemi_Prj\hw7_practical\Counter\synthesis\Counter_Top_cck.rpt|io:o|time:1573187947|size:23775|exec:0
+file:C:\Microsemi_Prj\hw7_practical\Counter\synthesis\synwork\Counter_Top_mult.srs|io:i|time:1573187946|size:3727|exec:0
+file:C:\Microsemi_Prj\hw7_practical\Counter\synthesis\synwork\Counter_Top_prem.srd|io:o|time:1573187947|size:18711|exec:0
+file:C:\Microsemi_Prj\hw7_practical\Counter\synthesis\Counter_Top.sap|io:o|time:1573187947|size:1701|exec:0
+file:C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\proasic\smartfusion.v|io:i|time:1487966850|size:72817|exec:0
+file:C:\Microsemi_Prj\hw7_practical\Counter\synthesis\syntmp\Counter_Top.plg|io:o|time:1573187946|size:0|exec:0
+file:C:\Microsemi_Prj\hw7_practical\Counter\synthesis\synwork\Counter_Top_prem.srd|io:o|time:1573187947|size:18711|exec:0
+file:C:\Microsemi_Prj\hw7_practical\Counter\synthesis\synlog\Counter_Top_premap.srr|io:o|time:1573187947|size:2989|exec:0
+file:C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\bin\m_proasic.exe|io:i|time:1479399434|size:10978304|exec:1
+file:C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\bin64\m_proasic.exe|io:i|time:1479400840|size:14125056|exec:1

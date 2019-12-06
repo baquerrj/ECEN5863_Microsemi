@@ -1,0 +1,25 @@
+Microsemi Libero Software
+Version: 11.8.0.26
+Release: v11.8
+
+Info: The design Strained.adb was last modified by software version 11.8.0.26.
+Opened an existing Libero design Strained.adb.
+
+The Execute Script command succeeded ( 00:00:02 )
+Checking for software updates...
+Error: in Constraint checker: Invalid clock constraint - source "CLK" does not exist.
+       Constraint origin: GUI
+Error: in Constraint checker: Invalid input delay constraint - the port list "[get_ports { RESET
+       }]" is incorrect.
+       Constraint origin: GUI
+Error: in Constraint checker: Invalid input delay constraint - the port list "[get_ports { RESET
+       }]" is incorrect.
+       Constraint origin: GUI
+Error: in Constraint checker: Invalid input delay constraint - no clock named "CLK" defined.
+       Constraint origin: GUI
+Error: in Constraint checker: Invalid output delay constraint - no clock named "CLK" defined.
+       Constraint origin: GUI
+Design saved to file C:\Microsemi_Prj\hw7\p4\designer\impl1\Strained.adb.
+Design saved to file C:\Microsemi_Prj\hw7\p4\designer\impl1\Strained.adb.
+Design closed.
+

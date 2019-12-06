@@ -1,0 +1,12 @@
+----------------------------------------------------------------------
+Report for cell CDC3FF.cdc3ff_arch
+                                          Cell usage:
+                               cell       count     area    count*area
+                             CLKBUF         1       0.0        0.0
+                             DFN1C1         3       1.0        3.0
+                                GND         1       0.0        0.0
+                              INBUF         2       0.0        0.0
+                             OUTBUF         1       0.0        0.0
+                                VCC         1       0.0        0.0
+                            
+                         TOTAL              9                  3.0

@@ -1,0 +1,670 @@
+KEY LIBERO "11.8"
+KEY CAPTURE "11.8.0.26"
+KEY DEFAULT_IMPORT_LOC "X:\Projects\Interrupts_MSS_GPIO\Design\Verilog"
+KEY DEFAULT_OPEN_LOC ""
+KEY ProjectID "0"
+KEY HDLTechnology "VHDL"
+KEY VERILOGMODE "VERILOG2001"
+KEY VHDLMODE "VHDL2008"
+KEY UseConstraintFlowTechnology "FALSE"
+KEY VendorTechnology_Family "SmartFusion"
+KEY VendorTechnology_Die "IP4X3M1"
+KEY VendorTechnology_Package "fg484"
+KEY VendorTechnology_Speed "STD"
+KEY VendorTechnology_DieVoltage "1.5"
+KEY VendorTechnology_PART_RANGE "COM"
+KEY VendorTechnology_DSW_VCCA_VOLTAGE_RAMP_RATE ""
+KEY VendorTechnology_IO_DEFT_STD "LVTTL"
+KEY VendorTechnology_OPCONR ""
+KEY VendorTechnology_PLL_SUPPLY ""
+KEY VendorTechnology_RAD_EXPOSURE ""
+KEY VendorTechnology_RESERVEMIGRATIONPINS "1"
+KEY VendorTechnology_RESTRICTPROBEPINS "1"
+KEY VendorTechnology_RESTRICTSPIPINS "0"
+KEY VendorTechnology_SYSTEM_CONTROLLER_SUSPEND_MODE ""
+KEY VendorTechnology_TARGETDEVICESFORMIGRATION "IP4X3M1"
+KEY VendorTechnology_TEMPR "COM"
+KEY VendorTechnology_UNUSED_MSS_IO_RESISTOR_PULL "None"
+KEY VendorTechnology_VCCI_1.5_VOLTR "COM"
+KEY VendorTechnology_VCCI_1.8_VOLTR "COM"
+KEY VendorTechnology_VCCI_2.5_VOLTR "COM"
+KEY VendorTechnology_VCCI_3.3_VOLTR "COM"
+KEY VendorTechnology_VOLTR "COM"
+KEY ProjectLocation "C:\Microsemi_Prj\hw8\p1"
+KEY ProjectDescription "Asynchronous Data Source and Data Sink "
+KEY Pa4PeripheralNewSeq "GOOD"
+KEY SimulationType "VHDL"
+KEY Vendor "Actel"
+KEY ActiveRoot "CDC3FF_MSS::work"
+LIST REVISIONS
+VALUE="Impl1",NUM=1
+CURREV=1
+ENDLIST
+LIST LIBRARIES
+MSS_BFM_LIB
+ENDLIST
+LIST LIBRARY_MSS_BFM_LIB
+ALIAS=..\component\Actel\SmartFusionMSS\MSS\2.5.200\mti\user_verilog\MSS_BFM_LIB
+COMPILE_OPTION=REFRESH_AND_COMPILE
+CUSTOMPATH=false
+ENDLIST
+LIST FileManager
+VALUE "<project>\component\Actel\SmartFusionMSS\MSS\2.5.200\MSS.cxf,actgen_cxf"
+STATE="utd"
+TIME="1573421655"
+SIZE="944"
+PARENT="<project>\component\work\clk_source_MSS\clk_source_MSS.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\SmartFusionMSS\MSS\2.5.200\mss_comps.vhd,hdl"
+STATE="utd"
+TIME="1573414607"
+SIZE="17580"
+PARENT="<project>\component\Actel\SmartFusionMSS\MSS\2.5.200\MSS.cxf"
+BEGIN_USE_CONSTRAINT
+TOOL_CONSTRAINT_TYPE="ideSYNTHESIS"
+TOOL_CONSTRAINT_USE="SYNPLIFY7_EXT"
+END_USE_CONSTRAINT
+USE_FOR_ANY_TOOL="FALSE"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\SmartFusionMSS\MSS_CCC\2.0.106\MSS_CCC.cxf,actgen_cxf"
+STATE="utd"
+TIME="1573421649"
+SIZE="252"
+PARENT="<project>\component\work\clk_source_MSS\clk_source_MSS.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\SmartFusionMSS\MSS_CM3\1.0.200\MSS_CM3.cxf,actgen_cxf"
+STATE="utd"
+TIME="1573421649"
+SIZE="252"
+PARENT="<project>\component\work\clk_source_MSS\clk_source_MSS.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\SmartFusionMSS\MSS_COM\1.0.200\MSS_COM.cxf,actgen_cxf"
+STATE="utd"
+TIME="1573421649"
+SIZE="252"
+PARENT="<project>\component\work\clk_source_MSS\clk_source_MSS.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\SmartFusionMSS\MSS_DMA\1.0.101\MSS_DMA.cxf,actgen_cxf"
+STATE="utd"
+TIME="1573421649"
+SIZE="252"
+PARENT="<project>\component\work\clk_source_MSS\clk_source_MSS.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\SmartFusionMSS\MSS_ENVM\2.3.200\MSS_ENVM.cxf,actgen_cxf"
+STATE="utd"
+TIME="1573421653"
+SIZE="253"
+PARENT="<project>\component\work\clk_source_MSS\clk_source_MSS.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\SmartFusionMSS\MSS_FIO\1.0.203\MSS_FIO.cxf,actgen_cxf"
+STATE="utd"
+TIME="1573421653"
+SIZE="252"
+PARENT="<project>\component\work\clk_source_MSS\clk_source_MSS.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\SmartFusionMSS\MSS_GPIO\1.0.101\MSS_GPIO.cxf,actgen_cxf"
+STATE="utd"
+TIME="1573421653"
+SIZE="253"
+PARENT="<project>\component\work\clk_source_MSS\clk_source_MSS.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\SmartFusionMSS\MSS_INTR\1.0.101\MSS_INTR.cxf,actgen_cxf"
+STATE="utd"
+TIME="1573421653"
+SIZE="253"
+PARENT="<project>\component\work\clk_source_MSS\clk_source_MSS.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\SmartFusionMSS\MSS_RESET\1.0.101\MSS_RESET.cxf,actgen_cxf"
+STATE="utd"
+TIME="1573421653"
+SIZE="254"
+PARENT="<project>\component\work\clk_source_MSS\clk_source_MSS.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\SmartFusionMSS\MSS_RTC\1.0.100\MSS_RTC.cxf,actgen_cxf"
+STATE="utd"
+TIME="1573421653"
+SIZE="252"
+PARENT="<project>\component\work\clk_source_MSS\clk_source_MSS.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\SmartFusionMSS\MSS_TIMER\1.0.100\MSS_TIMER.cxf,actgen_cxf"
+STATE="utd"
+TIME="1573421653"
+SIZE="254"
+PARENT="<project>\component\work\clk_source_MSS\clk_source_MSS.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\SmartFusionMSS\MSS_UFROM\1.0.100\MSS_UFROM.cxf,actgen_cxf"
+STATE="utd"
+TIME="1573421653"
+SIZE="254"
+PARENT="<project>\component\work\clk_source_MSS\clk_source_MSS.cxf"
+ENDFILE
+VALUE "<project>\component\work\CDC3FF_MSS\CDC3FF_MSS.cxf,actgen_cxf"
+STATE="utd"
+TIME="1573420412"
+SIZE="2087"
+ENDFILE
+VALUE "<project>\component\work\CDC3FF_MSS\CDC3FF_MSS.vhd,hdl"
+STATE="utd"
+TIME="1573420411"
+SIZE="2692"
+PARENT="<project>\component\work\CDC3FF_MSS\CDC3FF_MSS.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\CDC3FF_tb\CDC3FF_tb.cxf,actgen_cxf"
+STATE="utd"
+TIME="1573418899"
+SIZE="661"
+ENDFILE
+VALUE "<project>\component\work\clk_source\clk_source.cxf,actgen_cxf"
+STATE="utd"
+TIME="1573414811"
+SIZE="969"
+ENDFILE
+VALUE "<project>\component\work\clk_source_MSS\clk_source_MSS.cxf,actgen_cxf"
+STATE="utd"
+TIME="1573421656"
+SIZE="7833"
+ENDFILE
+VALUE "<project>\component\work\clk_source_MSS\clk_source_MSS.vhd,hdl"
+STATE="utd"
+TIME="1573421655"
+SIZE="27873"
+PARENT="<project>\component\work\clk_source_MSS\clk_source_MSS.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\clk_source_MSS\MSS_CCC_0\clk_source_MSS_tmp_MSS_CCC_0_MSS_CCC.cxf,actgen_cxf"
+STATE="utd"
+TIME="1573421649"
+SIZE="494"
+PARENT="<project>\component\work\clk_source_MSS\clk_source_MSS.cxf"
+ENDFILE
+VALUE "<project>\component\work\clk_source_MSS\MSS_CCC_0\clk_source_MSS_tmp_MSS_CCC_0_MSS_CCC.vhd,hdl"
+STATE="utd"
+TIME="1573421649"
+SIZE="6919"
+PARENT="<project>\component\work\clk_source_MSS\MSS_CCC_0\clk_source_MSS_tmp_MSS_CCC_0_MSS_CCC.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\clk_source_MSS\MSS_ENVM_0\MSS_ENVM_0.efc,efc"
+STATE="utd"
+TIME="1573421653"
+SIZE="15875"
+PARENT="<project>\component\work\clk_source_MSS\clk_source_MSS.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\clk_source_MSS\mss_tshell.vhd,hdl"
+STATE="utd"
+TIME="1573421653"
+SIZE="22849"
+PARENT="<project>\component\work\clk_source_MSS\clk_source_MSS.cxf"
+BEGIN_USE_CONSTRAINT
+TOOL_CONSTRAINT_TYPE="ideSYNTHESIS"
+TOOL_CONSTRAINT_USE="SYNPLIFY7_EXT"
+END_USE_CONSTRAINT
+USE_FOR_ANY_TOOL="FALSE"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\clk_source_MSS\mss_tshell_syn.sdc,sdc"
+STATE="utd"
+TIME="1573421653"
+SIZE="198"
+PARENT="<project>\component\work\clk_source_MSS\clk_source_MSS.cxf"
+BEGIN_USE_CONSTRAINT
+TOOL_CONSTRAINT_TYPE="ideSYNTHESIS"
+TOOL_CONSTRAINT_USE="SYNPLIFY7_EXT"
+END_USE_CONSTRAINT
+USE_FOR_ANY_TOOL="FALSE"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\DESIGN_FIRMWARE\DESIGN_FIRMWARE.cxf,actgen_cxf"
+STATE="utd"
+TIME="1573415053"
+SIZE="1863"
+ENDFILE
+VALUE "<project>\component\work\DESIGN_IO\DESIGN_IO.cxf,actgen_cxf"
+STATE="utd"
+TIME="1573415054"
+SIZE="413"
+ENDFILE
+VALUE "<project>\designer\impl1\CDC3FF.ide_des,ide_des"
+STATE="utd"
+TIME="1573410392"
+SIZE="181"
+ENDFILE
+VALUE "<project>\designer\impl1\CDC3FF_MSS.adb,adb"
+STATE="utd"
+TIME="1573430251"
+SIZE="53760"
+ENDFILE
+VALUE "<project>\designer\impl1\CDC3FF_MSS.ide_des,ide_des"
+STATE="utd"
+TIME="1573430251"
+SIZE="950"
+ENDFILE
+VALUE "<project>\designer\impl1\CDC3FF_MSS_compile_log.rpt,log"
+STATE="utd"
+TIME="1573421670"
+SIZE="7321"
+ENDFILE
+VALUE "<project>\designer\impl1\CDC3FF_MSS_placeroute_log.rpt,log"
+STATE="utd"
+TIME="1573434056"
+SIZE="2635"
+ENDFILE
+VALUE "<project>\designer\impl1\CDC3FF_MSS_verifytiming_log.rpt,log"
+STATE="utd"
+TIME="1573434147"
+SIZE="1138"
+ENDFILE
+VALUE "<project>\hdl\CDC3FF.vhd,hdl"
+STATE="utd"
+TIME="1573414053"
+SIZE="1454"
+ENDFILE
+VALUE "<project>\simulation\CDC3FF_tb_postsynth_simulation.log,log"
+STATE="utd"
+TIME="1573422159"
+SIZE="100367"
+ENDFILE
+VALUE "<project>\simulation\CompileDssBfm.tcl,sim"
+STATE="utd"
+TIME="1571367342"
+SIZE="41"
+PARENT="<project>\component\Actel\SmartFusionMSS\MSS\2.5.200\MSS.cxf"
+ENDFILE
+VALUE "<project>\simulation\mydo.do,do"
+STATE="utd"
+TIME="1573419882"
+SIZE="1216"
+ENDFILE
+VALUE "<project>\simulation\run.do,do"
+STATE="utd"
+TIME="1573419742"
+SIZE="1216"
+ENDFILE
+VALUE "<project>\simulation\subsystem.bfm,sim"
+STATE="utd"
+TIME="1573420411"
+SIZE="602"
+PARENT="<project>\component\work\CDC3FF_MSS\CDC3FF_MSS.cxf"
+ENDFILE
+VALUE "<project>\simulation\test.bfm,sim"
+STATE="utd"
+TIME="1573421650"
+SIZE="5460"
+PARENT="<project>\component\work\clk_source_MSS\clk_source_MSS.cxf"
+ENDFILE
+VALUE "<project>\simulation\user.bfm,sim"
+STATE="utd"
+TIME="1573414602"
+SIZE="670"
+PARENT="<project>\component\work\clk_source_MSS\clk_source_MSS.cxf"
+ENDFILE
+VALUE "<project>\stimulus\CDC3FF_tb.vhd,tb_hdl"
+STATE="utd"
+TIME="1573419484"
+SIZE="1765"
+ENDFILE
+VALUE "<project>\synthesis\CDC3FF.edn,syn_edn"
+STATE="utd"
+TIME="1573414062"
+SIZE="6008"
+ENDFILE
+VALUE "<project>\synthesis\CDC3FF.so,so"
+STATE="utd"
+TIME="1573414062"
+SIZE="205"
+ENDFILE
+VALUE "<project>\synthesis\CDC3FF_MSS.edn,syn_edn"
+STATE="utd"
+TIME="1573434040"
+SIZE="17779"
+ENDFILE
+VALUE "<project>\synthesis\CDC3FF_MSS.so,so"
+STATE="utd"
+TIME="1573421665"
+SIZE="213"
+ENDFILE
+VALUE "<project>\synthesis\CDC3FF_MSS_sdc.sdc,syn_sdc"
+STATE="utd"
+TIME="1573434040"
+SIZE="429"
+ENDFILE
+VALUE "<project>\synthesis\CDC3FF_MSS_syn.prj,prj"
+STATE="utd"
+TIME="1573421665"
+SIZE="2314"
+ENDFILE
+VALUE "<project>\synthesis\CDC3FF_sdc.sdc,syn_sdc"
+STATE="utd"
+TIME="1573414062"
+SIZE="397"
+ENDFILE
+VALUE "<project>\synthesis\CDC3FF_syn.prj,prj"
+STATE="utd"
+TIME="1573414062"
+SIZE="1672"
+ENDFILE
+ENDLIST
+LIST UsedFile
+ENDLIST
+LIST NewModulesInfo
+LIST "CDC3FF::work"
+FILE "<project>\hdl\CDC3FF.vhd,hdl"
+LIST ProjectState5.1
+LIST Impl1
+LiberoState=Post_Synthesis
+ideSYNTHESIS(<project>\synthesis\CDC3FF.edn,syn_edn)=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+ENDLIST
+LIST "CDC3FF_MSS::work"
+FILE "<project>\component\work\CDC3FF_MSS\CDC3FF_MSS.vhd,hdl"
+LIST Other_Association
+VALUE "<project>\simulation\subsystem.bfm,sim"
+ENDLIST
+LIST AssociatedStimulus
+VALUE "<project>\stimulus\CDC3FF_tb.vhd,tb_hdl"
+ENDLIST
+LIST SynthesisConstraints
+VALUE "<project>\component\work\clk_source_MSS\mss_tshell_syn.sdc,sdc"
+ENDLIST
+LIST ProjectState5.1
+LIST Impl1
+LiberoState=Post_Layout
+ideDESIGNER(<project>\designer\impl1\CDC3FF_MSS.adb,adb)=StateSuccess
+ideSYNTHESIS(<project>\synthesis\CDC3FF_MSS.edn,syn_edn)=StateSuccess
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+LIST PinReports
+VALUE "<project>\designer\impl1\CDC3FF_MSS_report_pin_byname.txt,log"
+VALUE "<project>\designer\impl1\CDC3FF_MSS_report_pin_bynumber.txt,log"
+ENDLIST
+ENDLIST
+LIST "clk_source_MSS::work"
+FILE "<project>\component\work\clk_source_MSS\clk_source_MSS.vhd,hdl"
+LIST Other_Association
+VALUE "<project>\component\work\clk_source_MSS\mss_tshell_syn.sdc,sdc"
+VALUE "<project>\simulation\user.bfm,sim"
+VALUE "<project>\simulation\test.bfm,sim"
+VALUE "<project>\component\work\clk_source_MSS\MSS_ENVM_0\MSS_ENVM_0.efc,efc"
+VALUE "<project>\simulation\CompileDssBfm.tcl,sim"
+ENDLIST
+ENDLIST
+ENDLIST
+LIST AssociatedStimulus
+LIST CDC3FF_MSS
+VALUE "<project>\stimulus\CDC3FF_tb.vhd,tb_hdl"
+ENDLIST
+ENDLIST
+LIST Other_Association
+LIST clk_source_MSS
+VALUE "<project>\component\work\clk_source_MSS\mss_tshell_syn.sdc,sdc"
+VALUE "<project>\simulation\user.bfm,sim"
+VALUE "<project>\simulation\test.bfm,sim"
+VALUE "<project>\component\work\clk_source_MSS\MSS_ENVM_0\MSS_ENVM_0.efc,efc"
+VALUE "<project>\simulation\CompileDssBfm.tcl,sim"
+ENDLIST
+LIST CDC3FF_MSS
+VALUE "<project>\simulation\subsystem.bfm,sim"
+ENDLIST
+ENDLIST
+LIST SimulationOptions
+UseAutomaticDoFile=true
+IncludeWaveDo=false
+Type=max
+RunTime=1000ns
+Resolution=1ps
+VsimOpt=
+EntityName=CDC3FF_tb
+TopInstanceName=<top>_0
+DoFileName=
+DoFileName2=wave.do
+DoFileParams=
+DisplayDUTWave=false
+LogAllSignals=false
+DisablePulseFiltering=false
+DumpVCD=false
+VCDFileName=power.vcd
+VHDL2008=false
+Verilog2001=false
+SystemVerilog=false
+TimeUnit=1
+TimeUnitBase=ns
+Precision=100
+PrecisionBase=ps
+ENDLIST
+LIST ModelSimLibPath
+UseCustomPath=FALSE
+LibraryPath=
+ENDLIST
+LIST GlobalFlowOptions
+GenerateHDLAfterSynthesis=FALSE
+GenerateHDLAfterPhySynthesis=FALSE
+RunDRCAfterSynthesis=TRUE
+AutoCheckConstraints=TRUE
+UpdateModelSimIni=TRUE
+NoIOMode=FALSE
+PeriInitStandalone=FALSE
+EnableViewDraw=FALSE
+UpdateViewDrawIni=TRUE
+GenerateHDLFromSchematic=TRUE
+VmNetlistFlowOn=FALSE
+EnableDesignSeparationOn=FALSE
+EnableSETMitigationOn=FALSE
+DisplayFanoutLimit=10
+AbortFlowOnPDCErrorsOn=TRUE
+AbortFlowOnSDCErrorsOn=TRUE
+FlashProInputFile=fdb
+SmartGenCompileReport=T
+ENDLIST
+LIST PhySynthesisOptions
+ENDLIST
+LIST Profiles
+NAME="SoftConsole"
+FUNCTION="SoftwareIDE"
+TOOL="SoftConsole"
+LOCATION="eclipse.exe"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+NAME="Synplify Pro ME"
+FUNCTION="Synthesis"
+TOOL="Synplify Pro ME"
+LOCATION="C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\bin\synplify_pro.exe"
+PARAM="-licensetype synplifypro_actel -batch -log synplify.log"
+BATCH=1
+LICENSE=""
+IS32BIT="1"
+EndProfile
+NAME="ModelSim ME"
+FUNCTION="Simulation"
+TOOL="ModelSim"
+LOCATION="C:\Microsemi\Libero_SoC_v11.8\Modelsim\win32acoem\modelsim.exe"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+NAME="FPExpress"
+FUNCTION="Program"
+TOOL="FlashPro"
+LOCATION="C:\Microsemi\Libero_SoC_v11.8\Designer\bin\FPExpress.exe"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+NAME="Identify Debugger"
+FUNCTION="IdentifyDebugger"
+TOOL="Identify Debugger"
+LOCATION="C:\Microsemi\Libero_SoC_v11.8\Identify\bin\identify_debugger.exe"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+ENDLIST
+LIST ProjectState5.1
+LIST "CDC3FF::work"
+LIST Impl1
+LiberoState=Post_Synthesis
+ideSYNTHESIS(<project>\synthesis\CDC3FF.edn,syn_edn)=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+LIST "CDC3FF_MSS::work"
+LIST Impl1
+LiberoState=Post_Layout
+ideDESIGNER(<project>\designer\impl1\CDC3FF_MSS.adb,adb)=StateSuccess
+ideSYNTHESIS(<project>\synthesis\CDC3FF_MSS.edn,syn_edn)=StateSuccess
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+ENDLIST
+LIST ExcludePackageForSimulation
+ENDLIST
+LIST ExcludePackageForSynthesis
+ENDLIST
+LIST IncludeModuleForSimulation
+ENDLIST
+LIST CDBOrder
+ENDLIST
+LIST UserCustomizedFileList
+ENDLIST
+LIST OpenedFileList
+ORIENTATION;HORIZONTAL
+Reports;Reports;0
+ReportsCurrentItem;Verify Timing:CDC3FF_MSS_maxdelay_timing_report.txt
+StartPage;StartPage;0
+HDL;hdl\CDC3FF.vhd;0
+SmartDesign;CDC3FF_MSS;0
+HDL;stimulus\CDC3FF_tb.vhd;0
+HDL;simulation\mydo.do;0
+SmartDesign;clk_source_MSS;0
+ACTIVEVIEW;CDC3FF_MSS
+ENDLIST
+LIST ModuleSubBlockList
+LIST "BIBUF_MSS::work","component\Actel\SmartFusionMSS\MSS\2.5.200\mss_comps.vhd","FALSE","FALSE"
+ENDLIST
+LIST "BIBUF_OPEND_MSS::work","component\Actel\SmartFusionMSS\MSS\2.5.200\mss_comps.vhd","FALSE","FALSE"
+ENDLIST
+LIST "CDC3FF::work","hdl\CDC3FF.vhd","FALSE","FALSE"
+ENDLIST
+LIST "CDC3FF_MSS::work","component\work\CDC3FF_MSS\CDC3FF_MSS.vhd","TRUE","FALSE"
+SUBBLOCK "CDC3FF::work","hdl\CDC3FF.vhd","FALSE","FALSE"
+SUBBLOCK "clk_source_MSS::work","component\work\clk_source_MSS\clk_source_MSS.vhd","TRUE","FALSE"
+ENDLIST
+LIST "clk_source::work","component\work\clk_source\clk_source.cxf","TRUE","FALSE"
+SUBBLOCK "clk_source_MSS::work","component\work\clk_source_MSS\clk_source_MSS.vhd","TRUE","FALSE"
+ENDLIST
+LIST "clk_source_MSS::work","component\work\clk_source_MSS\clk_source_MSS.vhd","TRUE","FALSE"
+SUBBLOCK "MSS_APB::work","component\work\clk_source_MSS\mss_tshell.vhd","FALSE","FALSE"
+SUBBLOCK "clk_source_MSS_tmp_MSS_CCC_0_MSS_CCC::work","component\work\clk_source_MSS\MSS_CCC_0\clk_source_MSS_tmp_MSS_CCC_0_MSS_CCC.vhd","FALSE","FALSE"
+ENDLIST
+LIST "clk_source_MSS_tmp_MSS_CCC_0_MSS_CCC::work","component\work\clk_source_MSS\MSS_CCC_0\clk_source_MSS_tmp_MSS_CCC_0_MSS_CCC.vhd","FALSE","FALSE"
+SUBBLOCK "MSS_CCC::work","component\Actel\SmartFusionMSS\MSS\2.5.200\mss_comps.vhd","FALSE","FALSE"
+ENDLIST
+LIST "DESIGN_FIRMWARE::work","component\work\DESIGN_FIRMWARE\DESIGN_FIRMWARE.cxf","TRUE","FALSE"
+SUBBLOCK "HAL::work","","FALSE","FALSE"
+SUBBLOCK "MSS_GPIO_Driver::work","","FALSE","FALSE"
+SUBBLOCK "MSS_IAP_Driver::work","","FALSE","FALSE"
+SUBBLOCK "MSS_NVM_Driver::work","","FALSE","FALSE"
+SUBBLOCK "MSS_PDMA_Driver::work","","FALSE","FALSE"
+SUBBLOCK "MSS_RTC_Driver::work","","FALSE","FALSE"
+SUBBLOCK "MSS_Timer_Driver::work","","FALSE","FALSE"
+SUBBLOCK "SmartFusion_CMSIS_PAL::work","","FALSE","FALSE"
+ENDLIST
+LIST "DESIGN_IO::work","component\work\DESIGN_IO\DESIGN_IO.cxf","TRUE","FALSE"
+ENDLIST
+LIST "HAL::work","","FALSE","FALSE"
+ENDLIST
+LIST "INBUF_LVDS_MCCC::work","component\Actel\SmartFusionMSS\MSS\2.5.200\mss_comps.vhd","FALSE","FALSE"
+ENDLIST
+LIST "INBUF_LVPECL_MCCC::work","component\Actel\SmartFusionMSS\MSS\2.5.200\mss_comps.vhd","FALSE","FALSE"
+ENDLIST
+LIST "INBUF_MCCC::work","component\Actel\SmartFusionMSS\MSS\2.5.200\mss_comps.vhd","FALSE","FALSE"
+ENDLIST
+LIST "INBUF_MSS::work","component\Actel\SmartFusionMSS\MSS\2.5.200\mss_comps.vhd","FALSE","FALSE"
+ENDLIST
+LIST "MSS_ALL::work","component\Actel\SmartFusionMSS\MSS\2.5.200\mss_comps.vhd","FALSE","FALSE"
+ENDLIST
+LIST "MSS_APB::work","component\work\clk_source_MSS\mss_tshell.vhd","FALSE","FALSE"
+ENDLIST
+LIST "MSS_CCC::work","component\Actel\SmartFusionMSS\MSS\2.5.200\mss_comps.vhd","FALSE","FALSE"
+ENDLIST
+LIST "MSS_GPIO_Driver::work","","FALSE","FALSE"
+ENDLIST
+LIST "MSS_IAP_Driver::work","","FALSE","FALSE"
+ENDLIST
+LIST "MSS_LPXTLOSC::work","component\Actel\SmartFusionMSS\MSS\2.5.200\mss_comps.vhd","FALSE","FALSE"
+ENDLIST
+LIST "MSS_NVM_Driver::work","","FALSE","FALSE"
+ENDLIST
+LIST "MSS_PDMA_Driver::work","","FALSE","FALSE"
+ENDLIST
+LIST "MSS_RTC_Driver::work","","FALSE","FALSE"
+ENDLIST
+LIST "MSS_Timer_Driver::work","","FALSE","FALSE"
+ENDLIST
+LIST "MSS_XTLOSC::work","component\Actel\SmartFusionMSS\MSS\2.5.200\mss_comps.vhd","FALSE","FALSE"
+ENDLIST
+LIST "MSSINT::work","component\Actel\SmartFusionMSS\MSS\2.5.200\mss_comps.vhd","FALSE","FALSE"
+ENDLIST
+LIST "OUTBUF_MSS::work","component\Actel\SmartFusionMSS\MSS\2.5.200\mss_comps.vhd","FALSE","FALSE"
+ENDLIST
+LIST "SmartFusion_CMSIS_PAL::work","","FALSE","FALSE"
+ENDLIST
+LIST "TRIBUFF_MSS::work","component\Actel\SmartFusionMSS\MSS\2.5.200\mss_comps.vhd","FALSE","FALSE"
+ENDLIST
+LIST "CDC3FF_tb::work","component\work\CDC3FF_tb\CDC3FF_tb.cxf","TRUE","TRUE"
+ENDLIST
+LIST "CDC3FF_tb::work","stimulus\CDC3FF_tb.vhd","FALSE","TRUE"
+SUBBLOCK "CDC3FF_MSS::work","component\work\CDC3FF_MSS\CDC3FF_MSS.vhd","TRUE","FALSE"
+ENDLIST
+ENDLIST
+LIST ActiveTestBenchList
+LIST "CDC3FF_MSS::work"
+ACTIVETESTBENCH "CDC3FF_tb::work","stimulus\CDC3FF_tb.vhd","FALSE"
+ENDLIST
+ENDLIST
+LIST IOTabList
+ENDLIST
+LIST FPTabList
+ENDLIST
+LIST TimingTabList
+VALUE "component\work\clk_source_MSS\mss_tshell_syn.sdc"
+ENDLIST
+LIST FDCTabList
+ENDLIST

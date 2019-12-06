@@ -1,0 +1,21 @@
+********************************************************************
+                            Global Usage Report
+********************************************************************
+  
+Product: Designer
+Release: v11.8
+Version: 11.8.0.26
+Date: Tue Nov 05 17:13:38 2019
+Design Name: top_level_counter  Family: SmartFusion  Die: A2F200M3F  Package: 484 FBGA
+Design State: Post-Layout
+
+The following nets have been routed to a chip global resource:
+
+    Fanout            Name
+    ----------------------
+    13                Net   : CLK_c
+                      Driver: CLK_pad/U0/U1/U_GL
+
+
+
+

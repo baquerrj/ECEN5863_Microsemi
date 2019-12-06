@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<SynplifyOutput>
+	<result>Success</result>
+	<design>ShiftRegister</design>
+	<target_edif>C:\Microsemi_Prj\hw8\p2b\synthesis\ShiftRegister.edn</target_edif>
+</SynplifyOutput>

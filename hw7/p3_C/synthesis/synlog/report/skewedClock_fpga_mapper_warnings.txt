@@ -1,0 +1,4 @@
+@W: MT420 |Found inferred clock skewedClock|CLK with period 10.00ns. Please declare a user-defined clock on object "p:CLK"
+@W: MT420 |Found inferred clock skewedClock|sQ2_inferred_clock with period 10.00ns. Please declare a user-defined clock on object "n:sQ2"
+@W: MT420 |Found inferred clock skewedClock|sQ1_inferred_clock with period 10.00ns. Please declare a user-defined clock on object "n:sQ1"
+@W: MT420 |Found inferred clock skewedClock|sQ0_inferred_clock with period 10.00ns. Please declare a user-defined clock on object "n:sQ0"

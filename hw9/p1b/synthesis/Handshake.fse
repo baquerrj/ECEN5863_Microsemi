@@ -1,0 +1,20 @@
+
+fsm_encoding {8380382} sequential
+
+fsm_state_encoding {8380382} IDLE {00}
+
+fsm_state_encoding {8380382} SEND {01}
+
+fsm_state_encoding {8380382} WAIT {10}
+
+fsm_registers {8380382} {state_1[1]}  {state_1[0]} 
+
+fsm_encoding {6380381} sequential
+
+fsm_state_encoding {6380381} IDLE {00}
+
+fsm_state_encoding {6380381} WAIT {01}
+
+fsm_state_encoding {6380381} LOAD {10}
+
+fsm_registers {6380381} {state_1[1]}  {state_1[0]} 

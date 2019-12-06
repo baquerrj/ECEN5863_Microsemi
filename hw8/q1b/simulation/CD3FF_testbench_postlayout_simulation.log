@@ -1,0 +1,95 @@
+# Reading C:/Microsemi/Libero_SoC_v11.8/Modelsim/tcl/vsim/pref.tcl
+# do run.do
+# INFO: Simulation library ../designer/impl1/simulation/postlayout already exists
+# Model Technology ModelSim Microsemi vmap 10.5c Lib Mapping Utility 2016.07 Jul 21 2016
+# vmap postlayout ../designer/impl1/simulation/postlayout 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vmap 10.5c Lib Mapping Utility 2016.07 Jul 21 2016
+# vmap smartfusion C:/Microsemi/Libero_SoC_v11.8/Designer/lib/modelsim/precompiled/vlog/smartfusion 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vlog 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 22:51:33 on Nov 19,2019
+# vlog -reportprogress 300 -vlog01compat -work postlayout C:/Microsemi_Prj/hw8/q1b/designer/impl1/CD3FF_ba.v 
+# -- Compiling module CD3FF
+# 
+# Top level modules:
+# 	CD3FF
+# End time: 22:51:33 on Nov 19,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vlog 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 22:51:33 on Nov 19,2019
+# vlog -reportprogress 300 "+incdir+C:/Microsemi_Prj/hw8/q1b/stimulus" -vlog01compat -work postlayout C:/Microsemi_Prj/hw8/q1b/stimulus/CD3FF_testbench.v 
+# -- Compiling module CD3FF_testbench
+# 
+# Top level modules:
+# 	CD3FF_testbench
+# End time: 22:51:33 on Nov 19,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -L smartfusion -L postlayout -t 1ps -sdfmax /CD3FF_0=C:/Microsemi_Prj/hw8/q1b/designer/impl1/CD3FF_ba.sdf postlayout.CD3FF_testbench 
+# Start time: 22:51:33 on Nov 19,2019
+# //  ModelSim Microsemi 10.5c Jul 21 2016
+# //
+# //  Copyright 1991-2016 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim Microsemi and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading postlayout.CD3FF_testbench
+# Loading postlayout.CD3FF
+# Loading smartfusion.NOR2A
+# Loading smartfusion.DFN1
+# Loading smartfusion.CLKSRC
+# Loading smartfusion.DLN1
+# Loading smartfusion.IOTRI_OB_EB
+# Loading smartfusion.IOPAD_TRI
+# Loading smartfusion.IOPAD_IN
+# Loading smartfusion.IOIN_IB
+# Loading smartfusion.NOR2
+# Loading smartfusion.GND
+# Loading smartfusion.VCC
+# SDF 10.5c Compiler 2016.07 Jul 21 2016
+# 
+# Loading instances from C:/Microsemi_Prj/hw8/q1b/designer/impl1/CD3FF_ba.sdf
+# Loading smartfusion.Dffpr
+# Loading smartfusion.DL2C_UDP
+# Loading timing data from C:/Microsemi_Prj/hw8/q1b/designer/impl1/CD3FF_ba.sdf
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /CD3FF_testbench File: C:/Microsemi_Prj/hw8/q1b/stimulus/CD3FF_testbench.v
+history
+#      1  do run.do
+#      2  history
+# Error opening C:/Microsemi_Prj/hw8/q1b/simulation/src/smartfusion.v
+# Path name 'C:/Microsemi_Prj/hw8/q1b/simulation/src/smartfusion.v' doesn't exist.
+add wave -position end {sim:/CD3FF_testbench/CD3FF_0/\synchronizer/S2 /*}
+add wave -position end {sim:/CD3FF_testbench/CD3FF_0/\synchronizer/S1 /Q}
+add wave -position end {sim:/CD3FF_testbench/CD3FF_0/\synchronizer/sync /Q}
+add wave -position end {sim:/CD3FF_testbench/CD3FF_0/dataA /Q}
+restart -f
+# Loading instances from C:/Microsemi_Prj/hw8/q1b/designer/impl1/CD3FF_ba.sdf
+# Loading timing data from C:/Microsemi_Prj/hw8/q1b/designer/impl1/CD3FF_ba.sdf
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /CD3FF_testbench File: C:/Microsemi_Prj/hw8/q1b/stimulus/CD3FF_testbench.v
+run 1500ns
+# ** Error: src/smartfusion.v(9868): $setup( posedge D:1251446 ps, posedge CLK:1251795 ps, 522 ps );
+#    Time: 1251795 ps  Iteration: 1  Instance: /CD3FF_testbench/CD3FF_0/\synchronizer/S1 
+# ** Error: src/smartfusion.v(9869): $setup( negedge D:1471672 ps, posedge CLK:1471795 ps, 490 ps );
+#    Time: 1471795 ps  Iteration: 1  Instance: /CD3FF_testbench/CD3FF_0/Dout_inst_1
+run 1000ns
+# ** Error: src/smartfusion.v(9869): $setup( negedge D:1631364 ps, posedge CLK:1631795 ps, 490 ps );
+#    Time: 1631795 ps  Iteration: 1  Instance: /CD3FF_testbench/CD3FF_0/\synchronizer/S1 
+# ** Error: src/smartfusion.v(9868): $setup( posedge D:2011646 ps, posedge CLK:2011795 ps, 522 ps );
+#    Time: 2011795 ps  Iteration: 1  Instance: /CD3FF_testbench/CD3FF_0/\synchronizer/S1 
+# ** Error: src/smartfusion.v(12704): $setup( negedge D:2193213 ps, negedge G:2193523 ps, 685 ps );
+#    Time: 2193523 ps  Iteration: 0  Instance: /CD3FF_testbench/CD3FF_0/dataLocked
+# ** Error: src/smartfusion.v(9868): $setup( posedge D:2231556 ps, posedge CLK:2231795 ps, 522 ps );
+#    Time: 2231795 ps  Iteration: 1  Instance: /CD3FF_testbench/CD3FF_0/Dout_inst_1
+# ** Error: src/smartfusion.v(9869): $setup( negedge D:2391564 ps, posedge CLK:2391795 ps, 490 ps );
+#    Time: 2391795 ps  Iteration: 1  Instance: /CD3FF_testbench/CD3FF_0/\synchronizer/S1 
+# End time: 22:55:37 on Nov 19,2019, Elapsed time: 0:04:04
+# Errors: 8, Warnings: 0

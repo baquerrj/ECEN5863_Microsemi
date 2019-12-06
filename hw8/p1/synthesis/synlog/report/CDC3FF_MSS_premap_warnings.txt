@@ -1,0 +1,1 @@
+@W: MF511 |Found issues with constraints. Please check constraint checker report "C:\Microsemi_Prj\hw8\p1\synthesis\CDC3FF_MSS_cck.rpt" .

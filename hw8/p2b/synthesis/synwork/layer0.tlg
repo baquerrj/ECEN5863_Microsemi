@@ -1,0 +1,7 @@
+Selecting top level module SlowFast
+@N: CG364 :"C:\Microsemi_Prj\hw8\p2b\hdl\ShiftRegister.v":1:7:1:19|Synthesizing module ShiftRegister in library work.
+
+@N: CG364 :"C:\Microsemi_Prj\hw8\p2b\hdl\Synchronizer.v":1:7:1:18|Synthesizing module Synchronizer in library work.
+
+@N: CG364 :"C:\Microsemi_Prj\hw8\p2b\hdl\SlowFast.v":1:7:1:14|Synthesizing module SlowFast in library work.
+

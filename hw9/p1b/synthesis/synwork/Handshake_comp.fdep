@@ -1,0 +1,45 @@
+#OPTIONS:"|-layerid|0|-orig_srs|C:\\Microsemi_Prj\\hw9\\p1b\\synthesis\\synwork\\Handshake_comp.srs|-top|Handshake|-prodtype|synplify_pro|-nram|-fixsmult|-divnmod|-I|C:\\Microsemi_Prj\\hw9\\p1b\\synthesis\\|-I|C:\\Microsemi\\Libero_SoC_v11.8\\SynplifyPro\\lib|-v2001|-devicelib|C:\\Microsemi\\Libero_SoC_v11.8\\SynplifyPro\\lib\\proasic\\smartfusion.v|-encrypt|-pro|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work"
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.8\\SynplifyPro\\bin64\\c_ver.exe":1480003824
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.8\\SynplifyPro\\lib\\proasic\\smartfusion.v":1487966850
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.8\\SynplifyPro\\lib\\vlog\\hypermods.v":1487966986
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.8\\SynplifyPro\\lib\\vlog\\umr_capim.v":1487966986
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.8\\SynplifyPro\\lib\\vlog\\scemi_objects.v":1487966986
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.8\\SynplifyPro\\lib\\vlog\\scemi_pipes.svh":1487966986
+#CUR:"C:\\Microsemi_Prj\\hw9\\p1b\\hdl\\counter.v":1575339185
+#CUR:"C:\\Microsemi_Prj\\hw9\\p1b\\hdl\\receiver_fsm.v":1575339185
+#CUR:"C:\\Microsemi_Prj\\hw9\\p1b\\hdl\\receiver.v":1575339185
+#CUR:"C:\\Microsemi_Prj\\hw9\\p1b\\hdl\\sender_fsm.v":1575339185
+#CUR:"C:\\Microsemi_Prj\\hw9\\p1b\\hdl\\sender.v":1575339185
+#CUR:"C:\\Microsemi_Prj\\hw9\\p1b\\hdl\\synchronizer.v":1575339185
+#CUR:"C:\\Microsemi_Prj\\hw9\\p1b\\hdl\\Handshake.v":1575339185
+0			"C:\Microsemi_Prj\hw9\p1b\hdl\counter.v" verilog
+1			"C:\Microsemi_Prj\hw9\p1b\hdl\receiver_fsm.v" verilog
+2			"C:\Microsemi_Prj\hw9\p1b\hdl\receiver.v" verilog
+3			"C:\Microsemi_Prj\hw9\p1b\hdl\sender_fsm.v" verilog
+4			"C:\Microsemi_Prj\hw9\p1b\hdl\sender.v" verilog
+5			"C:\Microsemi_Prj\hw9\p1b\hdl\synchronizer.v" verilog
+6			"C:\Microsemi_Prj\hw9\p1b\hdl\Handshake.v" verilog
+#Dependency Lists(Uses List)
+0 -1
+1 -1
+2 1
+3 -1
+4 3
+5 -1
+6 2 4 0 5
+#Dependency Lists(Users Of)
+0 6
+1 2
+2 6
+3 4
+4 6
+5 6
+6 -1
+#Design Unit to File Association
+module work Handshake 6
+module work synchronizer 5
+module work sender 4
+module work sender_fsm 3
+module work receiver 2
+module work receiver_fsm 1
+module work counter 0

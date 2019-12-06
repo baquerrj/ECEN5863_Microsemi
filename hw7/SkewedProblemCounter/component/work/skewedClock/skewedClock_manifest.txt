@@ -1,0 +1,11 @@
+Microsemi Corporation - Microsemi Libero Software Release v11.8 (Version 11.8.0.26)
+
+Date      :  Sun Nov 03 15:19:07 2019
+Project   :  C:\Microsemi_Prj\hw7\SkewedProblemCounter
+Component :  skewedClock
+Family    :  SmartFusion
+
+
+HDL source files for all Synthesis and Simulation tools:
+    C:/Microsemi_Prj/hw7/SkewedProblemCounter/component/work/skewedClock/skewedClock.v
+

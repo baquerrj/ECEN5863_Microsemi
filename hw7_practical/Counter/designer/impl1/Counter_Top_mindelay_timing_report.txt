@@ -1,0 +1,391 @@
+Timing Report Min Delay Analysis
+
+SmartTime Version v11.8
+Microsemi Corporation - Microsemi Libero Software Release v11.8 (Version 11.8.0.26)
+Date: Thu Nov 07 21:47:04 2019
+
+
+Design: Counter_Top
+Family: SmartFusion
+Die: A2F200M3F
+Package: 484 FBGA
+Temperature Range: 0 - 85 C
+Voltage Range: 1.425 - 1.575 V
+Speed Grade: STD
+Design State: Post-Layout
+Data source: Silicon verified
+Min Operating Conditions: BEST - 1.575 V - 0 C
+Max Operating Conditions: WORST - 1.425 V - 85 C
+Using Enhanced Min Delay Analysis
+Scenario for Timing Analysis: Primary
+
+
+-----------------------------------------------------
+SUMMARY
+
+Clock Domain:               CLK
+Period (ns):                22.365
+Frequency (MHz):            44.713
+Required Period (ns):       23.000
+Required Frequency (MHz):   43.478
+External Setup (ns):        6.868
+External Hold (ns):         -0.457
+Min Clock-To-Out (ns):      2.687
+Max Clock-To-Out (ns):      22.424
+
+                            Input to Output
+Min Delay (ns):             N/A
+Max Delay (ns):             N/A
+
+END SUMMARY
+-----------------------------------------------------
+
+Clock Domain CLK
+
+SET Register to Register
+
+Path 1
+  From:                        GEN_COUNTER.49.chain.ui/count[14]:CLK
+  To:                          GEN_COUNTER.49.chain.ui/count[14]:D
+  Delay (ns):                  0.737
+  Slack (ns):                  0.737
+  Arrival (ns):                1.609
+  Required (ns):               0.872
+  Hold (ns):                   0.000
+
+Path 2
+  From:                        GEN_COUNTER.12.chain.ui/count[9]:CLK
+  To:                          GEN_COUNTER.12.chain.ui/count[9]:D
+  Delay (ns):                  0.737
+  Slack (ns):                  0.737
+  Arrival (ns):                1.608
+  Required (ns):               0.871
+  Hold (ns):                   0.000
+
+Path 3
+  From:                        GEN_COUNTER.56.chain.ui/count[15]:CLK
+  To:                          GEN_COUNTER.56.chain.ui/count[15]:D
+  Delay (ns):                  0.737
+  Slack (ns):                  0.737
+  Arrival (ns):                1.597
+  Required (ns):               0.860
+  Hold (ns):                   0.000
+
+Path 4
+  From:                        GEN_COUNTER.63.chain.ui/count[12]:CLK
+  To:                          GEN_COUNTER.63.chain.ui/count[12]:D
+  Delay (ns):                  0.737
+  Slack (ns):                  0.737
+  Arrival (ns):                1.606
+  Required (ns):               0.869
+  Hold (ns):                   0.000
+
+Path 5
+  From:                        GEN_COUNTER.20.chain.ui/count[12]:CLK
+  To:                          GEN_COUNTER.20.chain.ui/count[12]:D
+  Delay (ns):                  0.737
+  Slack (ns):                  0.737
+  Arrival (ns):                1.580
+  Required (ns):               0.843
+  Hold (ns):                   0.000
+
+
+Expanded Path 1
+  From: GEN_COUNTER.49.chain.ui/count[14]:CLK
+  To: GEN_COUNTER.49.chain.ui/count[14]:D
+  data arrival time                              1.609
+  data required time                         -   0.872
+  slack                                          0.737
+  ________________________________________________________
+  Data arrival time calculation
+  0.000                        CLK
+               +     0.000          Clock source
+  0.000                        CLK (r)
+               +     0.000          net: CLK
+  0.000                        CLK_pad/U0/U0:PAD (r)
+               +     0.391          cell: ADLIB:IOPAD_IN
+  0.391                        CLK_pad/U0/U0:Y (r)
+               +     0.000          net: CLK_pad/U0/NET1
+  0.391                        CLK_pad/U0/U1:A (r)
+               +     0.148          cell: ADLIB:CLKSRC
+  0.539                        CLK_pad/U0/U1:Y (r)
+               +     0.333          net: CLK_c
+  0.872                        GEN_COUNTER.49.chain.ui/count[14]:CLK (r)
+               +     0.249          cell: ADLIB:DFN1E1
+  1.121                        GEN_COUNTER.49.chain.ui/count[14]:Q (r)
+               +     0.138          net: GEN_COUNTER_49_chain_ui/count[14]
+  1.259                        GEN_COUNTER.49.chain.ui/count_n14_0:A (r)
+               +     0.198          cell: ADLIB:XA1A
+  1.457                        GEN_COUNTER.49.chain.ui/count_n14_0:Y (f)
+               +     0.152          net: GEN_COUNTER_49_chain_ui/count_n14
+  1.609                        GEN_COUNTER.49.chain.ui/count[14]:D (f)
+                                    
+  1.609                        data arrival time
+  ________________________________________________________
+  Data required time calculation
+  0.000                        CLK
+               +     0.000          Clock source
+  0.000                        CLK (r)
+               +     0.000          net: CLK
+  0.000                        CLK_pad/U0/U0:PAD (r)
+               +     0.391          cell: ADLIB:IOPAD_IN
+  0.391                        CLK_pad/U0/U0:Y (r)
+               +     0.000          net: CLK_pad/U0/NET1
+  0.391                        CLK_pad/U0/U1:A (r)
+               +     0.148          cell: ADLIB:CLKSRC
+  0.539                        CLK_pad/U0/U1:Y (r)
+               +     0.333          net: CLK_c
+  0.872                        GEN_COUNTER.49.chain.ui/count[14]:CLK (r)
+               +     0.000          Library hold time: ADLIB:DFN1E1
+  0.872                        GEN_COUNTER.49.chain.ui/count[14]:D
+                                    
+  0.872                        data required time
+
+
+END SET Register to Register
+
+----------------------------------------------------
+
+SET External Hold
+
+Path 1
+  From:                        RESET
+  To:                          GEN_COUNTER.23.chain.ui/count[8]:E
+  Delay (ns):                  1.512
+  Slack (ns):                  10.457
+  Arrival (ns):                11.512
+  Required (ns):               1.055
+  Hold (ns):                   0.000
+  External Hold (ns):          -0.457
+
+Path 2
+  From:                        RESET
+  To:                          GEN_COUNTER.12.chain.ui/count[9]:E
+  Delay (ns):                  1.512
+  Slack (ns):                  10.467
+  Arrival (ns):                11.512
+  Required (ns):               1.045
+  Hold (ns):                   0.000
+  External Hold (ns):          -0.467
+
+Path 3
+  From:                        RESET
+  To:                          GEN_COUNTER.46.chain.ui/count[14]:E
+  Delay (ns):                  1.511
+  Slack (ns):                  10.473
+  Arrival (ns):                11.511
+  Required (ns):               1.038
+  Hold (ns):                   0.000
+  External Hold (ns):          -0.473
+
+Path 4
+  From:                        RESET
+  To:                          GEN_COUNTER.5.chain.ui/count[15]:E
+  Delay (ns):                  1.525
+  Slack (ns):                  10.474
+  Arrival (ns):                11.525
+  Required (ns):               1.051
+  Hold (ns):                   0.000
+  External Hold (ns):          -0.474
+
+Path 5
+  From:                        RESET
+  To:                          GEN_COUNTER.3.chain.ui/count[8]:E
+  Delay (ns):                  1.517
+  Slack (ns):                  10.483
+  Arrival (ns):                11.517
+  Required (ns):               1.034
+  Hold (ns):                   0.000
+  External Hold (ns):          -0.483
+
+
+Expanded Path 1
+  From: RESET
+  To: GEN_COUNTER.23.chain.ui/count[8]:E
+  data arrival time                              11.512
+  data required time                         -   1.055
+  slack                                          10.457
+  ________________________________________________________
+  Data arrival time calculation
+  0.000                        CLK
+               +    10.000          Input Delay Constraint
+  10.000                       RESET (f)
+               +     0.000          net: RESET
+  10.000                       RESET_pad/U0/U0:PAD (f)
+               +     0.277          cell: ADLIB:IOPAD_IN
+  10.277                       RESET_pad/U0/U0:Y (f)
+               +     0.000          net: RESET_pad/U0/NET1
+  10.277                       RESET_pad/U0/U1:YIN (f)
+               +     0.017          cell: ADLIB:IOIN_IB
+  10.294                       RESET_pad/U0/U1:Y (f)
+               +     0.166          net: RESET_pad
+  10.460                       RESET_pad_RNIN4HC/U_CLKSRC:A (f)
+               +     0.398          cell: ADLIB:CLKSRC
+  10.858                       RESET_pad_RNIN4HC/U_CLKSRC:Y (f)
+               +     0.314          net: RESET_c
+  11.172                       GEN_COUNTER.23.chain.ui/countlde:A (f)
+               +     0.200          cell: ADLIB:OR2A
+  11.372                       GEN_COUNTER.23.chain.ui/countlde:Y (r)
+               +     0.140          net: GEN_COUNTER_23_chain_ui/counte
+  11.512                       GEN_COUNTER.23.chain.ui/count[8]:E (r)
+                                    
+  11.512                       data arrival time
+  ________________________________________________________
+  Data required time calculation
+  0.000                        CLK
+               +     0.000          Clock source
+  0.000                        CLK (r)
+               +     0.000          net: CLK
+  0.000                        CLK_pad/U0/U0:PAD (r)
+               +     0.470          cell: ADLIB:IOPAD_IN
+  0.470                        CLK_pad/U0/U0:Y (r)
+               +     0.000          net: CLK_pad/U0/NET1
+  0.470                        CLK_pad/U0/U1:A (r)
+               +     0.177          cell: ADLIB:CLKSRC
+  0.647                        CLK_pad/U0/U1:Y (r)
+               +     0.408          net: CLK_c
+  1.055                        GEN_COUNTER.23.chain.ui/count[8]:CLK (r)
+               +     0.000          Library hold time: ADLIB:DFN1E1
+  1.055                        GEN_COUNTER.23.chain.ui/count[8]:E
+                                    
+  1.055                        data required time
+
+
+END SET External Hold
+
+----------------------------------------------------
+
+SET Clock to Output
+
+Path 1
+  From:                        GEN_COUNTER.74.last.ul/count[8]:CLK
+  To:                          Q[8]
+  Delay (ns):                  1.823
+  Slack (ns):                  2.737
+  Arrival (ns):                2.687
+  Required (ns):               -0.050
+  Clock to Out (ns):           2.687
+
+Path 2
+  From:                        GEN_COUNTER.74.last.ul/count[0]:CLK
+  To:                          Q[0]
+  Delay (ns):                  1.814
+  Slack (ns):                  2.755
+  Arrival (ns):                2.705
+  Required (ns):               -0.050
+  Clock to Out (ns):           2.705
+
+Path 3
+  From:                        GEN_COUNTER.74.last.ul/count[4]:CLK
+  To:                          Q[4]
+  Delay (ns):                  1.830
+  Slack (ns):                  2.757
+  Arrival (ns):                2.707
+  Required (ns):               -0.050
+  Clock to Out (ns):           2.707
+
+Path 4
+  From:                        GEN_COUNTER.74.last.ul/count[7]:CLK
+  To:                          Q[7]
+  Delay (ns):                  1.853
+  Slack (ns):                  2.767
+  Arrival (ns):                2.717
+  Required (ns):               -0.050
+  Clock to Out (ns):           2.717
+
+Path 5
+  From:                        GEN_COUNTER.74.last.ul/count[3]:CLK
+  To:                          Q[3]
+  Delay (ns):                  1.860
+  Slack (ns):                  2.784
+  Arrival (ns):                2.734
+  Required (ns):               -0.050
+  Clock to Out (ns):           2.734
+
+
+Expanded Path 1
+  From: GEN_COUNTER.74.last.ul/count[8]:CLK
+  To: Q[8]
+  data arrival time                              2.687
+  data required time                         -   -0.050
+  slack                                          2.737
+  ________________________________________________________
+  Data arrival time calculation
+  0.000                        CLK
+               +     0.000          Clock source
+  0.000                        CLK (r)
+               +     0.000          net: CLK
+  0.000                        CLK_pad/U0/U0:PAD (r)
+               +     0.391          cell: ADLIB:IOPAD_IN
+  0.391                        CLK_pad/U0/U0:Y (r)
+               +     0.000          net: CLK_pad/U0/NET1
+  0.391                        CLK_pad/U0/U1:A (r)
+               +     0.148          cell: ADLIB:CLKSRC
+  0.539                        CLK_pad/U0/U1:Y (r)
+               +     0.325          net: CLK_c
+  0.864                        GEN_COUNTER.74.last.ul/count[8]:CLK (r)
+               +     0.249          cell: ADLIB:DFN1E1
+  1.113                        GEN_COUNTER.74.last.ul/count[8]:Q (r)
+               +     0.198          net: Q_c[8]
+  1.311                        Q_pad[8]/U0/U1:D (r)
+               +     0.257          cell: ADLIB:IOTRI_OB_EB
+  1.568                        Q_pad[8]/U0/U1:DOUT (r)
+               +     0.000          net: Q_pad[8]/U0/NET1
+  1.568                        Q_pad[8]/U0/U0:D (r)
+               +     1.119          cell: ADLIB:IOPAD_TRI
+  2.687                        Q_pad[8]/U0/U0:PAD (r)
+               +     0.000          net: Q[8]
+  2.687                        Q[8] (r)
+                                    
+  2.687                        data arrival time
+  ________________________________________________________
+  Data required time calculation
+  0.000                        CLK
+               +     0.000          Clock source
+  0.000                        CLK (r)
+               -     0.050          Output Delay Constraint
+  -0.050                       Q[8] (r)
+                                    
+  -0.050                       data required time
+
+
+END SET Clock to Output
+
+----------------------------------------------------
+
+SET Register to Asynchronous
+
+No Path
+
+END SET Register to Asynchronous
+
+----------------------------------------------------
+
+SET External Removal
+
+No Path
+
+END SET External Removal
+
+----------------------------------------------------
+
+SET Asynchronous to Register
+
+No Path
+
+END SET Asynchronous to Register
+
+----------------------------------------------------
+
+Path set Pin to Pin
+
+SET Input to Output
+
+No Path
+
+END SET Input to Output
+
+----------------------------------------------------
+
+Path set User Sets
+

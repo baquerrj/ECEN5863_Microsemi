@@ -1,0 +1,6 @@
+Selecting top level module CD3FF
+@N: CG364 :"C:\Microsemi_Prj\hw8\q1b\hdl\Synchronizer.v":1:7:1:18|Synthesizing module Synchronizer in library work.
+
+@N: CG364 :"C:\Microsemi_Prj\hw8\q1b\hdl\CD3FF.v":1:7:1:11|Synthesizing module CD3FF in library work.
+
+@W: CL118 :"C:\Microsemi_Prj\hw8\q1b\hdl\CD3FF.v":29:3:29:4|Latch generated from always block for signal dataLocked; possible missing assignment in an if or case statement.

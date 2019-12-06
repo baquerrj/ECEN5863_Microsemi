@@ -1,0 +1,20 @@
+#OPTIONS:"|-layerid|0|-orig_srs|C:\\Microsemi_Prj\\hw8\\q1a\\synthesis\\synwork\\CD3FF_comp.srs|-top|CD3FF|-prodtype|synplify_pro|-nram|-fixsmult|-divnmod|-I|C:\\Microsemi_Prj\\hw8\\q1a\\synthesis\\|-I|C:\\Microsemi\\Libero_SoC_v11.8\\SynplifyPro\\lib|-v2001|-devicelib|C:\\Microsemi\\Libero_SoC_v11.8\\SynplifyPro\\lib\\proasic\\smartfusion.v|-encrypt|-pro|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-lib|work|-lib|work"
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.8\\SynplifyPro\\bin64\\c_ver.exe":1480003824
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.8\\SynplifyPro\\lib\\proasic\\smartfusion.v":1487966850
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.8\\SynplifyPro\\lib\\vlog\\hypermods.v":1487966986
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.8\\SynplifyPro\\lib\\vlog\\umr_capim.v":1487966986
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.8\\SynplifyPro\\lib\\vlog\\scemi_objects.v":1487966986
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.8\\SynplifyPro\\lib\\vlog\\scemi_pipes.svh":1487966986
+#CUR:"C:\\Microsemi_Prj\\hw8\\q1a\\hdl\\Synchronizer.v":1574137630
+#CUR:"C:\\Microsemi_Prj\\hw8\\q1a\\hdl\\CD3FF.v":1574225648
+0			"C:\Microsemi_Prj\hw8\q1a\hdl\Synchronizer.v" verilog
+1			"C:\Microsemi_Prj\hw8\q1a\hdl\CD3FF.v" verilog
+#Dependency Lists(Uses List)
+0 -1
+1 0
+#Dependency Lists(Users Of)
+0 1
+1 -1
+#Design Unit to File Association
+module work CD3FF 1
+module work Synchronizer 0

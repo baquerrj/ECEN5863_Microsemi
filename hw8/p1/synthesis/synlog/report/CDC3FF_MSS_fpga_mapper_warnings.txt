@@ -1,0 +1,1 @@
+@W: MT548 :"c:/microsemi_prj/hw8/p1/component/work/clk_source_mss/mss_tshell_syn.sdc":2:0:2:0|Source for clock FCLK not found in netlist. Run the constraint checker to verify if constraints are applied correctly.

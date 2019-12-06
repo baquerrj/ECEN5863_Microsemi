@@ -1,0 +1,8 @@
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+@N: FP130 |Promoting Net clk1_c on CLKBUF  clk1_pad 
+@N: FP130 |Promoting Net clk2_c on CLKBUF  clk2_pad 
+@N: MT615 |Found clock fifo2x8|clk1 with period 40.00ns 
+@N: MT615 |Found clock fifo2x8|clk2 with period 25.00ns 
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.

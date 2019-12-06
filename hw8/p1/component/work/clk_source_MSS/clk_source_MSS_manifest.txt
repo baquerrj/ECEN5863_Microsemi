@@ -1,0 +1,22 @@
+Microsemi Corporation - Microsemi Libero Software Release v11.8 (Version 11.8.0.26)
+
+Date      :  Sun Nov 10 14:34:16 2019
+Project   :  C:\Microsemi_Prj\hw8\p1
+Component :  clk_source_MSS
+Family    :  SmartFusion
+
+
+HDL source files for all Synthesis and Simulation tools:
+    C:/Microsemi_Prj/hw8/p1/component/work/clk_source_MSS/MSS_CCC_0/clk_source_MSS_tmp_MSS_CCC_0_MSS_CCC.vhd
+    C:/Microsemi_Prj/hw8/p1/component/work/clk_source_MSS/clk_source_MSS.vhd
+
+HDL source files for Synopsys SynplifyPro Synthesis tool:
+    C:/Microsemi_Prj/hw8/p1/component/Actel/SmartFusionMSS/MSS/2.5.200/mss_comps.vhd
+    C:/Microsemi_Prj/hw8/p1/component/work/clk_source_MSS/mss_tshell.vhd
+    C:/Microsemi_Prj/hw8/p1/component/work/clk_source_MSS/mss_tshell_syn.sdc
+
+Stimulus files for all Simulation tools:
+    C:/Microsemi_Prj/hw8/p1/component/Actel/SmartFusionMSS/MSS/2.5.200/CompileDssBfm.tcl
+    C:/Microsemi_Prj/hw8/p1/component/Actel/SmartFusionMSS/MSS/2.5.200/bfmtovec.exe
+    C:/Microsemi_Prj/hw8/p1/component/work/clk_source_MSS/MSS_ENVM_0/test.bfm
+

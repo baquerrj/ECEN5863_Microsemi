@@ -1,0 +1,16 @@
+C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\bin64\m_proasic.exe  -prodtype  synplify_pro   -encrypt  -pro  -rundir  C:\Microsemi_Prj\hw8\p1\synthesis   -part A2F200M3F  -package FBGA484  -grade STD    -globalthreshold 50 -maxfan 24 -opcond COMWC -report_path 4000 -RWCheckOnRam 0 -summaryfile C:\Microsemi_Prj\hw8\p1\synthesis\synlog\report\CDC3FF_MSS_fpga_mapper.xml  -top_level_module  work.CDC3FF_MSS  -licensetype  synplifypro_actel  -flow mapping  -mp  4  -prjfile  C:\Microsemi_Prj\hw8\p1\synthesis\scratchproject.prs  -implementation  synthesis  -multisrs  -oedif  C:\Microsemi_Prj\hw8\p1\synthesis\CDC3FF_MSS.edn   -freq 100.000   -tcl  C:\Microsemi_Prj\hw8\p1\component\work\clk_source_MSS\mss_tshell_syn.sdc  C:\Microsemi_Prj\hw8\p1\synthesis\synwork\CDC3FF_MSS_prem.srd  -sap  C:\Microsemi_Prj\hw8\p1\synthesis\CDC3FF_MSS.sap  -otap  C:\Microsemi_Prj\hw8\p1\synthesis\CDC3FF_MSS.tap  -omap  C:\Microsemi_Prj\hw8\p1\synthesis\CDC3FF_MSS.map  -devicelib  C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\proasic\smartfusion.v  -sap  C:\Microsemi_Prj\hw8\p1\synthesis\CDC3FF_MSS.sap  -ologparam  C:\Microsemi_Prj\hw8\p1\synthesis\syntmp\CDC3FF_MSS.plg  -osyn  C:\Microsemi_Prj\hw8\p1\synthesis\CDC3FF_MSS.srm  -prjdir  C:\Microsemi_Prj\hw8\p1\synthesis\  -prjname  CDC3FF_MSS_syn  -log  C:\Microsemi_Prj\hw8\p1\synthesis\synlog\CDC3FF_MSS_fpga_mapper.srr 
+rc:1 success:1 runtime:0
+file:C:\Microsemi_Prj\hw8\p1\synthesis\scratchproject.prs|io:o|time:1573418597|size:2326|exec:0
+file:C:\Microsemi_Prj\hw8\p1\synthesis\CDC3FF_MSS.edn|io:o|time:1573434040|size:17779|exec:0
+file:C:\Microsemi_Prj\hw8\p1\component\work\clk_source_MSS\mss_tshell_syn.sdc|io:i|time:1573421653|size:198|exec:0
+file:C:\Microsemi_Prj\hw8\p1\synthesis\synwork\CDC3FF_MSS_prem.srd|io:i|time:1573434040|size:7093|exec:0
+file:C:\Microsemi_Prj\hw8\p1\synthesis\CDC3FF_MSS.sap|io:o|time:1573434040|size:673|exec:0
+file:C:\Microsemi_Prj\hw8\p1\synthesis\CDC3FF_MSS.tap|io:o|time:0|size:0|exec:0
+file:C:\Microsemi_Prj\hw8\p1\synthesis\CDC3FF_MSS.map|io:o|time:1573434040|size:28|exec:0
+file:C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\proasic\smartfusion.v|io:i|time:1487966850|size:72817|exec:0
+file:C:\Microsemi_Prj\hw8\p1\synthesis\CDC3FF_MSS.sap|io:o|time:1573434040|size:673|exec:0
+file:C:\Microsemi_Prj\hw8\p1\synthesis\syntmp\CDC3FF_MSS.plg|io:o|time:1573434040|size:574|exec:0
+file:C:\Microsemi_Prj\hw8\p1\synthesis\CDC3FF_MSS.srm|io:o|time:1573434040|size:64769|exec:0
+file:C:\Microsemi_Prj\hw8\p1\synthesis\synlog\CDC3FF_MSS_fpga_mapper.srr|io:o|time:1573434040|size:15943|exec:0
+file:C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\bin\m_proasic.exe|io:i|time:1479399434|size:10978304|exec:1
+file:C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\bin64\m_proasic.exe|io:i|time:1479400840|size:14125056|exec:1

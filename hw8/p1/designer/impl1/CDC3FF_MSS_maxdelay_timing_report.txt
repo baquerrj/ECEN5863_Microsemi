@@ -1,0 +1,406 @@
+Timing Report Max Delay Analysis
+
+SmartTime Version v11.8
+Microsemi Corporation - Microsemi Libero Software Release v11.8 (Version 11.8.0.26)
+Date: Sun Nov 10 18:02:26 2019
+
+
+Design: CDC3FF_MSS
+Family: SmartFusion
+Die: A2F200M3F
+Package: 484 FBGA
+Temperature Range: 0 - 85 C
+Voltage Range: 1.425 - 1.575 V
+Speed Grade: STD
+Design State: Post-Layout
+Data source: Silicon verified
+Min Operating Conditions: BEST - 1.575 V - 0 C
+Max Operating Conditions: WORST - 1.425 V - 85 C
+Using Enhanced Min Delay Analysis
+Scenario for Timing Analysis: Primary
+
+
+-----------------------------------------------------
+SUMMARY
+
+Clock Domain:               mss_ccc_gla1
+Period (ns):                1.495
+Frequency (MHz):            668.896
+Required Period (ns):       20.000
+Required Frequency (MHz):   50.000
+External Setup (ns):        N/A
+External Hold (ns):         N/A
+Min Clock-To-Out (ns):      7.002
+Max Clock-To-Out (ns):      12.101
+
+Clock Domain:               clk_source_MSS_0/MSS_CCC_0/I_RCOSC:CLKOUT
+Period (ns):                N/A
+Frequency (MHz):            N/A
+Required Period (ns):       10.000
+Required Frequency (MHz):   100.000
+External Setup (ns):        N/A
+External Hold (ns):         N/A
+Min Clock-To-Out (ns):      N/A
+Max Clock-To-Out (ns):      N/A
+
+                            Input to Output
+Min Delay (ns):             N/A
+Max Delay (ns):             N/A
+
+END SUMMARY
+-----------------------------------------------------
+
+Clock Domain mss_ccc_gla1
+
+SET Register to Register
+
+Path 1
+  From:                        CDC3FF_0/u2:CLK
+  To:                          CDC3FF_0/u3:D
+  Delay (ns):                  0.967
+  Slack (ns):                  18.505
+  Arrival (ns):                7.591
+  Required (ns):               26.096
+  Setup (ns):                  0.522
+  Minimum Period (ns):         1.495
+
+Path 2
+  From:                        CDC3FF_0/u1:CLK
+  To:                          CDC3FF_0/u2:D
+  Delay (ns):                  0.967
+  Slack (ns):                  18.511
+  Arrival (ns):                7.591
+  Required (ns):               26.102
+  Setup (ns):                  0.522
+  Minimum Period (ns):         1.489
+
+
+Expanded Path 1
+  From: CDC3FF_0/u2:CLK
+  To: CDC3FF_0/u3:D
+  data required time                             26.096
+  data arrival time                          -   7.591
+  slack                                          18.505
+  ________________________________________________________
+  Data arrival time calculation
+  0.000                        mss_ccc_gla1
+               +     0.000          Clock source
+  0.000                        clk_source_MSS_0/MSS_CCC_0/I_MSSCCC/U_MSSCCC:GLA (r)
+               +     6.045          Clock generation
+  6.045
+               +     0.000          net: clk_source_MSS_0/MSS_CCC_0/I_MSSCCC/GLA_INT
+  6.045                        clk_source_MSS_0/MSS_CCC_0/I_MSSCCC/U_TILE1:PIN5INT (r)
+               +     0.000          cell: ADLIB:MSS_CCC_GL_IF
+  6.045                        clk_source_MSS_0/MSS_CCC_0/I_MSSCCC/U_TILE1:PIN5 (r)
+               +     0.579          net: FAB_CLK
+  6.624                        CDC3FF_0/u2:CLK (r)
+               +     0.671          cell: ADLIB:DFN1C1
+  7.295                        CDC3FF_0/u2:Q (f)
+               +     0.296          net: CDC3FF_0/S2
+  7.591                        CDC3FF_0/u3:D (f)
+                                    
+  7.591                        data arrival time
+  ________________________________________________________
+  Data required time calculation
+  20.000                       mss_ccc_gla1
+               +     0.000          Clock source
+  20.000                       clk_source_MSS_0/MSS_CCC_0/I_MSSCCC/U_MSSCCC:GLA (r)
+               +     6.045          Clock generation
+  26.045
+               +     0.000          net: clk_source_MSS_0/MSS_CCC_0/I_MSSCCC/GLA_INT
+  26.045                       clk_source_MSS_0/MSS_CCC_0/I_MSSCCC/U_TILE1:PIN5INT (r)
+               +     0.000          cell: ADLIB:MSS_CCC_GL_IF
+  26.045                       clk_source_MSS_0/MSS_CCC_0/I_MSSCCC/U_TILE1:PIN5 (r)
+               +     0.573          net: FAB_CLK
+  26.618                       CDC3FF_0/u3:CLK (r)
+               -     0.522          Library setup time: ADLIB:DFN1C1
+  26.096                       CDC3FF_0/u3:D
+                                    
+  26.096                       data required time
+
+
+END SET Register to Register
+
+----------------------------------------------------
+
+SET External Setup
+
+No Path
+
+END SET External Setup
+
+----------------------------------------------------
+
+SET Clock to Output
+
+Path 1
+  From:                        CDC3FF_0/u3:CLK
+  To:                          Dout
+  Delay (ns):                  5.483
+  Slack (ns):
+  Arrival (ns):                12.101
+  Required (ns):
+  Clock to Out (ns):           12.101
+
+
+Expanded Path 1
+  From: CDC3FF_0/u3:CLK
+  To: Dout
+  data required time                             N/C
+  data arrival time                          -   12.101
+  slack                                          N/C
+  ________________________________________________________
+  Data arrival time calculation
+  0.000                        mss_ccc_gla1
+               +     0.000          Clock source
+  0.000                        clk_source_MSS_0/MSS_CCC_0/I_MSSCCC/U_MSSCCC:GLA (r)
+               +     6.045          Clock generation
+  6.045
+               +     0.000          net: clk_source_MSS_0/MSS_CCC_0/I_MSSCCC/GLA_INT
+  6.045                        clk_source_MSS_0/MSS_CCC_0/I_MSSCCC/U_TILE1:PIN5INT (r)
+               +     0.000          cell: ADLIB:MSS_CCC_GL_IF
+  6.045                        clk_source_MSS_0/MSS_CCC_0/I_MSSCCC/U_TILE1:PIN5 (r)
+               +     0.573          net: FAB_CLK
+  6.618                        CDC3FF_0/u3:CLK (r)
+               +     0.671          cell: ADLIB:DFN1C1
+  7.289                        CDC3FF_0/u3:Q (f)
+               +     0.843          net: Dout_c
+  8.132                        Dout_pad/U0/U1:D (f)
+               +     0.600          cell: ADLIB:IOTRI_OB_EB
+  8.732                        Dout_pad/U0/U1:DOUT (f)
+               +     0.000          net: Dout_pad/U0/NET1
+  8.732                        Dout_pad/U0/U0:D (f)
+               +     3.369          cell: ADLIB:IOPAD_TRI
+  12.101                       Dout_pad/U0/U0:PAD (f)
+               +     0.000          net: Dout
+  12.101                       Dout (f)
+                                    
+  12.101                       data arrival time
+  ________________________________________________________
+  Data required time calculation
+  N/C                          mss_ccc_gla1
+               +     0.000          Clock source
+  N/C                          clk_source_MSS_0/MSS_CCC_0/I_MSSCCC/U_MSSCCC:GLA (r)
+               +     6.045          Clock generation
+  N/C
+                                    
+  N/C                          Dout (f)
+
+
+END SET Clock to Output
+
+----------------------------------------------------
+
+SET Register to Asynchronous
+
+No Path
+
+END SET Register to Asynchronous
+
+----------------------------------------------------
+
+SET External Recovery
+
+Path 1
+  From:                        reset
+  To:                          CDC3FF_0/u3:CLR
+  Delay (ns):                  2.090
+  Slack (ns):
+  Arrival (ns):                2.090
+  Required (ns):
+  Recovery (ns):               0.271
+  External Recovery (ns):      -4.257
+
+Path 2
+  From:                        reset
+  To:                          CDC3FF_0/u1:CLR
+  Delay (ns):                  2.090
+  Slack (ns):
+  Arrival (ns):                2.090
+  Required (ns):
+  Recovery (ns):               0.271
+  External Recovery (ns):      -4.263
+
+Path 3
+  From:                        reset
+  To:                          CDC3FF_0/u2:CLR
+  Delay (ns):                  2.090
+  Slack (ns):
+  Arrival (ns):                2.090
+  Required (ns):
+  Recovery (ns):               0.271
+  External Recovery (ns):      -4.263
+
+
+Expanded Path 1
+  From: reset
+  To: CDC3FF_0/u3:CLR
+  data required time                             N/C
+  data arrival time                          -   2.090
+  slack                                          N/C
+  ________________________________________________________
+  Data arrival time calculation
+  0.000                        reset (f)
+               +     0.000          net: reset
+  0.000                        reset_pad/U0/U0:PAD (f)
+               +     0.670          cell: ADLIB:IOPAD_IN
+  0.670                        reset_pad/U0/U0:Y (f)
+               +     0.000          net: reset_pad/U0/NET1
+  0.670                        reset_pad/U0/U1:YIN (f)
+               +     0.036          cell: ADLIB:IOIN_IB
+  0.706                        reset_pad/U0/U1:Y (f)
+               +     1.384          net: reset_c
+  2.090                        CDC3FF_0/u3:CLR (f)
+                                    
+  2.090                        data arrival time
+  ________________________________________________________
+  Data required time calculation
+  N/C                          mss_ccc_gla1
+               +     0.000          Clock source
+  N/C                          clk_source_MSS_0/MSS_CCC_0/I_MSSCCC/U_MSSCCC:GLA (r)
+               +     6.045          Clock generation
+  N/C
+               +     0.000          net: clk_source_MSS_0/MSS_CCC_0/I_MSSCCC/GLA_INT
+  N/C                          clk_source_MSS_0/MSS_CCC_0/I_MSSCCC/U_TILE1:PIN5INT (r)
+               +     0.000          cell: ADLIB:MSS_CCC_GL_IF
+  N/C                          clk_source_MSS_0/MSS_CCC_0/I_MSSCCC/U_TILE1:PIN5 (r)
+               +     0.573          net: FAB_CLK
+  N/C                          CDC3FF_0/u3:CLK (r)
+               -     0.271          Library recovery time: ADLIB:DFN1C1
+  N/C                          CDC3FF_0/u3:CLR
+
+
+END SET External Recovery
+
+----------------------------------------------------
+
+SET Asynchronous to Register
+
+No Path
+
+END SET Asynchronous to Register
+
+----------------------------------------------------
+
+SET clk_source_MSS_0/MSS_CCC_0/I_RCOSC:CLKOUT to mss_ccc_gla1
+
+Path 1
+  From:                        clk_source_MSS_0/MSS_CCC_0/I_MSSCCC/U_MSSCCC:CLKA
+  To:                          CDC3FF_0/u1:D
+  Delay (ns):                  1.826
+  Slack (ns):                  13.876
+  Arrival (ns):                1.826
+  Required (ns):               15.702
+  Setup (ns):                  0.522
+
+
+Expanded Path 1
+  From: clk_source_MSS_0/MSS_CCC_0/I_MSSCCC/U_MSSCCC:CLKA
+  To: CDC3FF_0/u1:D
+  data required time                             15.702
+  data arrival time                          -   1.826
+  slack                                          13.876
+  ________________________________________________________
+  Data arrival time calculation
+  0.000                        clk_source_MSS_0/MSS_CCC_0/I_RCOSC:CLKOUT
+               +     0.000          Clock source
+  0.000                        clk_source_MSS_0/MSS_CCC_0/I_RCOSC:CLKOUT (r)
+               +     0.000          net: clk_source_MSS_0/MSS_CCC_0/N_CLKA_RCOSC
+  0.000                        clk_source_MSS_0/MSS_CCC_0/I_MSSCCC/U_MSSCCC:CLKA (r)
+               +     1.246          cell: ADLIB:MSS_CCC_IP
+  1.246                        clk_source_MSS_0/MSS_CCC_0/I_MSSCCC/U_MSSCCC:GLB (f)
+               +     0.000          net: clk_source_MSS_0/MSS_CCC_0/I_MSSCCC/GLB_INT
+  1.246                        clk_source_MSS_0/MSS_CCC_0/I_MSSCCC/U_TILE2:PIN5INT (f)
+               +     0.000          cell: ADLIB:MSS_CCC_GL_IF
+  1.246                        clk_source_MSS_0/MSS_CCC_0/I_MSSCCC/U_TILE2:PIN5 (f)
+               +     0.580          net: clk_source_MSS_0_GLB
+  1.826                        CDC3FF_0/u1:D (f)
+                                    
+  1.826                        data arrival time
+  ________________________________________________________
+  Data required time calculation
+  10.000                       mss_ccc_gla1
+               +     0.000          Clock source
+  10.000                       clk_source_MSS_0/MSS_CCC_0/I_MSSCCC/U_MSSCCC:GLA (r)
+               -     0.400
+  9.600                        clock-to-clock uncertainty
+               +     6.045          Clock generation
+  15.645
+               +     0.000          net: clk_source_MSS_0/MSS_CCC_0/I_MSSCCC/GLA_INT
+  15.645                       clk_source_MSS_0/MSS_CCC_0/I_MSSCCC/U_TILE1:PIN5INT (r)
+               +     0.000          cell: ADLIB:MSS_CCC_GL_IF
+  15.645                       clk_source_MSS_0/MSS_CCC_0/I_MSSCCC/U_TILE1:PIN5 (r)
+               +     0.579          net: FAB_CLK
+  16.224                       CDC3FF_0/u1:CLK (r)
+               -     0.522          Library setup time: ADLIB:DFN1C1
+  15.702                       CDC3FF_0/u1:D
+                                    
+  15.702                       data required time
+
+
+END SET clk_source_MSS_0/MSS_CCC_0/I_RCOSC:CLKOUT to mss_ccc_gla1
+
+----------------------------------------------------
+
+Clock Domain clk_source_MSS_0/MSS_CCC_0/I_RCOSC:CLKOUT
+
+SET Register to Register
+
+No Path
+
+END SET Register to Register
+
+----------------------------------------------------
+
+SET External Setup
+
+No Path
+
+END SET External Setup
+
+----------------------------------------------------
+
+SET Clock to Output
+
+No Path
+
+END SET Clock to Output
+
+----------------------------------------------------
+
+SET Register to Asynchronous
+
+No Path
+
+END SET Register to Asynchronous
+
+----------------------------------------------------
+
+SET External Recovery
+
+No Path
+
+END SET External Recovery
+
+----------------------------------------------------
+
+SET Asynchronous to Register
+
+No Path
+
+END SET Asynchronous to Register
+
+----------------------------------------------------
+
+Path set Pin to Pin
+
+SET Input to Output
+
+No Path
+
+END SET Input to Output
+
+----------------------------------------------------
+
+Path set User Sets
+

@@ -1,0 +1,52 @@
+# Reading C:/Microsemi/Libero_SoC_v11.8/Modelsim/tcl/vsim/pref.tcl
+# do run.do
+# INFO: Simulation library postsynth already exists
+# Model Technology ModelSim Microsemi vmap 10.5c Lib Mapping Utility 2016.07 Jul 21 2016
+# vmap postsynth postsynth 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vmap 10.5c Lib Mapping Utility 2016.07 Jul 21 2016
+# vmap smartfusion C:/Microsemi/Libero_SoC_v11.8/Designer/lib/modelsim/precompiled/vlog/smartfusion 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vcom 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 20:30:24 on Dec 05,2019
+# vcom -reportprogress 300 -2008 -explicit -work postsynth C:/Microsemi_Prj/hw9/p2/hdl/fifo_array_type.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling package fifo_array_type
+# -- Compiling package body fifo_array_type
+# -- Loading package fifo_array_type
+# End time: 20:30:24 on Dec 05,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vcom 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 20:30:24 on Dec 05,2019
+# vcom -reportprogress 300 -2008 -explicit -work postsynth C:/Microsemi_Prj/hw9/p2/synthesis/fifo2x8.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity fifo2x8
+# -- Compiling architecture DEF_ARCH of fifo2x8
+# End time: 20:30:24 on Dec 05,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vcom 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 20:30:24 on Dec 05,2019
+# vcom -reportprogress 300 -2008 -explicit -work postsynth C:/Microsemi_Prj/hw9/p2/stimulus/fifo2x8_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package fifo_array_type
+# -- Compiling entity fifo2x8_tb
+# -- Compiling architecture behavioral of fifo2x8_tb
+# -- Loading entity fifo2x8
+# ** Error: C:/Microsemi_Prj/hw9/p2/stimulus/fifo2x8_tb.vhd(96): Signal "fifo" is type work.fifo_array_type.fifo_array; expecting type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error (suppressible): C:/Microsemi_Prj/hw9/p2/stimulus/fifo2x8_tb.vhd(96): (vcom-1272) Length of formal "fifo" is 16; length of actual is 2.
+# ** Error: C:/Microsemi_Prj/hw9/p2/stimulus/fifo2x8_tb.vhd(126): VHDL Compiler exiting
+# End time: 20:30:24 on Dec 05,2019, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+# ** Error: C:/Microsemi/Libero_SoC_v11.8/Modelsim/win32acoem/vcom failed.
+# Error in macro ./run.do line 15
+# C:/Microsemi/Libero_SoC_v11.8/Modelsim/win32acoem/vcom failed.
+#     while executing
+# "vcom -2008 -explicit  -work postsynth "${PROJECT_DIR}/stimulus/fifo2x8_tb.vhd""

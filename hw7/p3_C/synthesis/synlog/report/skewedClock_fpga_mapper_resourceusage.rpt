@@ -1,0 +1,28 @@
+Target Part: A2F200M3F_FBGA484_STD
+Report for cell skewedClock.verilog
+  Core Cell usage:
+              cell count     area count*area
+               GND     1      0.0        0.0
+               INV     4      1.0        4.0
+               VCC     1      0.0        0.0
+
+
+            DFN1P0     4      1.0        4.0
+                   -----          ----------
+             TOTAL    10                 8.0
+
+
+  IO Cell usage:
+              cell count
+             INBUF     2
+            OUTBUF     4
+                   -----
+             TOTAL     6
+
+
+Core Cells         : 8 of 4608 (0%)
+IO Cells           : 6
+
+  RAM/ROM Usage Summary
+Block Rams : 0 of 8 (0%)
+

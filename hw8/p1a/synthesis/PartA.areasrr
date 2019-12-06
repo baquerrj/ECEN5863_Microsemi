@@ -1,0 +1,25 @@
+----------------------------------------------------------------------
+Report for cell PartA.rtl
+                                          Cell usage:
+                               cell       count     area    count*area
+                             CDC3FF         1       3.0        3.0
+                             CLKBUF         2       0.0        0.0
+                             DFN1C1         3       1.0        3.0
+                                GND         1       0.0        0.0
+                              INBUF         1       0.0        0.0
+                                INV         1       1.0        1.0
+                                MX2         1       1.0        1.0
+                             OUTBUF         1       0.0        0.0
+                                VCC         1       0.0        0.0
+                            
+                         TOTAL             12                  8.0
+----------------------------------------------------------------------
+Report for cell CDC3FF.netlist
+     Instance path:  CDC3FF_0
+                                          Cell usage:
+                               cell       count     area    count*area
+                             DFN1C1         3       1.0        3.0
+                                GND         1       0.0        0.0
+                                VCC         1       0.0        0.0
+                            
+                         TOTAL              5                  3.0

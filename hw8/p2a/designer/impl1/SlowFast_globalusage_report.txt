@@ -1,0 +1,23 @@
+********************************************************************
+                            Global Usage Report
+********************************************************************
+  
+Product: Designer
+Release: v11.8
+Version: 11.8.0.26
+Date: Wed Nov 20 21:23:50 2019
+Design Name: SlowFast  Family: SmartFusion  Die: A2F200M3F  Package: 484 FBGA
+Design State: Post-Layout
+
+The following nets have been routed to a chip global resource:
+
+    Fanout            Name
+    ----------------------
+    12                Net   : Aclk_c
+                      Driver: Aclk_pad/U0/U1/U_GL
+    5                 Net   : Bclk_c
+                      Driver: Bclk_pad/U0/U1/U_GL
+
+
+
+

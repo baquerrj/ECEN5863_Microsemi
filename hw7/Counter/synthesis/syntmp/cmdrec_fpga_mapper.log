@@ -1,0 +1,15 @@
+C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\bin64\m_proasic.exe  -prodtype  synplify_pro   -encrypt  -pro  -rundir  C:\Microsemi_Prj\hw7\Counter\synthesis   -part A2F200M3F  -package FBGA484  -grade STD    -globalthreshold 50 -maxfan 24 -opcond COMWC -report_path 4000 -RWCheckOnRam 0 -summaryfile C:\Microsemi_Prj\hw7\Counter\synthesis\synlog\report\Counter_fpga_mapper.xml  -top_level_module  work.Counter  -licensetype  synplifypro_actel  -flow mapping  -mp  4  -prjfile  C:\Microsemi_Prj\hw7\Counter\synthesis\scratchproject.prs  -implementation  synthesis  -multisrs  -oedif  C:\Microsemi_Prj\hw7\Counter\synthesis\Counter.edn   -freq 100.000   C:\Microsemi_Prj\hw7\Counter\synthesis\synwork\Counter_prem.srd  -sap  C:\Microsemi_Prj\hw7\Counter\synthesis\Counter.sap  -otap  C:\Microsemi_Prj\hw7\Counter\synthesis\Counter.tap  -omap  C:\Microsemi_Prj\hw7\Counter\synthesis\Counter.map  -devicelib  C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\proasic\smartfusion.v  -sap  C:\Microsemi_Prj\hw7\Counter\synthesis\Counter.sap  -ologparam  C:\Microsemi_Prj\hw7\Counter\synthesis\syntmp\Counter.plg  -osyn  C:\Microsemi_Prj\hw7\Counter\synthesis\Counter.srm  -prjdir  C:\Microsemi_Prj\hw7\Counter\synthesis\  -prjname  Counter_syn  -log  C:\Microsemi_Prj\hw7\Counter\synthesis\synlog\Counter_fpga_mapper.srr 
+rc:1 success:1 runtime:1
+file:C:\Microsemi_Prj\hw7\Counter\synthesis\scratchproject.prs|io:o|time:1573091335|size:1774|exec:0
+file:C:\Microsemi_Prj\hw7\Counter\synthesis\Counter.edn|io:o|time:1573094085|size:42480|exec:0
+file:C:\Microsemi_Prj\hw7\Counter\synthesis\synwork\Counter_prem.srd|io:i|time:1573094084|size:2754|exec:0
+file:C:\Microsemi_Prj\hw7\Counter\synthesis\Counter.sap|io:o|time:1573094084|size:310|exec:0
+file:C:\Microsemi_Prj\hw7\Counter\synthesis\Counter.tap|io:o|time:0|size:0|exec:0
+file:C:\Microsemi_Prj\hw7\Counter\synthesis\Counter.map|io:o|time:1573094085|size:28|exec:0
+file:C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\proasic\smartfusion.v|io:i|time:1487966850|size:72817|exec:0
+file:C:\Microsemi_Prj\hw7\Counter\synthesis\Counter.sap|io:o|time:1573094084|size:310|exec:0
+file:C:\Microsemi_Prj\hw7\Counter\synthesis\syntmp\Counter.plg|io:o|time:1573094085|size:331|exec:0
+file:C:\Microsemi_Prj\hw7\Counter\synthesis\Counter.srm|io:o|time:1573094085|size:73286|exec:0
+file:C:\Microsemi_Prj\hw7\Counter\synthesis\synlog\Counter_fpga_mapper.srr|io:o|time:1573094085|size:15621|exec:0
+file:C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\bin\m_proasic.exe|io:i|time:1479399434|size:10978304|exec:1
+file:C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\bin64\m_proasic.exe|io:i|time:1479400840|size:14125056|exec:1

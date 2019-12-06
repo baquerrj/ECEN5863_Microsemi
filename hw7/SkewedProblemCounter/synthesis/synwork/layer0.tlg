@@ -1,0 +1,19 @@
+Selecting top level module top_level_counter
+@N: CG364 :"C:\Microsemi_Prj\hw7\SkewedProblemCounter\hdl\myCounter.v":21:7:21:15|Synthesizing module myCounter in library work.
+
+@W: CG296 :"C:\Microsemi_Prj\hw7\SkewedProblemCounter\hdl\myCounter.v":47:10:47:12|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
+@W: CG290 :"C:\Microsemi_Prj\hw7\SkewedProblemCounter\hdl\myCounter.v":49:7:49:11|Referenced variable RESET is not in sensitivity list.
+@W: CG296 :"C:\Microsemi_Prj\hw7\SkewedProblemCounter\hdl\myCounter.v":60:10:60:12|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
+@W: CG290 :"C:\Microsemi_Prj\hw7\SkewedProblemCounter\hdl\myCounter.v":62:7:62:11|Referenced variable RESET is not in sensitivity list.
+@W: CG296 :"C:\Microsemi_Prj\hw7\SkewedProblemCounter\hdl\myCounter.v":73:10:73:12|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
+@W: CG290 :"C:\Microsemi_Prj\hw7\SkewedProblemCounter\hdl\myCounter.v":75:7:75:11|Referenced variable RESET is not in sensitivity list.
+@W: CG296 :"C:\Microsemi_Prj\hw7\SkewedProblemCounter\hdl\myCounter.v":86:10:86:12|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
+@W: CG290 :"C:\Microsemi_Prj\hw7\SkewedProblemCounter\hdl\myCounter.v":88:7:88:11|Referenced variable RESET is not in sensitivity list.
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\proasic\smartfusion.v":981:7:981:12|Synthesizing module DFN1P0 in library work.
+
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\proasic\smartfusion.v":1289:7:1289:9|Synthesizing module INV in library work.
+
+@N: CG364 :"C:\Microsemi_Prj\hw7\SkewedProblemCounter\component\work\skewedClock\skewedClock.v":9:7:9:17|Synthesizing module skewedClock in library work.
+
+@N: CG364 :"C:\Microsemi_Prj\hw7\SkewedProblemCounter\component\work\top_level_counter\top_level_counter.v":9:7:9:23|Synthesizing module top_level_counter in library work.
+

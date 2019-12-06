@@ -1,0 +1,21 @@
+********************************************************************
+                            Global Usage Report
+********************************************************************
+  
+Product: Designer
+Release: v11.8
+Version: 11.8.0.26
+Date: Wed Nov 20 21:33:10 2019
+Design Name: ShiftRegister  Family: SmartFusion  Die: A2F200M3F  Package: 484 FBGA
+Design State: Post-Layout
+
+The following nets have been routed to a chip global resource:
+
+    Fanout            Name
+    ----------------------
+    4                 Net   : clk_c
+                      Driver: clk_pad/U0/U1/U_GL
+
+
+
+

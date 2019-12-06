@@ -1,0 +1,91 @@
+# Reading C:/Microsemi/Libero_SoC_v11.8/Modelsim/tcl/vsim/pref.tcl
+# do run.do
+# INFO: Simulation library ../designer/impl1/simulation/postlayout already exists
+# Model Technology ModelSim Microsemi vmap 10.5c Lib Mapping Utility 2016.07 Jul 21 2016
+# vmap postlayout ../designer/impl1/simulation/postlayout 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vmap 10.5c Lib Mapping Utility 2016.07 Jul 21 2016
+# vmap smartfusion C:/Microsemi/Libero_SoC_v11.8/Designer/lib/modelsim/precompiled/vlog/smartfusion 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vcom 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 19:35:39 on Nov 06,2019
+# vcom -reportprogress 300 -2008 -explicit -work postlayout C:/Microsemi_Prj/hw7/Counter/designer/impl1/Counter_ba.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Counter
+# -- Compiling architecture DEF_ARCH of Counter
+# End time: 19:35:39 on Nov 06,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vcom 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 19:35:39 on Nov 06,2019
+# vcom -reportprogress 300 -2008 -explicit -work postlayout C:/Microsemi_Prj/hw7/Counter/stimulus/Counter_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Counter_tb
+# -- Compiling architecture Counter_arch of Counter_tb
+# -- Loading entity Counter
+# End time: 19:35:40 on Nov 06,2019, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vsim -L smartfusion -L postlayout -t 1ps -sdfmax /Counter_0=C:/Microsemi_Prj/hw7/Counter/designer/impl1/Counter_ba.sdf postlayout.Counter_tb 
+# Start time: 19:35:40 on Nov 06,2019
+# //  ModelSim Microsemi 10.5c Jul 21 2016
+# //
+# //  Copyright 1991-2016 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim Microsemi and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading postlayout.Counter_tb
+# Loading postlayout.Counter
+# Loading smartfusion.NOR2B
+# Loading smartfusion.NOR3B
+# Loading smartfusion.MX2
+# Loading smartfusion.DFN1E1
+# Loading smartfusion.IOTRI_OB_EB
+# Loading smartfusion.XA1
+# Loading smartfusion.IOPAD_TRI
+# Loading smartfusion.OR2A
+# Loading smartfusion.OR2B
+# Loading smartfusion.IOPAD_IN
+# Loading smartfusion.AO1
+# Loading smartfusion.NOR3C
+# Loading smartfusion.AOI1B
+# Loading smartfusion.NOR2A
+# Loading smartfusion.OR2
+# Loading smartfusion.OR3C
+# Loading smartfusion.OA1C
+# Loading smartfusion.CLKSRC
+# Loading smartfusion.IOIN_IB
+# Loading smartfusion.XA1A
+# Loading smartfusion.NOR3A
+# Loading smartfusion.GND
+# Loading smartfusion.VCC
+# SDF 10.5c Compiler 2016.07 Jul 21 2016
+# 
+# Loading instances from C:/Microsemi_Prj/hw7/Counter/designer/impl1/Counter_ba.sdf
+# ** Warning: (vsim-3017) C:/Microsemi_Prj/hw7/Counter/stimulus/Counter_tb.v(42): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /Counter_tb/Counter_0 File: C:/Microsemi_Prj/hw7/Counter/designer/impl1/Counter_ba.v
+# ** Error: (vsim-3063) C:/Microsemi_Prj/hw7/Counter/stimulus/Counter_tb.v(42): Port 'clk' not found in the connected module (2nd connection).
+#    Time: 0 ps  Iteration: 0  Instance: /Counter_tb/Counter_0 File: C:/Microsemi_Prj/hw7/Counter/designer/impl1/Counter_ba.v
+# ** Error: (vsim-3063) C:/Microsemi_Prj/hw7/Counter/stimulus/Counter_tb.v(42): Port 'resetn' not found in the connected module (3rd connection).
+#    Time: 0 ps  Iteration: 0  Instance: /Counter_tb/Counter_0 File: C:/Microsemi_Prj/hw7/Counter/designer/impl1/Counter_ba.v
+# ** Warning: (vsim-3722) C:/Microsemi_Prj/hw7/Counter/stimulus/Counter_tb.v(42): [TFMPC] - Missing connection for port 'CLK'.
+# ** Warning: (vsim-3722) C:/Microsemi_Prj/hw7/Counter/stimulus/Counter_tb.v(42): [TFMPC] - Missing connection for port 'RESET'.
+# ** Warning: (vsim-3722) C:/Microsemi_Prj/hw7/Counter/stimulus/Counter_tb.v(42): [TFMPC] - Missing connection for port 'CE'.
+# Loading smartfusion.UDP_MUX2
+# Loading smartfusion.Dffpr
+# Loading smartfusion.UDPN_MUX2
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./run.do PAUSED at line 16
+# End time: 19:36:06 on Nov 06,2019, Elapsed time: 0:00:26
+# Errors: 2, Warnings: 4

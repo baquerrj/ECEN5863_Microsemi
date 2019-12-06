@@ -1,0 +1,14 @@
+C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\bin64\c_hdl.exe  -osyn  C:\Microsemi_Prj\hw9\p1a\synthesis\synwork\Handshake_comp.srs  -top  Handshake  -hdllog  C:\Microsemi_Prj\hw9\p1a\synthesis\synlog\Handshake_compiler.srr  -encrypt  -mp  4  -verification_mode 0  -verilog  -prodtype  synplify_pro  -nram -fixsmult -divnmod   -I C:\Microsemi_Prj\hw9\p1a\synthesis\  -I C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib   -v2001  -devicelib  C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\proasic\smartfusion.v  -encrypt  -pro  -dmgen  C:\Microsemi_Prj\hw9\p1a\synthesis\dm  -ui -fid2 -ram -sharing on -ll 2000 -autosm  -lib work C:\Microsemi_Prj\hw9\p1a\hdl\counter.v -lib work C:\Microsemi_Prj\hw9\p1a\hdl\synchronizer.v -lib work C:\Microsemi_Prj\hw9\p1a\hdl\sender_fsm.v -lib work C:\Microsemi_Prj\hw9\p1a\hdl\sender.v -lib work C:\Microsemi_Prj\hw9\p1a\hdl\receiver_fsm.v -lib work C:\Microsemi_Prj\hw9\p1a\hdl\receiver.v -lib work C:\Microsemi_Prj\hw9\p1a\hdl\Handshake.v 
+rc:0 success:1 runtime:1
+file:C:\Microsemi_Prj\hw9\p1a\synthesis\synwork\Handshake_comp.srs|io:o|time:1575305603|size:7641|exec:0
+file:C:\Microsemi_Prj\hw9\p1a\synthesis\synlog\Handshake_compiler.srr|io:o|time:1575305603|size:4368|exec:0
+file:C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\proasic\smartfusion.v|io:i|time:1487966850|size:72817|exec:0
+file:C:\Microsemi_Prj\hw9\p1a\hdl\counter.v|io:i|time:1575254806|size:829|exec:0
+file:C:\Microsemi_Prj\hw9\p1a\hdl\synchronizer.v|io:i|time:1575263054|size:1068|exec:0
+file:C:\Microsemi_Prj\hw9\p1a\hdl\sender_fsm.v|io:i|time:1575266886|size:2193|exec:0
+file:C:\Microsemi_Prj\hw9\p1a\hdl\sender.v|io:i|time:1575300175|size:1670|exec:0
+file:C:\Microsemi_Prj\hw9\p1a\hdl\receiver_fsm.v|io:i|time:1575305018|size:2119|exec:0
+file:C:\Microsemi_Prj\hw9\p1a\hdl\receiver.v|io:i|time:1575300196|size:1594|exec:0
+file:C:\Microsemi_Prj\hw9\p1a\hdl\Handshake.v|io:i|time:1575262305|size:2918|exec:0
+file:C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\bin\c_hdl.exe|io:i|time:1479398764|size:1337856|exec:1
+file:C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\bin64\c_hdl.exe|io:i|time:1479398968|size:1973248|exec:1

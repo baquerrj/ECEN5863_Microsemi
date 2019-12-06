@@ -1,0 +1,1 @@
+@W: MT530 :"c:\microsemi_prj\hw7\skewedproblemcounter\smartgen\newcore\newcore.v":100:13:100:26|Found inferred clock newCore|Clock which controls 16 sequential elements including DFN1E1C1_NU_12. This clock has no specified timing constraint which may adversely impact design performance. 

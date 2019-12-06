@@ -1,0 +1,1874 @@
+----------------------------------------------------------------------
+Report for cell Counter_Top.gen
+                                          Cell usage:
+                               cell       count     area    count*area
+                             CLKBUF         1       0.0        0.0
+                             CLKINT         1       0.0        0.0
+                          Counter_0         1      66.0       66.0
+                        Counter_3_4         1      60.0       60.0
+                      Counter_3_4_0         1      58.0       58.0
+                      Counter_3_4_1         1      63.0       63.0
+                     Counter_3_4_10         1      60.0       60.0
+                     Counter_3_4_11         1      56.0       56.0
+                     Counter_3_4_12         1      62.0       62.0
+                     Counter_3_4_13         1      72.0       72.0
+                     Counter_3_4_14         1      64.0       64.0
+                     Counter_3_4_15         1      57.0       57.0
+                     Counter_3_4_16         1      52.0       52.0
+                     Counter_3_4_17         1      52.0       52.0
+                     Counter_3_4_18         1      56.0       56.0
+                     Counter_3_4_19         1      60.0       60.0
+                      Counter_3_4_2         1      53.0       53.0
+                     Counter_3_4_20         1      59.0       59.0
+                     Counter_3_4_21         1      63.0       63.0
+                     Counter_3_4_22         1      58.0       58.0
+                     Counter_3_4_23         1      55.0       55.0
+                     Counter_3_4_24         1      56.0       56.0
+                     Counter_3_4_25         1      55.0       55.0
+                     Counter_3_4_26         1      58.0       58.0
+                     Counter_3_4_27         1      61.0       61.0
+                     Counter_3_4_28         1      56.0       56.0
+                     Counter_3_4_29         1      57.0       57.0
+                      Counter_3_4_3         1      58.0       58.0
+                     Counter_3_4_30         1      60.0       60.0
+                     Counter_3_4_31         1      60.0       60.0
+                     Counter_3_4_32         1      55.0       55.0
+                     Counter_3_4_33         1      71.0       71.0
+                     Counter_3_4_34         1      62.0       62.0
+                     Counter_3_4_35         1      63.0       63.0
+                     Counter_3_4_36         1      60.0       60.0
+                     Counter_3_4_37         1      55.0       55.0
+                     Counter_3_4_38         1      69.0       69.0
+                     Counter_3_4_39         1      66.0       66.0
+                      Counter_3_4_4         1      59.0       59.0
+                     Counter_3_4_40         1      59.0       59.0
+                     Counter_3_4_41         1      60.0       60.0
+                     Counter_3_4_42         1      63.0       63.0
+                     Counter_3_4_43         1      52.0       52.0
+                     Counter_3_4_44         1      60.0       60.0
+                     Counter_3_4_45         1      58.0       58.0
+                     Counter_3_4_46         1      61.0       61.0
+                     Counter_3_4_47         1      59.0       59.0
+                     Counter_3_4_48         1      56.0       56.0
+                     Counter_3_4_49         1      62.0       62.0
+                      Counter_3_4_5         1      57.0       57.0
+                     Counter_3_4_50         1      64.0       64.0
+                     Counter_3_4_51         1      63.0       63.0
+                     Counter_3_4_52         1      55.0       55.0
+                     Counter_3_4_53         1      59.0       59.0
+                     Counter_3_4_54         1      56.0       56.0
+                     Counter_3_4_55         1      69.0       69.0
+                     Counter_3_4_56         1      65.0       65.0
+                     Counter_3_4_57         1      61.0       61.0
+                     Counter_3_4_58         1      60.0       60.0
+                     Counter_3_4_59         1      73.0       73.0
+                      Counter_3_4_6         1      69.0       69.0
+                     Counter_3_4_60         1      66.0       66.0
+                     Counter_3_4_61         1      59.0       59.0
+                     Counter_3_4_62         1      67.0       67.0
+                     Counter_3_4_63         1      59.0       59.0
+                     Counter_3_4_64         1      53.0       53.0
+                     Counter_3_4_65         1      53.0       53.0
+                     Counter_3_4_66         1      64.0       64.0
+                     Counter_3_4_67         1      61.0       61.0
+                     Counter_3_4_68         1      56.0       56.0
+                     Counter_3_4_69         1      63.0       63.0
+                      Counter_3_4_7         1      55.0       55.0
+                     Counter_3_4_70         1      78.0       78.0
+                     Counter_3_4_71         1      71.0       71.0
+                      Counter_3_4_8         1      56.0       56.0
+                      Counter_3_4_9         1      61.0       61.0
+                         Counter_74         1      50.0       50.0
+                                GND         1       0.0        0.0
+                              INBUF         1       0.0        0.0
+                             OUTBUF        17       0.0        0.0
+                                VCC         1       0.0        0.0
+                            
+                         TOTAL             97               4520.0
+----------------------------------------------------------------------
+Report for cell Counter_0.netlist
+  Original Cell name Counter
+     Instance path:  GEN_COUNTER.74.last.ul
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AO1B         1       1.0        1.0
+                               AOI1         1       1.0        1.0
+                             DFN1E1        16       1.0       16.0
+                                GND         1       0.0        0.0
+                                MX2         4       1.0        4.0
+                              NOR2A         1       1.0        1.0
+                              NOR2B         6       1.0        6.0
+                              NOR3B        13       1.0       13.0
+                              NOR3C         4       1.0        4.0
+                               OA1A         1       1.0        1.0
+                               OA1C         3       1.0        3.0
+                                OR2         1       1.0        1.0
+                               OR2A         4       1.0        4.0
+                               OR3B         4       1.0        4.0
+                               OR3C         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                                XA1         1       1.0        1.0
+                               XA1A         5       1.0        5.0
+                            
+                         TOTAL             68                 66.0
+----------------------------------------------------------------------
+Report for cell Counter_3_4_71.netlist
+  Original Cell name Counter_3_4
+     Instance path:  GEN_COUNTER.52.chain.ui
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AOI1         1       1.0        1.0
+                              AOI1B         1       1.0        1.0
+                             DFN1E0        16       1.0       16.0
+                                GND         1       0.0        0.0
+                              NOR2A         1       1.0        1.0
+                              NOR2B         8       1.0        8.0
+                              NOR3A         1       1.0        1.0
+                              NOR3B         7       1.0        7.0
+                              NOR3C        10       1.0       10.0
+                               OA1C         2       1.0        2.0
+                                OR2         1       1.0        1.0
+                               OR2A         6       1.0        6.0
+                               OR2B         2       1.0        2.0
+                               OR3C         3       1.0        3.0
+                                VCC         1       0.0        0.0
+                                XA1         2       1.0        2.0
+                               XA1A        10       1.0       10.0
+                            
+                         TOTAL             73                 71.0
+----------------------------------------------------------------------
+Report for cell Counter_3_4_70.netlist
+  Original Cell name Counter_3_4
+     Instance path:  GEN_COUNTER.54.chain.ui
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AND2         1       1.0        1.0
+                               AO1B         1       1.0        1.0
+                               AOI1         1       1.0        1.0
+                             DFN1E1        16       1.0       16.0
+                                GND         1       0.0        0.0
+                                MX2         3       1.0        3.0
+                              NOR2A         2       1.0        2.0
+                              NOR2B        12       1.0       12.0
+                              NOR3B         9       1.0        9.0
+                              NOR3C         9       1.0        9.0
+                               OA1C         1       1.0        1.0
+                                OR2         2       1.0        2.0
+                               OR2A         7       1.0        7.0
+                               OR2B         3       1.0        3.0
+                               OR3C         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                                XA1         2       1.0        2.0
+                               XA1A         8       1.0        8.0
+                            
+                         TOTAL             80                 78.0
+----------------------------------------------------------------------
+Report for cell Counter_3_4_69.netlist
+  Original Cell name Counter_3_4
+     Instance path:  GEN_COUNTER.39.chain.ui
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AO1B         1       1.0        1.0
+                               AOI1         1       1.0        1.0
+                              AOI1B         1       1.0        1.0
+                             DFN1E1        16       1.0       16.0
+                                GND         1       0.0        0.0
+                              NOR2A         1       1.0        1.0
+                              NOR2B         7       1.0        7.0
+                              NOR3B         4       1.0        4.0
+                              NOR3C         9       1.0        9.0
+                                OA1         1       1.0        1.0
+                               OA1C         3       1.0        3.0
+                               OR2A         5       1.0        5.0
+                               OR3B         3       1.0        3.0
+                               OR3C         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                                XA1         1       1.0        1.0
+                               XA1A         9       1.0        9.0
+                            
+                         TOTAL             65                 63.0
+----------------------------------------------------------------------
+Report for cell Counter_3_4_68.netlist
+  Original Cell name Counter_3_4
+     Instance path:  GEN_COUNTER.10.chain.ui
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AOI1         1       1.0        1.0
+                             DFN1E1        16       1.0       16.0
+                                GND         1       0.0        0.0
+                              NOR2A         1       1.0        1.0
+                              NOR2B         5       1.0        5.0
+                              NOR3B         3       1.0        3.0
+                              NOR3C         5       1.0        5.0
+                               OA1C         2       1.0        2.0
+                               OR2A         8       1.0        8.0
+                               OR3B         2       1.0        2.0
+                               OR3C         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                                XA1         2       1.0        2.0
+                               XA1A        10       1.0       10.0
+                            
+                         TOTAL             58                 56.0
+----------------------------------------------------------------------
+Report for cell Counter_3_4_67.netlist
+  Original Cell name Counter_3_4
+     Instance path:  GEN_COUNTER.37.chain.ui
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AO1B         1       1.0        1.0
+                               AOI1         1       1.0        1.0
+                             DFN1E1        16       1.0       16.0
+                                GND         1       0.0        0.0
+                                MX2         2       1.0        2.0
+                              NOR2A         1       1.0        1.0
+                              NOR2B         6       1.0        6.0
+                              NOR3B         8       1.0        8.0
+                              NOR3C         3       1.0        3.0
+                               OA1A         1       1.0        1.0
+                               OA1C         2       1.0        2.0
+                                OR2         1       1.0        1.0
+                               OR2A         7       1.0        7.0
+                               OR3B         2       1.0        2.0
+                               OR3C         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                                XA1         1       1.0        1.0
+                               XA1A         8       1.0        8.0
+                            
+                         TOTAL             63                 61.0
+----------------------------------------------------------------------
+Report for cell Counter_3_4_66.netlist
+  Original Cell name Counter_3_4
+     Instance path:  GEN_COUNTER.50.chain.ui
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AO1B         1       1.0        1.0
+                               AOI1         1       1.0        1.0
+                             DFN1E1        16       1.0       16.0
+                                GND         1       0.0        0.0
+                                MX2         3       1.0        3.0
+                              NOR2A         3       1.0        3.0
+                              NOR2B         5       1.0        5.0
+                              NOR3B        10       1.0       10.0
+                               OA1C         1       1.0        1.0
+                                OR2         3       1.0        3.0
+                               OR2A         7       1.0        7.0
+                               OR2B         5       1.0        5.0
+                                VCC         1       0.0        0.0
+                                XA1         1       1.0        1.0
+                               XA1A         8       1.0        8.0
+                            
+                         TOTAL             66                 64.0
+----------------------------------------------------------------------
+Report for cell Counter_3_4_65.netlist
+  Original Cell name Counter_3_4
+     Instance path:  GEN_COUNTER.51.chain.ui
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AO1B         1       1.0        1.0
+                               AOI1         1       1.0        1.0
+                             DFN1E1        16       1.0       16.0
+                                GND         1       0.0        0.0
+                              NOR2A         1       1.0        1.0
+                              NOR2B         3       1.0        3.0
+                              NOR3A         1       1.0        1.0
+                              NOR3B         1       1.0        1.0
+                              NOR3C         2       1.0        2.0
+                                OR2         1       1.0        1.0
+                               OR2A        10       1.0       10.0
+                               OR3C         2       1.0        2.0
+                                VCC         1       0.0        0.0
+                                XA1         2       1.0        2.0
+                               XA1A        12       1.0       12.0
+                            
+                         TOTAL             55                 53.0
+----------------------------------------------------------------------
+Report for cell Counter_3_4_64.netlist
+  Original Cell name Counter_3_4
+     Instance path:  GEN_COUNTER.38.chain.ui
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AO1B         1       1.0        1.0
+                               AOI1         1       1.0        1.0
+                             DFN1E1        16       1.0       16.0
+                                GND         1       0.0        0.0
+                              NOR2A         2       1.0        2.0
+                              NOR2B         3       1.0        3.0
+                              NOR3B         3       1.0        3.0
+                              NOR3C         3       1.0        3.0
+                               OA1C         2       1.0        2.0
+                               OR2A         7       1.0        7.0
+                               OR3B         2       1.0        2.0
+                               OR3C         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                                XA1         2       1.0        2.0
+                               XA1A        10       1.0       10.0
+                            
+                         TOTAL             55                 53.0
+----------------------------------------------------------------------
+Report for cell Counter_3_4_63.netlist
+  Original Cell name Counter_3_4
+     Instance path:  GEN_COUNTER.25.chain.ui
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AO1B         1       1.0        1.0
+                             DFN1E1        16       1.0       16.0
+                                GND         1       0.0        0.0
+                                MX2         1       1.0        1.0
+                               NOR2         1       1.0        1.0
+                              NOR2A         2       1.0        2.0
+                              NOR2B         4       1.0        4.0
+                              NOR3B         4       1.0        4.0
+                              NOR3C         2       1.0        2.0
+                               OA1C         2       1.0        2.0
+                                OR2         3       1.0        3.0
+                               OR2A         5       1.0        5.0
+                               OR2B         5       1.0        5.0
+                               OR3C         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                                XA1         2       1.0        2.0
+                               XA1A        10       1.0       10.0
+                            
+                         TOTAL             61                 59.0
+----------------------------------------------------------------------
+Report for cell Counter_3_4_62.netlist
+  Original Cell name Counter_3_4
+     Instance path:  GEN_COUNTER.62.chain.ui
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AND2         2       1.0        2.0
+                               AO1B         1       1.0        1.0
+                             DFN1E1        16       1.0       16.0
+                                GND         1       0.0        0.0
+                                MX2         4       1.0        4.0
+                              NOR2A         2       1.0        2.0
+                              NOR2B        10       1.0       10.0
+                              NOR3B         6       1.0        6.0
+                              NOR3C         2       1.0        2.0
+                               OA1C         1       1.0        1.0
+                                OR2         1       1.0        1.0
+                               OR2A         9       1.0        9.0
+                               OR2B         3       1.0        3.0
+                                VCC         1       0.0        0.0
+                                XA1         1       1.0        1.0
+                               XA1A         9       1.0        9.0
+                            
+                         TOTAL             69                 67.0
+----------------------------------------------------------------------
+Report for cell Counter_3_4_61.netlist
+  Original Cell name Counter_3_4
+     Instance path:  GEN_COUNTER.63.chain.ui
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AND2         1       1.0        1.0
+                               AO1B         1       1.0        1.0
+                             DFN1E1        16       1.0       16.0
+                                GND         1       0.0        0.0
+                              NOR2A         2       1.0        2.0
+                              NOR2B         5       1.0        5.0
+                              NOR3B         2       1.0        2.0
+                              NOR3C         3       1.0        3.0
+                               OA1C         2       1.0        2.0
+                                OR2         1       1.0        1.0
+                               OR2A        10       1.0       10.0
+                               OR2B         3       1.0        3.0
+                                VCC         1       0.0        0.0
+                                XA1         2       1.0        2.0
+                               XA1A        11       1.0       11.0
+                            
+                         TOTAL             61                 59.0
+----------------------------------------------------------------------
+Report for cell Counter_3_4_60.netlist
+  Original Cell name Counter_3_4
+     Instance path:  GEN_COUNTER.17.chain.ui
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AO1B         1       1.0        1.0
+                             DFN1E1        16       1.0       16.0
+                                GND         1       0.0        0.0
+                                MX2         2       1.0        2.0
+                               MX2A         1       1.0        1.0
+                              NOR2A         2       1.0        2.0
+                              NOR2B         6       1.0        6.0
+                              NOR3A         1       1.0        1.0
+                              NOR3B         7       1.0        7.0
+                              NOR3C         1       1.0        1.0
+                               OA1C         3       1.0        3.0
+                                OR2         5       1.0        5.0
+                               OR2A         6       1.0        6.0
+                               OR2B         5       1.0        5.0
+                               OR3B         1       1.0        1.0
+                               OR3C         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                                XA1         1       1.0        1.0
+                               XA1A         7       1.0        7.0
+                            
+                         TOTAL             68                 66.0
+----------------------------------------------------------------------
+Report for cell Counter_3_4_59.netlist
+  Original Cell name Counter_3_4
+     Instance path:  GEN_COUNTER.20.chain.ui
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AO1B         1       1.0        1.0
+                             DFN1E1        16       1.0       16.0
+                                GND         1       0.0        0.0
+                              NOR2A         3       1.0        3.0
+                              NOR2B         7       1.0        7.0
+                               NOR3         1       1.0        1.0
+                              NOR3A         1       1.0        1.0
+                              NOR3B         4       1.0        4.0
+                              NOR3C        11       1.0       11.0
+                               OA1C         2       1.0        2.0
+                                OR2         1       1.0        1.0
+                               OR2A         8       1.0        8.0
+                               OR2B         3       1.0        3.0
+                               OR3B         1       1.0        1.0
+                               OR3C         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                                XA1         2       1.0        2.0
+                               XA1A        11       1.0       11.0
+                            
+                         TOTAL             75                 73.0
+----------------------------------------------------------------------
+Report for cell Counter_3_4_58.netlist
+  Original Cell name Counter_3_4
+     Instance path:  GEN_COUNTER.7.chain.ui
+                                          Cell usage:
+                               cell       count     area    count*area
+                             DFN1E1        16       1.0       16.0
+                                GND         1       0.0        0.0
+                                MX2         2       1.0        2.0
+                              NOR2A         2       1.0        2.0
+                              NOR2B         7       1.0        7.0
+                              NOR3B         4       1.0        4.0
+                              NOR3C         4       1.0        4.0
+                               OA1C         2       1.0        2.0
+                               OR2A         8       1.0        8.0
+                               OR2B         2       1.0        2.0
+                               OR3B         2       1.0        2.0
+                                VCC         1       0.0        0.0
+                                XA1         2       1.0        2.0
+                               XA1A         9       1.0        9.0
+                            
+                         TOTAL             62                 60.0
+----------------------------------------------------------------------
+Report for cell Counter_3_4_57.netlist
+  Original Cell name Counter_3_4
+     Instance path:  GEN_COUNTER.34.chain.ui
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AO1B         1       1.0        1.0
+                               AOI1         1       1.0        1.0
+                              AOI1B         1       1.0        1.0
+                             DFN1E1        16       1.0       16.0
+                                GND         1       0.0        0.0
+                              NOR2A         3       1.0        3.0
+                              NOR2B         6       1.0        6.0
+                              NOR3B         4       1.0        4.0
+                              NOR3C         6       1.0        6.0
+                                OA1         1       1.0        1.0
+                               OA1C         2       1.0        2.0
+                               OR2A         7       1.0        7.0
+                               OR3B         2       1.0        2.0
+                               OR3C         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                                XA1         1       1.0        1.0
+                               XA1A         9       1.0        9.0
+                            
+                         TOTAL             63                 61.0
+----------------------------------------------------------------------
+Report for cell Counter_3_4_56.netlist
+  Original Cell name Counter_3_4
+     Instance path:  GEN_COUNTER.21.chain.ui
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AOI1         1       1.0        1.0
+                             DFN1E1        16       1.0       16.0
+                                GND         1       0.0        0.0
+                                MX2         4       1.0        4.0
+                              NOR2A         1       1.0        1.0
+                              NOR2B         7       1.0        7.0
+                              NOR3B         9       1.0        9.0
+                              NOR3C         3       1.0        3.0
+                               OA1C         3       1.0        3.0
+                                OR2         2       1.0        2.0
+                               OR2A         8       1.0        8.0
+                               OR2B         2       1.0        2.0
+                               OR3B         1       1.0        1.0
+                               OR3C         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                                XA1         1       1.0        1.0
+                               XA1A         6       1.0        6.0
+                            
+                         TOTAL             67                 65.0
+----------------------------------------------------------------------
+Report for cell Counter_3_4_55.netlist
+  Original Cell name Counter_3_4
+     Instance path:  GEN_COUNTER.60.chain.ui
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AND2         1       1.0        1.0
+                               AO1B         1       1.0        1.0
+                              AOI1B         1       1.0        1.0
+                             DFN1E1        16       1.0       16.0
+                                GND         1       0.0        0.0
+                                MX2         1       1.0        1.0
+                              NOR2A         3       1.0        3.0
+                              NOR2B         8       1.0        8.0
+                               NOR3         1       1.0        1.0
+                              NOR3B         3       1.0        3.0
+                              NOR3C         6       1.0        6.0
+                               OA1A         1       1.0        1.0
+                               OA1C         1       1.0        1.0
+                                OR2         2       1.0        2.0
+                               OR2A         8       1.0        8.0
+                               OR2B         4       1.0        4.0
+                                VCC         1       0.0        0.0
+                                XA1         2       1.0        2.0
+                               XA1A        10       1.0       10.0
+                            
+                         TOTAL             71                 69.0
+----------------------------------------------------------------------
+Report for cell Counter_3_4_54.netlist
+  Original Cell name Counter_3_4
+     Instance path:  GEN_COUNTER.47.chain.ui
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AO1B         1       1.0        1.0
+                             DFN1E1        16       1.0       16.0
+                                GND         1       0.0        0.0
+                              NOR2A         2       1.0        2.0
+                              NOR2B         3       1.0        3.0
+                              NOR3B         4       1.0        4.0
+                              NOR3C         2       1.0        2.0
+                               OA1C         2       1.0        2.0
+                                OR2         2       1.0        2.0
+                               OR2A         7       1.0        7.0
+                               OR2B         4       1.0        4.0
+                                VCC         1       0.0        0.0
+                                XA1         2       1.0        2.0
+                               XA1A        11       1.0       11.0
+                            
+                         TOTAL             58                 56.0
+----------------------------------------------------------------------
+Report for cell Counter_3_4_53.netlist
+  Original Cell name Counter_3_4
+     Instance path:  GEN_COUNTER.65.chain.ui
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AND2         2       1.0        2.0
+                               AO1B         1       1.0        1.0
+                             DFN1E1        16       1.0       16.0
+                                GND         1       0.0        0.0
+                              NOR2A         2       1.0        2.0
+                              NOR2B         3       1.0        3.0
+                              NOR3B         3       1.0        3.0
+                              NOR3C         5       1.0        5.0
+                               OA1C         2       1.0        2.0
+                                OR2         1       1.0        1.0
+                               OR2A         7       1.0        7.0
+                               OR2B         3       1.0        3.0
+                               OR3B         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                                XA1         2       1.0        2.0
+                               XA1A        11       1.0       11.0
+                            
+                         TOTAL             61                 59.0
+----------------------------------------------------------------------
+Report for cell Counter_3_4_52.netlist
+  Original Cell name Counter_3_4
+     Instance path:  GEN_COUNTER.61.chain.ui
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AO1B         1       1.0        1.0
+                             DFN1E1        16       1.0       16.0
+                                GND         1       0.0        0.0
+                              NOR2A         2       1.0        2.0
+                              NOR2B         4       1.0        4.0
+                              NOR3B         2       1.0        2.0
+                              NOR3C         1       1.0        1.0
+                               OA1C         1       1.0        1.0
+                                OR2         2       1.0        2.0
+                               OR2A         8       1.0        8.0
+                               OR2B         4       1.0        4.0
+                                VCC         1       0.0        0.0
+                                XA1         2       1.0        2.0
+                               XA1A        12       1.0       12.0
+                            
+                         TOTAL             57                 55.0
+----------------------------------------------------------------------
+Report for cell Counter_3_4_51.netlist
+  Original Cell name Counter_3_4
+     Instance path:  GEN_COUNTER.72.chain.ui
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AND2         2       1.0        2.0
+                               AO1B         1       1.0        1.0
+                             DFN1E1        16       1.0       16.0
+                                GND         1       0.0        0.0
+                                MX2         3       1.0        3.0
+                              NOR2A         2       1.0        2.0
+                              NOR2B         5       1.0        5.0
+                              NOR3B         4       1.0        4.0
+                              NOR3C         5       1.0        5.0
+                               OR2A        11       1.0       11.0
+                               OR2B         2       1.0        2.0
+                                VCC         1       0.0        0.0
+                                XA1         2       1.0        2.0
+                               XA1A        10       1.0       10.0
+                            
+                         TOTAL             65                 63.0
+----------------------------------------------------------------------
+Report for cell Counter_3_4_50.netlist
+  Original Cell name Counter_3_4
+     Instance path:  GEN_COUNTER.59.chain.ui
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AO1B         1       1.0        1.0
+                             DFN1E1        16       1.0       16.0
+                                GND         1       0.0        0.0
+                                MX2         3       1.0        3.0
+                              NOR2A         2       1.0        2.0
+                              NOR2B         6       1.0        6.0
+                              NOR3B         5       1.0        5.0
+                              NOR3C         5       1.0        5.0
+                               OR2A        11       1.0       11.0
+                               OR2B         3       1.0        3.0
+                                VCC         1       0.0        0.0
+                                XA1         2       1.0        2.0
+                               XA1A        10       1.0       10.0
+                            
+                         TOTAL             66                 64.0
+----------------------------------------------------------------------
+Report for cell Counter_3_4_49.netlist
+  Original Cell name Counter_3_4
+     Instance path:  GEN_COUNTER.46.chain.ui
+                                          Cell usage:
+                               cell       count     area    count*area
+                             DFN1E1        16       1.0       16.0
+                                GND         1       0.0        0.0
+                                MX2         3       1.0        3.0
+                              NOR2A         2       1.0        2.0
+                              NOR2B         6       1.0        6.0
+                              NOR3B         6       1.0        6.0
+                              NOR3C         1       1.0        1.0
+                               OA1C         3       1.0        3.0
+                                OR2         3       1.0        3.0
+                               OR2A         7       1.0        7.0
+                               OR2B         4       1.0        4.0
+                               OR3B         1       1.0        1.0
+                               OR3C         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                                XA1         2       1.0        2.0
+                               XA1A         7       1.0        7.0
+                            
+                         TOTAL             64                 62.0
+----------------------------------------------------------------------
+Report for cell Counter_3_4_48.netlist
+  Original Cell name Counter_3_4
+     Instance path:  GEN_COUNTER.73.chain.ui
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AND2         2       1.0        2.0
+                               AO1B         1       1.0        1.0
+                             DFN1E1        16       1.0       16.0
+                                GND         1       0.0        0.0
+                              NOR2A         1       1.0        1.0
+                              NOR2B         3       1.0        3.0
+                              NOR3B         2       1.0        2.0
+                              NOR3C         4       1.0        4.0
+                               OA1C         1       1.0        1.0
+                               OR2A         9       1.0        9.0
+                               OR2B         2       1.0        2.0
+                               OR3B         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                                XA1         2       1.0        2.0
+                               XA1A        12       1.0       12.0
+                            
+                         TOTAL             58                 56.0
+----------------------------------------------------------------------
+Report for cell Counter_3_4_47.netlist
+  Original Cell name Counter_3_4
+     Instance path:  GEN_COUNTER.8.chain.ui
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AO1B         1       1.0        1.0
+                               AOI1         1       1.0        1.0
+                             DFN1E1        16       1.0       16.0
+                                GND         1       0.0        0.0
+                                MX2         1       1.0        1.0
+                              NOR2A         1       1.0        1.0
+                              NOR2B         6       1.0        6.0
+                              NOR3B         5       1.0        5.0
+                              NOR3C         6       1.0        6.0
+                               OA1C         3       1.0        3.0
+                               OR2A         5       1.0        5.0
+                               OR3B         3       1.0        3.0
+                               OR3C         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                                XA1         2       1.0        2.0
+                               XA1A         8       1.0        8.0
+                            
+                         TOTAL             61                 59.0
+----------------------------------------------------------------------
+Report for cell Counter_3_4_46.netlist
+  Original Cell name Counter_3_4
+     Instance path:  GEN_COUNTER.4.chain.ui
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AO1C         1       1.0        1.0
+                               AOI1         1       1.0        1.0
+                             DFN1E1        16       1.0       16.0
+                                GND         1       0.0        0.0
+                                MX2         2       1.0        2.0
+                              NOR2A         1       1.0        1.0
+                              NOR2B         5       1.0        5.0
+                              NOR3B         9       1.0        9.0
+                              NOR3C         3       1.0        3.0
+                               OA1A         1       1.0        1.0
+                               OA1C         2       1.0        2.0
+                                OR2         1       1.0        1.0
+                               OR2A         7       1.0        7.0
+                               OR3B         2       1.0        2.0
+                               OR3C         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                                XA1         1       1.0        1.0
+                               XA1A         8       1.0        8.0
+                            
+                         TOTAL             63                 61.0
+----------------------------------------------------------------------
+Report for cell Counter_3_4_45.netlist
+  Original Cell name Counter_3_4
+     Instance path:  GEN_COUNTER.31.chain.ui
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AO1B         1       1.0        1.0
+                               AOI1         1       1.0        1.0
+                             DFN1E1        16       1.0       16.0
+                                GND         1       0.0        0.0
+                              NOR2A         2       1.0        2.0
+                              NOR2B         5       1.0        5.0
+                              NOR3B         3       1.0        3.0
+                              NOR3C         6       1.0        6.0
+                               OA1C         2       1.0        2.0
+                               OR2A         7       1.0        7.0
+                               OR3B         2       1.0        2.0
+                               OR3C         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                                XA1         2       1.0        2.0
+                               XA1A        10       1.0       10.0
+                            
+                         TOTAL             60                 58.0
+----------------------------------------------------------------------
+Report for cell Counter_3_4_44.netlist
+  Original Cell name Counter_3_4
+     Instance path:  GEN_COUNTER.18.chain.ui
+                                          Cell usage:
+                               cell       count     area    count*area
+                             DFN1E1        16       1.0       16.0
+                                GND         1       0.0        0.0
+                                MX2         1       1.0        1.0
+                              NOR2A         1       1.0        1.0
+                              NOR2B         5       1.0        5.0
+                              NOR3A         1       1.0        1.0
+                              NOR3B         5       1.0        5.0
+                               OA1C         2       1.0        2.0
+                                OR2         3       1.0        3.0
+                               OR2A         9       1.0        9.0
+                               OR2B         3       1.0        3.0
+                               OR3C         2       1.0        2.0
+                                VCC         1       0.0        0.0
+                                XA1         1       1.0        1.0
+                               XA1A        11       1.0       11.0
+                            
+                         TOTAL             62                 60.0
+----------------------------------------------------------------------
+Report for cell Counter_3_4_43.netlist
+  Original Cell name Counter_3_4
+     Instance path:  GEN_COUNTER.5.chain.ui
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AOI1         1       1.0        1.0
+                             DFN1E1        16       1.0       16.0
+                                GND         1       0.0        0.0
+                              NOR2A         2       1.0        2.0
+                              NOR2B         1       1.0        1.0
+                              NOR3B         3       1.0        3.0
+                              NOR3C         3       1.0        3.0
+                               OA1C         1       1.0        1.0
+                               OR2A         9       1.0        9.0
+                               OR2B         1       1.0        1.0
+                               OR3B         1       1.0        1.0
+                               OR3C         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                                XA1         2       1.0        2.0
+                               XA1A        11       1.0       11.0
+                            
+                         TOTAL             54                 52.0
+----------------------------------------------------------------------
+Report for cell Counter_3_4_42.netlist
+  Original Cell name Counter_3_4
+     Instance path:  GEN_COUNTER.32.chain.ui
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AOI1         1       1.0        1.0
+                             DFN1E1        16       1.0       16.0
+                                GND         1       0.0        0.0
+                                MX2         4       1.0        4.0
+                              NOR2A         5       1.0        5.0
+                              NOR2B         9       1.0        9.0
+                              NOR3B         3       1.0        3.0
+                              NOR3C         3       1.0        3.0
+                               OA1C         1       1.0        1.0
+                               OR2A         9       1.0        9.0
+                               OR2B         1       1.0        1.0
+                               OR3B         1       1.0        1.0
+                               OR3C         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                                XA1         1       1.0        1.0
+                               XA1A         8       1.0        8.0
+                            
+                         TOTAL             65                 63.0
+----------------------------------------------------------------------
+Report for cell Counter_3_4_41.netlist
+  Original Cell name Counter_3_4
+     Instance path:  GEN_COUNTER.19.chain.ui
+                                          Cell usage:
+                               cell       count     area    count*area
+                             DFN1E1        16       1.0       16.0
+                                GND         1       0.0        0.0
+                                MX2         1       1.0        1.0
+                              NOR2A         2       1.0        2.0
+                              NOR2B         5       1.0        5.0
+                              NOR3A         1       1.0        1.0
+                              NOR3B         5       1.0        5.0
+                              NOR3C         1       1.0        1.0
+                               OA1C         2       1.0        2.0
+                                OR2         4       1.0        4.0
+                               OR2A         8       1.0        8.0
+                               OR2B         3       1.0        3.0
+                               OR3C         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                                XA1         2       1.0        2.0
+                               XA1A         9       1.0        9.0
+                            
+                         TOTAL             62                 60.0
+----------------------------------------------------------------------
+Report for cell Counter_3_4_40.netlist
+  Original Cell name Counter_3_4
+     Instance path:  GEN_COUNTER.6.chain.ui
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AO1B         1       1.0        1.0
+                               AOI1         1       1.0        1.0
+                             DFN1E1        16       1.0       16.0
+                                GND         1       0.0        0.0
+                                MX2         1       1.0        1.0
+                              NOR2A         1       1.0        1.0
+                              NOR2B         6       1.0        6.0
+                              NOR3B         5       1.0        5.0
+                              NOR3C         6       1.0        6.0
+                               OA1C         3       1.0        3.0
+                               OR2A         5       1.0        5.0
+                               OR3B         3       1.0        3.0
+                               OR3C         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                                XA1         2       1.0        2.0
+                               XA1A         8       1.0        8.0
+                            
+                         TOTAL             61                 59.0
+----------------------------------------------------------------------
+Report for cell Counter_3_4_39.netlist
+  Original Cell name Counter_3_4
+     Instance path:  GEN_COUNTER.33.chain.ui
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AOI1         1       1.0        1.0
+                             DFN1E1        16       1.0       16.0
+                                GND         1       0.0        0.0
+                                MX2         5       1.0        5.0
+                              NOR2A         1       1.0        1.0
+                              NOR2B        10       1.0       10.0
+                              NOR3B         9       1.0        9.0
+                              NOR3C         5       1.0        5.0
+                               OA1C         3       1.0        3.0
+                               OR2A         6       1.0        6.0
+                               OR3B         3       1.0        3.0
+                               OR3C         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                                XA1         1       1.0        1.0
+                               XA1A         5       1.0        5.0
+                            
+                         TOTAL             68                 66.0
+----------------------------------------------------------------------
+Report for cell Counter_3_4_38.netlist
+  Original Cell name Counter_3_4
+     Instance path:  GEN_COUNTER.44.chain.ui
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AND2         2       1.0        2.0
+                               AO1B         1       1.0        1.0
+                               AOI1         1       1.0        1.0
+                             DFN1E1        16       1.0       16.0
+                                GND         1       0.0        0.0
+                                MX2         1       1.0        1.0
+                              NOR2A         4       1.0        4.0
+                              NOR2B         9       1.0        9.0
+                              NOR3B         5       1.0        5.0
+                              NOR3C         7       1.0        7.0
+                               OA1C         2       1.0        2.0
+                                OR2         1       1.0        1.0
+                               OR2A         7       1.0        7.0
+                               OR3B         2       1.0        2.0
+                               OR3C         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                                XA1         1       1.0        1.0
+                               XA1A         9       1.0        9.0
+                            
+                         TOTAL             71                 69.0
+----------------------------------------------------------------------
+Report for cell Counter_3_4_37.netlist
+  Original Cell name Counter_3_4
+     Instance path:  GEN_COUNTER.71.chain.ui
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AO1B         1       1.0        1.0
+                             DFN1E1        16       1.0       16.0
+                                GND         1       0.0        0.0
+                              NOR2A         2       1.0        2.0
+                              NOR2B         1       1.0        1.0
+                              NOR3B         2       1.0        2.0
+                              NOR3C         6       1.0        6.0
+                               OA1C         1       1.0        1.0
+                               OR2A         9       1.0        9.0
+                               OR2B         2       1.0        2.0
+                               OR3B         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                                XA1         2       1.0        2.0
+                               XA1A        12       1.0       12.0
+                            
+                         TOTAL             57                 55.0
+----------------------------------------------------------------------
+Report for cell Counter_3_4_36.netlist
+  Original Cell name Counter_3_4
+     Instance path:  GEN_COUNTER.58.chain.ui
+                                          Cell usage:
+                               cell       count     area    count*area
+                             DFN1E1        16       1.0       16.0
+                                GND         1       0.0        0.0
+                                MX2         2       1.0        2.0
+                              NOR2A         2       1.0        2.0
+                              NOR2B         6       1.0        6.0
+                               NOR3         1       1.0        1.0
+                              NOR3B         4       1.0        4.0
+                              NOR3C         2       1.0        2.0
+                               OA1C         2       1.0        2.0
+                                OR2         2       1.0        2.0
+                               OR2A         8       1.0        8.0
+                               OR2B         4       1.0        4.0
+                                VCC         1       0.0        0.0
+                                XA1         1       1.0        1.0
+                               XA1A        10       1.0       10.0
+                            
+                         TOTAL             62                 60.0
+----------------------------------------------------------------------
+Report for cell Counter_3_4_35.netlist
+  Original Cell name Counter_3_4
+     Instance path:  GEN_COUNTER.45.chain.ui
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AO1B         1       1.0        1.0
+                             DFN1E1        16       1.0       16.0
+                                GND         1       0.0        0.0
+                                MX2         1       1.0        1.0
+                              NOR2A         1       1.0        1.0
+                              NOR2B         6       1.0        6.0
+                               NOR3         1       1.0        1.0
+                              NOR3B         5       1.0        5.0
+                              NOR3C         5       1.0        5.0
+                               OA1C         3       1.0        3.0
+                                OR2         2       1.0        2.0
+                               OR2A         6       1.0        6.0
+                               OR2B         4       1.0        4.0
+                               OR3C         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                                XA1         2       1.0        2.0
+                               XA1A         9       1.0        9.0
+                            
+                         TOTAL             65                 63.0
+----------------------------------------------------------------------
+Report for cell Counter_3_4_34.netlist
+  Original Cell name Counter_3_4
+     Instance path:  GEN_COUNTER.48.chain.ui
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AND2         2       1.0        2.0
+                               AO1B         1       1.0        1.0
+                               AOI1         1       1.0        1.0
+                             DFN1E1        16       1.0       16.0
+                                GND         1       0.0        0.0
+                                MX2         1       1.0        1.0
+                              NOR2A         3       1.0        3.0
+                              NOR2B         6       1.0        6.0
+                              NOR3B         5       1.0        5.0
+                              NOR3C         1       1.0        1.0
+                               OA1C         1       1.0        1.0
+                                OR2         2       1.0        2.0
+                               OR2A         7       1.0        7.0
+                               OR2B         2       1.0        2.0
+                               OR3B         1       1.0        1.0
+                               OR3C         2       1.0        2.0
+                                VCC         1       0.0        0.0
+                                XA1         2       1.0        2.0
+                               XA1A         9       1.0        9.0
+                            
+                         TOTAL             64                 62.0
+----------------------------------------------------------------------
+Report for cell Counter_3_4_33.netlist
+  Original Cell name Counter_3_4
+     Instance path:  GEN_COUNTER.11.chain.ui
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AO1B         1       1.0        1.0
+                               AOI1         1       1.0        1.0
+                             DFN1E1        16       1.0       16.0
+                                GND         1       0.0        0.0
+                                MX2         5       1.0        5.0
+                              NOR2A         1       1.0        1.0
+                              NOR2B        11       1.0       11.0
+                              NOR3B         9       1.0        9.0
+                              NOR3C         8       1.0        8.0
+                               OA1C         2       1.0        2.0
+                               OR2A         6       1.0        6.0
+                               OR2B         1       1.0        1.0
+                               OR3B         2       1.0        2.0
+                               OR3C         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                                XA1         1       1.0        1.0
+                               XA1A         6       1.0        6.0
+                            
+                         TOTAL             73                 71.0
+----------------------------------------------------------------------
+Report for cell Counter_3_4_32.netlist
+  Original Cell name Counter_3_4
+     Instance path:  GEN_COUNTER.12.chain.ui
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AOI1         1       1.0        1.0
+                             DFN1E1        16       1.0       16.0
+                                GND         1       0.0        0.0
+                              NOR2A         2       1.0        2.0
+                              NOR2B         5       1.0        5.0
+                              NOR3B         2       1.0        2.0
+                              NOR3C         3       1.0        3.0
+                               OA1C         1       1.0        1.0
+                               OR2A        10       1.0       10.0
+                               OR3B         1       1.0        1.0
+                               OR3C         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                                XA1         2       1.0        2.0
+                               XA1A        11       1.0       11.0
+                            
+                         TOTAL             57                 55.0
+----------------------------------------------------------------------
+Report for cell Counter_3_4_31.netlist
+  Original Cell name Counter_3_4
+     Instance path:  GEN_COUNTER.49.chain.ui
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AOI1         1       1.0        1.0
+                             DFN1E1        16       1.0       16.0
+                                GND         1       0.0        0.0
+                                MX2         1       1.0        1.0
+                              NOR2A         1       1.0        1.0
+                              NOR2B         6       1.0        6.0
+                              NOR3B         5       1.0        5.0
+                              NOR3C         2       1.0        2.0
+                               OA1C         1       1.0        1.0
+                                OR2         2       1.0        2.0
+                               OR2A         8       1.0        8.0
+                               OR2B         4       1.0        4.0
+                               OR3C         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                                XA1         2       1.0        2.0
+                               XA1A        10       1.0       10.0
+                            
+                         TOTAL             62                 60.0
+----------------------------------------------------------------------
+Report for cell Counter_3_4_30.netlist
+  Original Cell name Counter_3_4
+     Instance path:  GEN_COUNTER.67.chain.ui
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AO1B         1       1.0        1.0
+                               AOI1         1       1.0        1.0
+                             DFN1E1        16       1.0       16.0
+                                GND         1       0.0        0.0
+                                MX2         4       1.0        4.0
+                              NOR2A         2       1.0        2.0
+                              NOR2B         5       1.0        5.0
+                              NOR3B         8       1.0        8.0
+                              NOR3C         3       1.0        3.0
+                               OA1C         2       1.0        2.0
+                               OR2A         6       1.0        6.0
+                               OR2B         1       1.0        1.0
+                               OR3B         2       1.0        2.0
+                               OR3C         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                                XA1         1       1.0        1.0
+                               XA1A         7       1.0        7.0
+                            
+                         TOTAL             62                 60.0
+----------------------------------------------------------------------
+Report for cell Counter_3_4_29.netlist
+  Original Cell name Counter_3_4
+     Instance path:  GEN_COUNTER.23.chain.ui
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AND2         2       1.0        2.0
+                               AOI1         1       1.0        1.0
+                              AOI1B         1       1.0        1.0
+                             DFN1E1        16       1.0       16.0
+                                GND         1       0.0        0.0
+                              NOR2A         2       1.0        2.0
+                              NOR2B         3       1.0        3.0
+                              NOR3B         4       1.0        4.0
+                              NOR3C         4       1.0        4.0
+                                OA1         1       1.0        1.0
+                               OA1C         3       1.0        3.0
+                               OR2A         6       1.0        6.0
+                               OR3B         3       1.0        3.0
+                               OR3C         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                                XA1         1       1.0        1.0
+                               XA1A         9       1.0        9.0
+                            
+                         TOTAL             59                 57.0
+----------------------------------------------------------------------
+Report for cell Counter_3_4_28.netlist
+  Original Cell name Counter_3_4
+     Instance path:  GEN_COUNTER.24.chain.ui
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AO1B         1       1.0        1.0
+                               AOI1         1       1.0        1.0
+                             DFN1E1        16       1.0       16.0
+                                GND         1       0.0        0.0
+                              NOR2A         1       1.0        1.0
+                              NOR2B         3       1.0        3.0
+                              NOR3B         5       1.0        5.0
+                              NOR3C         1       1.0        1.0
+                               OA1C         1       1.0        1.0
+                                OR2         3       1.0        3.0
+                               OR2A         6       1.0        6.0
+                               OR2B         2       1.0        2.0
+                               OR3B         1       1.0        1.0
+                               OR3C         2       1.0        2.0
+                                VCC         1       0.0        0.0
+                                XA1         2       1.0        2.0
+                               XA1A        11       1.0       11.0
+                            
+                         TOTAL             58                 56.0
+----------------------------------------------------------------------
+Report for cell Counter_3_4_27.netlist
+  Original Cell name Counter_3_4
+     Instance path:  GEN_COUNTER.53.chain.ui
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AO1B         1       1.0        1.0
+                             DFN1E1        16       1.0       16.0
+                                GND         1       0.0        0.0
+                               NOR2         1       1.0        1.0
+                              NOR2A         2       1.0        2.0
+                              NOR2B         4       1.0        4.0
+                              NOR3B         2       1.0        2.0
+                              NOR3C         6       1.0        6.0
+                               OA1C         2       1.0        2.0
+                                OR2         3       1.0        3.0
+                               OR2A         5       1.0        5.0
+                               OR2B         5       1.0        5.0
+                               OR3B         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                                XA1         2       1.0        2.0
+                               XA1A        11       1.0       11.0
+                            
+                         TOTAL             63                 61.0
+----------------------------------------------------------------------
+Report for cell Counter_3_4_26.netlist
+  Original Cell name Counter_3_4
+     Instance path:  GEN_COUNTER.64.chain.ui
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AO1B         1       1.0        1.0
+                             DFN1E1        16       1.0       16.0
+                                GND         1       0.0        0.0
+                              NOR2A         2       1.0        2.0
+                              NOR2B         2       1.0        2.0
+                              NOR3B         4       1.0        4.0
+                              NOR3C         6       1.0        6.0
+                               OA1C         2       1.0        2.0
+                                OR2         1       1.0        1.0
+                               OR2A         7       1.0        7.0
+                               OR2B         3       1.0        3.0
+                               OR3B         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                                XA1         2       1.0        2.0
+                               XA1A        11       1.0       11.0
+                            
+                         TOTAL             60                 58.0
+----------------------------------------------------------------------
+Report for cell Counter_3_4_25.netlist
+  Original Cell name Counter_3_4
+     Instance path:  GEN_COUNTER.35.chain.ui
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AO1B         1       1.0        1.0
+                               AOI1         1       1.0        1.0
+                             DFN1E1        16       1.0       16.0
+                                GND         1       0.0        0.0
+                              NOR2A         1       1.0        1.0
+                              NOR2B         5       1.0        5.0
+                              NOR3B         4       1.0        4.0
+                              NOR3C         3       1.0        3.0
+                               OA1C         2       1.0        2.0
+                               OR2A         7       1.0        7.0
+                               OR3B         2       1.0        2.0
+                               OR3C         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                                XA1         2       1.0        2.0
+                               XA1A        10       1.0       10.0
+                            
+                         TOTAL             57                 55.0
+----------------------------------------------------------------------
+Report for cell Counter_3_4_24.netlist
+  Original Cell name Counter_3_4
+     Instance path:  GEN_COUNTER.36.chain.ui
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AOI1         1       1.0        1.0
+                             DFN1E1        16       1.0       16.0
+                                GND         1       0.0        0.0
+                              NOR2A         1       1.0        1.0
+                              NOR2B         5       1.0        5.0
+                              NOR3B         4       1.0        4.0
+                              NOR3C         5       1.0        5.0
+                               OA1C         3       1.0        3.0
+                               OR2A         6       1.0        6.0
+                               OR3B         3       1.0        3.0
+                               OR3C         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                                XA1         2       1.0        2.0
+                               XA1A         9       1.0        9.0
+                            
+                         TOTAL             58                 56.0
+----------------------------------------------------------------------
+Report for cell Counter_3_4_23.netlist
+  Original Cell name Counter_3_4
+     Instance path:  GEN_COUNTER.9.chain.ui
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AOI1         1       1.0        1.0
+                             DFN1E1        16       1.0       16.0
+                                GND         1       0.0        0.0
+                                MX2         1       1.0        1.0
+                              NOR2A         2       1.0        2.0
+                              NOR2B         3       1.0        3.0
+                              NOR3B         4       1.0        4.0
+                              NOR3C         3       1.0        3.0
+                               OA1C         1       1.0        1.0
+                               OR2A         9       1.0        9.0
+                               OR2B         1       1.0        1.0
+                               OR3B         1       1.0        1.0
+                               OR3C         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                                XA1         1       1.0        1.0
+                               XA1A        11       1.0       11.0
+                            
+                         TOTAL             57                 55.0
+----------------------------------------------------------------------
+Report for cell Counter_3_4_22.netlist
+  Original Cell name Counter_3_4
+     Instance path:  GEN_COUNTER.22.chain.ui
+                                          Cell usage:
+                               cell       count     area    count*area
+                             DFN1E1        16       1.0       16.0
+                                GND         1       0.0        0.0
+                              NOR2A         1       1.0        1.0
+                              NOR2B         5       1.0        5.0
+                              NOR3B         4       1.0        4.0
+                              NOR3C         1       1.0        1.0
+                               OA1C         2       1.0        2.0
+                                OR2         3       1.0        3.0
+                               OR2A         9       1.0        9.0
+                               OR2B         4       1.0        4.0
+                                VCC         1       0.0        0.0
+                                XA1         1       1.0        1.0
+                               XA1A        12       1.0       12.0
+                            
+                         TOTAL             60                 58.0
+----------------------------------------------------------------------
+Report for cell Counter_3_4_21.netlist
+  Original Cell name Counter_3_4
+     Instance path:  GEN_COUNTER.66.chain.ui
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AO1B         1       1.0        1.0
+                               AOI1         1       1.0        1.0
+                             DFN1E1        16       1.0       16.0
+                                GND         1       0.0        0.0
+                                MX2         3       1.0        3.0
+                              NOR2A         1       1.0        1.0
+                              NOR2B         6       1.0        6.0
+                              NOR3B         8       1.0        8.0
+                              NOR3C         5       1.0        5.0
+                               OA1C         1       1.0        1.0
+                               OR2A         8       1.0        8.0
+                               OR2B         1       1.0        1.0
+                               OR3B         1       1.0        1.0
+                               OR3C         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                                XA1         1       1.0        1.0
+                               XA1A         9       1.0        9.0
+                            
+                         TOTAL             65                 63.0
+----------------------------------------------------------------------
+Report for cell Counter_3_4_20.netlist
+  Original Cell name Counter_3_4
+     Instance path:  GEN_COUNTER.26.chain.ui
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AO1B         1       1.0        1.0
+                             DFN1E1        16       1.0       16.0
+                                GND         1       0.0        0.0
+                              NOR2A         2       1.0        2.0
+                              NOR2B         4       1.0        4.0
+                              NOR3B         5       1.0        5.0
+                              NOR3C         2       1.0        2.0
+                               OA1C         3       1.0        3.0
+                                OR2         4       1.0        4.0
+                               OR2A         5       1.0        5.0
+                               OR2B         5       1.0        5.0
+                                VCC         1       0.0        0.0
+                                XA1         2       1.0        2.0
+                               XA1A        10       1.0       10.0
+                            
+                         TOTAL             61                 59.0
+----------------------------------------------------------------------
+Report for cell Counter_3_4_19.netlist
+  Original Cell name Counter_3_4
+     Instance path:  GEN_COUNTER.29.chain.ui
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AO1B         1       1.0        1.0
+                               AOI1         1       1.0        1.0
+                             DFN1E1        16       1.0       16.0
+                                GND         1       0.0        0.0
+                               MX2B         1       1.0        1.0
+                              NOR2A         2       1.0        2.0
+                              NOR2B         6       1.0        6.0
+                              NOR3B         3       1.0        3.0
+                              NOR3C         7       1.0        7.0
+                               OA1C         2       1.0        2.0
+                               OR2A         7       1.0        7.0
+                               OR3B         2       1.0        2.0
+                               OR3C         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                                XA1         1       1.0        1.0
+                               XA1A        10       1.0       10.0
+                            
+                         TOTAL             62                 60.0
+----------------------------------------------------------------------
+Report for cell Counter_3_4_18.netlist
+  Original Cell name Counter_3_4
+     Instance path:  GEN_COUNTER.16.chain.ui
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AOI1         1       1.0        1.0
+                             DFN1E1        16       1.0       16.0
+                                GND         1       0.0        0.0
+                                MX2         1       1.0        1.0
+                              NOR2A         2       1.0        2.0
+                              NOR2B         1       1.0        1.0
+                              NOR3B         5       1.0        5.0
+                               OA1C         3       1.0        3.0
+                                OR2         4       1.0        4.0
+                               OR2A         7       1.0        7.0
+                               OR2B         4       1.0        4.0
+                               OR3B         1       1.0        1.0
+                               OR3C         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                                XA1         1       1.0        1.0
+                               XA1A         9       1.0        9.0
+                            
+                         TOTAL             58                 56.0
+----------------------------------------------------------------------
+Report for cell Counter_3_4_17.netlist
+  Original Cell name Counter_3_4
+     Instance path:  GEN_COUNTER.3.chain.ui
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AOI1         1       1.0        1.0
+                             DFN1E1        16       1.0       16.0
+                                GND         1       0.0        0.0
+                              NOR2A         1       1.0        1.0
+                              NOR2B         2       1.0        2.0
+                              NOR3B         5       1.0        5.0
+                              NOR3C         3       1.0        3.0
+                               OA1C         3       1.0        3.0
+                               OR2A         5       1.0        5.0
+                               OR2B         1       1.0        1.0
+                               OR3B         3       1.0        3.0
+                               OR3C         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                                XA1         2       1.0        2.0
+                               XA1A         9       1.0        9.0
+                            
+                         TOTAL             54                 52.0
+----------------------------------------------------------------------
+Report for cell Counter_3_4_16.netlist
+  Original Cell name Counter_3_4
+     Instance path:  GEN_COUNTER.30.chain.ui
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AOI1         1       1.0        1.0
+                             DFN1E1        16       1.0       16.0
+                                GND         1       0.0        0.0
+                              NOR2A         2       1.0        2.0
+                              NOR2B         1       1.0        1.0
+                              NOR3B         4       1.0        4.0
+                              NOR3C         3       1.0        3.0
+                               OA1C         2       1.0        2.0
+                               OR2A         7       1.0        7.0
+                               OR2B         1       1.0        1.0
+                               OR3B         2       1.0        2.0
+                               OR3C         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                                XA1         2       1.0        2.0
+                               XA1A        10       1.0       10.0
+                            
+                         TOTAL             54                 52.0
+----------------------------------------------------------------------
+Report for cell Counter_3_4_15.netlist
+  Original Cell name Counter_3_4
+     Instance path:  GEN_COUNTER.41.chain.ui
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AND2         2       1.0        2.0
+                               AOI1         1       1.0        1.0
+                             DFN1E1        16       1.0       16.0
+                                GND         1       0.0        0.0
+                              NOR2A         4       1.0        4.0
+                              NOR2B         2       1.0        2.0
+                              NOR3B         4       1.0        4.0
+                              NOR3C         3       1.0        3.0
+                               OA1C         2       1.0        2.0
+                                OR2         1       1.0        1.0
+                               OR2A         8       1.0        8.0
+                               OR3B         2       1.0        2.0
+                               OR3C         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                                XA1         1       1.0        1.0
+                               XA1A        10       1.0       10.0
+                            
+                         TOTAL             59                 57.0
+----------------------------------------------------------------------
+Report for cell Counter_3_4_14.netlist
+  Original Cell name Counter_3_4
+     Instance path:  GEN_COUNTER.68.chain.ui
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AO1B         1       1.0        1.0
+                             DFN1E1        16       1.0       16.0
+                                GND         1       0.0        0.0
+                              NOR2A         2       1.0        2.0
+                              NOR2B         4       1.0        4.0
+                              NOR3B         4       1.0        4.0
+                              NOR3C        10       1.0       10.0
+                               OA1C         1       1.0        1.0
+                               OR2A         9       1.0        9.0
+                               OR2B         2       1.0        2.0
+                               OR3B         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                                XA1         2       1.0        2.0
+                               XA1A        12       1.0       12.0
+                            
+                         TOTAL             66                 64.0
+----------------------------------------------------------------------
+Report for cell Counter_3_4_13.netlist
+  Original Cell name Counter_3_4
+     Instance path:  GEN_COUNTER.55.chain.ui
+                                          Cell usage:
+                               cell       count     area    count*area
+                             DFN1E1        16       1.0       16.0
+                                GND         1       0.0        0.0
+                                MX2         3       1.0        3.0
+                              NOR2A         1       1.0        1.0
+                              NOR2B        11       1.0       11.0
+                              NOR3B        10       1.0       10.0
+                              NOR3C         5       1.0        5.0
+                               OA1A         2       1.0        2.0
+                               OA1C         1       1.0        1.0
+                                OR2         3       1.0        3.0
+                               OR2A         7       1.0        7.0
+                               OR2B         3       1.0        3.0
+                               OR3B         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                                XA1         2       1.0        2.0
+                               XA1A         7       1.0        7.0
+                            
+                         TOTAL             74                 72.0
+----------------------------------------------------------------------
+Report for cell Counter_3_4_12.netlist
+  Original Cell name Counter_3_4
+     Instance path:  GEN_COUNTER.42.chain.ui
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AO1B         1       1.0        1.0
+                               AOI1         1       1.0        1.0
+                             DFN1E1        16       1.0       16.0
+                                GND         1       0.0        0.0
+                                MX2         3       1.0        3.0
+                              NOR2A         1       1.0        1.0
+                              NOR2B         6       1.0        6.0
+                              NOR3B         9       1.0        9.0
+                              NOR3C         3       1.0        3.0
+                               OA1A         1       1.0        1.0
+                               OA1C         2       1.0        2.0
+                                OR2         1       1.0        1.0
+                               OR2A         7       1.0        7.0
+                               OR3B         2       1.0        2.0
+                               OR3C         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                                XA1         1       1.0        1.0
+                               XA1A         7       1.0        7.0
+                            
+                         TOTAL             64                 62.0
+----------------------------------------------------------------------
+Report for cell Counter_3_4_11.netlist
+  Original Cell name Counter_3_4
+     Instance path:  GEN_COUNTER.69.chain.ui
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AO1B         1       1.0        1.0
+                             DFN1E1        16       1.0       16.0
+                                GND         1       0.0        0.0
+                                MX2         2       1.0        2.0
+                              NOR2A         2       1.0        2.0
+                              NOR2B         3       1.0        3.0
+                              NOR3B         3       1.0        3.0
+                              NOR3C         3       1.0        3.0
+                               OR2A        11       1.0       11.0
+                               OR2B         2       1.0        2.0
+                                VCC         1       0.0        0.0
+                                XA1         1       1.0        1.0
+                               XA1A        12       1.0       12.0
+                            
+                         TOTAL             58                 56.0
+----------------------------------------------------------------------
+Report for cell Counter_3_4_10.netlist
+  Original Cell name Counter_3_4
+     Instance path:  GEN_COUNTER.56.chain.ui
+                                          Cell usage:
+                               cell       count     area    count*area
+                             DFN1E1        16       1.0       16.0
+                                GND         1       0.0        0.0
+                                MX2         1       1.0        1.0
+                              NOR2A         1       1.0        1.0
+                              NOR2B         8       1.0        8.0
+                              NOR3B         3       1.0        3.0
+                              NOR3C         2       1.0        2.0
+                                OR2         1       1.0        1.0
+                               OR2A        12       1.0       12.0
+                               OR2B         2       1.0        2.0
+                                VCC         1       0.0        0.0
+                                XA1         2       1.0        2.0
+                               XA1A        12       1.0       12.0
+                            
+                         TOTAL             62                 60.0
+----------------------------------------------------------------------
+Report for cell Counter_3_4_9.netlist
+  Original Cell name Counter_3_4
+     Instance path:  GEN_COUNTER.43.chain.ui
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AND2         5       1.0        5.0
+                               AO1B         1       1.0        1.0
+                               AOI1         1       1.0        1.0
+                             DFN1E1        16       1.0       16.0
+                                GND         1       0.0        0.0
+                              NOR2A         4       1.0        4.0
+                              NOR2B         2       1.0        2.0
+                              NOR3B         4       1.0        4.0
+                              NOR3C         4       1.0        4.0
+                               OA1C         2       1.0        2.0
+                                OR2         1       1.0        1.0
+                               OR2A         7       1.0        7.0
+                               OR3B         2       1.0        2.0
+                               OR3C         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                                XA1         1       1.0        1.0
+                               XA1A        10       1.0       10.0
+                            
+                         TOTAL             63                 61.0
+----------------------------------------------------------------------
+Report for cell Counter_3_4_8.netlist
+  Original Cell name Counter_3_4
+     Instance path:  GEN_COUNTER.70.chain.ui
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AO1B         1       1.0        1.0
+                             DFN1E1        16       1.0       16.0
+                                GND         1       0.0        0.0
+                              NOR2A         2       1.0        2.0
+                              NOR2B         2       1.0        2.0
+                              NOR3B         4       1.0        4.0
+                              NOR3C         5       1.0        5.0
+                               OA1C         2       1.0        2.0
+                               OR2A         7       1.0        7.0
+                               OR2B         2       1.0        2.0
+                               OR3B         2       1.0        2.0
+                                VCC         1       0.0        0.0
+                                XA1         2       1.0        2.0
+                               XA1A        11       1.0       11.0
+                            
+                         TOTAL             58                 56.0
+----------------------------------------------------------------------
+Report for cell Counter_3_4_7.netlist
+  Original Cell name Counter_3_4
+     Instance path:  GEN_COUNTER.57.chain.ui
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AOI1         1       1.0        1.0
+                             DFN1E1        16       1.0       16.0
+                                GND         1       0.0        0.0
+                                MX2         1       1.0        1.0
+                              NOR2A         2       1.0        2.0
+                              NOR2B         2       1.0        2.0
+                              NOR3B         5       1.0        5.0
+                              NOR3C         4       1.0        4.0
+                               OA1C         2       1.0        2.0
+                               OR2A         7       1.0        7.0
+                               OR2B         1       1.0        1.0
+                               OR3B         2       1.0        2.0
+                               OR3C         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                                XA1         2       1.0        2.0
+                               XA1A         9       1.0        9.0
+                            
+                         TOTAL             57                 55.0
+----------------------------------------------------------------------
+Report for cell Counter_3_4_6.netlist
+  Original Cell name Counter_3_4
+     Instance path:  GEN_COUNTER.1.chain.ui
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AND2         2       1.0        2.0
+                               AO1C         1       1.0        1.0
+                              AOI1B         1       1.0        1.0
+                             DFN1E1        16       1.0       16.0
+                                GND         1       0.0        0.0
+                                MX2         3       1.0        3.0
+                              NOR2A         1       1.0        1.0
+                              NOR2B        12       1.0       12.0
+                              NOR3B         5       1.0        5.0
+                              NOR3C         5       1.0        5.0
+                               OA1C         1       1.0        1.0
+                                OR2         1       1.0        1.0
+                               OR2A         9       1.0        9.0
+                               OR2B         1       1.0        1.0
+                               OR3B         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                                XA1         1       1.0        1.0
+                               XA1A         9       1.0        9.0
+                            
+                         TOTAL             71                 69.0
+----------------------------------------------------------------------
+Report for cell Counter_3_4_5.netlist
+  Original Cell name Counter_3_4
+     Instance path:  GEN_COUNTER.28.chain.ui
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AOI1         1       1.0        1.0
+                             DFN1E1        16       1.0       16.0
+                                GND         1       0.0        0.0
+                                MX2         2       1.0        2.0
+                              NOR2A         2       1.0        2.0
+                              NOR2B         5       1.0        5.0
+                              NOR3B         5       1.0        5.0
+                              NOR3C         3       1.0        3.0
+                               OA1C         2       1.0        2.0
+                               OR2A         8       1.0        8.0
+                               OR3B         2       1.0        2.0
+                               OR3C         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                                XA1         2       1.0        2.0
+                               XA1A         8       1.0        8.0
+                            
+                         TOTAL             59                 57.0
+----------------------------------------------------------------------
+Report for cell Counter_3_4_4.netlist
+  Original Cell name Counter_3_4
+     Instance path:  GEN_COUNTER.15.chain.ui
+                                          Cell usage:
+                               cell       count     area    count*area
+                             DFN1E1        16       1.0       16.0
+                                GND         1       0.0        0.0
+                                MX2         1       1.0        1.0
+                              NOR2A         3       1.0        3.0
+                              NOR2B         4       1.0        4.0
+                              NOR3B         4       1.0        4.0
+                               OA1C         3       1.0        3.0
+                                OR2         3       1.0        3.0
+                               OR2A         7       1.0        7.0
+                               OR2B         5       1.0        5.0
+                               OR3C         2       1.0        2.0
+                                VCC         1       0.0        0.0
+                                XA1         2       1.0        2.0
+                               XA1A         9       1.0        9.0
+                            
+                         TOTAL             61                 59.0
+----------------------------------------------------------------------
+Report for cell Counter_3_4_3.netlist
+  Original Cell name Counter_3_4
+     Instance path:  GEN_COUNTER.2.chain.ui
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AO1B         1       1.0        1.0
+                               AOI1         1       1.0        1.0
+                             DFN1E1        16       1.0       16.0
+                                GND         1       0.0        0.0
+                               MX2B         1       1.0        1.0
+                              NOR2A         1       1.0        1.0
+                              NOR2B         6       1.0        6.0
+                              NOR3B         4       1.0        4.0
+                              NOR3C         6       1.0        6.0
+                               OA1C         3       1.0        3.0
+                               OR2A         5       1.0        5.0
+                               OR3B         3       1.0        3.0
+                               OR3C         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                                XA1         1       1.0        1.0
+                               XA1A         9       1.0        9.0
+                            
+                         TOTAL             60                 58.0
+----------------------------------------------------------------------
+Report for cell Counter_3_4_2.netlist
+  Original Cell name Counter_3_4
+     Instance path:  GEN_COUNTER.13.chain.ui
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AOI1         1       1.0        1.0
+                             DFN1E1        16       1.0       16.0
+                                GND         1       0.0        0.0
+                              NOR2A         2       1.0        2.0
+                              NOR2B         2       1.0        2.0
+                              NOR3B         5       1.0        5.0
+                              NOR3C         3       1.0        3.0
+                               OA1C         3       1.0        3.0
+                               OR2A         5       1.0        5.0
+                               OR2B         1       1.0        1.0
+                               OR3B         3       1.0        3.0
+                               OR3C         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                                XA1         2       1.0        2.0
+                               XA1A         9       1.0        9.0
+                            
+                         TOTAL             55                 53.0
+----------------------------------------------------------------------
+Report for cell Counter_3_4_1.netlist
+  Original Cell name Counter_3_4
+     Instance path:  GEN_COUNTER.40.chain.ui
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AO1B         1       1.0        1.0
+                               AOI1         1       1.0        1.0
+                             DFN1E1        16       1.0       16.0
+                                GND         1       0.0        0.0
+                              NOR2A         1       1.0        1.0
+                              NOR2B         7       1.0        7.0
+                              NOR3B         5       1.0        5.0
+                              NOR3C         9       1.0        9.0
+                               OA1C         3       1.0        3.0
+                               OR2A         5       1.0        5.0
+                               OR3B         3       1.0        3.0
+                               OR3C         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                                XA1         2       1.0        2.0
+                               XA1A         9       1.0        9.0
+                            
+                         TOTAL             65                 63.0
+----------------------------------------------------------------------
+Report for cell Counter_3_4_0.netlist
+  Original Cell name Counter_3_4
+     Instance path:  GEN_COUNTER.27.chain.ui
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AO1B         1       1.0        1.0
+                             DFN1E1        16       1.0       16.0
+                                GND         1       0.0        0.0
+                              NOR2A         2       1.0        2.0
+                              NOR2B         3       1.0        3.0
+                              NOR3A         1       1.0        1.0
+                              NOR3B         3       1.0        3.0
+                              NOR3C         3       1.0        3.0
+                               OA1B         1       1.0        1.0
+                               OA1C         3       1.0        3.0
+                               OAI1         1       1.0        1.0
+                                OR2         2       1.0        2.0
+                               OR2A         6       1.0        6.0
+                               OR2B         2       1.0        2.0
+                               OR3A         1       1.0        1.0
+                               OR3B         1       1.0        1.0
+                               OR3C         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                                XA1         2       1.0        2.0
+                               XA1A         9       1.0        9.0
+                            
+                         TOTAL             60                 58.0
+----------------------------------------------------------------------
+Report for cell Counter_3_4.netlist
+  Original Cell name Counter
+     Instance path:  GEN_COUNTER.14.chain.ui
+                                          Cell usage:
+                               cell       count     area    count*area
+                             DFN1E1        16       1.0       16.0
+                                GND         1       0.0        0.0
+                                MX2         1       1.0        1.0
+                               NOR2         1       1.0        1.0
+                              NOR2A         1       1.0        1.0
+                              NOR2B         3       1.0        3.0
+                              NOR3A         1       1.0        1.0
+                              NOR3B         5       1.0        5.0
+                              NOR3C         1       1.0        1.0
+                               OA1C         3       1.0        3.0
+                                OR2         5       1.0        5.0
+                               OR2A         5       1.0        5.0
+                               OR2B         7       1.0        7.0
+                                VCC         1       0.0        0.0
+                                XA1         1       1.0        1.0
+                               XA1A        10       1.0       10.0
+                            
+                         TOTAL             62                 60.0
+----------------------------------------------------------------------
+Report for cell Counter_74.netlist
+  Original Cell name Counter
+     Instance path:  GEN_COUNTER.0.first.u0
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AOI1         1       1.0        1.0
+                               DFN1        16       1.0       16.0
+                                GND         1       0.0        0.0
+                              NOR2A         1       1.0        1.0
+                              NOR2B         1       1.0        1.0
+                              NOR3B         3       1.0        3.0
+                              NOR3C         3       1.0        3.0
+                               OA1C         1       1.0        1.0
+                               OR2A         8       1.0        8.0
+                               OR2B         1       1.0        1.0
+                               OR3B         1       1.0        1.0
+                               OR3C         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                                XA1         2       1.0        2.0
+                               XA1A        11       1.0       11.0
+                            
+                         TOTAL             52                 50.0

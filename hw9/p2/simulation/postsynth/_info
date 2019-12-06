@@ -1,0 +1,133 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Microsemi_Prj/hw9/p2/simulation
+Efifo2x8
+Z1 w1575603019
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z4 8C:/Microsemi_Prj/hw9/p2/synthesis/fifo2x8.vhd
+Z5 FC:/Microsemi_Prj/hw9/p2/synthesis/fifo2x8.vhd
+l0
+L8
+Vg_B>Nnzgg^daJiMJ^2>F=1
+!s100 :Y?>ZAeVX??C6<L;DonjB0
+Z6 OW;C;10.5c;63
+33
+Z7 !s110 1575603024
+!i10b 1
+Z8 !s108 1575603024.000000
+Z9 !s90 -reportprogress|300|-2008|-explicit|-work|postsynth|C:/Microsemi_Prj/hw9/p2/synthesis/fifo2x8.vhd|
+Z10 !s107 C:/Microsemi_Prj/hw9/p2/synthesis/fifo2x8.vhd|
+!i113 1
+Z11 o-2008 -explicit -work postsynth -O0
+Z12 tCvgOpt 0
+Adef_arch
+R2
+R3
+DEx4 work 7 fifo2x8 0 22 g_B>Nnzgg^daJiMJ^2>F=1
+l171
+L28
+VXWD[QPVJE5YoBEUJNahMJ1
+!s100 _Y;_dK]UE[SfY]A16XHN<2
+R6
+33
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Efifo2x8_tb
+Z13 w1575427358
+Z14 DPx4 work 15 fifo_array_type 0 22 KE4hY=>W3Hb@7LF;_1JQV1
+Z15 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+R2
+R3
+R0
+Z16 8C:/Microsemi_Prj/hw9/p2/stimulus/fifo2x8_tb.vhd
+Z17 FC:/Microsemi_Prj/hw9/p2/stimulus/fifo2x8_tb.vhd
+l0
+L35
+VaJomTe4n``lSVMMIb17In2
+!s100 X5>?8k]87W`@AK269AMj=0
+R6
+33
+R7
+!i10b 1
+R8
+Z18 !s90 -reportprogress|300|-2008|-explicit|-work|postsynth|C:/Microsemi_Prj/hw9/p2/stimulus/fifo2x8_tb.vhd|
+!s107 C:/Microsemi_Prj/hw9/p2/stimulus/fifo2x8_tb.vhd|
+!i113 1
+R11
+R12
+Abehavioral
+DEx4 work 7 fifo2x8 0 22 gQ=9ScLbXL^C@3_`k=[Dn2
+R15
+R2
+R3
+DEx4 work 10 fifo2x8_tb 0 22 U;92^BaF7WAdB8eJnIdES0
+l55
+L36
+V[^Q6R]BCFD_Ml9zYjXHJk1
+!s100 goFOIb5CmA6`@N>DIcVWC2
+R6
+33
+!s110 1575426124
+!i10b 1
+!s108 1575426124.000000
+R18
+!s107 C:/Microsemi_Prj/hw9/p2/stimulus/fifo2x8_tb.vhd|
+!i113 1
+R11
+R12
+Pfifo_array_type
+R15
+R2
+R3
+Z19 w1575427140
+R0
+Z20 8C:/Microsemi_Prj/hw9/p2/hdl/fifo_array_type.vhd
+Z21 FC:/Microsemi_Prj/hw9/p2/hdl/fifo_array_type.vhd
+l0
+L24
+VKE4hY=>W3Hb@7LF;_1JQV1
+!s100 iaX01_YEkgCJL]iCaSi:>1
+R6
+33
+R7
+!i10b 1
+R8
+Z22 !s90 -reportprogress|300|-2008|-explicit|-work|postsynth|C:/Microsemi_Prj/hw9/p2/hdl/fifo_array_type.vhd|
+Z23 !s107 C:/Microsemi_Prj/hw9/p2/hdl/fifo_array_type.vhd|
+!i113 1
+R11
+R12
+Bbody
+R14
+R15
+R2
+R3
+l0
+L28
+VKdo[UJQ7Q4ig;lUUlz0N63
+!s100 4TR4<cI0AZd^?XUSFIRnL1
+R6
+33
+R7
+!i10b 1
+R8
+R22
+R23
+!i113 1
+R11
+R12

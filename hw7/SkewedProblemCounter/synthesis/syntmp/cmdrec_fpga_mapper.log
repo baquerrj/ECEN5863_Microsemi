@@ -1,0 +1,15 @@
+C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\bin64\m_proasic.exe  -prodtype  synplify_pro   -encrypt  -pro  -rundir  C:\Microsemi_Prj\hw7\SkewedProblemCounter\synthesis   -part A2F200M3F  -package FBGA484  -grade STD    -globalthreshold 50 -maxfan 24 -opcond COMWC -report_path 4000 -RWCheckOnRam 0 -summaryfile C:\Microsemi_Prj\hw7\SkewedProblemCounter\synthesis\synlog\report\top_level_counter_fpga_mapper.xml  -top_level_module  top_level_counter  -licensetype  synplifypro_actel  -flow mapping  -mp  4  -prjfile  C:\Microsemi_Prj\hw7\SkewedProblemCounter\synthesis\scratchproject.prs  -implementation  synthesis  -multisrs  -oedif  C:\Microsemi_Prj\hw7\SkewedProblemCounter\synthesis\top_level_counter.edn   -freq 100.000   C:\Microsemi_Prj\hw7\SkewedProblemCounter\synthesis\synwork\top_level_counter_prem.srd  -sap  C:\Microsemi_Prj\hw7\SkewedProblemCounter\synthesis\top_level_counter.sap  -otap  C:\Microsemi_Prj\hw7\SkewedProblemCounter\synthesis\top_level_counter.tap  -omap  C:\Microsemi_Prj\hw7\SkewedProblemCounter\synthesis\top_level_counter.map  -devicelib  C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\proasic\smartfusion.v  -sap  C:\Microsemi_Prj\hw7\SkewedProblemCounter\synthesis\top_level_counter.sap  -ologparam  C:\Microsemi_Prj\hw7\SkewedProblemCounter\synthesis\syntmp\top_level_counter.plg  -osyn  C:\Microsemi_Prj\hw7\SkewedProblemCounter\synthesis\top_level_counter.srm  -prjdir  C:\Microsemi_Prj\hw7\SkewedProblemCounter\synthesis\  -prjname  top_level_counter_syn  -log  C:\Microsemi_Prj\hw7\SkewedProblemCounter\synthesis\synlog\top_level_counter_fpga_mapper.srr 
+rc:1 success:1 runtime:1
+file:C:\Microsemi_Prj\hw7\SkewedProblemCounter\synthesis\scratchproject.prs|io:o|time:1572820558|size:2008|exec:0
+file:C:\Microsemi_Prj\hw7\SkewedProblemCounter\synthesis\top_level_counter.edn|io:o|time:1572823583|size:43947|exec:0
+file:C:\Microsemi_Prj\hw7\SkewedProblemCounter\synthesis\synwork\top_level_counter_prem.srd|io:i|time:1572823582|size:6237|exec:0
+file:C:\Microsemi_Prj\hw7\SkewedProblemCounter\synthesis\top_level_counter.sap|io:o|time:1572823582|size:1504|exec:0
+file:C:\Microsemi_Prj\hw7\SkewedProblemCounter\synthesis\top_level_counter.tap|io:o|time:0|size:0|exec:0
+file:C:\Microsemi_Prj\hw7\SkewedProblemCounter\synthesis\top_level_counter.map|io:o|time:1572823583|size:28|exec:0
+file:C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\proasic\smartfusion.v|io:i|time:1487966850|size:72817|exec:0
+file:C:\Microsemi_Prj\hw7\SkewedProblemCounter\synthesis\top_level_counter.sap|io:o|time:1572823582|size:1504|exec:0
+file:C:\Microsemi_Prj\hw7\SkewedProblemCounter\synthesis\syntmp\top_level_counter.plg|io:o|time:1572823583|size:1401|exec:0
+file:C:\Microsemi_Prj\hw7\SkewedProblemCounter\synthesis\top_level_counter.srm|io:o|time:1572823583|size:66274|exec:0
+file:C:\Microsemi_Prj\hw7\SkewedProblemCounter\synthesis\synlog\top_level_counter_fpga_mapper.srr|io:o|time:1572823583|size:27190|exec:0
+file:C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\bin\m_proasic.exe|io:i|time:1479399434|size:10978304|exec:1
+file:C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\bin64\m_proasic.exe|io:i|time:1479400840|size:14125056|exec:1

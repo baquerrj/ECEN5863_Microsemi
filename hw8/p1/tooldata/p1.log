@@ -1,0 +1,16 @@
+Project Name: p1
+Location: C:\Microsemi_Prj\hw8\p1
+Description: Asynchronous Data Source and Data Sink 
+Preferred HDL Type: VHDL
+
+#-----------------------------------------------------
+                  Device Details
+#-----------------------------------------------------
+
+Part Number    : A2F200M3F-FG484
+Family         : SmartFusion
+Die            : A2F200M3F
+Package        : 484 FBGA
+Speed          : STD
+Core Voltage   : 1.5
+Range          : COM

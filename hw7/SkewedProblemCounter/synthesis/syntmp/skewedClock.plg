@@ -1,0 +1,24 @@
+@P:  Worst Slack : 7.089
+@P:  skewedClock|CLK - Estimated Frequency : 343.5 MHz
+@P:  skewedClock|CLK - Requested Frequency : 100.0 MHz
+@P:  skewedClock|CLK - Estimated Period : 2.911
+@P:  skewedClock|CLK - Requested Period : 10.000
+@P:  skewedClock|CLK - Slack : 7.089
+@P:  skewedClock|sQ0_inferred_clock - Estimated Frequency : 343.5 MHz
+@P:  skewedClock|sQ0_inferred_clock - Requested Frequency : 100.0 MHz
+@P:  skewedClock|sQ0_inferred_clock - Estimated Period : 2.911
+@P:  skewedClock|sQ0_inferred_clock - Requested Period : 10.000
+@P:  skewedClock|sQ0_inferred_clock - Slack : 7.089
+@P:  skewedClock|sQ1_inferred_clock - Estimated Frequency : 343.5 MHz
+@P:  skewedClock|sQ1_inferred_clock - Requested Frequency : 100.0 MHz
+@P:  skewedClock|sQ1_inferred_clock - Estimated Period : 2.911
+@P:  skewedClock|sQ1_inferred_clock - Requested Period : 10.000
+@P:  skewedClock|sQ1_inferred_clock - Slack : 7.089
+@P:  skewedClock|sQ2_inferred_clock - Estimated Frequency : 401.6 MHz
+@P:  skewedClock|sQ2_inferred_clock - Requested Frequency : 100.0 MHz
+@P:  skewedClock|sQ2_inferred_clock - Estimated Period : 2.490
+@P:  skewedClock|sQ2_inferred_clock - Requested Period : 10.000
+@P:  skewedClock|sQ2_inferred_clock - Slack : 7.510
+@P:  Total Area : 8.0
+@P:  Total Area : 8.0
+@P:  CPU Time : 0h:00m:00s

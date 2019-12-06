@@ -1,0 +1,21 @@
+********************************************************************
+                            Global Usage Report
+********************************************************************
+  
+Product: Designer
+Release: v11.8
+Version: 11.8.0.26
+Date: Sun Nov 10 17:09:41 2019
+Design Name: CDC3FF  Family: SmartFusion  Die: A2F200M3F  Package: 484 FBGA
+Design State: Post-Layout
+
+The following nets have been routed to a chip global resource:
+
+    Fanout            Name
+    ----------------------
+    3                 Net   : Aclk_c
+                      Driver: Aclk_pad/U0/U1/U_GL
+
+
+
+

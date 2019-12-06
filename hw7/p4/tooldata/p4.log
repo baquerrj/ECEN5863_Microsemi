@@ -1,0 +1,16 @@
+Project Name: p4
+Location: C:\Microsemi_Prj\hw7\p4
+Description: 
+Preferred HDL Type: Verilog
+
+#-----------------------------------------------------
+                  Device Details
+#-----------------------------------------------------
+
+Part Number    : A2F500M3G-1PQ208I
+Family         : SmartFusion
+Die            : A2F500M3G
+Package        : 208 PQFP
+Speed          : -1
+Core Voltage   : 1.5
+Range          : IND

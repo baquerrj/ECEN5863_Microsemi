@@ -1,0 +1,76 @@
+#OPTIONS:"|-layerid|0|-orig_srs|C:\\Microsemi_Prj\\hw8\\p1\\synthesis\\synwork\\CDC3FF_MSS_comp.srs|-top|work.CDC3FF_MSS|-prodtype|synplify_pro|-nram|-fixsmult|-divnmod|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-vhdl2008|-ignore_undefined_lib|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work"
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.8\\SynplifyPro\\bin64\\c_vhdl.exe":1480003892
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.8\\SynplifyPro\\lib\\vhd2008\\location.map":1478829588
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.8\\SynplifyPro\\lib\\vhd2008\\std.vhd":1487966986
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.8\\SynplifyPro\\lib\\vhd\\snps_haps_pkg.vhd":1487966854
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.8\\SynplifyPro\\lib\\vhd2008\\std1164.vhd":1487966986
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.8\\SynplifyPro\\lib\\vhd2008\\std_textio.vhd":1487966986
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.8\\SynplifyPro\\lib\\vhd2008\\numeric.vhd":1487966986
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.8\\SynplifyPro\\lib\\vhd\\umr_capim.vhd":1487966854
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.8\\SynplifyPro\\lib\\vhd2008\\arith.vhd":1487966986
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.8\\SynplifyPro\\lib\\vhd2008\\unsigned.vhd":1487966986
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.8\\SynplifyPro\\lib\\vhd\\hyperents.vhd":1487966854
+#CUR:"C:\\Microsemi_Prj\\hw8\\p1\\hdl\\CDC3FF.vhd":1573414053
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.8\\SynplifyPro\\lib\\proasic\\smartfusion.vhd":1487966850
+#CUR:"C:\\Microsemi_Prj\\hw8\\p1\\component\\work\\clk_source_MSS\\mss_tshell.vhd":1573421653
+#CUR:"C:\\Microsemi_Prj\\hw8\\p1\\component\\Actel\\SmartFusionMSS\\MSS\\2.5.200\\mss_comps.vhd":1573414607
+#CUR:"C:\\Microsemi_Prj\\hw8\\p1\\component\\work\\clk_source_MSS\\MSS_CCC_0\\clk_source_MSS_tmp_MSS_CCC_0_MSS_CCC.vhd":1573421649
+#CUR:"C:\\Microsemi_Prj\\hw8\\p1\\component\\work\\clk_source_MSS\\clk_source_MSS.vhd":1573421655
+#CUR:"C:\\Microsemi_Prj\\hw8\\p1\\component\\work\\CDC3FF_MSS\\CDC3FF_MSS.vhd":1573420411
+0			"C:\Microsemi_Prj\hw8\p1\hdl\CDC3FF.vhd" vhdl
+1			"C:\Microsemi_Prj\hw8\p1\component\work\clk_source_MSS\mss_tshell.vhd" vhdl
+2			"C:\Microsemi_Prj\hw8\p1\component\Actel\SmartFusionMSS\MSS\2.5.200\mss_comps.vhd" vhdl
+3			"C:\Microsemi_Prj\hw8\p1\component\work\clk_source_MSS\MSS_CCC_0\clk_source_MSS_tmp_MSS_CCC_0_MSS_CCC.vhd" vhdl
+4			"C:\Microsemi_Prj\hw8\p1\component\work\clk_source_MSS\clk_source_MSS.vhd" vhdl
+5			"C:\Microsemi_Prj\hw8\p1\component\work\CDC3FF_MSS\CDC3FF_MSS.vhd" vhdl
+#Dependency Lists(Uses List)
+0 -1
+1 -1
+2 -1
+3 2
+4 3 1
+5 4 0
+#Dependency Lists(Users Of)
+0 5
+1 4
+2 3
+3 4
+4 5
+5 -1
+#Design Unit to File Association
+module work cdc3ff_mss 5
+arch work cdc3ff_mss rtl 5
+module work clk_source_mss 4
+arch work clk_source_mss rtl 4
+module work clk_source_mss_tmp_mss_ccc_0_mss_ccc 3
+arch work clk_source_mss_tmp_mss_ccc_0_mss_ccc def_arch 3
+module work inbuf_mss 2
+arch work inbuf_mss def_arch 2
+module work outbuf_mss 2
+arch work outbuf_mss def_arch 2
+module work tribuff_mss 2
+arch work tribuff_mss def_arch 2
+module work bibuf_mss 2
+arch work bibuf_mss def_arch 2
+module work bibuf_opend_mss 2
+arch work bibuf_opend_mss def_arch 2
+module work inbuf_mccc 2
+arch work inbuf_mccc def_arch 2
+module work inbuf_lvpecl_mccc 2
+arch work inbuf_lvpecl_mccc def_arch 2
+module work inbuf_lvds_mccc 2
+arch work inbuf_lvds_mccc def_arch 2
+module work mssint 2
+arch work mssint def_arch 2
+module work mss_all 2
+arch work mss_all def_arch 2
+module work mss_xtlosc 2
+arch work mss_xtlosc def_arch 2
+module work mss_lpxtlosc 2
+arch work mss_lpxtlosc def_arch 2
+module work mss_ccc 2
+arch work mss_ccc def_arch 2
+module work mss_apb 1
+arch work mss_apb def_arch 1
+module work cdc3ff 0
+arch work cdc3ff cdc3ff_arch 0

@@ -1,0 +1,10 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CD720 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vhd2008\std.vhd":146:18:146:21|Setting time resolution to ps
+@N:"C:\Microsemi_Prj\hw9\p2\hdl\fifo2x8.vhd":31:7:31:13|Top entity is set to fifo2x8.
+@N: CD231 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vhd2008\std1164.vhd":890:16:890:17|Using onehot encoding for type mvl9plus. For example, enumeration 'U' is mapped to "1000000000".
+@N: CD630 :"C:\Microsemi_Prj\hw9\p2\hdl\fifo2x8.vhd":31:7:31:13|Synthesizing work.fifo2x8.archfifo2x8.
+@N: CD364 :"C:\Microsemi_Prj\hw9\p2\hdl\fifo2x8.vhd":75:4:75:7|Removing redundant assignment.
+@N: CD364 :"C:\Microsemi_Prj\hw9\p2\hdl\fifo2x8.vhd":89:9:89:16|Removing redundant assignment.
+@N|Running in 64-bit mode
+

@@ -1,0 +1,211 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Microsemi_Prj/hw9/p1a/simulation
+vcounter
+Z1 !s110 1575305076
+!i10b 1
+!s100 I26;E6?GK_PLVgZ?0IUYB1
+I3f@8^3MH?6Yn_Oe`g22NL0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1575305072
+Z4 8C:/Microsemi_Prj/hw9/p1a/synthesis/Handshake.v
+Z5 FC:/Microsemi_Prj/hw9/p1a/synthesis/Handshake.v
+L0 5
+Z6 OW;L;10.5c;63
+r1
+!s85 0
+31
+Z7 !s108 1575305076.000000
+Z8 !s107 C:/Microsemi_Prj/hw9/p1a/synthesis/Handshake.v|
+Z9 !s90 -reportprogress|300|-vlog01compat|-work|postsynth|C:/Microsemi_Prj/hw9/p1a/synthesis/Handshake.v|
+!s101 -O0
+!i113 1
+Z10 o-vlog01compat -work postsynth -O0
+Z11 tCvgOpt 0
+vHandshake
+R1
+!i10b 1
+!s100 ZCQbP8El3bck_4BFhd:EI0
+IQn^bY7_^@hmL]:m0G?jcP0
+R2
+R0
+R3
+R4
+R5
+L0 400
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!s101 -O0
+!i113 1
+R10
+R11
+n@handshake
+vHandshake_tb
+R1
+!i10b 1
+!s100 Ml3Yfa?7:U62<_MkjK9i@3
+IXAoa;G3QM2ZFhamzf:YK13
+R2
+R0
+w1575301131
+8C:/Microsemi_Prj/hw9/p1a/stimulus/Handshake_tb.v
+FC:/Microsemi_Prj/hw9/p1a/stimulus/Handshake_tb.v
+L0 33
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/Microsemi_Prj/hw9/p1a/stimulus/Handshake_tb.v|
+!s90 -reportprogress|300|+incdir+C:/Microsemi_Prj/hw9/p1a/stimulus|-vlog01compat|-work|postsynth|C:/Microsemi_Prj/hw9/p1a/stimulus/Handshake_tb.v|
+!s101 -O0
+!i113 1
+R10
+!s92 +incdir+C:/Microsemi_Prj/hw9/p1a/stimulus -vlog01compat -work postsynth -O0
+R11
+n@handshake_tb
+vreceiver
+R1
+!i10b 1
+!s100 l>OjB09>Jj_eKj@P9I_jM2
+IBk]WMGh0gk@Ha:DORf>H:1
+R2
+R0
+R3
+R4
+R5
+L0 132
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!s101 -O0
+!i113 1
+R10
+R11
+vreceiver_fsm
+R1
+!i10b 1
+!s100 ?G6[1d2ci3_k<n2^SF<iN0
+IVnPOHf8VZn8A1=4bH`5IK2
+R2
+R0
+R3
+R4
+R5
+L0 90
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!s101 -O0
+!i113 1
+R10
+R11
+vsender
+R1
+!i10b 1
+!s100 8mdZ1Q4>P1]RzX5bIJOkd2
+I<Uzj3kM9?]kgE]_ekmzfc1
+R2
+R0
+R3
+R4
+R5
+L0 266
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!s101 -O0
+!i113 1
+R10
+R11
+vsender_fsm
+R1
+!i10b 1
+!s100 bFK42A>01z9hCEIV]HLH33
+IYVVEiT21oLYb@DkzzYkTg0
+R2
+R0
+R3
+R4
+R5
+L0 220
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!s101 -O0
+!i113 1
+R10
+R11
+vsynchronizer_0
+R1
+!i10b 1
+!s100 [1UfzWNZGIDgJhBd?3hgR2
+IKi<hPad?H>12DD^n@Nl<d1
+R2
+R0
+R3
+R4
+R5
+L0 67
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!s101 -O0
+!i113 1
+R10
+R11
+vsynchronizer_1
+R1
+!i10b 1
+!s100 :f^U;e^X7cXU?BDfk[>^e1
+IiRT2FPMF[<JT7W3m[EX7M0
+R2
+R0
+R3
+R4
+R5
+L0 377
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!s101 -O0
+!i113 1
+R10
+R11

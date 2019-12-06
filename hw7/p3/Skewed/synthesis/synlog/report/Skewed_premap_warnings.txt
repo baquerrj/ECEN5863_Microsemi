@@ -1,0 +1,1 @@
+@W: MT530 :"c:\microsemi_prj\hw7\p3\skewed\hdl\skewed.v":29:0:29:5|Found inferred clock Skewed|clk which controls 16 sequential elements including q[15:0]. This clock has no specified timing constraint which may adversely impact design performance. 

@@ -1,0 +1,8 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CG364 :"C:\Microsemi_Prj\hw9\p1a\hdl\counter.v":3:7:3:13|Synthesizing module Counter in library work.
+@N: CG364 :"C:\Microsemi_Prj\hw9\p1a\hdl\DataSource.v":3:7:3:16|Synthesizing module DataSource in library work.
+@N: CG364 :"C:\Microsemi_Prj\hw9\p1a\hdl\SourceSM.v":21:7:21:14|Synthesizing module SourceSM in library work.
+@N: CL201 :"C:\Microsemi_Prj\hw9\p1a\hdl\SourceSM.v":42:0:42:5|Trying to extract state machine for register state.
+@N|Running in 64-bit mode
+

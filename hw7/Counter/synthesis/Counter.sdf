@@ -1,0 +1,218 @@
+(DELAYFILE
+(SDFVERSION "OVI 2.1")
+(DESIGN "Counter")
+(DATE "123")
+(VENDOR "ProASIC3")
+(PROGRAM "Synplify")
+(VERSION "mapact, Build 1920R")
+(DIVIDER /)
+(VOLTAGE 2.500000:2.500000:2.500000)
+(PROCESS "TYPICAL")
+(TEMPERATURE 70.000000:70.000000:70.000000)
+(TIMESCALE 1ns)
+(CELL
+  (CELLTYPE "Counter")
+  (INSTANCE)
+  (TIMINGCHECK
+
+    (PATHCONSTRAINT count\[5\]/CLK  count\[5\]/Q  count_n7_i_60_m1_0_a2_0/B  count_n7_i_60_m1_0_a2_0/Y  count_n10_0_o2_m5_0_a2_5/C  count_n10_0_o2_m5_0_a2_5/Y  count_n10_0_o2_m5_0_a2/A  count_n10_0_o2_m5_0_a2/Y  count_n11_0_o2/A  count_n11_0_o2/Y  count_n12_0_o2/B  count_n12_0_o2/Y  count_n12_0/S  count_n12_0/Y  count\[12\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[7\]/CLK  count\[7\]/Q  count_n10_0_o2_m5_0_a2_1/B  count_n10_0_o2_m5_0_a2_1/Y  count_n10_0_o2_m5_0_a2_4/C  count_n10_0_o2_m5_0_a2_4/Y  count_n10_0_o2_m5_0_a2/B  count_n10_0_o2_m5_0_a2/Y  count_n11_0_o2/A  count_n11_0_o2/Y  count_n12_0_o2/B  count_n12_0_o2/Y  count_n12_0/S  count_n12_0/Y  count\[12\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[6\]/CLK  count\[6\]/Q  count_n7_i_60_m1_0_a2_0/A  count_n7_i_60_m1_0_a2_0/Y  count_n10_0_o2_m5_0_a2_5/C  count_n10_0_o2_m5_0_a2_5/Y  count_n10_0_o2_m5_0_a2/A  count_n10_0_o2_m5_0_a2/Y  count_n11_0_o2/A  count_n11_0_o2/Y  count_n12_0_o2/B  count_n12_0_o2/Y  count_n12_0/S  count_n12_0/Y  count\[12\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[4\]/CLK  count\[4\]/Q  count_n10_0_o2_m5_0_a2_1/A  count_n10_0_o2_m5_0_a2_1/Y  count_n10_0_o2_m5_0_a2_4/C  count_n10_0_o2_m5_0_a2_4/Y  count_n10_0_o2_m5_0_a2/B  count_n10_0_o2_m5_0_a2/Y  count_n11_0_o2/A  count_n11_0_o2/Y  count_n12_0_o2/B  count_n12_0_o2/Y  count_n12_0/S  count_n12_0/Y  count\[12\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[5\]/CLK  count\[5\]/Q  count_n7_i_60_m1_0_a2_0/B  count_n7_i_60_m1_0_a2_0/Y  count_n10_0_o2_m5_0_a2_5/C  count_n10_0_o2_m5_0_a2_5/Y  count_n10_0_o2_m5_0_a2/A  count_n10_0_o2_m5_0_a2/Y  count_n14_0_a2/B  count_n14_0_a2/Y  count_n14_0/A  count_n14_0/Y  count\[14\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[0\]/CLK  count\[0\]/Q  count_n2_i_o2/B  count_n2_i_o2/Y  count_n10_0_o2_m5_0_a2/C  count_n10_0_o2_m5_0_a2/Y  count_n11_0_o2/A  count_n11_0_o2/Y  count_n12_0_o2/B  count_n12_0_o2/Y  count_n12_0/S  count_n12_0/Y  count\[12\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[5\]/CLK  count\[5\]/Q  count_n7_i_60_m1_0_a2_0/B  count_n7_i_60_m1_0_a2_0/Y  count_n10_0_o2_m5_0_a2_5/C  count_n10_0_o2_m5_0_a2_5/Y  count_n10_0_o2_m5_0_a2/A  count_n10_0_o2_m5_0_a2/Y  count_n14_0_a2_0/A  count_n14_0_a2_0/Y  count_n14_0/B  count_n14_0/Y  count\[14\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[5\]/CLK  count\[5\]/Q  count_n7_i_60_m1_0_a2_0/B  count_n7_i_60_m1_0_a2_0/Y  count_n10_0_o2_m5_0_a2_5/C  count_n10_0_o2_m5_0_a2_5/Y  count_n10_0_o2_m5_0_a2/A  count_n10_0_o2_m5_0_a2/Y  count_n13_0_o2_m1_0_a2/C  count_n13_0_o2_m1_0_a2/Y  count_n13_0/S  count_n13_0/Y  count\[13\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[5\]/CLK  count\[5\]/Q  count_n7_i_60_m1_0_a2_0/B  count_n7_i_60_m1_0_a2_0/Y  count_n10_0_o2_m5_0_a2_5/C  count_n10_0_o2_m5_0_a2_5/Y  count_n10_0_o2_m5_0_a2/A  count_n10_0_o2_m5_0_a2/Y  count_n11_0_o2/A  count_n11_0_o2/Y  count_n11_0/S  count_n11_0/Y  count\[11\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[5\]/CLK  count\[5\]/Q  count_n7_i_60_m1_0_a2_0/B  count_n7_i_60_m1_0_a2_0/Y  count_n10_0_o2_m5_0_a2_5/C  count_n10_0_o2_m5_0_a2_5/Y  count_n10_0_o2_m5_0_a2/A  count_n10_0_o2_m5_0_a2/Y  count_n15_0_o2/A  count_n15_0_o2/Y  count_n15_0/S  count_n15_0/Y  count\[15\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[9\]/CLK  count\[9\]/Q  count_n10_0_o2_m5_0_a2_4/B  count_n10_0_o2_m5_0_a2_4/Y  count_n10_0_o2_m5_0_a2/B  count_n10_0_o2_m5_0_a2/Y  count_n11_0_o2/A  count_n11_0_o2/Y  count_n12_0_o2/B  count_n12_0_o2/Y  count_n12_0/S  count_n12_0/Y  count\[12\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[1\]/CLK  count\[1\]/Q  count_n2_i_o2/A  count_n2_i_o2/Y  count_n10_0_o2_m5_0_a2/C  count_n10_0_o2_m5_0_a2/Y  count_n11_0_o2/A  count_n11_0_o2/Y  count_n12_0_o2/B  count_n12_0_o2/Y  count_n12_0/S  count_n12_0/Y  count\[12\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[3\]/CLK  count\[3\]/Q  count_n10_0_o2_m5_0_a2_5/B  count_n10_0_o2_m5_0_a2_5/Y  count_n10_0_o2_m5_0_a2/A  count_n10_0_o2_m5_0_a2/Y  count_n11_0_o2/A  count_n11_0_o2/Y  count_n12_0_o2/B  count_n12_0_o2/Y  count_n12_0/S  count_n12_0/Y  count\[12\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[5\]/CLK  count\[5\]/Q  count_n7_i_60_m1_0_a2_0/B  count_n7_i_60_m1_0_a2_0/Y  count_n10_0_o2_m5_0_a2_5/C  count_n10_0_o2_m5_0_a2_5/Y  count_n10_0_o2_m5_0_a2/A  count_n10_0_o2_m5_0_a2/Y  count_n10_0/B  count_n10_0/Y  count\[10\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[2\]/CLK  count\[2\]/Q  count_n10_0_o2_m5_0_a2_5/A  count_n10_0_o2_m5_0_a2_5/Y  count_n10_0_o2_m5_0_a2/A  count_n10_0_o2_m5_0_a2/Y  count_n11_0_o2/A  count_n11_0_o2/Y  count_n12_0_o2/B  count_n12_0_o2/Y  count_n12_0/S  count_n12_0/Y  count\[12\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[0\]/CLK  count\[0\]/Q  count_n2_i_o2/B  count_n2_i_o2/Y  count_n5_i_o2_m1_0_a2/B  count_n5_i_o2_m1_0_a2/Y  count_n8_i_m2_i/B  count_n8_i_m2_i/Y  count_n8_i_m4/B  count_n8_i_m4/Y  count\[8\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[8\]/CLK  count\[8\]/Q  count_n10_0_o2_m5_0_a2_4/A  count_n10_0_o2_m5_0_a2_4/Y  count_n10_0_o2_m5_0_a2/B  count_n10_0_o2_m5_0_a2/Y  count_n11_0_o2/A  count_n11_0_o2/Y  count_n12_0_o2/B  count_n12_0_o2/Y  count_n12_0/S  count_n12_0/Y  count\[12\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[0\]/CLK  count\[0\]/Q  count_n2_i_o2/B  count_n2_i_o2/Y  count_n5_i_o2_m1_0_a2/B  count_n5_i_o2_m1_0_a2/Y  count_n6_i_o2/B  count_n6_i_o2/Y  count_n6_i/A  count_n6_i/Y  count\[6\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[0\]/CLK  count\[0\]/Q  count_n2_i_o2/B  count_n2_i_o2/Y  count_n5_i_o2_m1_0_a2/B  count_n5_i_o2_m1_0_a2/Y  count_n7_i_60_m1_0_a2/B  count_n7_i_60_m1_0_a2/Y  count_n7_i/A  count_n7_i/Y  count\[7\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[0\]/CLK  count\[0\]/Q  count_n2_i_o2/B  count_n2_i_o2/Y  count_n3_i_o2/B  count_n3_i_o2/Y  count_n4_i_a2/B  count_n4_i_a2/Y  count_n4_i/C  count_n4_i/Y  count\[4\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[2\]/CLK  count\[2\]/Q  count_n5_i_o2_m1_0_a2_1/C  count_n5_i_o2_m1_0_a2_1/Y  count_n5_i_o2_m1_0_a2/A  count_n5_i_o2_m1_0_a2/Y  count_n8_i_m2_i/B  count_n8_i_m2_i/Y  count_n8_i_m4/B  count_n8_i_m4/Y  count\[8\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[3\]/CLK  count\[3\]/Q  count_n5_i_o2_m1_0_a2_1/A  count_n5_i_o2_m1_0_a2_1/Y  count_n5_i_o2_m1_0_a2/A  count_n5_i_o2_m1_0_a2/Y  count_n8_i_m2_i/B  count_n8_i_m2_i/Y  count_n8_i_m4/B  count_n8_i_m4/Y  count\[8\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[4\]/CLK  count\[4\]/Q  count_n5_i_o2_m1_0_a2_1/B  count_n5_i_o2_m1_0_a2_1/Y  count_n5_i_o2_m1_0_a2/A  count_n5_i_o2_m1_0_a2/Y  count_n8_i_m2_i/B  count_n8_i_m2_i/Y  count_n8_i_m4/B  count_n8_i_m4/Y  count\[8\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[5\]/CLK  count\[5\]/Q  count_n9_0_o2_m4_0_a2_2/B  count_n9_0_o2_m4_0_a2_2/Y  count_n9_0_o2_m4_0_a2_4/C  count_n9_0_o2_m4_0_a2_4/Y  count_n9_0_o2_m4_0_a2/A  count_n9_0_o2_m4_0_a2/Y  count_n9_0/B  count_n9_0/Y  count\[9\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[11\]/CLK  count\[11\]/Q  count_n14_0_o2_m1_0_a2_1/A  count_n14_0_o2_m1_0_a2_1/Y  count_n14_0_o2_m1_0_a2_2/C  count_n14_0_o2_m1_0_a2_2/Y  count_n14_0_a2/A  count_n14_0_a2/Y  count_n14_0/A  count_n14_0/Y  count\[14\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[10\]/CLK  count\[10\]/Q  count_n14_0_o2_m1_0_a2_1/B  count_n14_0_o2_m1_0_a2_1/Y  count_n14_0_o2_m1_0_a2_2/C  count_n14_0_o2_m1_0_a2_2/Y  count_n14_0_a2/A  count_n14_0_a2/Y  count_n14_0/A  count_n14_0/Y  count\[14\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[0\]/CLK  count\[0\]/Q  count_n2_i_o2/B  count_n2_i_o2/Y  count_n5_i_o2_m1_0_a2/B  count_n5_i_o2_m1_0_a2/Y  count_n4_i/B  count_n4_i/Y  count\[4\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[0\]/CLK  count\[0\]/Q  count_n2_i_o2/B  count_n2_i_o2/Y  count_n5_i_o2_m1_0_a2/B  count_n5_i_o2_m1_0_a2/Y  count_n5_i/A  count_n5_i/Y  count\[5\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[11\]/CLK  count\[11\]/Q  count_n14_0_o2_m1_0_a2_1/A  count_n14_0_o2_m1_0_a2_1/Y  count_n14_0_o2_m1_0_a2_2/C  count_n14_0_o2_m1_0_a2_2/Y  count_n15_0_o2/B  count_n15_0_o2/Y  count_n15_0/S  count_n15_0/Y  count\[15\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[2\]/CLK  count\[2\]/Q  count_n9_0_o2_m4_0_a2_2/A  count_n9_0_o2_m4_0_a2_2/Y  count_n9_0_o2_m4_0_a2_4/C  count_n9_0_o2_m4_0_a2_4/Y  count_n9_0_o2_m4_0_a2/A  count_n9_0_o2_m4_0_a2/Y  count_n9_0/B  count_n9_0/Y  count\[9\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[5\]/CLK  count\[5\]/Q  count_n9_0_o2_m4_0_a2_2/B  count_n9_0_o2_m4_0_a2_2/Y  count_n9_0_o2_m4_0_a2_4/C  count_n9_0_o2_m4_0_a2_4/Y  count_n9_0_o2_m4_0_a2/A  count_n9_0_o2_m4_0_a2/Y  count_n8_i_m4/C  count_n8_i_m4/Y  count\[8\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[0\]/CLK  count\[0\]/Q  count_n2_i_o2/B  count_n2_i_o2/Y  count_n9_0_o2_m4_0_a2/C  count_n9_0_o2_m4_0_a2/Y  count_n9_0/B  count_n9_0/Y  count\[9\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[0\]/CLK  count\[0\]/Q  count_n2_i_o2/B  count_n2_i_o2/Y  count_n3_i_o2/B  count_n3_i_o2/Y  count_n3_i/A  count_n3_i/Y  count\[3\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[3\]/CLK  count\[3\]/Q  count_n9_0_o2_m4_0_a2_4/A  count_n9_0_o2_m4_0_a2_4/Y  count_n9_0_o2_m4_0_a2/A  count_n9_0_o2_m4_0_a2/Y  count_n9_0/B  count_n9_0/Y  count\[9\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[7\]/CLK  count\[7\]/Q  count_n9_0_o2_m4_0_a2_4/B  count_n9_0_o2_m4_0_a2_4/Y  count_n9_0_o2_m4_0_a2/A  count_n9_0_o2_m4_0_a2/Y  count_n9_0/B  count_n9_0/Y  count\[9\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[6\]/CLK  count\[6\]/Q  count_n9_0_o2_m4_0_a2_3/C  count_n9_0_o2_m4_0_a2_3/Y  count_n9_0_o2_m4_0_a2/B  count_n9_0_o2_m4_0_a2/Y  count_n9_0/B  count_n9_0/Y  count\[9\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[13\]/CLK  count\[13\]/Q  count_n14_0_o2_m1_0_a2_2/B  count_n14_0_o2_m1_0_a2_2/Y  count_n14_0_a2/A  count_n14_0_a2/Y  count_n14_0/A  count_n14_0/Y  count\[14\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[9\]/CLK  count\[9\]/Q  count_n14_0_a2_0_0_0/B  count_n14_0_a2_0_0_0/Y  count_n14_0_a2_0/C  count_n14_0_a2_0/Y  count_n14_0/B  count_n14_0/Y  count\[14\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[12\]/CLK  count\[12\]/Q  count_n14_0_o2_m1_0_a2_2/A  count_n14_0_o2_m1_0_a2_2/Y  count_n14_0_a2/A  count_n14_0_a2/Y  count_n14_0/A  count_n14_0/Y  count\[14\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[4\]/CLK  count\[4\]/Q  count_n9_0_o2_m4_0_a2_3/A  count_n9_0_o2_m4_0_a2_3/Y  count_n9_0_o2_m4_0_a2/B  count_n9_0_o2_m4_0_a2/Y  count_n9_0/B  count_n9_0/Y  count\[9\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[2\]/CLK  count\[2\]/Q  count_n3_i_o2/A  count_n3_i_o2/Y  count_n4_i_a2/B  count_n4_i_a2/Y  count_n4_i/C  count_n4_i/Y  count\[4\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[8\]/CLK  count\[8\]/Q  count_n9_0_o2_m4_0_a2_3/B  count_n9_0_o2_m4_0_a2_3/Y  count_n9_0_o2_m4_0_a2/B  count_n9_0_o2_m4_0_a2/Y  count_n9_0/B  count_n9_0/Y  count\[9\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[5\]/CLK  count\[5\]/Q  count_n8_i_m2_i_a3_1/C  count_n8_i_m2_i_a3_1/Y  count_n8_i_m2_i/A  count_n8_i_m2_i/Y  count_n8_i_m4/B  count_n8_i_m4/Y  count\[8\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[5\]/CLK  count\[5\]/Q  count_n7_i_60_m1_0_a2_0/B  count_n7_i_60_m1_0_a2_0/Y  count_n7_i_60_m1_0_a2/A  count_n7_i_60_m1_0_a2/Y  count_n7_i/A  count_n7_i/Y  count\[7\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[11\]/CLK  count\[11\]/Q  count_n13_0_o2_m1_0_a2_0/B  count_n13_0_o2_m1_0_a2_0/Y  count_n13_0_o2_m1_0_a2/A  count_n13_0_o2_m1_0_a2/Y  count_n13_0/S  count_n13_0/Y  count\[13\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[7\]/CLK  count\[7\]/Q  count_n8_i_m2_i_a3_1/B  count_n8_i_m2_i_a3_1/Y  count_n8_i_m2_i/A  count_n8_i_m2_i/Y  count_n8_i_m4/B  count_n8_i_m4/Y  count\[8\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[10\]/CLK  count\[10\]/Q  count_n11_0_o2/B  count_n11_0_o2/Y  count_n12_0_o2/B  count_n12_0_o2/Y  count_n12_0/S  count_n12_0/Y  count\[12\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[0\]/CLK  count\[0\]/Q  count_n2_i_o2/B  count_n2_i_o2/Y  count_n2_i/A  count_n2_i/Y  count\[2\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[14\]/CLK  count\[14\]/Q  count_n14_0_a2_0_0_0/C  count_n14_0_a2_0_0_0/Y  count_n14_0_a2_0/C  count_n14_0_a2_0/Y  count_n14_0/B  count_n14_0/Y  count\[14\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[6\]/CLK  count\[6\]/Q  count_n8_i_m2_i_a3_1/A  count_n8_i_m2_i_a3_1/Y  count_n8_i_m2_i/A  count_n8_i_m2_i/Y  count_n8_i_m4/B  count_n8_i_m4/Y  count\[8\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[14\]/CLK  count\[14\]/Q  count_n14_0_a2_0_0/B  count_n14_0_a2_0_0/Y  count_n14_0_a2/C  count_n14_0_a2/Y  count_n14_0/A  count_n14_0/Y  count\[14\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[12\]/CLK  count\[12\]/Q  count_n13_0_o2_m1_0_a2_0/A  count_n13_0_o2_m1_0_a2_0/Y  count_n13_0_o2_m1_0_a2/A  count_n13_0_o2_m1_0_a2/Y  count_n13_0/S  count_n13_0/Y  count\[13\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[3\]/CLK  count\[3\]/Q  count_n4_i_a2/A  count_n4_i_a2/Y  count_n4_i/C  count_n4_i/Y  count\[4\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[9\]/CLK  count\[9\]/Q  count_n11_0_a2_0_0/B  count_n11_0_a2_0_0/Y  count_n11_0/A  count_n11_0/Y  count\[11\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[9\]/CLK  count\[9\]/Q  count_n12_0_a2_0_0/B  count_n12_0_a2_0_0/Y  count_n12_0/A  count_n12_0/Y  count\[12\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[9\]/CLK  count\[9\]/Q  count_n15_0_a2_0_0/B  count_n15_0_a2_0_0/Y  count_n15_0/A  count_n15_0/Y  count\[15\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[9\]/CLK  count\[9\]/Q  count_n13_0_a2_0_0_0/B  count_n13_0_a2_0_0_0/Y  count_n13_0/B  count_n13_0/Y  count\[13\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[11\]/CLK  count\[11\]/Q  count_n11_0_a2_0_1/B  count_n11_0_a2_0_1/Y  count_n11_0/B  count_n11_0/Y  count\[11\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[12\]/CLK  count\[12\]/Q  count_n12_0_a2_0_1/B  count_n12_0_a2_0_1/Y  count_n12_0/B  count_n12_0/Y  count\[12\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[4\]/CLK  count\[4\]/Q  count_n4_i_a2/C  count_n4_i_a2/Y  count_n4_i/C  count_n4_i/Y  count\[4\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[11\]/CLK  count\[11\]/Q  count_n11_0_a2_0_0/C  count_n11_0_a2_0_0/Y  count_n11_0/A  count_n11_0/Y  count\[11\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[13\]/CLK  count\[13\]/Q  count_n13_0_a2_0_0/B  count_n13_0_a2_0_0/Y  count_n13_0/A  count_n13_0/Y  count\[13\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[5\]/CLK  count\[5\]/Q  count_n6_i_o2/A  count_n6_i_o2/Y  count_n6_i/A  count_n6_i/Y  count\[6\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[15\]/CLK  count\[15\]/Q  count_n15_0_a2_0_1/B  count_n15_0_a2_0_1/Y  count_n15_0/B  count_n15_0/Y  count\[15\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[14\]/CLK  count\[14\]/Q  count_n15_0_o2/C  count_n15_0_o2/Y  count_n15_0/S  count_n15_0/Y  count\[15\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[11\]/CLK  count\[11\]/Q  count_n12_0_o2/A  count_n12_0_o2/Y  count_n12_0/S  count_n12_0/Y  count\[12\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[10\]/CLK  count\[10\]/Q  count_n13_0_o2_m1_0_a2/B  count_n13_0_o2_m1_0_a2/Y  count_n13_0/S  count_n13_0/Y  count\[13\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[12\]/CLK  count\[12\]/Q  count_n12_0_a2_0_0/C  count_n12_0_a2_0_0/Y  count_n12_0/A  count_n12_0/Y  count\[12\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[8\]/CLK  count\[8\]/Q  count_n8_i_m2_i/C  count_n8_i_m2_i/Y  count_n8_i_m4/B  count_n8_i_m4/Y  count\[8\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[13\]/CLK  count\[13\]/Q  count_n13_0_a2_0_0_0/C  count_n13_0_a2_0_0_0/Y  count_n13_0/B  count_n13_0/Y  count\[13\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[15\]/CLK  count\[15\]/Q  count_n15_0_a2_0_0/C  count_n15_0_a2_0_0/Y  count_n15_0/A  count_n15_0/Y  count\[15\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[5\]/CLK  count\[5\]/Q  count_n5_i/B  count_n5_i/Y  count\[5\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[3\]/CLK  count\[3\]/Q  count_n3_i/B  count_n3_i/Y  count\[3\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[7\]/CLK  count\[7\]/Q  count_n7_i/B  count_n7_i/Y  count\[7\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[6\]/CLK  count\[6\]/Q  count_n6_i/B  count_n6_i/Y  count\[6\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[2\]/CLK  count\[2\]/Q  count_n2_i/B  count_n2_i/Y  count\[2\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[9\]/CLK  count\[9\]/Q  count_n9_0/A  count_n9_0/Y  count\[9\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[10\]/CLK  count\[10\]/Q  count_n10_0/A  count_n10_0/Y  count\[10\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[1\]/CLK  count\[1\]/Q  count_n1_i/B  count_n1_i/Y  count\[1\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[0\]/CLK  count\[0\]/Q  count_n1_i/A  count_n1_i/Y  count\[1\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[0\]/CLK  count\[0\]/Q  count_n0_i_a2/B  count_n0_i_a2/Y  count\[0\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[5\]/CLK  count\[5\]/Q  count_n7_i_60_m1_0_a2_0/B  count_n7_i_60_m1_0_a2_0/Y  count_n10_0_o2_m5_0_a2_5/C  count_n10_0_o2_m5_0_a2_5/Y  count_n10_0_o2_m5_0_a2/A  count_n10_0_o2_m5_0_a2/Y  count_n15_0_o2/A  count_n15_0_o2/Y  TC_pad_RNO/C  TC_pad_RNO/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT count\[9\]/CLK  count\[9\]/Q  Q_pad\[9\]/D  Q_pad\[9\]/PAD  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT count\[5\]/CLK  count\[5\]/Q  Q_pad\[5\]/D  Q_pad\[5\]/PAD  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT count\[3\]/CLK  count\[3\]/Q  Q_pad\[3\]/D  Q_pad\[3\]/PAD  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT count\[11\]/CLK  count\[11\]/Q  Q_pad\[11\]/D  Q_pad\[11\]/PAD  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT count\[7\]/CLK  count\[7\]/Q  Q_pad\[7\]/D  Q_pad\[7\]/PAD  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT count\[6\]/CLK  count\[6\]/Q  Q_pad\[6\]/D  Q_pad\[6\]/PAD  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT count\[4\]/CLK  count\[4\]/Q  Q_pad\[4\]/D  Q_pad\[4\]/PAD  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT count\[10\]/CLK  count\[10\]/Q  Q_pad\[10\]/D  Q_pad\[10\]/PAD  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT count\[12\]/CLK  count\[12\]/Q  Q_pad\[12\]/D  Q_pad\[12\]/PAD  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT count\[2\]/CLK  count\[2\]/Q  Q_pad\[2\]/D  Q_pad\[2\]/PAD  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT count\[0\]/CLK  count\[0\]/Q  Q_pad\[0\]/D  Q_pad\[0\]/PAD  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT count\[13\]/CLK  count\[13\]/Q  Q_pad\[13\]/D  Q_pad\[13\]/PAD  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT count\[14\]/CLK  count\[14\]/Q  Q_pad\[14\]/D  Q_pad\[14\]/PAD  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT count\[15\]/CLK  count\[15\]/Q  Q_pad\[15\]/D  Q_pad\[15\]/PAD  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT count\[15\]/CLK  count\[15\]/Q  TC_pad_RNO/A  TC_pad_RNO/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT count\[8\]/CLK  count\[8\]/Q  Q_pad\[8\]/D  Q_pad\[8\]/PAD  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT count\[1\]/CLK  count\[1\]/Q  Q_pad\[1\]/D  Q_pad\[1\]/PAD  	(10.0:10.0:10.0) )
+
+  )
+)
+)

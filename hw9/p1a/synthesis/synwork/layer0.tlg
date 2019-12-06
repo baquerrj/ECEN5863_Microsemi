@@ -1,0 +1,27 @@
+Selecting top level module Handshake
+@N: CG364 :"C:\Microsemi_Prj\hw9\p1a\hdl\synchronizer.v":19:7:19:18|Synthesizing module synchronizer in library work.
+
+@N: CG364 :"C:\Microsemi_Prj\hw9\p1a\hdl\counter.v":21:7:21:13|Synthesizing module counter in library work.
+
+@N: CG364 :"C:\Microsemi_Prj\hw9\p1a\hdl\sender_fsm.v":21:7:21:16|Synthesizing module sender_fsm in library work.
+
+@N: CG364 :"C:\Microsemi_Prj\hw9\p1a\hdl\sender.v":21:7:21:12|Synthesizing module sender in library work.
+
+@N: CG364 :"C:\Microsemi_Prj\hw9\p1a\hdl\receiver_fsm.v":21:7:21:18|Synthesizing module receiver_fsm in library work.
+
+@N: CG364 :"C:\Microsemi_Prj\hw9\p1a\hdl\receiver.v":21:7:21:14|Synthesizing module receiver in library work.
+
+@N: CG364 :"C:\Microsemi_Prj\hw9\p1a\hdl\Handshake.v":21:7:21:15|Synthesizing module Handshake in library work.
+
+@N: CL201 :"C:\Microsemi_Prj\hw9\p1a\hdl\receiver_fsm.v":38:0:38:5|Trying to extract state machine for register state.
+Extracted state machine for register state
+State machine has 3 reachable states with original encodings of:
+   00
+   01
+   11
+@N: CL201 :"C:\Microsemi_Prj\hw9\p1a\hdl\sender_fsm.v":38:0:38:5|Trying to extract state machine for register state.
+Extracted state machine for register state
+State machine has 3 reachable states with original encodings of:
+   00
+   01
+   11

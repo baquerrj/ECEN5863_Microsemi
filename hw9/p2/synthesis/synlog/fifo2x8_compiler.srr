@@ -1,0 +1,68 @@
+Synopsys HDL Compiler, version comp2016q3p1, Build 117R, built Nov 17 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys VHDL Compiler, version comp2016q3p1, Build 127R, built Nov 24 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@N: CD720 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vhd2008\std.vhd":146:18:146:21|Setting time resolution to ps
+@N:"C:\Microsemi_Prj\hw9\p2\hdl\fifo2x8.vhd":31:7:31:13|Top entity is set to fifo2x8.
+File C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\bin64\c_vhdl.exe changed - recompiling
+File C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vhd2008\location.map changed - recompiling
+File C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vhd2008\std.vhd changed - recompiling
+File C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vhd\snps_haps_pkg.vhd changed - recompiling
+File C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vhd2008\std1164.vhd changed - recompiling
+File C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vhd2008\std_textio.vhd changed - recompiling
+File C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vhd2008\numeric.vhd changed - recompiling
+File C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vhd\umr_capim.vhd changed - recompiling
+File C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vhd2008\arith.vhd changed - recompiling
+File C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vhd2008\unsigned.vhd changed - recompiling
+File C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vhd\hyperents.vhd changed - recompiling
+VHDL syntax check successful!
+File C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\bin64\c_vhdl.exe changed - recompiling
+File C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vhd2008\location.map changed - recompiling
+File C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vhd2008\std.vhd changed - recompiling
+File C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vhd\snps_haps_pkg.vhd changed - recompiling
+File C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vhd2008\std1164.vhd changed - recompiling
+File C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vhd2008\std_textio.vhd changed - recompiling
+File C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vhd2008\numeric.vhd changed - recompiling
+File C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vhd\umr_capim.vhd changed - recompiling
+File C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vhd2008\arith.vhd changed - recompiling
+File C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vhd2008\unsigned.vhd changed - recompiling
+File C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vhd\hyperents.vhd changed - recompiling
+@N: CD231 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vhd2008\std1164.vhd":890:16:890:17|Using onehot encoding for type mvl9plus. For example, enumeration 'U' is mapped to "1000000000".
+@N: CD630 :"C:\Microsemi_Prj\hw9\p2\hdl\fifo2x8.vhd":31:7:31:13|Synthesizing work.fifo2x8.archfifo2x8.
+@N: CD364 :"C:\Microsemi_Prj\hw9\p2\hdl\fifo2x8.vhd":75:4:75:7|Removing redundant assignment.
+@N: CD364 :"C:\Microsemi_Prj\hw9\p2\hdl\fifo2x8.vhd":89:9:89:16|Removing redundant assignment.
+Post processing for work.fifo2x8.archfifo2x8
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 72MB peak: 73MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Thu Dec 05 20:30:07 2019
+
+###########################################################]
+Synopsys Netlist Linker, version comp2016q3p1, Build 117R, built Nov 17 2016
+@N|Running in 64-bit mode
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Thu Dec 05 20:30:08 2019
+
+###########################################################]
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Thu Dec 05 20:30:08 2019
+
+###########################################################]

@@ -1,0 +1,224 @@
+***************************************************************************
+                               Status Report
+                          Mon Dec 02 09:53:54 2019 ***************************************************************************
+
+Product: Designer
+Release: v11.8
+Version: 11.8.0.26
+File Name: C:\Microsemi_Prj\hw9\p1a\designer\impl1\Handshake.adb
+Design Name: Handshake  Design State: compile
+Last Saved: Mon Dec 02 09:52:11 2019
+
+***** Device Data **************************************************
+
+Family: SmartFusion  Die: A2F200M3F  Package: 484 FBGA
+Speed: STD  Voltage: 1.5
+
+Restrict JTAG Pins: YES
+Restrict Probe Pins: YES
+
+Junction Temperature Range:   COM
+Voltage Range:   COM
+
+***** Import Variables *********************************************
+
+Source File(s) Imported on Mon Dec 02 09:53:53 2019:
+        C:\Microsemi_Prj\hw9\p1a\synthesis\Handshake.edn
+        C:\Microsemi_Prj\hw9\p1a\synthesis\Handshake.sdc
+
+
+***** CAE Variables ************************************************
+
+Back Annotation File: N/A
+
+
+***** Bitstream Variables ******************************************
+
+Bitstream File: N/A
+     Lock Mode: OFF
+
+
+***** Compile Variables ********************************************
+
+Netlist PIN properties overwrite existing properties: 0
+
+Compile Output:
+=====================================================================
+Parameters used to run compile:
+===============================
+
+Family      : SmartFusion
+Device      : A2F200M3F
+Package     : 484 FBGA
+Source      : C:\Microsemi_Prj\hw9\p1a\synthesis\Handshake.edn
+              C:\Microsemi_Prj\hw9\p1a\synthesis\Handshake.sdc
+Format      : EDIF
+Topcell     : Handshake
+Speed grade : STD
+Temp        : 0:25:85
+Voltage     : 1.58:1.50:1.42
+
+Keep Existing Physical Constraints : No
+Keep Existing Timing Constraints   : Yes
+
+pdc_abort_on_error                 : Yes
+pdc_eco_display_unmatched_objects  : No
+pdc_eco_max_warnings               : 10000
+
+demote_globals                     : No
+promote_globals                    : No
+localclock_max_shared_instances    : 12
+localclock_buffer_tree_max_fanout  : 12
+
+combine_register                   : No
+delete_buffer_tree                 : No
+
+report_high_fanout_nets_limit      : 10
+
+=====================================================================
+Compile starts ...
+
+
+Netlist Optimization Report
+===========================
+
+Optimized macros:
+  - Dangling net drivers:   0
+  - Buffers:                0
+  - Inverters:              0
+  - Tieoff:                 0
+  - Logic combining:        1
+
+    Total macros optimized  1
+
+There were 0 error(s) and 0 warning(s) in this design.
+=====================================================================
+
+Reading previous post-compile physical placement constraints.
+
+
+There were 0 error(s) and 0 warning(s).
+
+=====================================================================
+Compile report:
+===============
+
+    Microcontroller Subsystem  Used:      0  Total:      1   (0.00%)
+    Fabric                     Used:    109  Total:   4608   (2.37%)
+    Fabric IO (W/ clocks)      Used:     42  Total:     94   (44.68%)
+    Fabric Differential IO     Used:      0  Total:     47   (0.00%)
+    Dedicated Analog IO        Used:      0  Total:     32   (0.00%)
+    Dedicated MSS IO           Used:      0  Total:     43   (0.00%)
+    GLOBAL (Chip+Quadrant)     Used:      2  Total:     15   (13.33%)
+    MSS GLOBAL                 Used:      0  Total:      3   (0.00%)
+    On-chip RC oscillator      Used:      0  Total:      1   (0.00%)
+    Main Crystal oscillator    Used:      0  Total:      1   (0.00%)
+    32 KHz Crystal oscillator  Used:      0  Total:      1   (0.00%)
+    RAM/FIFO                   Used:      0  Total:      8   (0.00%)
+    User JTAG                  Used:      0  Total:      1   (0.00%)
+
+Global Information:
+
+    Type            | Used   | Total
+    ----------------|--------|--------------
+    Chip global     | 2      | 3  (66.67%)*
+    Quadrant global | 0      | 12 (0.00%)
+    MSS global      | 0      | 3  (0.00%)
+
+    (*) Chip globals may be assigned to Quadrant globals using the Multi-View Navigator (MVN)
+        or Physical Design Constraints (PDC).
+        They may also be assigned to Quadrant globals automatically during Layout.
+
+Core Information:
+
+    Type    | Instances    | Core tiles
+    --------|--------------|-----------
+    COMB    | 76           | 76
+    SEQ     | 33           | 33
+
+I/O Function:
+
+    Type                                  | w/o register  | w/ register  | w/ DDR register
+    --------------------------------------|---------------|--------------|----------------
+    Input I/O                             | 4             | 0            | 0
+    Output I/O                            | 38            | 0            | 0
+    Bidirectional I/O                     | 0             | 0            | 0
+    Differential Input I/O Pairs          | 0             | 0            | 0
+    Differential Output I/O Pairs         | 0             | 0            | 0
+
+I/O Technology:
+
+                                    |   Voltages    |             I/Os
+    --------------------------------|-------|-------|-------|--------|--------------
+    I/O Standard(s)                 | Vcci  | Vref  | Input | Output | Bidirectional
+    --------------------------------|-------|-------|-------|--------|--------------
+    LVTTL                           | 3.30v | N/A   | 4     | 38     | 0
+
+I/O Placement:
+
+    Locked  :   0
+    Placed  :  42 ( 100.00% )
+    UnPlaced:   0
+
+Net information report:
+=======================
+
+The following nets have been assigned to a chip global resource:
+    Fanout  Type          Name
+    --------------------------
+    20      CLK_NET       Net   : aclk_c
+                          Driver: aclk_pad
+                          Source: NETLIST
+    13      CLK_NET       Net   : bclk_c
+                          Driver: bclk_pad
+                          Source: NETLIST
+
+High fanout nets in the post compile netlist:
+    Fanout  Type          Name
+    --------------------------
+    22      INT_NET       Net   : arst_c
+                          Driver: arst_pad
+    13      INT_NET       Net   : brst_c
+                          Driver: brst_pad
+    8       INT_NET       Net   : bvalid_c_c
+                          Driver: data_sink/fsm/state_1[1]
+    8       INT_NET       Net   : data_generator/qe
+                          Driver: data_generator/qlde
+    8       INT_NET       Net   : data_sink/bload_data
+                          Driver: data_sink/fsm/state_1_RNITSE8[1]
+    8       INT_NET       Net   : data_source/aload_data
+                          Driver: data_source/fsm/state_1_ns_i_a3_RNI9MC14[1]
+    6       INT_NET       Net   : adatain_c[0]
+                          Driver: data_generator/q[0]
+    5       INT_NET       Net   : aready_c
+                          Driver: data_source/fsm/state_1_ns_i_a3[1]
+    5       INT_NET       Net   : adatain_c[1]
+                          Driver: data_generator/q[1]
+    5       INT_NET       Net   : adatain_c[2]
+                          Driver: data_generator/q[2]
+
+Nets that are candidates for clock assignment and the resulting fanout:
+    Fanout  Type          Name
+    --------------------------
+    22      INT_NET       Net   : arst_c
+                          Driver: arst_pad
+    13      INT_NET       Net   : brst_c
+                          Driver: brst_pad
+    8       INT_NET       Net   : bvalid_c_c
+                          Driver: data_sink/fsm/state_1[1]
+    8       INT_NET       Net   : data_generator/qe
+                          Driver: data_generator/qlde
+    8       INT_NET       Net   : data_sink/bload_data
+                          Driver: data_sink/fsm/state_1_RNITSE8[1]
+    8       INT_NET       Net   : data_source/aload_data
+                          Driver: data_source/fsm/state_1_ns_i_a3_RNI9MC14[1]
+    6       INT_NET       Net   : adatain_c[0]
+                          Driver: data_generator/q[0]
+    5       INT_NET       Net   : aready_c
+                          Driver: data_source/fsm/state_1_ns_i_a3[1]
+    5       INT_NET       Net   : adatain_c[1]
+                          Driver: data_generator/q[1]
+    5       INT_NET       Net   : adatain_c[2]
+                          Driver: data_generator/q[2]
+
+

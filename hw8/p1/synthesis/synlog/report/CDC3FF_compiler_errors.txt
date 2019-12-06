@@ -1,0 +1,5 @@
+@E: CD213 :"C:\Microsemi_Prj\hw8\p1\hdl\CDC3FF.vhd":39:8:39:13|Undefined identifier
+@E: CD213 :"C:\Microsemi_Prj\hw8\p1\hdl\CDC3FF.vhd":45:8:45:13|Undefined identifier
+@E: CD213 :"C:\Microsemi_Prj\hw8\p1\hdl\CDC3FF.vhd":51:8:51:13|Undefined identifier
+@E: Parse errors encountered - exiting
+

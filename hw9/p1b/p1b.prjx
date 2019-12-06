@@ -1,0 +1,389 @@
+KEY LIBERO "11.8"
+KEY CAPTURE "11.8.0.26"
+KEY DEFAULT_IMPORT_LOC "X:\Projects\Interrupts_MSS_GPIO\Design\Verilog"
+KEY DEFAULT_OPEN_LOC ""
+KEY ProjectID "0"
+KEY HDLTechnology "VERILOG"
+KEY VERILOGMODE "VERILOG2001"
+KEY VHDLMODE "VHDL2008"
+KEY UseConstraintFlowTechnology "FALSE"
+KEY VendorTechnology_Family "SmartFusion"
+KEY VendorTechnology_Die "IP4X3M1"
+KEY VendorTechnology_Package "fg484"
+KEY VendorTechnology_Speed "STD"
+KEY VendorTechnology_DieVoltage "1.5"
+KEY VendorTechnology_PART_RANGE "COM"
+KEY VendorTechnology_IO_DEFT_STD "LVTTL"
+KEY VendorTechnology_RESERVEMIGRATIONPINS "1"
+KEY VendorTechnology_RESTRICTPROBEPINS "1"
+KEY VendorTechnology_RESTRICTSPIPINS "0"
+KEY VendorTechnology_TARGETDEVICESFORMIGRATION "IP4X3M1"
+KEY VendorTechnology_TEMPR "COM"
+KEY VendorTechnology_UNUSED_MSS_IO_RESISTOR_PULL "None"
+KEY VendorTechnology_VCCI_1.5_VOLTR "COM"
+KEY VendorTechnology_VCCI_1.8_VOLTR "COM"
+KEY VendorTechnology_VCCI_2.5_VOLTR "COM"
+KEY VendorTechnology_VCCI_3.3_VOLTR "COM"
+KEY VendorTechnology_VOLTR "COM"
+KEY ProjectLocation "C:\Microsemi_Prj\hw9\p1b"
+KEY ProjectDescription ""
+KEY Pa4PeripheralNewSeq "GOOD"
+KEY SimulationType "VERILOG"
+KEY Vendor "Actel"
+KEY ActiveRoot "Handshake::work"
+LIST REVISIONS
+VALUE="Impl1",NUM=1
+CURREV=1
+ENDLIST
+LIST FileManager
+VALUE "<project>\designer\impl1\counter.ide_des,ide_des"
+STATE="utd"
+TIME="1575339186"
+SIZE="183"
+ENDFILE
+VALUE "<project>\designer\impl1\Handshake.adb,adb"
+STATE="utd"
+TIME="1575339429"
+SIZE="89600"
+ENDFILE
+VALUE "<project>\designer\impl1\Handshake.dtf\netlist.pdc,pdc"
+STATE="utd"
+TIME="1575339929"
+SIZE="5011"
+ENDFILE
+VALUE "<project>\designer\impl1\Handshake.ide_des,ide_des"
+STATE="utd"
+TIME="1575339192"
+SIZE="185"
+ENDFILE
+VALUE "<project>\designer\impl1\Handshake_ba.sdf,ba_sdf"
+STATE="utd"
+TIME="1575339915"
+SIZE="83966"
+ENDFILE
+VALUE "<project>\designer\impl1\Handshake_ba.v,ba_hdl"
+STATE="utd"
+TIME="1575342031"
+SIZE="29365"
+ENDFILE
+VALUE "<project>\designer\impl1\Handshake_ba_log.rpt,log"
+STATE="utd"
+TIME="1575342031"
+SIZE="770"
+ENDFILE
+VALUE "<project>\designer\impl1\Handshake_compile_log.rpt,log"
+STATE="utd"
+TIME="1575341998"
+SIZE="8481"
+ENDFILE
+VALUE "<project>\designer\impl1\Handshake_placeroute_log.rpt,log"
+STATE="utd"
+TIME="1575342016"
+SIZE="3203"
+ENDFILE
+VALUE "<project>\designer\impl1\Handshake_timingconstraints_log.rpt,log"
+STATE="utd"
+TIME="1575340710"
+SIZE="26952"
+ENDFILE
+VALUE "<project>\designer\impl1\Handshake_verifytiming_log.rpt,log"
+STATE="utd"
+TIME="1575342021"
+SIZE="1132"
+ENDFILE
+VALUE "<project>\hdl\counter.v,hdl"
+STATE="utd"
+TIME="1575339185"
+SIZE="829"
+ENDFILE
+VALUE "<project>\hdl\Handshake.v,hdl"
+STATE="utd"
+TIME="1575339185"
+SIZE="2918"
+ENDFILE
+VALUE "<project>\hdl\receiver.v,hdl"
+STATE="utd"
+TIME="1575339185"
+SIZE="1594"
+ENDFILE
+VALUE "<project>\hdl\receiver_fsm.v,hdl"
+STATE="utd"
+TIME="1575339185"
+SIZE="2119"
+ENDFILE
+VALUE "<project>\hdl\sender.v,hdl"
+STATE="utd"
+TIME="1575339185"
+SIZE="1670"
+ENDFILE
+VALUE "<project>\hdl\sender_fsm.v,hdl"
+STATE="utd"
+TIME="1575339185"
+SIZE="2193"
+ENDFILE
+VALUE "<project>\hdl\synchronizer.v,hdl"
+STATE="utd"
+TIME="1575339185"
+SIZE="1068"
+ENDFILE
+VALUE "<project>\simulation\Handshake_tb_postlayout_simulation.log,log"
+STATE="utd"
+TIME="1575340720"
+SIZE="3388"
+ENDFILE
+VALUE "<project>\simulation\Handshake_tb_postsynth_simulation.log,log"
+STATE="utd"
+TIME="1575339346"
+SIZE="3143"
+ENDFILE
+VALUE "<project>\simulation\run.do,do"
+STATE="utd"
+TIME="1575339342"
+SIZE="677"
+ENDFILE
+VALUE "<project>\stimulus\Handshake_tb.v,tb_hdl"
+STATE="utd"
+TIME="1575341766"
+SIZE="2779"
+ENDFILE
+VALUE "<project>\synthesis\Handshake.edn,syn_edn"
+STATE="utd"
+TIME="1575341831"
+SIZE="84496"
+ENDFILE
+VALUE "<project>\synthesis\Handshake.sdc,sdc"
+STATE="utd"
+TIME="1575341944"
+SIZE="458"
+ENDFILE
+VALUE "<project>\synthesis\Handshake.so,so"
+STATE="utd"
+TIME="1575339325"
+SIZE="212"
+ENDFILE
+VALUE "<project>\synthesis\Handshake.v,syn_hdl"
+STATE="utd"
+TIME="1575342163"
+SIZE="20307"
+ENDFILE
+VALUE "<project>\synthesis\Handshake_sdc.sdc,syn_sdc"
+STATE="utd"
+TIME="1575341831"
+SIZE="490"
+ENDFILE
+VALUE "<project>\synthesis\Handshake_syn.prj,prj"
+STATE="utd"
+TIME="1575339325"
+SIZE="2062"
+ENDFILE
+ENDLIST
+LIST UsedFile
+ENDLIST
+LIST NewModulesInfo
+LIST "Handshake::work"
+FILE "<project>\hdl\Handshake.v,hdl"
+LIST AssociatedStimulus
+VALUE "<project>\stimulus\Handshake_tb.v,tb_hdl"
+ENDLIST
+LIST SynthesisConstraints
+VALUE "<project>\synthesis\Handshake.sdc,sdc"
+ENDLIST
+LIST ProjectState5.1
+LIST Impl1
+LiberoState=Post_Layout
+ideSTIMULUS=StateSuccess
+ideDESIGNER(<project>\designer\impl1\Handshake.adb,adb)=StateSuccess
+ideSYNTHESIS(<project>\synthesis\Handshake.edn,syn_edn)=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+LIST PinReports
+VALUE "<project>\designer\impl1\Handshake_report_pin_byname.txt,log"
+VALUE "<project>\designer\impl1\Handshake_report_pin_bynumber.txt,log"
+ENDLIST
+ENDLIST
+ENDLIST
+LIST AssociatedStimulus
+LIST Handshake
+VALUE "<project>\stimulus\Handshake_tb.v,tb_hdl"
+ENDLIST
+ENDLIST
+LIST Other_Association
+ENDLIST
+LIST SimulationOptions
+UseAutomaticDoFile=true
+IncludeWaveDo=false
+Type=max
+RunTime=3000ns
+Resolution=1ps
+VsimOpt=
+EntityName=Handshake_tb
+TopInstanceName=<top>_0
+DoFileName=
+DoFileName2=wave.do
+DoFileParams=
+DisplayDUTWave=false
+LogAllSignals=false
+DisablePulseFiltering=false
+DumpVCD=false
+VCDFileName=power.vcd
+VHDL2008=false
+Verilog2001=false
+SystemVerilog=false
+TimeUnit=10
+TimeUnitBase=ns
+Precision=1000
+PrecisionBase=ps
+ENDLIST
+LIST ModelSimLibPath
+UseCustomPath=FALSE
+LibraryPath=
+ENDLIST
+LIST GlobalFlowOptions
+GenerateHDLAfterSynthesis=FALSE
+GenerateHDLAfterPhySynthesis=FALSE
+RunDRCAfterSynthesis=TRUE
+AutoCheckConstraints=TRUE
+UpdateModelSimIni=TRUE
+NoIOMode=FALSE
+PeriInitStandalone=FALSE
+EnableViewDraw=FALSE
+UpdateViewDrawIni=TRUE
+GenerateHDLFromSchematic=TRUE
+VmNetlistFlowOn=FALSE
+EnableDesignSeparationOn=FALSE
+EnableSETMitigationOn=FALSE
+DisplayFanoutLimit=10
+AbortFlowOnPDCErrorsOn=TRUE
+AbortFlowOnSDCErrorsOn=TRUE
+FlashProInputFile=fdb
+SmartGenCompileReport=T
+ENDLIST
+LIST PhySynthesisOptions
+ENDLIST
+LIST Profiles
+NAME="SoftConsole"
+FUNCTION="SoftwareIDE"
+TOOL="SoftConsole"
+LOCATION="eclipse.exe"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+NAME="Synplify Pro ME"
+FUNCTION="Synthesis"
+TOOL="Synplify Pro ME"
+LOCATION="C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\bin\synplify_pro.exe"
+PARAM="-licensetype synplifypro_actel -batch -log synplify.log"
+BATCH=1
+LICENSE=""
+IS32BIT="1"
+EndProfile
+NAME="ModelSim ME"
+FUNCTION="Simulation"
+TOOL="ModelSim"
+LOCATION="C:\Microsemi\Libero_SoC_v11.8\Modelsim\win32acoem\modelsim.exe"
+PARAM=" -l Handshake_tb_postsynth_simulation.log "
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+NAME="FPExpress"
+FUNCTION="Program"
+TOOL="FlashPro"
+LOCATION="C:\Microsemi\Libero_SoC_v11.8\Designer\bin\FPExpress.exe"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+NAME="Identify Debugger"
+FUNCTION="IdentifyDebugger"
+TOOL="Identify Debugger"
+LOCATION="C:\Microsemi\Libero_SoC_v11.8\Identify\bin\identify_debugger.exe"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+ENDLIST
+LIST ProjectState5.1
+LIST "Handshake::work"
+LIST Impl1
+LiberoState=Post_Layout
+ideSTIMULUS=StateSuccess
+ideDESIGNER(<project>\designer\impl1\Handshake.adb,adb)=StateSuccess
+ideSYNTHESIS(<project>\synthesis\Handshake.edn,syn_edn)=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+ENDLIST
+LIST ExcludePackageForSimulation
+ENDLIST
+LIST ExcludePackageForSynthesis
+ENDLIST
+LIST IncludeModuleForSimulation
+ENDLIST
+LIST CDBOrder
+ENDLIST
+LIST UserCustomizedFileList
+ENDLIST
+LIST OpenedFileList
+ORIENTATION;HORIZONTAL
+Reports;Reports;0
+ReportsCurrentItem;Place and Route:Handshake_globalnet_report.txt
+HDL;stimulus\Handshake_tb.v;0
+ACTIVEVIEW;Reports
+ENDLIST
+LIST ModuleSubBlockList
+LIST "counter::work","hdl\counter.v","FALSE","FALSE"
+ENDLIST
+LIST "Handshake::work","hdl\Handshake.v","FALSE","FALSE"
+SUBBLOCK "counter::work","hdl\counter.v","FALSE","FALSE"
+SUBBLOCK "receiver::work","hdl\receiver.v","FALSE","FALSE"
+SUBBLOCK "sender::work","hdl\sender.v","FALSE","FALSE"
+SUBBLOCK "synchronizer::work","hdl\synchronizer.v","FALSE","FALSE"
+ENDLIST
+LIST "receiver::work","hdl\receiver.v","FALSE","FALSE"
+SUBBLOCK "receiver_fsm::work","hdl\receiver_fsm.v","FALSE","FALSE"
+ENDLIST
+LIST "receiver_fsm::work","hdl\receiver_fsm.v","FALSE","FALSE"
+ENDLIST
+LIST "sender::work","hdl\sender.v","FALSE","FALSE"
+SUBBLOCK "sender_fsm::work","hdl\sender_fsm.v","FALSE","FALSE"
+ENDLIST
+LIST "sender_fsm::work","hdl\sender_fsm.v","FALSE","FALSE"
+ENDLIST
+LIST "synchronizer::work","hdl\synchronizer.v","FALSE","FALSE"
+ENDLIST
+LIST "Handshake_tb::work","stimulus\Handshake_tb.v","FALSE","TRUE"
+SUBBLOCK "Handshake::work","hdl\Handshake.v","FALSE","FALSE"
+ENDLIST
+ENDLIST
+LIST ActiveTestBenchList
+LIST "Handshake::work"
+ACTIVETESTBENCH "Handshake_tb::work","stimulus\Handshake_tb.v","FALSE"
+ENDLIST
+ENDLIST
+LIST IOTabList
+ENDLIST
+LIST FPTabList
+ENDLIST
+LIST TimingTabList
+VALUE "synthesis\Handshake.sdc"
+ENDLIST
+LIST FDCTabList
+ENDLIST

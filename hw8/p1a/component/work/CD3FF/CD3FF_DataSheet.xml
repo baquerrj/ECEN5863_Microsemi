@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml-stylesheet type="text/xsl" href="datasheet.xsl"?>
+<datasheet>
+  <header>CD3FF</header>
+  <project-settings>
+    <fam>SmartFusion</fam>
+    <die>A2F200M3F</die>
+    <package>484 FBGA</package>
+    <speed-grade>STD</speed-grade>
+    <voltage>1.5</voltage>
+    <hdl-type>VHDL</hdl-type>
+    <project-description>
+    </project-description>
+    <location>C:/Microsemi_Prj/hw8/p1a/component/work/CD3FF</location>
+    <state>GENERATED ( Sun Nov 17 19:21:39 2019 )</state>
+    <swide-toolchain>SoftConsole workspace has not been generated</swide-toolchain>
+  </project-settings>
+  <site-map>
+  </site-map>
+  <fileset>
+    <name>HDL File(s)</name>
+    <file>C:\Microsemi_Prj\hw8\p1a\component\work\CD3FF\CD3FF.vhd</file>
+    <file>C:\Microsemi_Prj\hw8\p1a\hdl\Synchronizer.vhd</file>
+  </fileset>
+  <io>
+    <port-name>Bclk</port-name>
+    <direction>IN</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
+    <port-name>Dout</port-name>
+    <direction>OUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
+    <port-name>Reset</port-name>
+    <direction>IN</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
+    <port-name>Aclk</port-name>
+    <direction>IN</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <core type="AdlibModule">
+    <core-type>AdlibModule</core-type>
+    <core-exttype>DFN1C1</core-exttype>
+    <core-name>DFN1C1_0</core-name>
+  </core>
+  <core type="AdlibModule">
+    <core-type>AdlibModule</core-type>
+    <core-exttype>DFN1C1</core-exttype>
+    <core-name>DFN1C1_1</core-name>
+  </core>
+  <core type="AdlibModule">
+    <core-type>AdlibModule</core-type>
+    <core-exttype>DFN1C1</core-exttype>
+    <core-name>DFN1C1_2</core-name>
+  </core>
+  <core type="AdlibModule">
+    <core-type>AdlibModule</core-type>
+    <core-exttype>INV</core-exttype>
+    <core-name>INV_0</core-name>
+  </core>
+  <core type="AdlibModule">
+    <core-type>AdlibModule</core-type>
+    <core-exttype>MX2</core-exttype>
+    <core-name>MX2_0</core-name>
+  </core>
+  <core type="HdlModule">
+    <core-type>HdlModule</core-type>
+    <core-exttype>Synchronizer</core-exttype>
+    <core-location>hdl\Synchronizer.vhd</core-location>
+    <core-name>Synchronizer_0</core-name>
+  </core>
+  <memorysystem>
+    <title>Memory Map for CD3FF</title>
+    <description>The project does not contain any subsystems.</description>
+  </memorysystem>
+</datasheet>

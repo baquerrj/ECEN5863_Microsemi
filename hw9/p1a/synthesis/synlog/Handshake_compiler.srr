@@ -1,0 +1,81 @@
+Synopsys HDL Compiler, version comp2016q3p1, Build 117R, built Nov 17 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys Verilog Compiler, version comp2016q3p1, Build 127R, built Nov 24 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@I::"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\proasic\smartfusion.v" (library work)
+@I::"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vlog\hypermods.v" (library __hyper__lib__)
+@I::"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vlog\umr_capim.v" (library snps_haps)
+@I::"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vlog\scemi_objects.v" (library snps_haps)
+@I::"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vlog\scemi_pipes.svh" (library snps_haps)
+@I::"C:\Microsemi_Prj\hw9\p1a\hdl\counter.v" (library work)
+@I::"C:\Microsemi_Prj\hw9\p1a\hdl\synchronizer.v" (library work)
+@I::"C:\Microsemi_Prj\hw9\p1a\hdl\sender_fsm.v" (library work)
+@I::"C:\Microsemi_Prj\hw9\p1a\hdl\sender.v" (library work)
+@I::"C:\Microsemi_Prj\hw9\p1a\hdl\receiver_fsm.v" (library work)
+@I::"C:\Microsemi_Prj\hw9\p1a\hdl\receiver.v" (library work)
+@I::"C:\Microsemi_Prj\hw9\p1a\hdl\Handshake.v" (library work)
+Verilog syntax check successful!
+
+Compiler output is up to date.  No re-compile necessary
+
+Selecting top level module Handshake
+@N: CG364 :"C:\Microsemi_Prj\hw9\p1a\hdl\synchronizer.v":19:7:19:18|Synthesizing module synchronizer in library work.
+
+@N: CG364 :"C:\Microsemi_Prj\hw9\p1a\hdl\counter.v":21:7:21:13|Synthesizing module counter in library work.
+
+@N: CG364 :"C:\Microsemi_Prj\hw9\p1a\hdl\sender_fsm.v":21:7:21:16|Synthesizing module sender_fsm in library work.
+
+@N: CG364 :"C:\Microsemi_Prj\hw9\p1a\hdl\sender.v":21:7:21:12|Synthesizing module sender in library work.
+
+@N: CG364 :"C:\Microsemi_Prj\hw9\p1a\hdl\receiver_fsm.v":21:7:21:18|Synthesizing module receiver_fsm in library work.
+
+@N: CG364 :"C:\Microsemi_Prj\hw9\p1a\hdl\receiver.v":21:7:21:14|Synthesizing module receiver in library work.
+
+@N: CG364 :"C:\Microsemi_Prj\hw9\p1a\hdl\Handshake.v":21:7:21:15|Synthesizing module Handshake in library work.
+
+@N: CL201 :"C:\Microsemi_Prj\hw9\p1a\hdl\receiver_fsm.v":38:0:38:5|Trying to extract state machine for register state.
+Extracted state machine for register state
+State machine has 3 reachable states with original encodings of:
+   00
+   01
+   11
+@N: CL201 :"C:\Microsemi_Prj\hw9\p1a\hdl\sender_fsm.v":38:0:38:5|Trying to extract state machine for register state.
+Extracted state machine for register state
+State machine has 3 reachable states with original encodings of:
+   00
+   01
+   11
+
+At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 70MB peak: 71MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Mon Dec 02 09:53:23 2019
+
+###########################################################]
+Synopsys Netlist Linker, version comp2016q3p1, Build 117R, built Nov 17 2016
+@N|Running in 64-bit mode
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Mon Dec 02 09:53:23 2019
+
+###########################################################]
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Mon Dec 02 09:53:23 2019
+
+###########################################################]

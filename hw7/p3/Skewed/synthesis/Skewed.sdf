@@ -1,0 +1,190 @@
+(DELAYFILE
+(SDFVERSION "OVI 2.1")
+(DESIGN "Skewed")
+(DATE "123")
+(VENDOR "ProASIC3")
+(PROGRAM "Synplify")
+(VERSION "mapact, Build 1920R")
+(DIVIDER /)
+(VOLTAGE 2.500000:2.500000:2.500000)
+(PROCESS "TYPICAL")
+(TEMPERATURE 70.000000:70.000000:70.000000)
+(TIMESCALE 1ns)
+(CELL
+  (CELLTYPE "Skewed")
+  (INSTANCE)
+  (TIMINGCHECK
+
+    (PATHCONSTRAINT q\[3\]/CLK  q\[3\]/Q  q_n12_0_o2_m6_0_a2_4/C  q_n12_0_o2_m6_0_a2_4/Y  q_n12_0_o2_m6_0_a2_6/C  q_n12_0_o2_m6_0_a2_6/Y  q_n12_0_o2_m6_0_a2/A  q_n12_0_o2_m6_0_a2/Y  q_n13_0_o2/A  q_n13_0_o2/Y  q_n14_0_o2/B  q_n14_0_o2/Y  q_n14_0/B  q_n14_0/Y  q\[14\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT q\[3\]/CLK  q\[3\]/Q  q_n12_0_o2_m6_0_a2_4/C  q_n12_0_o2_m6_0_a2_4/Y  q_n12_0_o2_m6_0_a2_6/C  q_n12_0_o2_m6_0_a2_6/Y  q_n12_0_o2_m6_0_a2/A  q_n12_0_o2_m6_0_a2/Y  q_n13_0_o2/A  q_n13_0_o2/Y  q_n15_0_o2/A  q_n15_0_o2/Y  q_n15_0/B  q_n15_0/Y  q\[15\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT q\[6\]/CLK  q\[6\]/Q  q_n12_0_o2_m6_0_a2_2/B  q_n12_0_o2_m6_0_a2_2/Y  q_n12_0_o2_m6_0_a2_5/C  q_n12_0_o2_m6_0_a2_5/Y  q_n12_0_o2_m6_0_a2/B  q_n12_0_o2_m6_0_a2/Y  q_n13_0_o2/A  q_n13_0_o2/Y  q_n14_0_o2/B  q_n14_0_o2/Y  q_n14_0/B  q_n14_0/Y  q\[14\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT q\[0\]/CLK  q\[0\]/Q  q_n3_i_o2/C  q_n3_i_o2/Y  q_n12_0_o2_m6_0_a2/C  q_n12_0_o2_m6_0_a2/Y  q_n13_0_o2/A  q_n13_0_o2/Y  q_n14_0_o2/B  q_n14_0_o2/Y  q_n14_0/B  q_n14_0/Y  q\[14\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT q\[2\]/CLK  q\[2\]/Q  q_n3_i_o2/A  q_n3_i_o2/Y  q_n12_0_o2_m6_0_a2/C  q_n12_0_o2_m6_0_a2/Y  q_n13_0_o2/A  q_n13_0_o2/Y  q_n14_0_o2/B  q_n14_0_o2/Y  q_n14_0/B  q_n14_0/Y  q\[14\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT q\[7\]/CLK  q\[7\]/Q  q_n12_0_o2_m6_0_a2_2/A  q_n12_0_o2_m6_0_a2_2/Y  q_n12_0_o2_m6_0_a2_5/C  q_n12_0_o2_m6_0_a2_5/Y  q_n12_0_o2_m6_0_a2/B  q_n12_0_o2_m6_0_a2/Y  q_n13_0_o2/A  q_n13_0_o2/Y  q_n14_0_o2/B  q_n14_0_o2/Y  q_n14_0/B  q_n14_0/Y  q\[14\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT q\[1\]/CLK  q\[1\]/Q  q_n3_i_o2/B  q_n3_i_o2/Y  q_n12_0_o2_m6_0_a2/C  q_n12_0_o2_m6_0_a2/Y  q_n13_0_o2/A  q_n13_0_o2/Y  q_n14_0_o2/B  q_n14_0_o2/Y  q_n14_0/B  q_n14_0/Y  q\[14\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT q\[10\]/CLK  q\[10\]/Q  q_n12_0_o2_m6_0_a2_4/B  q_n12_0_o2_m6_0_a2_4/Y  q_n12_0_o2_m6_0_a2_6/C  q_n12_0_o2_m6_0_a2_6/Y  q_n12_0_o2_m6_0_a2/A  q_n12_0_o2_m6_0_a2/Y  q_n13_0_o2/A  q_n13_0_o2/Y  q_n14_0_o2/B  q_n14_0_o2/Y  q_n14_0/B  q_n14_0/Y  q\[14\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT q\[3\]/CLK  q\[3\]/Q  q_n12_0_o2_m6_0_a2_4/C  q_n12_0_o2_m6_0_a2_4/Y  q_n12_0_o2_m6_0_a2_6/C  q_n12_0_o2_m6_0_a2_6/Y  q_n12_0_o2_m6_0_a2/A  q_n12_0_o2_m6_0_a2/Y  q_n13_0_o2/A  q_n13_0_o2/Y  q_n13_0/B  q_n13_0/Y  q\[13\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT q\[0\]/CLK  q\[0\]/Q  q_n3_i_o2/C  q_n3_i_o2/Y  q_n6_i_o2/B  q_n6_i_o2/Y  q_n7_i_a2/B  q_n7_i_a2/Y  q_n7_i/B  q_n7_i/Y  q\[7\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT q\[5\]/CLK  q\[5\]/Q  q_n12_0_o2_m6_0_a2_6/B  q_n12_0_o2_m6_0_a2_6/Y  q_n12_0_o2_m6_0_a2/A  q_n12_0_o2_m6_0_a2/Y  q_n13_0_o2/A  q_n13_0_o2/Y  q_n14_0_o2/B  q_n14_0_o2/Y  q_n14_0/B  q_n14_0/Y  q\[14\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT q\[4\]/CLK  q\[4\]/Q  q_n12_0_o2_m6_0_a2_6/A  q_n12_0_o2_m6_0_a2_6/Y  q_n12_0_o2_m6_0_a2/A  q_n12_0_o2_m6_0_a2/Y  q_n13_0_o2/A  q_n13_0_o2/Y  q_n14_0_o2/B  q_n14_0_o2/Y  q_n14_0/B  q_n14_0/Y  q\[14\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT q\[11\]/CLK  q\[11\]/Q  q_n12_0_o2_m6_0_a2_4/A  q_n12_0_o2_m6_0_a2_4/Y  q_n12_0_o2_m6_0_a2_6/C  q_n12_0_o2_m6_0_a2_6/Y  q_n12_0_o2_m6_0_a2/A  q_n12_0_o2_m6_0_a2/Y  q_n13_0_o2/A  q_n13_0_o2/Y  q_n14_0_o2/B  q_n14_0_o2/Y  q_n14_0/B  q_n14_0/Y  q\[14\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT q\[9\]/CLK  q\[9\]/Q  q_n12_0_o2_m6_0_a2_5/B  q_n12_0_o2_m6_0_a2_5/Y  q_n12_0_o2_m6_0_a2/B  q_n12_0_o2_m6_0_a2/Y  q_n13_0_o2/A  q_n13_0_o2/Y  q_n14_0_o2/B  q_n14_0_o2/Y  q_n14_0/B  q_n14_0/Y  q\[14\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT q\[0\]/CLK  q\[0\]/Q  q_n3_i_o2/C  q_n3_i_o2/Y  q_n5_i_o2/C  q_n5_i_o2/Y  q_n5_i_a2/A  q_n5_i_a2/Y  q_n5_i/B  q_n5_i/Y  q\[5\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT q\[8\]/CLK  q\[8\]/Q  q_n12_0_o2_m6_0_a2_5/A  q_n12_0_o2_m6_0_a2_5/Y  q_n12_0_o2_m6_0_a2/B  q_n12_0_o2_m6_0_a2/Y  q_n13_0_o2/A  q_n13_0_o2/Y  q_n14_0_o2/B  q_n14_0_o2/Y  q_n14_0/B  q_n14_0/Y  q\[14\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT q\[5\]/CLK  q\[5\]/Q  q_n6_i_o2_s/B  q_n6_i_o2_s/Y  q_n6_i_o2/C  q_n6_i_o2/Y  q_n7_i_a2/B  q_n7_i_a2/Y  q_n7_i/B  q_n7_i/Y  q\[7\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT q\[0\]/CLK  q\[0\]/Q  q_n3_i_o2/C  q_n3_i_o2/Y  q_n6_i_o2/B  q_n6_i_o2/Y  q_n5_i/A  q_n5_i/Y  q\[5\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT q\[0\]/CLK  q\[0\]/Q  q_n3_i_o2/C  q_n3_i_o2/Y  q_n6_i_o2/B  q_n6_i_o2/Y  q_n6_i/B  q_n6_i/Y  q\[6\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT q\[4\]/CLK  q\[4\]/Q  q_n6_i_o2_s/A  q_n6_i_o2_s/Y  q_n6_i_o2/C  q_n6_i_o2/Y  q_n7_i_a2/B  q_n7_i_a2/Y  q_n7_i/B  q_n7_i/Y  q\[7\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT q\[3\]/CLK  q\[3\]/Q  q_n12_0_o2_m6_0_a2_4/C  q_n12_0_o2_m6_0_a2_4/Y  q_n12_0_o2_m6_0_a2_6/C  q_n12_0_o2_m6_0_a2_6/Y  q_n12_0_o2_m6_0_a2/A  q_n12_0_o2_m6_0_a2/Y  q_n12_0/B  q_n12_0/Y  q\[12\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT q\[5\]/CLK  q\[5\]/Q  q_n6_i_o2_s/B  q_n6_i_o2_s/Y  q_n8_i_o2_s_0/C  q_n8_i_o2_s_0/Y  q_n8_i_o2/C  q_n8_i_o2/Y  q_n7_i/A  q_n7_i/Y  q\[7\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT q\[6\]/CLK  q\[6\]/Q  q_n12_0_o2_m6_0_a2_2/B  q_n12_0_o2_m6_0_a2_2/Y  q_n9_0_m4_e_4/C  q_n9_0_m4_e_4/Y  q_n9_0_m4_e/B  q_n9_0_m4_e/Y  q_n9_0_m6/A  q_n9_0_m6/Y  q\[9\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT q\[0\]/CLK  q\[0\]/Q  q_n3_i_o2/C  q_n3_i_o2/Y  q_n5_i_o2/C  q_n5_i_o2/Y  q_n4_i/A  q_n4_i/Y  q\[4\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT q\[3\]/CLK  q\[3\]/Q  q_n10_0_m4_0_a2_2/A  q_n10_0_m4_0_a2_2/Y  q_n10_0_m4_0_a2_4/C  q_n10_0_m4_0_a2_4/Y  q_n10_0_m4_0_a2/A  q_n10_0_m4_0_a2/Y  q_n10_0_m6/A  q_n10_0_m6/Y  q\[10\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT q\[3\]/CLK  q\[3\]/Q  q_n11_0_o2_m6_0_a2_2/B  q_n11_0_o2_m6_0_a2_2/Y  q_n11_0_o2_m6_0_a2_5/C  q_n11_0_o2_m6_0_a2_5/Y  q_n11_0_o2_m6_0_a2/A  q_n11_0_o2_m6_0_a2/Y  q_n11_0/B  q_n11_0/Y  q\[11\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT q\[0\]/CLK  q\[0\]/Q  q_n3_i_o2/C  q_n3_i_o2/Y  q_n8_i_o2/B  q_n8_i_o2/Y  q_n7_i/A  q_n7_i/Y  q\[7\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT q\[0\]/CLK  q\[0\]/Q  q_n3_i_o2/C  q_n3_i_o2/Y  q_n4_i_a2/B  q_n4_i_a2/Y  q_n4_i/B  q_n4_i/Y  q\[4\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT q\[6\]/CLK  q\[6\]/Q  q_n11_0_o2_m6_0_a2_4/C  q_n11_0_o2_m6_0_a2_4/Y  q_n11_0_o2_m6_0_a2_6/C  q_n11_0_o2_m6_0_a2_6/Y  q_n11_0_o2_m6_0_a2/B  q_n11_0_o2_m6_0_a2/Y  q_n11_0/B  q_n11_0/Y  q\[11\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT q\[0\]/CLK  q\[0\]/Q  q_n3_i_o2/C  q_n3_i_o2/Y  q_n10_0_m4_0_a2/C  q_n10_0_m4_0_a2/Y  q_n10_0_m6/A  q_n10_0_m6/Y  q\[10\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT q\[8\]/CLK  q\[8\]/Q  q_n10_0_m4_0_a2_2/B  q_n10_0_m4_0_a2_2/Y  q_n10_0_m4_0_a2_4/C  q_n10_0_m4_0_a2_4/Y  q_n10_0_m4_0_a2/A  q_n10_0_m4_0_a2/Y  q_n10_0_m6/A  q_n10_0_m6/Y  q\[10\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT q\[4\]/CLK  q\[4\]/Q  q_n11_0_o2_m6_0_a2_2/A  q_n11_0_o2_m6_0_a2_2/Y  q_n11_0_o2_m6_0_a2_5/C  q_n11_0_o2_m6_0_a2_5/Y  q_n11_0_o2_m6_0_a2/A  q_n11_0_o2_m6_0_a2/Y  q_n11_0/B  q_n11_0/Y  q\[11\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT q\[3\]/CLK  q\[3\]/Q  q_n6_i_o2/A  q_n6_i_o2/Y  q_n7_i_a2/B  q_n7_i_a2/Y  q_n7_i/B  q_n7_i/Y  q\[7\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT q\[2\]/CLK  q\[2\]/Q  q_n11_0_o2_m6_0_a2_4/A  q_n11_0_o2_m6_0_a2_4/Y  q_n11_0_o2_m6_0_a2_6/C  q_n11_0_o2_m6_0_a2_6/Y  q_n11_0_o2_m6_0_a2/B  q_n11_0_o2_m6_0_a2/Y  q_n11_0/B  q_n11_0/Y  q\[11\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT q\[3\]/CLK  q\[3\]/Q  q_n9_0_m4_e_3/C  q_n9_0_m4_e_3/Y  q_n9_0_m4_e/A  q_n9_0_m4_e/Y  q_n9_0_m6/A  q_n9_0_m6/Y  q\[9\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT q\[5\]/CLK  q\[5\]/Q  q_n10_0_m4_0_a2_4/B  q_n10_0_m4_0_a2_4/Y  q_n10_0_m4_0_a2/A  q_n10_0_m4_0_a2/Y  q_n10_0_m6/A  q_n10_0_m6/Y  q\[10\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT q\[10\]/CLK  q\[10\]/Q  q_n11_0_o2_m6_0_a2_4/B  q_n11_0_o2_m6_0_a2_4/Y  q_n11_0_o2_m6_0_a2_6/C  q_n11_0_o2_m6_0_a2_6/Y  q_n11_0_o2_m6_0_a2/B  q_n11_0_o2_m6_0_a2/Y  q_n11_0/B  q_n11_0/Y  q\[11\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT q\[5\]/CLK  q\[5\]/Q  q_n9_0_m4_e_4/B  q_n9_0_m4_e_4/Y  q_n9_0_m4_e/B  q_n9_0_m4_e/Y  q_n9_0_m6/A  q_n9_0_m6/Y  q\[9\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT q\[6\]/CLK  q\[6\]/Q  q_n8_i_o2_s_0/B  q_n8_i_o2_s_0/Y  q_n8_i_o2/C  q_n8_i_o2/Y  q_n7_i/A  q_n7_i/Y  q\[7\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT q\[0\]/CLK  q\[0\]/Q  q_n3_i_o2/C  q_n3_i_o2/Y  q_n2_i/A  q_n2_i/Y  q\[2\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT q\[7\]/CLK  q\[7\]/Q  q_n10_0_m4_0_a2_3/C  q_n10_0_m4_0_a2_3/Y  q_n10_0_m4_0_a2/B  q_n10_0_m4_0_a2/Y  q_n10_0_m6/A  q_n10_0_m6/Y  q\[10\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT q\[0\]/CLK  q\[0\]/Q  q_n3_i_o2/C  q_n3_i_o2/Y  q_n3_i/B  q_n3_i/Y  q\[3\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT q\[0\]/CLK  q\[0\]/Q  q_n2_i_o2/B  q_n2_i_o2/Y  q_n9_0_m4_e/C  q_n9_0_m4_e/Y  q_n9_0_m6/A  q_n9_0_m6/Y  q\[9\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT q\[6\]/CLK  q\[6\]/Q  q_n10_0_m4_0_a2_3/A  q_n10_0_m4_0_a2_3/Y  q_n10_0_m4_0_a2/B  q_n10_0_m4_0_a2/Y  q_n10_0_m6/A  q_n10_0_m6/Y  q\[10\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT q\[4\]/CLK  q\[4\]/Q  q_n10_0_m4_0_a2_4/A  q_n10_0_m4_0_a2_4/Y  q_n10_0_m4_0_a2/A  q_n10_0_m4_0_a2/Y  q_n10_0_m6/A  q_n10_0_m6/Y  q\[10\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT q\[4\]/CLK  q\[4\]/Q  q_n9_0_m4_e_4/A  q_n9_0_m4_e_4/Y  q_n9_0_m4_e/B  q_n9_0_m4_e/Y  q_n9_0_m6/A  q_n9_0_m6/Y  q\[9\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT q\[9\]/CLK  q\[9\]/Q  q_n10_0_m4_0_a2_3/B  q_n10_0_m4_0_a2_3/Y  q_n10_0_m4_0_a2/B  q_n10_0_m4_0_a2/Y  q_n10_0_m6/A  q_n10_0_m6/Y  q\[10\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT q\[3\]/CLK  q\[3\]/Q  q_n5_i_o2/A  q_n5_i_o2/Y  q_n5_i_a2/A  q_n5_i_a2/Y  q_n5_i/B  q_n5_i/Y  q\[5\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT q\[5\]/CLK  q\[5\]/Q  q_n11_0_o2_m6_0_a2_5/A  q_n11_0_o2_m6_0_a2_5/Y  q_n11_0_o2_m6_0_a2/A  q_n11_0_o2_m6_0_a2/Y  q_n11_0/B  q_n11_0/Y  q\[11\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT q\[4\]/CLK  q\[4\]/Q  q_n5_i_o2/B  q_n5_i_o2/Y  q_n5_i_a2/A  q_n5_i_a2/Y  q_n5_i/B  q_n5_i/Y  q\[5\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT q\[0\]/CLK  q\[0\]/Q  q_n2_i_o2/B  q_n2_i_o2/Y  q_n11_0_o2_m6_0_a2/C  q_n11_0_o2_m6_0_a2/Y  q_n11_0/B  q_n11_0/Y  q\[11\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT q\[7\]/CLK  q\[7\]/Q  q_n8_i_o2_s_0/A  q_n8_i_o2_s_0/Y  q_n8_i_o2/C  q_n8_i_o2/Y  q_n7_i/A  q_n7_i/Y  q\[7\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT q\[2\]/CLK  q\[2\]/Q  q_n9_0_m4_e_3/B  q_n9_0_m4_e_3/Y  q_n9_0_m4_e/A  q_n9_0_m4_e/Y  q_n9_0_m6/A  q_n9_0_m6/Y  q\[9\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT q\[9\]/CLK  q\[9\]/Q  q_n11_0_o2_m6_0_a2_5/B  q_n11_0_o2_m6_0_a2_5/Y  q_n11_0_o2_m6_0_a2/A  q_n11_0_o2_m6_0_a2/Y  q_n11_0/B  q_n11_0/Y  q\[11\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT q\[8\]/CLK  q\[8\]/Q  q_n9_0_m4_e_3/A  q_n9_0_m4_e_3/Y  q_n9_0_m4_e/A  q_n9_0_m4_e/Y  q_n9_0_m6/A  q_n9_0_m6/Y  q\[9\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT q\[0\]/CLK  q\[0\]/Q  q_n2_i_o2/B  q_n2_i_o2/Y  q_n2_i_a2/A  q_n2_i_a2/Y  q_n2_i/B  q_n2_i/Y  q\[2\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT q\[7\]/CLK  q\[7\]/Q  q_n11_0_o2_m6_0_a2_6/A  q_n11_0_o2_m6_0_a2_6/Y  q_n11_0_o2_m6_0_a2/B  q_n11_0_o2_m6_0_a2/Y  q_n11_0/B  q_n11_0/Y  q\[11\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT q\[8\]/CLK  q\[8\]/Q  q_n11_0_o2_m6_0_a2_6/B  q_n11_0_o2_m6_0_a2_6/Y  q_n11_0_o2_m6_0_a2/B  q_n11_0_o2_m6_0_a2/Y  q_n11_0/B  q_n11_0/Y  q\[11\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT q\[1\]/CLK  q\[1\]/Q  q_n2_i_o2/A  q_n2_i_o2/Y  q_n9_0_m4_e/C  q_n9_0_m4_e/Y  q_n9_0_m6/A  q_n9_0_m6/Y  q\[9\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT q\[12\]/CLK  q\[12\]/Q  q_n13_0_o2/B  q_n13_0_o2/Y  q_n14_0_o2/B  q_n14_0_o2/Y  q_n14_0/B  q_n14_0/Y  q\[14\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT q\[13\]/CLK  q\[13\]/Q  q_n15_0_o2_s/A  q_n15_0_o2_s/Y  q_n15_0_o2/B  q_n15_0_o2/Y  q_n15_0/B  q_n15_0/Y  q\[15\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT q\[3\]/CLK  q\[3\]/Q  q_n4_i_a2/A  q_n4_i_a2/Y  q_n4_i/B  q_n4_i/Y  q\[4\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT q\[6\]/CLK  q\[6\]/Q  q_n7_i_a2/A  q_n7_i_a2/Y  q_n7_i/B  q_n7_i/Y  q\[7\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT q\[3\]/CLK  q\[3\]/Q  q_n8_i_o2/A  q_n8_i_o2/Y  q_n7_i/A  q_n7_i/Y  q\[7\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT q\[14\]/CLK  q\[14\]/Q  q_n15_0_o2_s/B  q_n15_0_o2_s/Y  q_n15_0_o2/B  q_n15_0_o2/Y  q_n15_0/B  q_n15_0/Y  q\[15\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT q\[4\]/CLK  q\[4\]/Q  q_n4_i_a2/C  q_n4_i_a2/Y  q_n4_i/B  q_n4_i/Y  q\[4\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT q\[5\]/CLK  q\[5\]/Q  q_n5_i_a2/B  q_n5_i_a2/Y  q_n5_i/B  q_n5_i/Y  q\[5\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT q\[7\]/CLK  q\[7\]/Q  q_n7_i_a2/C  q_n7_i_a2/Y  q_n7_i/B  q_n7_i/Y  q\[7\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT q\[3\]/CLK  q\[3\]/Q  q_n3_i/A  q_n3_i/Y  q\[3\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT q\[6\]/CLK  q\[6\]/Q  q_n6_i/A  q_n6_i/Y  q\[6\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT q\[13\]/CLK  q\[13\]/Q  q_n14_0_o2/A  q_n14_0_o2/Y  q_n14_0/B  q_n14_0/Y  q\[14\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT q\[2\]/CLK  q\[2\]/Q  q_n2_i_a2/B  q_n2_i_a2/Y  q_n2_i/B  q_n2_i/Y  q\[2\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT q\[8\]/CLK  q\[8\]/Q  q_n8_i/A  q_n8_i/Y  q\[8\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT q\[0\]/CLK  q\[0\]/Q  q_n1_i/A  q_n1_i/Y  q\[1\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT q\[9\]/CLK  q\[9\]/Q  q_n9_0_m6/B  q_n9_0_m6/Y  q\[9\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT q\[0\]/CLK  q\[0\]/Q  q_n0_i_a2/B  q_n0_i_a2/Y  q\[0\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT q\[13\]/CLK  q\[13\]/Q  q_n13_0/A  q_n13_0/Y  q\[13\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT q\[1\]/CLK  q\[1\]/Q  q_n1_i/B  q_n1_i/Y  q\[1\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT q\[10\]/CLK  q\[10\]/Q  q_n10_0_m6/B  q_n10_0_m6/Y  q\[10\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT q\[15\]/CLK  q\[15\]/Q  q_n15_0/A  q_n15_0/Y  q\[15\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT q\[14\]/CLK  q\[14\]/Q  q_n14_0/A  q_n14_0/Y  q\[14\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT q\[12\]/CLK  q\[12\]/Q  q_n12_0/A  q_n12_0/Y  q\[12\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT q\[11\]/CLK  q\[11\]/Q  q_n11_0/A  q_n11_0/Y  q\[11\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT q\[3\]/CLK  q\[3\]/Q  q_n12_0_o2_m6_0_a2_4/C  q_n12_0_o2_m6_0_a2_4/Y  q_n12_0_o2_m6_0_a2_6/C  q_n12_0_o2_m6_0_a2_6/Y  q_n12_0_o2_m6_0_a2/A  q_n12_0_o2_m6_0_a2/Y  q_n13_0_o2/A  q_n13_0_o2/Y  q_n15_0_o2/A  q_n15_0_o2/Y  TC_pad_RNO/B  TC_pad_RNO/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT q\[15\]/CLK  q\[15\]/Q  TC_pad_RNO/A  TC_pad_RNO/Y  	(10.0:10.0:10.0) )
+
+  )
+)
+)

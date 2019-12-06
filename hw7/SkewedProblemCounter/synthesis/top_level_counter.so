@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<SynplifyOutput>
+	<result>Success</result>
+	<design>top_level_counter</design>
+	<target_edif>C:\Microsemi_Prj\hw7\SkewedProblemCounter\synthesis\top_level_counter.edn</target_edif>
+</SynplifyOutput>

@@ -1,0 +1,3 @@
+@W: CL168 :"C:\Microsemi_Prj\hw8\problem1_a\hdl\CD3FF.v":20:13:20:24|Removing instance synchronizer because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL169 :"C:\Microsemi_Prj\hw8\problem1_a\hdl\CD3FF.v":26:0:26:5|Pruning unused register dataA. Make sure that there are no unused intermediate registers.
+

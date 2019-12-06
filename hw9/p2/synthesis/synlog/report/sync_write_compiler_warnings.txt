@@ -1,0 +1,4 @@
+@W: CL240 :"C:\Microsemi_Prj\hw9\p2\hdl\sync_write.vhd":12:3:12:8|Signal wrptrq is floating; a simulation mismatch is possible.
+@W: CL169 :"C:\Microsemi_Prj\hw9\p2\hdl\sync_write.vhd":23:3:23:4|Pruning unused register wrptrd2_3. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Microsemi_Prj\hw9\p2\hdl\sync_write.vhd":23:3:23:4|Pruning unused register wrptrd1_4. Make sure that there are no unused intermediate registers.
+

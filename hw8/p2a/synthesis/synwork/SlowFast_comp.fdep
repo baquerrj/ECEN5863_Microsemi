@@ -1,0 +1,25 @@
+#OPTIONS:"|-layerid|0|-orig_srs|C:\\Microsemi_Prj\\hw8\\p2a\\synthesis\\synwork\\SlowFast_comp.srs|-top|SlowFast|-prodtype|synplify_pro|-nram|-fixsmult|-divnmod|-I|C:\\Microsemi_Prj\\hw8\\p2a\\synthesis\\|-I|C:\\Microsemi\\Libero_SoC_v11.8\\SynplifyPro\\lib|-v2001|-devicelib|C:\\Microsemi\\Libero_SoC_v11.8\\SynplifyPro\\lib\\proasic\\smartfusion.v|-encrypt|-pro|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-lib|work|-lib|work|-lib|work"
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.8\\SynplifyPro\\bin64\\c_ver.exe":1480003824
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.8\\SynplifyPro\\lib\\proasic\\smartfusion.v":1487966850
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.8\\SynplifyPro\\lib\\vlog\\hypermods.v":1487966986
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.8\\SynplifyPro\\lib\\vlog\\umr_capim.v":1487966986
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.8\\SynplifyPro\\lib\\vlog\\scemi_objects.v":1487966986
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.8\\SynplifyPro\\lib\\vlog\\scemi_pipes.svh":1487966986
+#CUR:"C:\\Microsemi_Prj\\hw8\\p2a\\hdl\\ShiftRegister.v":1574137943
+#CUR:"C:\\Microsemi_Prj\\hw8\\p2a\\hdl\\Synchronizer.v":1574137630
+#CUR:"C:\\Microsemi_Prj\\hw8\\p2a\\hdl\\SlowFast.v":1574307846
+0			"C:\Microsemi_Prj\hw8\p2a\hdl\ShiftRegister.v" verilog
+1			"C:\Microsemi_Prj\hw8\p2a\hdl\Synchronizer.v" verilog
+2			"C:\Microsemi_Prj\hw8\p2a\hdl\SlowFast.v" verilog
+#Dependency Lists(Uses List)
+0 -1
+1 -1
+2 1 0
+#Dependency Lists(Users Of)
+0 2
+1 2
+2 -1
+#Design Unit to File Association
+module work SlowFast 2
+module work Synchronizer 1
+module work ShiftRegister 0

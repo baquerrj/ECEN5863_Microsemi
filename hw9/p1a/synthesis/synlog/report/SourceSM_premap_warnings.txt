@@ -1,0 +1,1 @@
+@W: MT530 :"c:\microsemi_prj\hw9\p1a\hdl\counter.v":9:0:9:5|Found inferred clock SourceSM|clk which controls 19 sequential elements including dataSource.counter.q[7:0]. This clock has no specified timing constraint which may adversely impact design performance. 

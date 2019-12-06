@@ -1,0 +1,192 @@
+Microsemi Libero Software
+Version: 11.8.0.26
+Release: v11.8
+
+Created a new design.
+'BA_NAME' set to 'ShiftRegister_ba'
+'IDE_DESIGNERVIEW_NAME' set to 'Impl1'
+'IDE_DESIGNERVIEW_COUNT' set to '1'
+'IDE_DESIGNERVIEW_REV0' set to 'Impl1'
+'IDE_DESIGNERVIEW_REVNUM0' set to '1'
+'IDE_DESIGNERVIEW_ROOTDIR' set to 'C:\Microsemi_Prj\hw8\p2b\designer'
+'IDE_DESIGNERVIEW_LASTREV' set to '1'
+'DESDIR' set to 'C:/Microsemi_Prj/hw8/p2b/designer/impl1'
+'BA_DIR' set to 'C:/Microsemi_Prj/hw8/p2b/designer/impl1'
+'BA_NETLIST_ALSO' set to '1'
+'EDNINFLAVOR' set to 'GENERIC'
+'NETLIST_NAMING_STYLE' set to 'VERILOG'
+'EXPORT_STATUS_REPORT' set to '1'
+'EXPORT_STATUS_REPORT_FILENAME' set to 'ShiftRegister.rpt'
+'AUDIT_NETLIST_FILE' set to '1'
+'AUDIT_DCF_FILE' set to '1'
+'AUDIT_PIN_FILE' set to '1'
+'AUDIT_ADL_FILE' set to '1'
+
+ Netlist Reading Time = 0.0 seconds
+Imported the file:
+   C:\Microsemi_Prj\hw8\p2b\synthesis\ShiftRegister.edn
+
+The Import command succeeded ( 00:00:01 )
+Design saved to file ShiftRegister.adb.
+=====================================================================
+Parameters used to run compile:
+===============================
+
+Family      : SmartFusion
+Device      : A2F200M3F
+Package     : 484 FBGA
+Source      : C:\Microsemi_Prj\hw8\p2b\synthesis\ShiftRegister.edn
+Format      : EDIF
+Topcell     : ShiftRegister
+Speed grade : STD
+Temp        : 0:25:85
+Voltage     : 1.58:1.50:1.42
+
+Keep Existing Physical Constraints : No
+Keep Existing Timing Constraints   : Yes
+
+pdc_abort_on_error                 : Yes
+pdc_eco_display_unmatched_objects  : No
+pdc_eco_max_warnings               : 10000
+
+demote_globals                     : No
+promote_globals                    : No
+localclock_max_shared_instances    : 12
+localclock_buffer_tree_max_fanout  : 12
+
+combine_register                   : No
+delete_buffer_tree                 : No
+
+report_high_fanout_nets_limit      : 10
+
+=====================================================================
+Compile starts ...
+
+
+Netlist Optimization Report
+===========================
+
+Optimized macros:
+  - Dangling net drivers:   0
+  - Buffers:                0
+  - Inverters:              0
+  - Tieoff:                 0
+  - Logic combining:        0
+
+    Total macros optimized  0
+
+There were 0 error(s) and 0 warning(s) in this design.
+=====================================================================
+Compile report:
+===============
+
+    Microcontroller Subsystem  Used:      0  Total:      1   (0.00%)
+    Fabric                     Used:      4  Total:   4608   (0.09%)
+    Fabric IO (W/ clocks)      Used:      6  Total:     94   (6.38%)
+    Fabric Differential IO     Used:      0  Total:     47   (0.00%)
+    Dedicated Analog IO        Used:      0  Total:     32   (0.00%)
+    Dedicated MSS IO           Used:      0  Total:     43   (0.00%)
+    GLOBAL (Chip+Quadrant)     Used:      1  Total:     15   (6.67%)
+    MSS GLOBAL                 Used:      0  Total:      3   (0.00%)
+    On-chip RC oscillator      Used:      0  Total:      1   (0.00%)
+    Main Crystal oscillator    Used:      0  Total:      1   (0.00%)
+    32 KHz Crystal oscillator  Used:      0  Total:      1   (0.00%)
+    RAM/FIFO                   Used:      0  Total:      8   (0.00%)
+    User JTAG                  Used:      0  Total:      1   (0.00%)
+
+Global Information:
+
+    Type            | Used   | Total
+    ----------------|--------|--------------
+    Chip global     | 1      | 3  (33.33%)*
+    Quadrant global | 0      | 12 (0.00%)
+    MSS global      | 0      | 3  (0.00%)
+
+    (*) Chip globals may be assigned to Quadrant globals using the Multi-View Navigator (MVN)
+        or Physical Design Constraints (PDC).
+        They may also be assigned to Quadrant globals automatically during Layout.
+
+Core Information:
+
+    Type    | Instances    | Core tiles
+    --------|--------------|-----------
+    COMB    | 0            | 0
+    SEQ     | 4            | 4
+
+I/O Function:
+
+    Type                                  | w/o register  | w/ register  | w/ DDR register
+    --------------------------------------|---------------|--------------|----------------
+    Input I/O                             | 2             | 0            | 0
+    Output I/O                            | 4             | 0            | 0
+    Bidirectional I/O                     | 0             | 0            | 0
+    Differential Input I/O Pairs          | 0             | 0            | 0
+    Differential Output I/O Pairs         | 0             | 0            | 0
+
+I/O Technology:
+
+                                    |   Voltages    |             I/Os
+    --------------------------------|-------|-------|-------|--------|--------------
+    I/O Standard(s)                 | Vcci  | Vref  | Input | Output | Bidirectional
+    --------------------------------|-------|-------|-------|--------|--------------
+    LVTTL                           | 3.30v | N/A   | 2     | 4      | 0
+
+I/O Placement:
+
+    Locked  :   0
+    Placed  :   0
+    UnPlaced:   6 ( 100.00% )
+
+Net information report:
+=======================
+
+The following nets have been assigned to a chip global resource:
+    Fanout  Type          Name
+    --------------------------
+    4       CLK_NET       Net   : clk_c
+                          Driver: clk_pad
+                          Source: NETLIST
+
+High fanout nets in the post compile netlist:
+    Fanout  Type          Name
+    --------------------------
+    2       INT_NET       Net   : data_out_c[0]
+                          Driver: data_out[0]
+    2       INT_NET       Net   : data_out_c[1]
+                          Driver: data_out[1]
+    2       INT_NET       Net   : data_out_c[2]
+                          Driver: data_out[2]
+    1       INT_NET       Net   : data_in_c
+                          Driver: data_in_pad
+    1       INT_NET       Net   : data_out_c[3]
+                          Driver: data_out[3]
+
+Nets that are candidates for clock assignment and the resulting fanout:
+    Fanout  Type          Name
+    --------------------------
+    2       INT_NET       Net   : data_out_c[0]
+                          Driver: data_out[0]
+    2       INT_NET       Net   : data_out_c[1]
+                          Driver: data_out[1]
+    2       INT_NET       Net   : data_out_c[2]
+                          Driver: data_out[2]
+    1       INT_NET       Net   : data_in_c
+                          Driver: data_in_pad
+    1       INT_NET       Net   : data_out_c[3]
+                          Driver: data_out[3]
+
+The Compile command succeeded ( 00:00:00 )
+Wrote status report to file: ShiftRegister_compile_report.txt
+
+The Report command succeeded ( 00:00:00 )
+Wrote pin report to file: ShiftRegister_report_pin_byname.txt
+
+The Report command succeeded ( 00:00:01 )
+Wrote pin report to file: ShiftRegister_report_pin_bynumber.txt
+
+The Report command succeeded ( 00:00:01 )
+Design saved to file C:\Microsemi_Prj\hw8\p2b\designer\impl1\ShiftRegister.adb.
+
+The Execute Script command succeeded ( 00:00:05 )
+Design closed.
+

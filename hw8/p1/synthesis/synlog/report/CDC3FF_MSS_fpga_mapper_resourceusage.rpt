@@ -1,0 +1,29 @@
+Target Part: A2F200M3F_FBGA484_STD
+Report for cell CDC3FF_MSS.rtl
+  Core Cell usage:
+              cell count     area count*area
+               GND     4      0.0        0.0
+           MSS_CCC     1      0.0        0.0
+             RCOSC     1      0.0        0.0
+               VCC     4      0.0        0.0
+
+
+            DFN1C1     3      1.0        3.0
+                   -----          ----------
+             TOTAL    13                 3.0
+
+
+  IO Cell usage:
+              cell count
+             INBUF     1
+            OUTBUF     1
+                   -----
+             TOTAL     2
+
+
+Core Cells         : 3 of 4608 (0%)
+IO Cells           : 2
+
+  RAM/ROM Usage Summary
+Block Rams : 0 of 8 (0%)
+

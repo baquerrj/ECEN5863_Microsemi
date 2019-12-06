@@ -1,0 +1,27 @@
+********************************************************************
+                            Global Usage Report
+********************************************************************
+  
+Product: Designer
+Release: v11.8
+Version: 11.8.0.26
+Date: Sun Nov 03 19:59:00 2019
+Design Name: Strained  Family: SmartFusion  Die: A2F500M3G  Package: 208 PQFP
+Design State: Post-Layout
+
+The following nets have been routed to a chip global resource:
+
+    Fanout            Name
+    ----------------------
+    24                Net   : clk_c
+                      Driver: clk_pad/U0/U1/U_GL
+
+Instance clk_pad/U0/U1/U_GL is using the A2F500M3G fabric CCC/PLL GLA output.
+This resource is using the glitchless mux (NGMUX) connected to the GLA output of the fabric CCC/PLL. In order for the NGMUX to operate correctly, the signal driving this instance must be a free-running clock signal.
+Refer to SmartFusion Microcontroller Subsystem User Guide for more details.
+Verify that this signal is a continuous clock signal.
+
+
+
+
+

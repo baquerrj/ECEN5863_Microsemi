@@ -1,0 +1,30 @@
+Target Part: A2F200M3F_FBGA484_STD
+Report for cell PartA.rtl
+  Core Cell usage:
+              cell count     area count*area
+               GND     2      0.0        0.0
+               INV     1      1.0        1.0
+               MX2     1      1.0        1.0
+               VCC     2      0.0        0.0
+
+
+            DFN1C1     6      1.0        6.0
+                   -----          ----------
+             TOTAL    12                 8.0
+
+
+  IO Cell usage:
+              cell count
+            CLKBUF     2
+             INBUF     1
+            OUTBUF     1
+                   -----
+             TOTAL     4
+
+
+Core Cells         : 8 of 4608 (0%)
+IO Cells           : 4
+
+  RAM/ROM Usage Summary
+Block Rams : 0 of 8 (0%)
+

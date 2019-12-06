@@ -1,0 +1,500 @@
+#Build: Synplify Pro L-2016.09M-2, Build 065R, Nov 16 2016
+#install: C:\Microsemi\Libero_SoC_v11.8\SynplifyPro
+#OS: Windows 8 6.2
+#Hostname: MSI
+
+# Sun Nov 10 18:00:38 2019
+
+#Implementation: synthesis
+
+Synopsys HDL Compiler, version comp2016q3p1, Build 117R, built Nov 17 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys VHDL Compiler, version comp2016q3p1, Build 127R, built Nov 24 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@N: CD720 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vhd2008\std.vhd":146:18:146:21|Setting time resolution to ps
+@N:"C:\Microsemi_Prj\hw8\p1\component\work\CDC3FF_MSS\CDC3FF_MSS.vhd":17:7:17:16|Top entity is set to CDC3FF_MSS.
+VHDL syntax check successful!
+@N: CD231 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vhd2008\std1164.vhd":890:16:890:17|Using onehot encoding for type mvl9plus. For example, enumeration 'U' is mapped to "1000000000".
+@N: CD630 :"C:\Microsemi_Prj\hw8\p1\component\work\CDC3FF_MSS\CDC3FF_MSS.vhd":17:7:17:16|Synthesizing work.cdc3ff_mss.rtl.
+@N: CD630 :"C:\Microsemi_Prj\hw8\p1\component\work\clk_source_MSS\clk_source_MSS.vhd":17:7:17:20|Synthesizing work.clk_source_mss.rtl.
+@N: CD630 :"C:\Microsemi_Prj\hw8\p1\component\work\clk_source_MSS\MSS_CCC_0\clk_source_MSS_tmp_MSS_CCC_0_MSS_CCC.vhd":8:7:8:42|Synthesizing work.clk_source_mss_tmp_mss_ccc_0_mss_ccc.def_arch.
+@N: CD630 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\proasic\smartfusion.vhd":2812:10:2812:12|Synthesizing smartfusion.vcc.syn_black_box.
+Post processing for smartfusion.vcc.syn_black_box
+@N: CD630 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\proasic\smartfusion.vhd":1796:10:1796:12|Synthesizing smartfusion.gnd.syn_black_box.
+Post processing for smartfusion.gnd.syn_black_box
+@N: CD630 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\proasic\smartfusion.vhd":3773:10:3773:14|Synthesizing smartfusion.rcosc.syn_black_box.
+Post processing for smartfusion.rcosc.syn_black_box
+@N: CD630 :"C:\Microsemi_Prj\hw8\p1\component\Actel\SmartFusionMSS\MSS\2.5.200\mss_comps.vhd":472:7:472:13|Synthesizing work.mss_ccc.def_arch.
+Post processing for work.mss_ccc.def_arch
+Post processing for work.clk_source_mss_tmp_mss_ccc_0_mss_ccc.def_arch
+@W: CL240 :"C:\Microsemi_Prj\hw8\p1\component\work\clk_source_MSS\MSS_CCC_0\clk_source_MSS_tmp_MSS_CCC_0_MSS_CCC.vhd":38:10:38:21|Signal LPXIN_CLKOUT is floating; a simulation mismatch is possible.
+@W: CL240 :"C:\Microsemi_Prj\hw8\p1\component\work\clk_source_MSS\MSS_CCC_0\clk_source_MSS_tmp_MSS_CCC_0_MSS_CCC.vhd":37:10:37:23|Signal MAINXIN_CLKOUT is floating; a simulation mismatch is possible.
+@W: CL240 :"C:\Microsemi_Prj\hw8\p1\component\work\clk_source_MSS\MSS_CCC_0\clk_source_MSS_tmp_MSS_CCC_0_MSS_CCC.vhd":36:10:36:21|Signal RCOSC_CLKOUT is floating; a simulation mismatch is possible.
+@N: CD630 :"C:\Microsemi_Prj\hw8\p1\component\work\clk_source_MSS\mss_tshell.vhd":4:7:4:13|Synthesizing work.mss_apb.def_arch.
+Post processing for work.mss_apb.def_arch
+Post processing for work.clk_source_mss.rtl
+@W: CL168 :"C:\Microsemi_Prj\hw8\p1\component\work\clk_source_MSS\clk_source_MSS.vhd":348:0:348:13|Removing instance MSS_ADLIB_INST because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@N: CD630 :"C:\Microsemi_Prj\hw8\p1\hdl\CDC3FF.vhd":24:7:24:12|Synthesizing work.cdc3ff.cdc3ff_arch.
+@N: CD630 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\proasic\smartfusion.vhd":1407:10:1407:15|Synthesizing smartfusion.dfn1c1.syn_black_box.
+Post processing for smartfusion.dfn1c1.syn_black_box
+Post processing for work.cdc3ff.cdc3ff_arch
+Post processing for work.cdc3ff_mss.rtl
+@N: CL159 :"C:\Microsemi_Prj\hw8\p1\component\work\clk_source_MSS\MSS_CCC_0\clk_source_MSS_tmp_MSS_CCC_0_MSS_CCC.vhd":10:10:10:13|Input CLKA is unused.
+@N: CL159 :"C:\Microsemi_Prj\hw8\p1\component\work\clk_source_MSS\MSS_CCC_0\clk_source_MSS_tmp_MSS_CCC_0_MSS_CCC.vhd":11:10:11:17|Input CLKA_PAD is unused.
+@N: CL159 :"C:\Microsemi_Prj\hw8\p1\component\work\clk_source_MSS\MSS_CCC_0\clk_source_MSS_tmp_MSS_CCC_0_MSS_CCC.vhd":12:10:12:18|Input CLKA_PADP is unused.
+@N: CL159 :"C:\Microsemi_Prj\hw8\p1\component\work\clk_source_MSS\MSS_CCC_0\clk_source_MSS_tmp_MSS_CCC_0_MSS_CCC.vhd":13:10:13:18|Input CLKA_PADN is unused.
+@N: CL159 :"C:\Microsemi_Prj\hw8\p1\component\work\clk_source_MSS\MSS_CCC_0\clk_source_MSS_tmp_MSS_CCC_0_MSS_CCC.vhd":14:10:14:13|Input CLKB is unused.
+@N: CL159 :"C:\Microsemi_Prj\hw8\p1\component\work\clk_source_MSS\MSS_CCC_0\clk_source_MSS_tmp_MSS_CCC_0_MSS_CCC.vhd":15:10:15:17|Input CLKB_PAD is unused.
+@N: CL159 :"C:\Microsemi_Prj\hw8\p1\component\work\clk_source_MSS\MSS_CCC_0\clk_source_MSS_tmp_MSS_CCC_0_MSS_CCC.vhd":16:10:16:18|Input CLKB_PADP is unused.
+@N: CL159 :"C:\Microsemi_Prj\hw8\p1\component\work\clk_source_MSS\MSS_CCC_0\clk_source_MSS_tmp_MSS_CCC_0_MSS_CCC.vhd":17:10:17:18|Input CLKB_PADN is unused.
+@N: CL159 :"C:\Microsemi_Prj\hw8\p1\component\work\clk_source_MSS\MSS_CCC_0\clk_source_MSS_tmp_MSS_CCC_0_MSS_CCC.vhd":18:10:18:13|Input CLKC is unused.
+@N: CL159 :"C:\Microsemi_Prj\hw8\p1\component\work\clk_source_MSS\MSS_CCC_0\clk_source_MSS_tmp_MSS_CCC_0_MSS_CCC.vhd":19:10:19:17|Input CLKC_PAD is unused.
+@N: CL159 :"C:\Microsemi_Prj\hw8\p1\component\work\clk_source_MSS\MSS_CCC_0\clk_source_MSS_tmp_MSS_CCC_0_MSS_CCC.vhd":20:10:20:18|Input CLKC_PADP is unused.
+@N: CL159 :"C:\Microsemi_Prj\hw8\p1\component\work\clk_source_MSS\MSS_CCC_0\clk_source_MSS_tmp_MSS_CCC_0_MSS_CCC.vhd":21:10:21:18|Input CLKC_PADN is unused.
+@N: CL159 :"C:\Microsemi_Prj\hw8\p1\component\work\clk_source_MSS\MSS_CCC_0\clk_source_MSS_tmp_MSS_CCC_0_MSS_CCC.vhd":22:10:22:16|Input MAINXIN is unused.
+@N: CL159 :"C:\Microsemi_Prj\hw8\p1\component\work\clk_source_MSS\MSS_CCC_0\clk_source_MSS_tmp_MSS_CCC_0_MSS_CCC.vhd":23:10:23:14|Input LPXIN is unused.
+@N: CL159 :"C:\Microsemi_Prj\hw8\p1\component\work\clk_source_MSS\MSS_CCC_0\clk_source_MSS_tmp_MSS_CCC_0_MSS_CCC.vhd":24:10:24:16|Input MAC_CLK is unused.
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 75MB peak: 76MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Sun Nov 10 18:00:38 2019
+
+###########################################################]
+Synopsys Netlist Linker, version comp2016q3p1, Build 117R, built Nov 17 2016
+@N|Running in 64-bit mode
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Sun Nov 10 18:00:38 2019
+
+###########################################################]
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Sun Nov 10 18:00:38 2019
+
+###########################################################]
+Synopsys Netlist Linker, version comp2016q3p1, Build 117R, built Nov 17 2016
+@N|Running in 64-bit mode
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Sun Nov 10 18:00:39 2019
+
+###########################################################]
+Pre-mapping Report
+
+# Sun Nov 10 18:00:39 2019
+
+Synopsys Microsemi Technology Pre-mapping, Version mapact, Build 1920R, Built Nov 17 2016 09:40:34
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version L-2016.09M-2
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
+
+Reading constraint file: C:\Microsemi_Prj\hw8\p1\component\work\clk_source_MSS\mss_tshell_syn.sdc
+@L: C:\Microsemi_Prj\hw8\p1\synthesis\CDC3FF_MSS_scck.rpt 
+Printing clock  summary report in "C:\Microsemi_Prj\hw8\p1\synthesis\CDC3FF_MSS_scck.rpt" file 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
+
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 109MB peak: 110MB)
+
+
+
+Clock Summary
+*****************
+
+Start       Requested     Requested     Clock        Clock           Clock
+Clock       Frequency     Period        Type         Group           Load 
+--------------------------------------------------------------------------
+FAB_CLK     50.0 MHz      20.000        declared     clk_group_0     3    
+FCLK        50.0 MHz      20.000        declared     clk_group_0     0    
+==========================================================================
+
+Finished Pre Mapping Phase.
+@N: BN225 |Writing default property annotation file C:\Microsemi_Prj\hw8\p1\synthesis\CDC3FF_MSS.sap.
+
+Starting constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 109MB peak: 110MB)
+
+None
+None
+@W: MF511 |Found issues with constraints. Please check constraint checker report "C:\Microsemi_Prj\hw8\p1\synthesis\CDC3FF_MSS_cck.rpt" .
+
+Finished constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 109MB peak: 110MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 25MB peak: 110MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Sun Nov 10 18:00:40 2019
+
+###########################################################]
+Map & Optimize Report
+
+# Sun Nov 10 18:00:40 2019
+
+Synopsys Microsemi Technology Mapper, Version mapact, Build 1920R, Built Nov 17 2016 09:40:34
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version L-2016.09M-2
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
+
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 108MB peak: 110MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 109MB peak: 110MB)
+
+
+Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 109MB peak: 110MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 109MB peak: 110MB)
+
+
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 109MB peak: 110MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 109MB peak: 110MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 109MB peak: 110MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 109MB peak: 110MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 109MB peak: 110MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 109MB peak: 110MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 109MB peak: 110MB)
+
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 109MB peak: 110MB)
+
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 109MB peak: 110MB)
+
+
+
+@S |Clock Optimization Summary
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+Clock optimization not enabled
+1 non-gated/non-generated clock tree(s) driving 3 clock pin(s) of sequential element(s)
+0 gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+0 instances converted, 0 sequential instances remain driven by gated/generated clocks
+
+================================= Non-Gated/Non-Generated Clocks ==================================
+Clock Tree ID     Driving Element      Drive Element Type                Fanout     Sample Instance
+---------------------------------------------------------------------------------------------------
+@K:CKID0001       clk_source_MSS_0     clock definition on hierarchy     3          CDC3FF_0.u1    
+===================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 109MB peak: 110MB)
+
+Writing Analyst data base C:\Microsemi_Prj\hw8\p1\synthesis\synwork\CDC3FF_MSS_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 109MB peak: 110MB)
+
+Writing EDIF Netlist and constraint files
+L-2016.09M-2
+
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 109MB peak: 110MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 109MB peak: 110MB)
+
+@N: MT615 |Found clock FAB_CLK with period 20.00ns 
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Sun Nov 10 18:00:40 2019
+#
+
+
+Top view:               CDC3FF_MSS
+Library name:           smartfusion
+Operating conditions:   COMWCSTD ( T = 70.0, V = 1.42, P = 1.74, tree_type = balanced_tree )
+Requested Frequency:    50.0 MHz
+Wire load mode:         top
+Wire load model:        smartfusion
+Paths requested:        5
+Constraint File(s):    C:\Microsemi_Prj\hw8\p1\component\work\clk_source_MSS\mss_tshell_syn.sdc
+                       
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: 13.917
+
+                   Requested     Estimated     Requested     Estimated                Clock        Clock          
+Starting Clock     Frequency     Frequency     Period        Period        Slack      Type         Group          
+------------------------------------------------------------------------------------------------------------------
+FAB_CLK            50.0 MHz      612.8 MHz     20.000        1.632         18.368     declared     clk_group_0    
+System             100.0 MHz     NA            10.000        NA            13.917     system       system_clkgroup
+==================================================================================================================
+@N: MT582 |Estimated period and frequency not reported for given clock unless the clock has at least one timing path which is not a false or a max delay path and that does not have excessive slack
+@W: MT548 :"c:/microsemi_prj/hw8/p1/component/work/clk_source_mss/mss_tshell_syn.sdc":2:0:2:0|Source for clock FCLK not found in netlist. Run the constraint checker to verify if constraints are applied correctly.
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks             |    rise  to  rise    |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+----------------------------------------------------------------------------------------------------------
+Starting  Ending   |  constraint  slack   |  constraint  slack  |  constraint  slack  |  constraint  slack
+----------------------------------------------------------------------------------------------------------
+System    FAB_CLK  |  20.000      13.917  |  No paths    -      |  No paths    -      |  No paths    -    
+FAB_CLK   FAB_CLK  |  20.000      18.368  |  No paths    -      |  No paths    -      |  No paths    -    
+==========================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: FAB_CLK
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                Starting                                 Arrival           
+Instance        Reference     Type       Pin     Net     Time        Slack 
+                Clock                                                      
+---------------------------------------------------------------------------
+CDC3FF_0.u1     FAB_CLK       DFN1C1     Q       S1      0.737       18.368
+CDC3FF_0.u2     FAB_CLK       DFN1C1     Q       S2      0.737       18.368
+===========================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                Starting                                 Required           
+Instance        Reference     Type       Pin     Net     Time         Slack 
+                Clock                                                       
+----------------------------------------------------------------------------
+CDC3FF_0.u2     FAB_CLK       DFN1C1     D       S1      19.427       18.368
+CDC3FF_0.u3     FAB_CLK       DFN1C1     D       S2      19.427       18.368
+============================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      20.000
+    - Setup time:                            0.573
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         19.427
+
+    - Propagation time:                      1.058
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 18.368
+
+    Number of logic level(s):                0
+    Starting point:                          CDC3FF_0.u1 / Q
+    Ending point:                            CDC3FF_0.u2 / D
+    The start point is clocked by            FAB_CLK [rising] on pin CLK
+    The end   point is clocked by            FAB_CLK [rising] on pin CLK
+
+Instance / Net                Pin      Pin               Arrival     No. of    
+Name               Type       Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------
+CDC3FF_0.u1        DFN1C1     Q        Out     0.737     0.737       -         
+S1                 Net        -        -       0.322     -           1         
+CDC3FF_0.u2        DFN1C1     D        In      -         1.058       -         
+===============================================================================
+Total path delay (propagation time + setup) of 1.632 is 1.310(80.3%) logic and 0.322(19.7%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+
+====================================
+Detailed Report for Clock: System
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                       Starting                                            Arrival           
+Instance                               Reference     Type      Pin        Net              Time        Slack 
+                                       Clock                                                                 
+-------------------------------------------------------------------------------------------------------------
+clk_source_MSS_0.MSS_CCC_0.I_RCOSC     System        RCOSC     CLKOUT     N_CLKA_RCOSC     0.000       13.917
+=============================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                Starting                                                  Required           
+Instance        Reference     Type       Pin     Net                      Time         Slack 
+                Clock                                                                        
+---------------------------------------------------------------------------------------------
+CDC3FF_0.u1     System        DFN1C1     D       clk_source_MSS_0_GLB     19.427       13.917
+=============================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      20.000
+    - Setup time:                            0.573
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         19.427
+
+    - Propagation time:                      5.509
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (critical) :                     13.917
+
+    Number of logic level(s):                1
+    Starting point:                          clk_source_MSS_0.MSS_CCC_0.I_RCOSC / CLKOUT
+    Ending point:                            CDC3FF_0.u1 / D
+    The start point is clocked by            System [rising]
+    The end   point is clocked by            FAB_CLK [rising] on pin CLK
+
+Instance / Net                                      Pin        Pin               Arrival     No. of    
+Name                                    Type        Name       Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------------------------
+clk_source_MSS_0.MSS_CCC_0.I_RCOSC      RCOSC       CLKOUT     Out     0.000     0.000       -         
+N_CLKA_RCOSC                            Net         -          -       0.322     -           1         
+clk_source_MSS_0.MSS_CCC_0.I_MSSCCC     MSS_CCC     CLKA       In      -         0.322       -         
+clk_source_MSS_0.MSS_CCC_0.I_MSSCCC     MSS_CCC     GLB        Out     4.866     5.188       -         
+clk_source_MSS_0_GLB                    Net         -          -       0.322     -           1         
+CDC3FF_0.u1                             DFN1C1      D          In      -         5.509       -         
+=======================================================================================================
+Total path delay (propagation time + setup) of 6.083 is 5.440(89.4%) logic and 0.643(10.6%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+None
+
+Finished final timing analysis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 109MB peak: 110MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 109MB peak: 110MB)
+
+--------------------------------------------------------------------------------
+Target Part: A2F200M3F_FBGA484_STD
+Report for cell CDC3FF_MSS.rtl
+  Core Cell usage:
+              cell count     area count*area
+               GND     4      0.0        0.0
+           MSS_CCC     1      0.0        0.0
+             RCOSC     1      0.0        0.0
+               VCC     4      0.0        0.0
+
+
+            DFN1C1     3      1.0        3.0
+                   -----          ----------
+             TOTAL    13                 3.0
+
+
+  IO Cell usage:
+              cell count
+             INBUF     1
+            OUTBUF     1
+                   -----
+             TOTAL     2
+
+
+Core Cells         : 3 of 4608 (0%)
+IO Cells           : 2
+
+  RAM/ROM Usage Summary
+Block Rams : 0 of 8 (0%)
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 25MB peak: 110MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Sun Nov 10 18:00:40 2019
+
+###########################################################]

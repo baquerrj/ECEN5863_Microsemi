@@ -1,0 +1,91 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Microsemi_Prj/hw9/p2/simulation
+Efifo2x8
+Z1 w1575152453
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z4 8C:/Microsemi_Prj/hw9/p2/designer/impl1/fifo2x8_ba.vhd
+Z5 FC:/Microsemi_Prj/hw9/p2/designer/impl1/fifo2x8_ba.vhd
+l0
+L9
+V:XQdAg7hM`DlKS8UfL9GE1
+!s100 ]3ncM0o:l]g[DG;8nM3oi0
+Z6 OW;C;10.5c;63
+33
+Z7 !s110 1575154368
+!i10b 1
+Z8 !s108 1575154368.000000
+Z9 !s90 -reportprogress|300|-2008|-explicit|-work|postlayout|C:/Microsemi_Prj/hw9/p2/designer/impl1/fifo2x8_ba.vhd|
+Z10 !s107 C:/Microsemi_Prj/hw9/p2/designer/impl1/fifo2x8_ba.vhd|
+!i113 1
+Z11 o-2008 -explicit -work postlayout -O0
+Z12 tCvgOpt 0
+Adef_arch
+R2
+R3
+Z13 DEx4 work 7 fifo2x8 0 22 :XQdAg7hM`DlKS8UfL9GE1
+l199
+L28
+VC9F9SePIECcn5NcKPJ<h:1
+!s100 _GHMT1?]P24meBJ:J25cB0
+R6
+33
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Efifo2x8_tb
+Z14 w1575154344
+Z15 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+R2
+R3
+R0
+Z16 8C:/Microsemi_Prj/hw9/p2/stimulus/fifo2x8_tb.vhd
+Z17 FC:/Microsemi_Prj/hw9/p2/stimulus/fifo2x8_tb.vhd
+l0
+L33
+V2ITUMh^WiBBQhKVmB?>zA3
+!s100 :MC9z2LzJ;>=KlUBK>eS^0
+R6
+33
+R7
+!i10b 1
+R8
+Z18 !s90 -reportprogress|300|-2008|-explicit|-work|postlayout|C:/Microsemi_Prj/hw9/p2/stimulus/fifo2x8_tb.vhd|
+Z19 !s107 C:/Microsemi_Prj/hw9/p2/stimulus/fifo2x8_tb.vhd|
+!i113 1
+R11
+R12
+Abehavioral
+R13
+R15
+R2
+R3
+Z20 DEx4 work 10 fifo2x8_tb 0 22 2ITUMh^WiBBQhKVmB?>zA3
+l55
+L36
+VE]mibY5WY>k1]DT5`LBMk1
+!s100 9D`LCFB`KP`LYkWT6>[L;1
+R6
+33
+R7
+!i10b 1
+R8
+R18
+R19
+!i113 1
+R11
+R12

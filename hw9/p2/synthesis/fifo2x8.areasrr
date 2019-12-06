@@ -1,0 +1,23 @@
+----------------------------------------------------------------------
+Report for cell fifo2x8.archfifo2x8
+                                          Cell usage:
+                               cell       count     area    count*area
+                             CLKBUF         2       0.0        0.0
+                               DFN1         4       1.0        4.0
+                             DFN1C1         1       1.0        1.0
+                             DFN1E1         8       1.0        8.0
+                           DFN1E1C1        18       1.0       18.0
+                             DFN1P1         1       1.0        1.0
+                                GND         1       0.0        0.0
+                              INBUF        15       0.0        0.0
+                                MX2         8       1.0        8.0
+                               NOR2         2       1.0        2.0
+                              NOR2A         5       1.0        5.0
+                              NOR2B         1       1.0        1.0
+                                OR2         2       1.0        2.0
+                             OUTBUF        26       0.0        0.0
+                                VCC         1       0.0        0.0
+                               XA1A         1       1.0        1.0
+                               XA1C         1       1.0        1.0
+                            
+                         TOTAL             97                 52.0

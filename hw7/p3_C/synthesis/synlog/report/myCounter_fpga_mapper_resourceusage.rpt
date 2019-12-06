@@ -1,0 +1,34 @@
+Target Part: A2F200M3F_FBGA484_STD
+Report for cell myCounter.verilog
+  Core Cell usage:
+              cell count     area count*area
+              AX1C     4      1.0        4.0
+               GND     1      0.0        0.0
+              NOR2     1      1.0        1.0
+             NOR2A     5      1.0        5.0
+             NOR2B     9      1.0        9.0
+             NOR3C     5      1.0        5.0
+               VCC     1      0.0        0.0
+              XA1B    11      1.0       11.0
+
+
+              DFN1    16      1.0       16.0
+                   -----          ----------
+             TOTAL    53                51.0
+
+
+  IO Cell usage:
+              cell count
+            CLKBUF     1
+             INBUF     1
+            OUTBUF    16
+                   -----
+             TOTAL    18
+
+
+Core Cells         : 51 of 4608 (1%)
+IO Cells           : 18
+
+  RAM/ROM Usage Summary
+Block Rams : 0 of 8 (0%)
+

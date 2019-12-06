@@ -1,0 +1,2 @@
+@W: CL249 :"C:\Microsemi_Prj\hw9\p1a\hdl\SourceSM.v":42:0:42:5|Initial value is not supported on state machine state
+

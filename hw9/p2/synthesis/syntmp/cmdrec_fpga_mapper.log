@@ -1,0 +1,16 @@
+C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\bin64\m_proasic.exe  -prodtype  synplify_pro   -encrypt  -pro  -rundir  C:\Microsemi_Prj\hw9\p2\synthesis   -part A2F200M3F  -package FBGA484  -grade STD    -globalthreshold 50 -maxfan 24 -opcond COMWC -report_path 4000 -RWCheckOnRam 0 -summaryfile C:\Microsemi_Prj\hw9\p2\synthesis\synlog\report\fifo2x8_fpga_mapper.xml  -top_level_module  work.fifo2x8  -licensetype  synplifypro_actel  -flow mapping  -mp  4  -prjfile  C:\Microsemi_Prj\hw9\p2\synthesis\scratchproject.prs  -implementation  synthesis  -multisrs  -oedif  C:\Microsemi_Prj\hw9\p2\synthesis\fifo2x8.edn   -freq 100.000   -tcl  C:\Microsemi_Prj\hw9\p2\synthesis\fifo2x8.sdc  C:\Microsemi_Prj\hw9\p2\synthesis\synwork\fifo2x8_prem.srd  -sap  C:\Microsemi_Prj\hw9\p2\synthesis\fifo2x8.sap  -otap  C:\Microsemi_Prj\hw9\p2\synthesis\fifo2x8.tap  -omap  C:\Microsemi_Prj\hw9\p2\synthesis\fifo2x8.map  -devicelib  C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\proasic\smartfusion.v  -sap  C:\Microsemi_Prj\hw9\p2\synthesis\fifo2x8.sap  -ologparam  C:\Microsemi_Prj\hw9\p2\synthesis\syntmp\fifo2x8.plg  -osyn  C:\Microsemi_Prj\hw9\p2\synthesis\fifo2x8.srm  -prjdir  C:\Microsemi_Prj\hw9\p2\synthesis\  -prjname  fifo2x8_syn  -log  C:\Microsemi_Prj\hw9\p2\synthesis\synlog\fifo2x8_fpga_mapper.srr 
+rc:1 success:1 runtime:1
+file:C:\Microsemi_Prj\hw9\p2\synthesis\scratchproject.prs|io:o|time:1575427150|size:1837|exec:0
+file:C:\Microsemi_Prj\hw9\p2\synthesis\fifo2x8.edn|io:o|time:1575603010|size:44291|exec:0
+file:C:\Microsemi_Prj\hw9\p2\synthesis\fifo2x8.sdc|io:i|time:1575426050|size:450|exec:0
+file:C:\Microsemi_Prj\hw9\p2\synthesis\synwork\fifo2x8_prem.srd|io:i|time:1575603009|size:4777|exec:0
+file:C:\Microsemi_Prj\hw9\p2\synthesis\fifo2x8.sap|io:o|time:1575603009|size:707|exec:0
+file:C:\Microsemi_Prj\hw9\p2\synthesis\fifo2x8.tap|io:o|time:0|size:0|exec:0
+file:C:\Microsemi_Prj\hw9\p2\synthesis\fifo2x8.map|io:o|time:1575603010|size:28|exec:0
+file:C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\proasic\smartfusion.v|io:i|time:1487970450|size:72817|exec:0
+file:C:\Microsemi_Prj\hw9\p2\synthesis\fifo2x8.sap|io:o|time:1575603009|size:707|exec:0
+file:C:\Microsemi_Prj\hw9\p2\synthesis\syntmp\fifo2x8.plg|io:o|time:1575603010|size:568|exec:0
+file:C:\Microsemi_Prj\hw9\p2\synthesis\fifo2x8.srm|io:o|time:1575603010|size:73323|exec:0
+file:C:\Microsemi_Prj\hw9\p2\synthesis\synlog\fifo2x8_fpga_mapper.srr|io:o|time:1575603010|size:19387|exec:0
+file:C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\bin\m_proasic.exe|io:i|time:1479403034|size:10978304|exec:1
+file:C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\bin64\m_proasic.exe|io:i|time:1479404440|size:14125056|exec:1

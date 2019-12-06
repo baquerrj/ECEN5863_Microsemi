@@ -1,0 +1,6 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CG364 :"C:\Microsemi_Prj\hw8\q1a\hdl\Synchronizer.v":1:7:1:18|Synthesizing module Synchronizer in library work.
+@N: CG364 :"C:\Microsemi_Prj\hw8\q1a\hdl\CD3FF.v":1:7:1:11|Synthesizing module CD3FF in library work.
+@N|Running in 64-bit mode
+

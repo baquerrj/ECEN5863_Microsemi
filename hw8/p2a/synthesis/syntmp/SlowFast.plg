@@ -1,0 +1,16 @@
+@P:  Worst Slack : 5.839
+@P:  SlowFast|Aclk - Estimated Frequency : 240.3 MHz
+@P:  SlowFast|Aclk - Requested Frequency : 100.0 MHz
+@P:  SlowFast|Aclk - Estimated Period : 4.161
+@P:  SlowFast|Aclk - Requested Period : 10.000
+@P:  SlowFast|Aclk - Slack : 5.839
+@P:  SlowFast|Bclk - Estimated Frequency : NA
+@P:  SlowFast|Bclk - Requested Frequency : 100.0 MHz
+@P:  SlowFast|Bclk - Estimated Period : NA
+@P:  SlowFast|Bclk - Requested Period : 10.000
+@P:  SlowFast|Bclk - Slack : NA
+@P:  Total Area : 32.0
+@P:  Total Area : 6.0
+@P:  Total Area : 4.0
+@P:  Total Area : 32.0
+@P:  CPU Time : 0h:00m:00s

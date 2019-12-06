@@ -1,0 +1,66 @@
+Synopsys HDL Compiler, version comp2016q3p1, Build 117R, built Nov 17 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys Verilog Compiler, version comp2016q3p1, Build 127R, built Nov 24 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@I::"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\proasic\smartfusion.v" (library work)
+@I::"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vlog\hypermods.v" (library __hyper__lib__)
+@I::"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vlog\umr_capim.v" (library snps_haps)
+@I::"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vlog\scemi_objects.v" (library snps_haps)
+@I::"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vlog\scemi_pipes.svh" (library snps_haps)
+@I::"C:\Microsemi_Prj\hw7\SkewedProblemCounter\smartgen\newCore\newCore.v" (library work)
+Verilog syntax check successful!
+Selecting top level module newCore
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\proasic\smartfusion.v":963:7:963:14|Synthesizing module DFN1E1C1 in library work.
+
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\proasic\smartfusion.v":915:7:915:12|Synthesizing module DFN1C1 in library work.
+
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\proasic\smartfusion.v":1931:7:1931:10|Synthesizing module XOR2 in library work.
+
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\proasic\smartfusion.v":2:7:2:10|Synthesizing module AND2 in library work.
+
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\proasic\smartfusion.v":1289:7:1289:9|Synthesizing module INV in library work.
+
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\proasic\smartfusion.v":17:7:17:10|Synthesizing module AND3 in library work.
+
+@N: CG364 :"C:\Microsemi_Prj\hw7\SkewedProblemCounter\smartgen\newCore\newCore.v":5:7:5:13|Synthesizing module newCore in library work.
+
+@W: CL168 :"C:\Microsemi_Prj\hw7\SkewedProblemCounter\smartgen\newCore\newCore.v":96:9:96:18|Removing instance U_AND2_3_4 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Microsemi_Prj\hw7\SkewedProblemCounter\smartgen\newCore\newCore.v":95:9:95:18|Removing instance U_AND2_1_2 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Microsemi_Prj\hw7\SkewedProblemCounter\smartgen\newCore\newCore.v":72:9:72:23|Removing instance U_U_AND3_1_to_8 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Microsemi_Prj\hw7\SkewedProblemCounter\smartgen\newCore\newCore.v":55:9:55:24|Removing instance U_U_AND2_9_to_14 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Microsemi_Prj\hw7\SkewedProblemCounter\smartgen\newCore\newCore.v":44:9:44:18|Removing instance U_AND2_0_1 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Microsemi_Prj\hw7\SkewedProblemCounter\smartgen\newCore\newCore.v":43:9:43:19|Removing instance U_AND2_9_10 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+
+At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 70MB peak: 72MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Sat Nov 02 19:15:41 2019
+
+###########################################################]
+Synopsys Netlist Linker, version comp2016q3p1, Build 117R, built Nov 17 2016
+@N|Running in 64-bit mode
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Sat Nov 02 19:15:41 2019
+
+###########################################################]
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Sat Nov 02 19:15:41 2019
+
+###########################################################]

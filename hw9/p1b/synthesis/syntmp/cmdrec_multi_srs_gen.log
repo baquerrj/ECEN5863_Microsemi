@@ -1,0 +1,7 @@
+C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\bin64\syn_nfilter.exe  -link  -top  Handshake  -multisrs  C:\Microsemi_Prj\hw9\p1b\synthesis\synwork\Handshake_comp.srs  -osyn  C:\Microsemi_Prj\hw9\p1b\synthesis\synwork\Handshake_mult.srs  -log  C:\Microsemi_Prj\hw9\p1b\synthesis\synlog\Handshake_multi_srs_gen.srr 
+rc:0 success:1 runtime:0
+file:C:\Microsemi_Prj\hw9\p1b\synthesis\synwork\Handshake_comp.srs|io:i|time:1575341965|size:7603|exec:0
+file:C:\Microsemi_Prj\hw9\p1b\synthesis\synwork\Handshake_mult.srs|io:o|time:1575341966|size:3464|exec:0
+file:C:\Microsemi_Prj\hw9\p1b\synthesis\synlog\Handshake_multi_srs_gen.srr|io:o|time:1575341966|size:499|exec:0
+file:C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\bin\syn_nfilter.exe|io:i|time:1479398858|size:3128320|exec:1
+file:C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\bin64\syn_nfilter.exe|io:i|time:1479399124|size:4208128|exec:1

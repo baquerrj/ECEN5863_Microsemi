@@ -1,0 +1,8 @@
+C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\bin64\c_hdl.exe  -osyn  C:\Microsemi_Prj\hw7_practical\Counter\synthesis\synwork\Counter_Top_comp.srs  -top  work.Counter_Top  -hdllog  C:\Microsemi_Prj\hw7_practical\Counter\synthesis\synlog\Counter_Top_compiler.srr  -encrypt  -mp  4  -verification_mode 0  -vhdl  -prodtype  synplify_pro  -nram -fixsmult -divnmod  -encrypt  -pro  -dmgen  C:\Microsemi_Prj\hw7_practical\Counter\synthesis\dm  -lite -ui -fid2 -ram -sharing on -ll 2000 -autosm  -vhdl2008  -ignore_undefined_lib  -lib work C:\Microsemi_Prj\hw7_practical\Counter\hdl\Counter.vhd -lib work C:\Microsemi_Prj\hw7_practical\Counter\hdl\Counter_Top.vhd 
+rc:0 success:1 runtime:1
+file:C:\Microsemi_Prj\hw7_practical\Counter\synthesis\synwork\Counter_Top_comp.srs|io:o|time:1573187945|size:4597|exec:0
+file:C:\Microsemi_Prj\hw7_practical\Counter\synthesis\synlog\Counter_Top_compiler.srr|io:o|time:1573187945|size:2930|exec:0
+file:C:\Microsemi_Prj\hw7_practical\Counter\hdl\Counter.vhd|io:i|time:1573096373|size:1584|exec:0
+file:C:\Microsemi_Prj\hw7_practical\Counter\hdl\Counter_Top.vhd|io:i|time:1573106426|size:2114|exec:0
+file:C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\bin\c_hdl.exe|io:i|time:1479398764|size:1337856|exec:1
+file:C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\bin64\c_hdl.exe|io:i|time:1479398968|size:1973248|exec:1

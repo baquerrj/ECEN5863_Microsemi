@@ -1,0 +1,15 @@
+C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\bin64\m_proasic.exe  -prodtype  synplify_pro   -encrypt  -pro  -rundir  C:\Microsemi_Prj\hw8\problem1_b\synthesis   -part A2F200M3F  -package FBGA484  -grade STD    -globalthreshold 50 -maxfan 24 -opcond COMWC -report_path 4000 -RWCheckOnRam 0 -summaryfile C:\Microsemi_Prj\hw8\problem1_b\synthesis\synlog\report\CD3FF_fpga_mapper.xml  -top_level_module  CD3FF  -licensetype  synplifypro_actel  -flow mapping  -mp  4  -prjfile  C:\Microsemi_Prj\hw8\problem1_b\synthesis\scratchproject.prs  -implementation  synthesis  -multisrs  -oedif  C:\Microsemi_Prj\hw8\problem1_b\synthesis\CD3FF.edn   -freq 100.000   C:\Microsemi_Prj\hw8\problem1_b\synthesis\synwork\CD3FF_prem.srd  -sap  C:\Microsemi_Prj\hw8\problem1_b\synthesis\CD3FF.sap  -otap  C:\Microsemi_Prj\hw8\problem1_b\synthesis\CD3FF.tap  -omap  C:\Microsemi_Prj\hw8\problem1_b\synthesis\CD3FF.map  -devicelib  C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\proasic\smartfusion.v  -sap  C:\Microsemi_Prj\hw8\problem1_b\synthesis\CD3FF.sap  -ologparam  C:\Microsemi_Prj\hw8\problem1_b\synthesis\syntmp\CD3FF.plg  -osyn  C:\Microsemi_Prj\hw8\problem1_b\synthesis\CD3FF.srm  -prjdir  C:\Microsemi_Prj\hw8\problem1_b\synthesis\  -prjname  CD3FF_syn  -log  C:\Microsemi_Prj\hw8\problem1_b\synthesis\synlog\CD3FF_fpga_mapper.srr 
+rc:1 success:1 runtime:1
+file:C:\Microsemi_Prj\hw8\problem1_b\synthesis\scratchproject.prs|io:o|time:1574303319|size:1792|exec:0
+file:C:\Microsemi_Prj\hw8\problem1_b\synthesis\CD3FF.edn|io:o|time:1574303321|size:10730|exec:0
+file:C:\Microsemi_Prj\hw8\problem1_b\synthesis\synwork\CD3FF_prem.srd|io:i|time:1574303321|size:3264|exec:0
+file:C:\Microsemi_Prj\hw8\problem1_b\synthesis\CD3FF.sap|io:o|time:1574303321|size:654|exec:0
+file:C:\Microsemi_Prj\hw8\problem1_b\synthesis\CD3FF.tap|io:o|time:0|size:0|exec:0
+file:C:\Microsemi_Prj\hw8\problem1_b\synthesis\CD3FF.map|io:o|time:1574303321|size:28|exec:0
+file:C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\proasic\smartfusion.v|io:i|time:1487966850|size:72817|exec:0
+file:C:\Microsemi_Prj\hw8\problem1_b\synthesis\CD3FF.sap|io:o|time:1574303321|size:654|exec:0
+file:C:\Microsemi_Prj\hw8\problem1_b\synthesis\syntmp\CD3FF.plg|io:o|time:1574303321|size:573|exec:0
+file:C:\Microsemi_Prj\hw8\problem1_b\synthesis\CD3FF.srm|io:o|time:1574303321|size:67139|exec:0
+file:C:\Microsemi_Prj\hw8\problem1_b\synthesis\synlog\CD3FF_fpga_mapper.srr|io:o|time:1574303321|size:16068|exec:0
+file:C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\bin\m_proasic.exe|io:i|time:1479399434|size:10978304|exec:1
+file:C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\bin64\m_proasic.exe|io:i|time:1479400840|size:14125056|exec:1

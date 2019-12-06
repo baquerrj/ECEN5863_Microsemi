@@ -1,0 +1,136 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Microsemi_Prj/hw7/Counter/simulation
+vCounter
+!s110 1573093105
+!i10b 1
+!s100 hYjnNdh7g]z_PO`jlll0b0
+IEO>6D52dXSA>M;1e0eecg0
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1573092946
+8C:/Microsemi_Prj/hw7/Counter/designer/impl1/Counter_ba.v
+FC:/Microsemi_Prj/hw7/Counter/designer/impl1/Counter_ba.v
+L0 6
+Z2 OW;L;10.5c;63
+r1
+!s85 0
+31
+!s108 1573093105.000000
+!s107 C:/Microsemi_Prj/hw7/Counter/designer/impl1/Counter_ba.v|
+!s90 -reportprogress|300|-vlog01compat|-work|postlayout|C:/Microsemi_Prj/hw7/Counter/designer/impl1/Counter_ba.v|
+!s101 -O0
+!i113 1
+Z3 o-vlog01compat -work postlayout -O0
+Z4 tCvgOpt 0
+n@counter
+Ecounter
+Z5 w1573094135
+Z6 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z7 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z8 8C:/Microsemi_Prj/hw7/Counter/designer/impl1/Counter_ba.vhd
+Z9 FC:/Microsemi_Prj/hw7/Counter/designer/impl1/Counter_ba.vhd
+l0
+L9
+VU0IBZE>Dhc=iHGcITM`md1
+!s100 CYMnBNQM[Ec9fVG@>3=]l0
+Z10 OW;C;10.5c;63
+33
+Z11 !s110 1573094139
+!i10b 1
+Z12 !s108 1573094139.000000
+Z13 !s90 -reportprogress|300|-2008|-explicit|-work|postlayout|C:/Microsemi_Prj/hw7/Counter/designer/impl1/Counter_ba.vhd|
+Z14 !s107 C:/Microsemi_Prj/hw7/Counter/designer/impl1/Counter_ba.vhd|
+!i113 1
+Z15 o-2008 -explicit -work postlayout -O0
+R4
+Adef_arch
+R6
+R7
+Z16 DEx4 work 7 counter 0 22 U0IBZE>Dhc=iHGcITM`md1
+l229
+L20
+Vk[Z3Wdc=6P?AJ6:YT?5I62
+!s100 kN`RZWjgaA?PdE41^mGdR2
+R10
+33
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 1
+R15
+R4
+Ecounter_tb
+Z17 w1573091328
+R6
+R7
+R0
+Z18 8C:/Microsemi_Prj/hw7/Counter/stimulus/Counter_tb.vhd
+Z19 FC:/Microsemi_Prj/hw7/Counter/stimulus/Counter_tb.vhd
+l0
+L32
+VWVm;JY]FT^4JcG1dQ6h9f3
+!s100 FR3c?;`n4JF3cg_7AQ3@d1
+R10
+33
+Z20 !s110 1573094140
+!i10b 1
+R12
+Z21 !s90 -reportprogress|300|-2008|-explicit|-work|postlayout|C:/Microsemi_Prj/hw7/Counter/stimulus/Counter_tb.vhd|
+Z22 !s107 C:/Microsemi_Prj/hw7/Counter/stimulus/Counter_tb.vhd|
+!i113 1
+R15
+R4
+Acounter_arch
+R16
+R6
+R7
+Z23 DEx4 work 10 counter_tb 0 22 WVm;JY]FT^4JcG1dQ6h9f3
+l45
+L34
+Z24 VKcRzG4EH<HU```gJRG?;X0
+Z25 !s100 m]hIzPO@<oZj0jN@j1jeM0
+R10
+33
+R20
+!i10b 1
+R12
+R21
+R22
+!i113 1
+R15
+R4
+vCounter_tb
+!s110 1573014125
+!i10b 1
+!s100 ?3UjdQ?D1d[JGXUS;TZP33
+IV>JEOL6gZZbo<Ig=X>:]n0
+R1
+R0
+w1573014099
+8C:/Microsemi_Prj/hw7/Counter/stimulus/Counter_tb.v
+FC:/Microsemi_Prj/hw7/Counter/stimulus/Counter_tb.v
+L0 30
+R2
+r1
+!s85 0
+31
+!s108 1573014125.000000
+!s107 C:/Microsemi_Prj/hw7/Counter/stimulus/Counter_tb.v|
+!s90 -reportprogress|300|+incdir+C:/Microsemi_Prj/hw7/Counter/stimulus|-vlog01compat|-work|postlayout|C:/Microsemi_Prj/hw7/Counter/stimulus/Counter_tb.v|
+!s101 -O0
+!i113 1
+R3
+!s92 +incdir+C:/Microsemi_Prj/hw7/Counter/stimulus -vlog01compat -work postlayout -O0
+R4
+n@counter_tb

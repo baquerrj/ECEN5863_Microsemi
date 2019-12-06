@@ -1,0 +1,21 @@
+@P:  Worst Slack : 8.997
+@P:  Handshake|aclk - Estimated Frequency : 76.9 MHz
+@P:  Handshake|aclk - Requested Frequency : 25.0 MHz
+@P:  Handshake|aclk - Estimated Period : 13.009
+@P:  Handshake|aclk - Requested Period : 40.000
+@P:  Handshake|aclk - Slack : 8.997
+@P:  Handshake|bclk - Estimated Frequency : 115.3 MHz
+@P:  Handshake|bclk - Requested Frequency : 37.5 MHz
+@P:  Handshake|bclk - Estimated Period : 8.672
+@P:  Handshake|bclk - Requested Period : 26.667
+@P:  Handshake|bclk - Slack : 9.795
+@P:  Total Area : 110.0
+@P:  Total Area : 32.0
+@P:  Total Area : 8.0
+@P:  Total Area : 41.0
+@P:  Total Area : 9.0
+@P:  Total Area : 27.0
+@P:  Total Area : 4.0
+@P:  Total Area : 4.0
+@P:  Total Area : 110.0
+@P:  CPU Time : 0h:00m:00s

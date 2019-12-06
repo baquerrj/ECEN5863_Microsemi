@@ -1,0 +1,28 @@
+
+
+@S |Clock Optimization Summary
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+Clock optimization not enabled
+1 non-gated/non-generated clock tree(s) driving 1 clock pin(s) of sequential element(s)
+3 gated/generated clock tree(s) driving 3 clock pin(s) of sequential element(s)
+0 instances converted, 3 sequential instances remain driven by gated/generated clocks
+
+=========================== Non-Gated/Non-Generated Clocks ============================
+Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample Instance
+---------------------------------------------------------------------------------------
+@K:CKID0004       CLK                 port                   1          DFN1P0_0       
+=======================================================================================
+====================================================================== Gated/Generated Clocks ======================================================================
+Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample Instance     Explanation                                                             
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@K:CKID0001       DFN1P0_2            DFN1P0                 1          DFN1P0_3            No generated or derived clock directive on output of sequential instance
+@K:CKID0002       DFN1P0_1            DFN1P0                 1          DFN1P0_2            No generated or derived clock directive on output of sequential instance
+@K:CKID0003       DFN1P0_0            DFN1P0                 1          DFN1P0_1            No generated or derived clock directive on output of sequential instance
+====================================================================================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+

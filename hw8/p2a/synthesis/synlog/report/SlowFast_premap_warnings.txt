@@ -1,0 +1,2 @@
+@W: MT530 :"c:\microsemi_prj\hw8\p2a\hdl\shiftregister.v":7:0:7:5|Found inferred clock SlowFast|Aclk which controls 12 sequential elements including shiftRegister.data_out[3:0]. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"c:\microsemi_prj\hw8\p2a\hdl\synchronizer.v":10:0:10:5|Found inferred clock SlowFast|Bclk which controls 5 sequential elements including synchronizer.S1. This clock has no specified timing constraint which may adversely impact design performance. 

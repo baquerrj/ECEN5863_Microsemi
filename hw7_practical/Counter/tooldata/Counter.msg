@@ -1,0 +1,11 @@
+HelpInfo,C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\html,fpgahelp.qhc,errormessages.mp,C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\bin\mbin\assistant
+Implementation;Synthesis;RootName:Counter_Top
+Implementation;Synthesis|| MT530 ||@W:Found inferred clock Counter_Top|CLK which controls 1200 sequential elements including GEN_COUNTER\.0\.first\.u0.count[15:0]. This clock has no specified timing constraint which may adversely impact design performance. ||Counter_Top.srr(109);liberoaction://cross_probe/hdl/file/'C:\Microsemi_Prj\hw7_practical\Counter\synthesis\Counter_Top.srr'/linenumber/109||counter.vhd(43);liberoaction://cross_probe/hdl/file/'c:\microsemi_prj\hw7_practical\counter\hdl\counter.vhd'/linenumber/43
+Implementation;Synthesis|| MT420 ||@W:Found inferred clock Counter_Top|CLK with period 10.00ns. Please declare a user-defined clock on object "p:CLK"||Counter_Top.srr(265);liberoaction://cross_probe/hdl/file/'C:\Microsemi_Prj\hw7_practical\Counter\synthesis\Counter_Top.srr'/linenumber/265||null;null
+Implementation;Synthesis|| MT320 ||@N: This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.||Counter_Top.srr(281);liberoaction://cross_probe/hdl/file/'C:\Microsemi_Prj\hw7_practical\Counter\synthesis\Counter_Top.srr'/linenumber/281||null;null
+Implementation;Synthesis|| MT322 ||@N: Clock constraints include only register-to-register paths associated with each individual clock.||Counter_Top.srr(283);liberoaction://cross_probe/hdl/file/'C:\Microsemi_Prj\hw7_practical\Counter\synthesis\Counter_Top.srr'/linenumber/283||null;null
+Implementation;Compile;RootName:Counter_Top
+Implementation;Compile||(null)||Please refer to the log file for details about 1 Info(s)||Counter_Top_compile_log.rpt;liberoaction://open_report/file/Counter_Top_compile_log.rpt||(null);(null)
+Implementation;Place and Route||OnlineHelp;liberoaction://open_online_help/98304003||Info: I/O Bank Assigner detected (1) out of (6) I/O Bank(s) with locked I/O technologies.||(null);(null)||(null);(null)
+Implementation;Place and Route;RootName:Counter_Top
+Implementation;Place and Route||(null)||Please refer to the log file for details about 2 Info(s)||Counter_Top_placeroute_log.rpt;liberoaction://open_report/file/Counter_Top_placeroute_log.rpt||(null);(null)

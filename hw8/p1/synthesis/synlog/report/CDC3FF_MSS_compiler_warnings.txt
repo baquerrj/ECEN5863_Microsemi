@@ -1,0 +1,5 @@
+@W: CL240 :"C:\Microsemi_Prj\hw8\p1\component\work\clk_source_MSS\MSS_CCC_0\clk_source_MSS_tmp_MSS_CCC_0_MSS_CCC.vhd":38:10:38:21|Signal LPXIN_CLKOUT is floating; a simulation mismatch is possible.
+@W: CL240 :"C:\Microsemi_Prj\hw8\p1\component\work\clk_source_MSS\MSS_CCC_0\clk_source_MSS_tmp_MSS_CCC_0_MSS_CCC.vhd":37:10:37:23|Signal MAINXIN_CLKOUT is floating; a simulation mismatch is possible.
+@W: CL240 :"C:\Microsemi_Prj\hw8\p1\component\work\clk_source_MSS\MSS_CCC_0\clk_source_MSS_tmp_MSS_CCC_0_MSS_CCC.vhd":36:10:36:21|Signal RCOSC_CLKOUT is floating; a simulation mismatch is possible.
+@W: CL168 :"C:\Microsemi_Prj\hw8\p1\component\work\clk_source_MSS\clk_source_MSS.vhd":348:0:348:13|Removing instance MSS_ADLIB_INST because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+

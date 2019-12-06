@@ -1,0 +1,3 @@
+@E: CG285 :"C:\Microsemi_Prj\hw9\p1a\hdl\sender_fsm.v":55:10:55:10|Expecting statement
+@E: CS187 :"C:\Microsemi_Prj\hw9\p1a\hdl\sender_fsm.v":85:0:85:8|Expecting endmodule
+

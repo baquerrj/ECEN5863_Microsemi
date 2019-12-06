@@ -1,0 +1,15 @@
+*****************************************************************
+Pin Report - Date: Mon Nov 04 22:47:00 2019 Pinchecksum: NOT-AVAILABLE
+Product: Designer
+Release: v11.8
+Version: 11.8.0.26
+Design Name: Skewed
+Family: SmartFusion
+Die: A2F200M3F
+Package: 484 FBGA
+*****************************************************************
+Port  |Pin |Fixed |Function                  |I/O Std |Output Drive (mA) |Slew |Resistor Pull |Schmitt Trigger |Skew |Output Load (pF) |Use I/O Reg |Hot Swappable |
+------|----|------|--------------------------|--------|------------------|-----|--------------|----------------|-----|-----------------|------------|--------------|
+clk    H22  No     GCB0/IO27NDB1V0            LVTTL    ---                ---   None           No               ---   ---               No           No
+reset  H3   No     EMC_DB[8]/GEC0/IO63NDB5V0  LVTTL    ---                ---   None           No               ---   ---               No           No
+TC     H1   No     EMC_DB[7]/GEB1/IO62PDB5V0  LVTTL    12                 High  None           ---              No    35                No           No

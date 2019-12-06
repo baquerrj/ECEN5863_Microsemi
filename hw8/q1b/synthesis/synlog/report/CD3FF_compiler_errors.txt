@@ -1,0 +1,2 @@
+@E: CS179 :"C:\Microsemi_Prj\hw8\q1b\hdl\CD3FF.v":15:7:15:16|Assignment target dataLocked must be a net type
+

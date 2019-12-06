@@ -1,0 +1,441 @@
+#Build: Synplify Pro L-2016.09M-2, Build 065R, Nov 16 2016
+#install: C:\Microsemi\Libero_SoC_v11.8\SynplifyPro
+#OS: Windows 8 6.2
+#Hostname: MSI
+
+# Sat Nov 02 19:15:41 2019
+
+#Implementation: synthesis
+
+Synopsys HDL Compiler, version comp2016q3p1, Build 117R, built Nov 17 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys Verilog Compiler, version comp2016q3p1, Build 127R, built Nov 24 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@I::"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\proasic\smartfusion.v" (library work)
+@I::"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vlog\hypermods.v" (library __hyper__lib__)
+@I::"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vlog\umr_capim.v" (library snps_haps)
+@I::"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vlog\scemi_objects.v" (library snps_haps)
+@I::"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vlog\scemi_pipes.svh" (library snps_haps)
+@I::"C:\Microsemi_Prj\hw7\SkewedProblemCounter\smartgen\newCore\newCore.v" (library work)
+Verilog syntax check successful!
+Selecting top level module newCore
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\proasic\smartfusion.v":963:7:963:14|Synthesizing module DFN1E1C1 in library work.
+
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\proasic\smartfusion.v":915:7:915:12|Synthesizing module DFN1C1 in library work.
+
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\proasic\smartfusion.v":1931:7:1931:10|Synthesizing module XOR2 in library work.
+
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\proasic\smartfusion.v":2:7:2:10|Synthesizing module AND2 in library work.
+
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\proasic\smartfusion.v":1289:7:1289:9|Synthesizing module INV in library work.
+
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\proasic\smartfusion.v":17:7:17:10|Synthesizing module AND3 in library work.
+
+@N: CG364 :"C:\Microsemi_Prj\hw7\SkewedProblemCounter\smartgen\newCore\newCore.v":5:7:5:13|Synthesizing module newCore in library work.
+
+@W: CL168 :"C:\Microsemi_Prj\hw7\SkewedProblemCounter\smartgen\newCore\newCore.v":96:9:96:18|Removing instance U_AND2_3_4 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Microsemi_Prj\hw7\SkewedProblemCounter\smartgen\newCore\newCore.v":95:9:95:18|Removing instance U_AND2_1_2 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Microsemi_Prj\hw7\SkewedProblemCounter\smartgen\newCore\newCore.v":72:9:72:23|Removing instance U_U_AND3_1_to_8 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Microsemi_Prj\hw7\SkewedProblemCounter\smartgen\newCore\newCore.v":55:9:55:24|Removing instance U_U_AND2_9_to_14 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Microsemi_Prj\hw7\SkewedProblemCounter\smartgen\newCore\newCore.v":44:9:44:18|Removing instance U_AND2_0_1 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Microsemi_Prj\hw7\SkewedProblemCounter\smartgen\newCore\newCore.v":43:9:43:19|Removing instance U_AND2_9_10 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+
+At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 70MB peak: 72MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Sat Nov 02 19:15:41 2019
+
+###########################################################]
+Synopsys Netlist Linker, version comp2016q3p1, Build 117R, built Nov 17 2016
+@N|Running in 64-bit mode
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Sat Nov 02 19:15:41 2019
+
+###########################################################]
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Sat Nov 02 19:15:41 2019
+
+###########################################################]
+Synopsys Netlist Linker, version comp2016q3p1, Build 117R, built Nov 17 2016
+@N|Running in 64-bit mode
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Sat Nov 02 19:15:42 2019
+
+###########################################################]
+Pre-mapping Report
+
+# Sat Nov 02 19:15:43 2019
+
+Synopsys Microsemi Technology Pre-mapping, Version mapact, Build 1920R, Built Nov 17 2016 09:40:34
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version L-2016.09M-2
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
+
+@A: MF827 |No constraint file specified.
+@L: C:\Microsemi_Prj\hw7\SkewedProblemCounter\synthesis\newCore_scck.rpt 
+Printing clock  summary report in "C:\Microsemi_Prj\hw7\SkewedProblemCounter\synthesis\newCore_scck.rpt" file 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
+
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 109MB peak: 110MB)
+
+
+
+Clock Summary
+*****************
+
+Start             Requested     Requested     Clock        Clock                   Clock
+Clock             Frequency     Period        Type         Group                   Load 
+----------------------------------------------------------------------------------------
+newCore|Clock     100.0 MHz     10.000        inferred     Inferred_clkgroup_0     16   
+========================================================================================
+
+@W: MT530 :"c:\microsemi_prj\hw7\skewedproblemcounter\smartgen\newcore\newcore.v":100:13:100:26|Found inferred clock newCore|Clock which controls 16 sequential elements including DFN1E1C1_NU_12. This clock has no specified timing constraint which may adversely impact design performance. 
+
+Finished Pre Mapping Phase.
+@N: BN225 |Writing default property annotation file C:\Microsemi_Prj\hw7\SkewedProblemCounter\synthesis\newCore.sap.
+
+Starting constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 109MB peak: 110MB)
+
+None
+None
+
+Finished constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 109MB peak: 110MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 24MB peak: 110MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Sat Nov 02 19:15:43 2019
+
+###########################################################]
+Map & Optimize Report
+
+# Sat Nov 02 19:15:43 2019
+
+Synopsys Microsemi Technology Mapper, Version mapact, Build 1920R, Built Nov 17 2016 09:40:34
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version L-2016.09M-2
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
+
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 109MB peak: 111MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 109MB peak: 111MB)
+
+
+Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 109MB peak: 111MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 109MB peak: 111MB)
+
+
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 109MB peak: 111MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 109MB peak: 111MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 109MB peak: 111MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 109MB peak: 111MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 109MB peak: 111MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 109MB peak: 111MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 109MB peak: 111MB)
+
+@N: FP130 |Promoting Net Clock_c on CLKBUF  Clock_pad 
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 109MB peak: 111MB)
+
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 109MB peak: 111MB)
+
+
+
+@S |Clock Optimization Summary
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+Clock optimization not enabled
+1 non-gated/non-generated clock tree(s) driving 16 clock pin(s) of sequential element(s)
+0 gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+0 instances converted, 0 sequential instances remain driven by gated/generated clocks
+
+=========================== Non-Gated/Non-Generated Clocks ============================
+Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample Instance
+---------------------------------------------------------------------------------------
+@K:CKID0001       Clock               port                   16         DFN1E1C1_NU_1  
+=======================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 109MB peak: 111MB)
+
+Writing Analyst data base C:\Microsemi_Prj\hw7\SkewedProblemCounter\synthesis\synwork\newCore_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 109MB peak: 111MB)
+
+Writing EDIF Netlist and constraint files
+L-2016.09M-2
+
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 109MB peak: 111MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 109MB peak: 111MB)
+
+@W: MT420 |Found inferred clock newCore|Clock with period 10.00ns. Please declare a user-defined clock on object "p:Clock"
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Sat Nov 02 19:15:43 2019
+#
+
+
+Top view:               newCore
+Library name:           smartfusion
+Operating conditions:   COMWCSTD ( T = 70.0, V = 1.42, P = 1.74, tree_type = balanced_tree )
+Requested Frequency:    100.0 MHz
+Wire load mode:         top
+Wire load model:        smartfusion
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: 3.236
+
+                   Requested     Estimated     Requested     Estimated               Clock        Clock              
+Starting Clock     Frequency     Frequency     Period        Period        Slack     Type         Group              
+---------------------------------------------------------------------------------------------------------------------
+newCore|Clock      100.0 MHz     147.8 MHz     10.000        6.764         3.236     inferred     Inferred_clkgroup_0
+=====================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                        |    rise  to  rise   |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+--------------------------------------------------------------------------------------------------------------------
+Starting       Ending         |  constraint  slack  |  constraint  slack  |  constraint  slack  |  constraint  slack
+--------------------------------------------------------------------------------------------------------------------
+newCore|Clock  newCore|Clock  |  10.000      3.236  |  No paths    -      |  No paths    -      |  No paths    -    
+====================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: newCore|Clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                   Starting                                           Arrival          
+Instance           Reference         Type         Pin     Net         Time        Slack
+                   Clock                                                               
+---------------------------------------------------------------------------------------
+DFN1E1C1_NU_1      newCore|Clock     DFN1E1C1     Q       Q_c[1]      0.737       3.236
+DFN1C1_NU_0        newCore|Clock     DFN1C1       Q       Q_c[0]      0.737       3.283
+DFN1E1C1_NU_4      newCore|Clock     DFN1E1C1     Q       Q_c[4]      0.737       3.436
+DFN1E1C1_NU_3      newCore|Clock     DFN1E1C1     Q       Q_c[3]      0.737       3.483
+DFN1E1C1_NU_10     newCore|Clock     DFN1E1C1     Q       Q_c[10]     0.737       3.561
+DFN1C1_NU_2        newCore|Clock     DFN1C1       Q       Q_c[2]      0.737       3.578
+DFN1E1C1_NU_9      newCore|Clock     DFN1E1C1     Q       Q_c[9]      0.737       3.608
+DFN1E1C1_NU_5      newCore|Clock     DFN1E1C1     Q       Q_c[5]      0.737       3.778
+DFN1E1C1_NU_11     newCore|Clock     DFN1E1C1     Q       Q_c[11]     0.737       3.903
+DFN1E1C1_NU_7      newCore|Clock     DFN1E1C1     Q       Q_c[7]      0.737       4.263
+=======================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                   Starting                                             Required          
+Instance           Reference         Type         Pin     Net           Time         Slack
+                   Clock                                                                  
+------------------------------------------------------------------------------------------
+DFN1E1C1_NU_9      newCore|Clock     DFN1E1C1     E       NU_0_to_8     9.392        3.236
+DFN1E1C1_NU_10     newCore|Clock     DFN1E1C1     E       NU_0_to_8     9.392        3.236
+DFN1E1C1_NU_11     newCore|Clock     DFN1E1C1     E       NU_0_to_8     9.392        3.236
+DFN1E1C1_NU_12     newCore|Clock     DFN1E1C1     E       NU_0_to_8     9.392        3.236
+DFN1E1C1_NU_13     newCore|Clock     DFN1E1C1     E       NU_0_to_8     9.392        3.236
+DFN1E1C1_NU_14     newCore|Clock     DFN1E1C1     E       NU_0_to_8     9.392        3.236
+DFN1E1C1_NU_15     newCore|Clock     DFN1E1C1     E       NU_0_to_8     9.392        3.236
+DFN1C1_NU_6        newCore|Clock     DFN1C1       D       XOR2_9_Y      9.461        3.314
+DFN1E1C1_NU_7      newCore|Clock     DFN1E1C1     D       XOR2_2_Y      9.461        3.314
+DFN1E1C1_NU_8      newCore|Clock     DFN1E1C1     D       XOR2_3_Y      9.461        3.314
+==========================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            0.608
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.392
+
+    - Propagation time:                      6.156
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     3.236
+
+    Number of logic level(s):                2
+    Starting point:                          DFN1E1C1_NU_1 / Q
+    Ending point:                            DFN1E1C1_NU_9 / E
+    The start point is clocked by            newCore|Clock [rising] on pin CLK
+    The end   point is clocked by            newCore|Clock [rising] on pin CLK
+
+Instance / Net                   Pin      Pin               Arrival     No. of    
+Name                Type         Name     Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------
+DFN1E1C1_NU_1       DFN1E1C1     Q        Out     0.737     0.737       -         
+Q_c[1]              Net          -        -       1.184     -           4         
+U_AND3_0_1_2        AND3         B        In      -         1.921       -         
+U_AND3_0_1_2        AND3         Y        Out     0.607     2.527       -         
+NU_0_1_2            Net          -        -       1.526     -           7         
+U_U_AND3_0_to_8     AND3         A        In      -         4.053       -         
+U_U_AND3_0_to_8     AND3         Y        Out     0.464     4.517       -         
+NU_0_to_8           Net          -        -       1.639     -           8         
+DFN1E1C1_NU_9       DFN1E1C1     E        In      -         6.156       -         
+==================================================================================
+Total path delay (propagation time + setup) of 6.764 is 2.416(35.7%) logic and 4.348(64.3%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+None
+
+Finished final timing analysis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 110MB peak: 111MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 110MB peak: 111MB)
+
+--------------------------------------------------------------------------------
+Target Part: A2F200M3F_FBGA484_STD
+Report for cell newCore.verilog
+  Core Cell usage:
+              cell count     area count*area
+              AND2    12      1.0       12.0
+              AND3     7      1.0        7.0
+               GND     1      0.0        0.0
+               INV     4      1.0        4.0
+               VCC     1      0.0        0.0
+              XOR2    12      1.0       12.0
+
+
+            DFN1C1     3      1.0        3.0
+          DFN1E1C1    13      1.0       13.0
+                   -----          ----------
+             TOTAL    53                51.0
+
+
+  IO Cell usage:
+              cell count
+            CLKBUF     1
+             INBUF     1
+            OUTBUF    17
+                   -----
+             TOTAL    19
+
+
+Core Cells         : 51 of 4608 (1%)
+IO Cells           : 19
+
+  RAM/ROM Usage Summary
+Block Rams : 0 of 8 (0%)
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 25MB peak: 111MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Sat Nov 02 19:15:43 2019
+
+###########################################################]

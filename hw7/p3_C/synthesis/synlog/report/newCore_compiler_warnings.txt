@@ -1,0 +1,7 @@
+@W: CL168 :"C:\Microsemi_Prj\hw7\SkewedProblemCounter\smartgen\newCore\newCore.v":96:9:96:18|Removing instance U_AND2_3_4 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Microsemi_Prj\hw7\SkewedProblemCounter\smartgen\newCore\newCore.v":95:9:95:18|Removing instance U_AND2_1_2 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Microsemi_Prj\hw7\SkewedProblemCounter\smartgen\newCore\newCore.v":72:9:72:23|Removing instance U_U_AND3_1_to_8 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Microsemi_Prj\hw7\SkewedProblemCounter\smartgen\newCore\newCore.v":55:9:55:24|Removing instance U_U_AND2_9_to_14 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Microsemi_Prj\hw7\SkewedProblemCounter\smartgen\newCore\newCore.v":44:9:44:18|Removing instance U_AND2_0_1 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Microsemi_Prj\hw7\SkewedProblemCounter\smartgen\newCore\newCore.v":43:9:43:19|Removing instance U_AND2_9_10 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+

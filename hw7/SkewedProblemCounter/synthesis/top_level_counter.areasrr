@@ -1,0 +1,49 @@
+----------------------------------------------------------------------
+Report for cell top_level_counter.verilog
+                                          Cell usage:
+                               cell       count     area    count*area
+                             CLKBUF         1       0.0        0.0
+                                GND         1       0.0        0.0
+                              INBUF         2       0.0        0.0
+                             OUTBUF        21       0.0        0.0
+                                VCC         1       0.0        0.0
+                          myCounter         1      47.0       47.0
+                        skewedClock         1      12.0       12.0
+                            
+                         TOTAL             28                 59.0
+----------------------------------------------------------------------
+Report for cell skewedClock.netlist
+     Instance path:  skewedClock_0
+                                          Cell usage:
+                               cell       count     area    count*area
+                             DFN1P0         4       1.0        4.0
+                                GND         1       0.0        0.0
+                                INV         8       1.0        8.0
+                                VCC         1       0.0        0.0
+                            
+                         TOTAL             14                 12.0
+----------------------------------------------------------------------
+Report for cell myCounter.netlist
+     Instance path:  myCounter_0
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AOI1         1       1.0        1.0
+                               AX1A         1       1.0        1.0
+                             DFN1E0        12       1.0       12.0
+                                GND         1       0.0        0.0
+                               NOR2         1       1.0        1.0
+                              NOR2A         6       1.0        6.0
+                              NOR2B         5       1.0        5.0
+                               NOR3         1       1.0        1.0
+                              NOR3A         1       1.0        1.0
+                              NOR3B         3       1.0        3.0
+                              NOR3C         4       1.0        4.0
+                               OR2A         1       1.0        1.0
+                               OR2B         2       1.0        2.0
+                                VCC         1       0.0        0.0
+                                XA1         5       1.0        5.0
+                               XA1A         2       1.0        2.0
+                              XNOR2         1       1.0        1.0
+                               XOR2         1       1.0        1.0
+                            
+                         TOTAL             49                 47.0

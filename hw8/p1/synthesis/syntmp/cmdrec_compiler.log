@@ -1,0 +1,12 @@
+C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\bin64\c_hdl.exe  -osyn  C:\Microsemi_Prj\hw8\p1\synthesis\synwork\CDC3FF_MSS_comp.srs  -top  work.CDC3FF_MSS  -hdllog  C:\Microsemi_Prj\hw8\p1\synthesis\synlog\CDC3FF_MSS_compiler.srr  -encrypt  -mp  4  -verification_mode 0  -vhdl  -prodtype  synplify_pro  -nram -fixsmult -divnmod  -encrypt  -pro  -dmgen  C:\Microsemi_Prj\hw8\p1\synthesis\dm  -lite -ui -fid2 -ram -sharing on -ll 2000 -autosm  -vhdl2008  -ignore_undefined_lib  -lib work C:\Microsemi_Prj\hw8\p1\hdl\CDC3FF.vhd -lib work C:\Microsemi_Prj\hw8\p1\component\work\clk_source_MSS\mss_tshell.vhd -lib work C:\Microsemi_Prj\hw8\p1\component\Actel\SmartFusionMSS\MSS\2.5.200\mss_comps.vhd -lib work C:\Microsemi_Prj\hw8\p1\component\work\clk_source_MSS\MSS_CCC_0\clk_source_MSS_tmp_MSS_CCC_0_MSS_CCC.vhd -lib work C:\Microsemi_Prj\hw8\p1\component\work\clk_source_MSS\clk_source_MSS.vhd -lib work C:\Microsemi_Prj\hw8\p1\component\work\CDC3FF_MSS\CDC3FF_MSS.vhd 
+rc:0 success:1 runtime:1
+file:C:\Microsemi_Prj\hw8\p1\synthesis\synwork\CDC3FF_MSS_comp.srs|io:o|time:1573434038|size:8525|exec:0
+file:C:\Microsemi_Prj\hw8\p1\synthesis\synlog\CDC3FF_MSS_compiler.srr|io:o|time:1573434038|size:7571|exec:0
+file:C:\Microsemi_Prj\hw8\p1\hdl\CDC3FF.vhd|io:i|time:1573414053|size:1454|exec:0
+file:C:\Microsemi_Prj\hw8\p1\component\work\clk_source_MSS\mss_tshell.vhd|io:i|time:1573421653|size:22849|exec:0
+file:C:\Microsemi_Prj\hw8\p1\component\Actel\SmartFusionMSS\MSS\2.5.200\mss_comps.vhd|io:i|time:1573414607|size:17580|exec:0
+file:C:\Microsemi_Prj\hw8\p1\component\work\clk_source_MSS\MSS_CCC_0\clk_source_MSS_tmp_MSS_CCC_0_MSS_CCC.vhd|io:i|time:1573421649|size:6919|exec:0
+file:C:\Microsemi_Prj\hw8\p1\component\work\clk_source_MSS\clk_source_MSS.vhd|io:i|time:1573421655|size:27873|exec:0
+file:C:\Microsemi_Prj\hw8\p1\component\work\CDC3FF_MSS\CDC3FF_MSS.vhd|io:i|time:1573420411|size:2692|exec:0
+file:C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\bin\c_hdl.exe|io:i|time:1479398764|size:1337856|exec:1
+file:C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\bin64\c_hdl.exe|io:i|time:1479398968|size:1973248|exec:1

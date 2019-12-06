@@ -1,0 +1,336 @@
+# Reading C:/Microsemi/Libero_SoC_v11.8/Modelsim/tcl/vsim/pref.tcl
+# do run.do
+# INFO: Simulation library ../designer/impl1/simulation/postlayout already exists
+# Model Technology ModelSim Microsemi vmap 10.5c Lib Mapping Utility 2016.07 Jul 21 2016
+# vmap postlayout ../designer/impl1/simulation/postlayout 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vmap 10.5c Lib Mapping Utility 2016.07 Jul 21 2016
+# vmap smartfusion C:/Microsemi/Libero_SoC_v11.8/Designer/lib/modelsim/precompiled/vlog/smartfusion 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vlog 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 21:24:06 on Nov 20,2019
+# vlog -reportprogress 300 -vlog01compat -work postlayout C:/Microsemi_Prj/hw8/p2a/designer/impl1/SlowFast_ba.v 
+# -- Compiling module SlowFast
+# 
+# Top level modules:
+# 	SlowFast
+# End time: 21:24:06 on Nov 20,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vlog 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 21:24:06 on Nov 20,2019
+# vlog -reportprogress 300 "+incdir+C:/Microsemi_Prj/hw8/p2a/stimulus" -vlog01compat -work postlayout C:/Microsemi_Prj/hw8/p2a/stimulus/SlowFast_testbench.v 
+# -- Compiling module SlowFast_testbench
+# 
+# Top level modules:
+# 	SlowFast_testbench
+# End time: 21:24:06 on Nov 20,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -L smartfusion -L postlayout -t 1ps -sdfmax /SlowFast_0=C:/Microsemi_Prj/hw8/p2a/designer/impl1/SlowFast_ba.sdf postlayout.SlowFast_testbench 
+# Start time: 21:24:06 on Nov 20,2019
+# //  ModelSim Microsemi 10.5c Jul 21 2016
+# //
+# //  Copyright 1991-2016 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim Microsemi and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading postlayout.SlowFast_testbench
+# Loading postlayout.SlowFast
+# Loading smartfusion.NOR2A
+# Loading smartfusion.NOR2
+# Loading smartfusion.MX2
+# Loading smartfusion.DFN1
+# Loading smartfusion.IOPAD_IN
+# Loading smartfusion.IOTRI_OB_EB
+# Loading smartfusion.IOPAD_TRI
+# Loading smartfusion.CLKSRC
+# Loading smartfusion.IOIN_IB
+# Loading smartfusion.GND
+# Loading smartfusion.VCC
+# SDF 10.5c Compiler 2016.07 Jul 21 2016
+# 
+# Loading instances from C:/Microsemi_Prj/hw8/p2a/designer/impl1/SlowFast_ba.sdf
+# Loading smartfusion.UDP_MUX2
+# Loading smartfusion.Dffpr
+# Loading timing data from C:/Microsemi_Prj/hw8/p2a/designer/impl1/SlowFast_ba.sdf
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /SlowFast_testbench File: C:/Microsemi_Prj/hw8/p2a/stimulus/SlowFast_testbench.v
+run
+# ** Error: src/smartfusion.v(9868): $setup( posedge D:2256313 ps, posedge CLK:2256812 ps, 522 ps );
+#    Time: 2256812 ps  Iteration: 1  Instance: /SlowFast_testbench/SlowFast_0/\synchronizer/S1 
+# ** Error: src/smartfusion.v(9869): $setup( negedge D:2406373 ps, posedge CLK:2406812 ps, 490 ps );
+#    Time: 2406812 ps  Iteration: 1  Instance: /SlowFast_testbench/SlowFast_0/\synchronizer/S1 
+# ** Error: src/smartfusion.v(9868): $setup( posedge D:2556713 ps, posedge CLK:2556812 ps, 522 ps );
+#    Time: 2556812 ps  Iteration: 1  Instance: /SlowFast_testbench/SlowFast_0/\synchronizer/S1 
+# ** Error: src/smartfusion.v(9869): $setup( negedge D:2706773 ps, posedge CLK:2706812 ps, 490 ps );
+#    Time: 2706812 ps  Iteration: 1  Instance: /SlowFast_testbench/SlowFast_0/\synchronizer/S1 
+# ** Error: src/smartfusion.v(9868): $setup( posedge D:9766313 ps, posedge CLK:9766812 ps, 522 ps );
+#    Time: 9766812 ps  Iteration: 1  Instance: /SlowFast_testbench/SlowFast_0/\synchronizer/S1 
+# ** Error: src/smartfusion.v(9869): $setup( negedge D:9916373 ps, posedge CLK:9916812 ps, 490 ps );
+#    Time: 9916812 ps  Iteration: 1  Instance: /SlowFast_testbench/SlowFast_0/\synchronizer/S1 
+# ** Error: src/smartfusion.v(9868): $setup( posedge D:10066713 ps, posedge CLK:10066812 ps, 522 ps );
+#    Time: 10066812 ps  Iteration: 1  Instance: /SlowFast_testbench/SlowFast_0/\synchronizer/S1 
+# ** Error: src/smartfusion.v(9869): $setup( negedge D:10216773 ps, posedge CLK:10216812 ps, 490 ps );
+#    Time: 10216812 ps  Iteration: 1  Instance: /SlowFast_testbench/SlowFast_0/\synchronizer/S1 
+run
+# ** Error: src/smartfusion.v(9868): $setup( posedge D:17276313 ps, posedge CLK:17276812 ps, 522 ps );
+#    Time: 17276812 ps  Iteration: 1  Instance: /SlowFast_testbench/SlowFast_0/\synchronizer/S1 
+# ** Error: src/smartfusion.v(9869): $setup( negedge D:17426373 ps, posedge CLK:17426812 ps, 490 ps );
+#    Time: 17426812 ps  Iteration: 1  Instance: /SlowFast_testbench/SlowFast_0/\synchronizer/S1 
+# ** Error: src/smartfusion.v(9868): $setup( posedge D:17576713 ps, posedge CLK:17576812 ps, 522 ps );
+#    Time: 17576812 ps  Iteration: 1  Instance: /SlowFast_testbench/SlowFast_0/\synchronizer/S1 
+# ** Error: src/smartfusion.v(9869): $setup( negedge D:17726773 ps, posedge CLK:17726812 ps, 490 ps );
+#    Time: 17726812 ps  Iteration: 1  Instance: /SlowFast_testbench/SlowFast_0/\synchronizer/S1 
+run
+# ** Error: src/smartfusion.v(9868): $setup( posedge D:24786313 ps, posedge CLK:24786812 ps, 522 ps );
+#    Time: 24786812 ps  Iteration: 1  Instance: /SlowFast_testbench/SlowFast_0/\synchronizer/S1 
+# ** Error: src/smartfusion.v(9869): $setup( negedge D:24936373 ps, posedge CLK:24936812 ps, 490 ps );
+#    Time: 24936812 ps  Iteration: 1  Instance: /SlowFast_testbench/SlowFast_0/\synchronizer/S1 
+# ** Error: src/smartfusion.v(9868): $setup( posedge D:25086713 ps, posedge CLK:25086812 ps, 522 ps );
+#    Time: 25086812 ps  Iteration: 1  Instance: /SlowFast_testbench/SlowFast_0/\synchronizer/S1 
+# ** Error: src/smartfusion.v(9869): $setup( negedge D:25236773 ps, posedge CLK:25236812 ps, 490 ps );
+#    Time: 25236812 ps  Iteration: 1  Instance: /SlowFast_testbench/SlowFast_0/\synchronizer/S1 
+run
+# ** Error: src/smartfusion.v(9868): $setup( posedge D:32296313 ps, posedge CLK:32296812 ps, 522 ps );
+#    Time: 32296812 ps  Iteration: 1  Instance: /SlowFast_testbench/SlowFast_0/\synchronizer/S1 
+# ** Error: src/smartfusion.v(9869): $setup( negedge D:32446373 ps, posedge CLK:32446812 ps, 490 ps );
+#    Time: 32446812 ps  Iteration: 1  Instance: /SlowFast_testbench/SlowFast_0/\synchronizer/S1 
+# ** Error: src/smartfusion.v(9868): $setup( posedge D:32596713 ps, posedge CLK:32596812 ps, 522 ps );
+#    Time: 32596812 ps  Iteration: 1  Instance: /SlowFast_testbench/SlowFast_0/\synchronizer/S1 
+# ** Error: src/smartfusion.v(9869): $setup( negedge D:32746773 ps, posedge CLK:32746812 ps, 490 ps );
+#    Time: 32746812 ps  Iteration: 1  Instance: /SlowFast_testbench/SlowFast_0/\synchronizer/S1 
+# ** Error: src/smartfusion.v(9868): $setup( posedge D:39806313 ps, posedge CLK:39806812 ps, 522 ps );
+#    Time: 39806812 ps  Iteration: 1  Instance: /SlowFast_testbench/SlowFast_0/\synchronizer/S1 
+# ** Error: src/smartfusion.v(9869): $setup( negedge D:39956373 ps, posedge CLK:39956812 ps, 490 ps );
+#    Time: 39956812 ps  Iteration: 1  Instance: /SlowFast_testbench/SlowFast_0/\synchronizer/S1 
+# ** Error: src/smartfusion.v(9868): $setup( posedge D:40106713 ps, posedge CLK:40106812 ps, 522 ps );
+#    Time: 40106812 ps  Iteration: 1  Instance: /SlowFast_testbench/SlowFast_0/\synchronizer/S1 
+# ** Error: src/smartfusion.v(9869): $setup( negedge D:40256773 ps, posedge CLK:40256812 ps, 490 ps );
+#    Time: 40256812 ps  Iteration: 1  Instance: /SlowFast_testbench/SlowFast_0/\synchronizer/S1 
+run
+# ** Error: src/smartfusion.v(9868): $setup( posedge D:47316313 ps, posedge CLK:47316812 ps, 522 ps );
+#    Time: 47316812 ps  Iteration: 1  Instance: /SlowFast_testbench/SlowFast_0/\synchronizer/S1 
+# ** Error: src/smartfusion.v(9869): $setup( negedge D:47466373 ps, posedge CLK:47466812 ps, 490 ps );
+#    Time: 47466812 ps  Iteration: 1  Instance: /SlowFast_testbench/SlowFast_0/\synchronizer/S1 
+# ** Error: src/smartfusion.v(9868): $setup( posedge D:47616713 ps, posedge CLK:47616812 ps, 522 ps );
+#    Time: 47616812 ps  Iteration: 1  Instance: /SlowFast_testbench/SlowFast_0/\synchronizer/S1 
+# ** Error: src/smartfusion.v(9869): $setup( negedge D:47766773 ps, posedge CLK:47766812 ps, 490 ps );
+#    Time: 47766812 ps  Iteration: 1  Instance: /SlowFast_testbench/SlowFast_0/\synchronizer/S1 
+run
+# ** Error: src/smartfusion.v(9868): $setup( posedge D:54826313 ps, posedge CLK:54826812 ps, 522 ps );
+#    Time: 54826812 ps  Iteration: 1  Instance: /SlowFast_testbench/SlowFast_0/\synchronizer/S1 
+# ** Error: src/smartfusion.v(9869): $setup( negedge D:54976373 ps, posedge CLK:54976812 ps, 490 ps );
+#    Time: 54976812 ps  Iteration: 1  Instance: /SlowFast_testbench/SlowFast_0/\synchronizer/S1 
+# ** Error: src/smartfusion.v(9868): $setup( posedge D:55126713 ps, posedge CLK:55126812 ps, 522 ps );
+#    Time: 55126812 ps  Iteration: 1  Instance: /SlowFast_testbench/SlowFast_0/\synchronizer/S1 
+# ** Error: src/smartfusion.v(9869): $setup( negedge D:55276773 ps, posedge CLK:55276812 ps, 490 ps );
+#    Time: 55276812 ps  Iteration: 1  Instance: /SlowFast_testbench/SlowFast_0/\synchronizer/S1 
+run
+# ** Error: src/smartfusion.v(9868): $setup( posedge D:62336313 ps, posedge CLK:62336812 ps, 522 ps );
+#    Time: 62336812 ps  Iteration: 1  Instance: /SlowFast_testbench/SlowFast_0/\synchronizer/S1 
+# ** Error: src/smartfusion.v(9869): $setup( negedge D:62486373 ps, posedge CLK:62486812 ps, 490 ps );
+#    Time: 62486812 ps  Iteration: 1  Instance: /SlowFast_testbench/SlowFast_0/\synchronizer/S1 
+# ** Error: src/smartfusion.v(9868): $setup( posedge D:62636713 ps, posedge CLK:62636812 ps, 522 ps );
+#    Time: 62636812 ps  Iteration: 1  Instance: /SlowFast_testbench/SlowFast_0/\synchronizer/S1 
+# ** Error: src/smartfusion.v(9869): $setup( negedge D:62786773 ps, posedge CLK:62786812 ps, 490 ps );
+#    Time: 62786812 ps  Iteration: 1  Instance: /SlowFast_testbench/SlowFast_0/\synchronizer/S1 
+# ** Error: src/smartfusion.v(9868): $setup( posedge D:69846313 ps, posedge CLK:69846812 ps, 522 ps );
+#    Time: 69846812 ps  Iteration: 1  Instance: /SlowFast_testbench/SlowFast_0/\synchronizer/S1 
+# ** Error: src/smartfusion.v(9869): $setup( negedge D:69996373 ps, posedge CLK:69996812 ps, 490 ps );
+#    Time: 69996812 ps  Iteration: 1  Instance: /SlowFast_testbench/SlowFast_0/\synchronizer/S1 
+# ** Error: src/smartfusion.v(9868): $setup( posedge D:70146713 ps, posedge CLK:70146812 ps, 522 ps );
+#    Time: 70146812 ps  Iteration: 1  Instance: /SlowFast_testbench/SlowFast_0/\synchronizer/S1 
+# ** Error: src/smartfusion.v(9869): $setup( negedge D:70296773 ps, posedge CLK:70296812 ps, 490 ps );
+#    Time: 70296812 ps  Iteration: 1  Instance: /SlowFast_testbench/SlowFast_0/\synchronizer/S1 
+run
+# ** Error: src/smartfusion.v(9868): $setup( posedge D:77356313 ps, posedge CLK:77356812 ps, 522 ps );
+#    Time: 77356812 ps  Iteration: 1  Instance: /SlowFast_testbench/SlowFast_0/\synchronizer/S1 
+# ** Error: src/smartfusion.v(9869): $setup( negedge D:77506373 ps, posedge CLK:77506812 ps, 490 ps );
+#    Time: 77506812 ps  Iteration: 1  Instance: /SlowFast_testbench/SlowFast_0/\synchronizer/S1 
+# ** Error: src/smartfusion.v(9868): $setup( posedge D:77656713 ps, posedge CLK:77656812 ps, 522 ps );
+#    Time: 77656812 ps  Iteration: 1  Instance: /SlowFast_testbench/SlowFast_0/\synchronizer/S1 
+# ** Error: src/smartfusion.v(9869): $setup( negedge D:77806773 ps, posedge CLK:77806812 ps, 490 ps );
+#    Time: 77806812 ps  Iteration: 1  Instance: /SlowFast_testbench/SlowFast_0/\synchronizer/S1 
+run
+# ** Error: src/smartfusion.v(9868): $setup( posedge D:84866313 ps, posedge CLK:84866812 ps, 522 ps );
+#    Time: 84866812 ps  Iteration: 1  Instance: /SlowFast_testbench/SlowFast_0/\synchronizer/S1 
+# ** Error: src/smartfusion.v(9869): $setup( negedge D:85016373 ps, posedge CLK:85016812 ps, 490 ps );
+#    Time: 85016812 ps  Iteration: 1  Instance: /SlowFast_testbench/SlowFast_0/\synchronizer/S1 
+# ** Error: src/smartfusion.v(9868): $setup( posedge D:85166713 ps, posedge CLK:85166812 ps, 522 ps );
+#    Time: 85166812 ps  Iteration: 1  Instance: /SlowFast_testbench/SlowFast_0/\synchronizer/S1 
+# ** Error: src/smartfusion.v(9869): $setup( negedge D:85316773 ps, posedge CLK:85316812 ps, 490 ps );
+#    Time: 85316812 ps  Iteration: 1  Instance: /SlowFast_testbench/SlowFast_0/\synchronizer/S1 
+run
+# ** Error: src/smartfusion.v(9868): $setup( posedge D:92376313 ps, posedge CLK:92376812 ps, 522 ps );
+#    Time: 92376812 ps  Iteration: 1  Instance: /SlowFast_testbench/SlowFast_0/\synchronizer/S1 
+# ** Error: src/smartfusion.v(9869): $setup( negedge D:92526373 ps, posedge CLK:92526812 ps, 490 ps );
+#    Time: 92526812 ps  Iteration: 1  Instance: /SlowFast_testbench/SlowFast_0/\synchronizer/S1 
+# ** Error: src/smartfusion.v(9868): $setup( posedge D:92676713 ps, posedge CLK:92676812 ps, 522 ps );
+#    Time: 92676812 ps  Iteration: 1  Instance: /SlowFast_testbench/SlowFast_0/\synchronizer/S1 
+# ** Error: src/smartfusion.v(9869): $setup( negedge D:92826773 ps, posedge CLK:92826812 ps, 490 ps );
+#    Time: 92826812 ps  Iteration: 1  Instance: /SlowFast_testbench/SlowFast_0/\synchronizer/S1 
+# ** Error: src/smartfusion.v(9868): $setup( posedge D:99886313 ps, posedge CLK:99886812 ps, 522 ps );
+#    Time: 99886812 ps  Iteration: 1  Instance: /SlowFast_testbench/SlowFast_0/\synchronizer/S1 
+# ** Error: src/smartfusion.v(9869): $setup( negedge D:100036373 ps, posedge CLK:100036812 ps, 490 ps );
+#    Time: 100036812 ps  Iteration: 1  Instance: /SlowFast_testbench/SlowFast_0/\synchronizer/S1 
+# ** Error: src/smartfusion.v(9868): $setup( posedge D:100186713 ps, posedge CLK:100186812 ps, 522 ps );
+#    Time: 100186812 ps  Iteration: 1  Instance: /SlowFast_testbench/SlowFast_0/\synchronizer/S1 
+# ** Error: src/smartfusion.v(9869): $setup( negedge D:100336773 ps, posedge CLK:100336812 ps, 490 ps );
+#    Time: 100336812 ps  Iteration: 1  Instance: /SlowFast_testbench/SlowFast_0/\synchronizer/S1 
+run
+# ** Error: src/smartfusion.v(9868): $setup( posedge D:107396313 ps, posedge CLK:107396812 ps, 522 ps );
+#    Time: 107396812 ps  Iteration: 1  Instance: /SlowFast_testbench/SlowFast_0/\synchronizer/S1 
+# ** Error: src/smartfusion.v(9869): $setup( negedge D:107546373 ps, posedge CLK:107546812 ps, 490 ps );
+#    Time: 107546812 ps  Iteration: 1  Instance: /SlowFast_testbench/SlowFast_0/\synchronizer/S1 
+# ** Error: src/smartfusion.v(9868): $setup( posedge D:107696713 ps, posedge CLK:107696812 ps, 522 ps );
+#    Time: 107696812 ps  Iteration: 1  Instance: /SlowFast_testbench/SlowFast_0/\synchronizer/S1 
+# ** Error: src/smartfusion.v(9869): $setup( negedge D:107846773 ps, posedge CLK:107846812 ps, 490 ps );
+#    Time: 107846812 ps  Iteration: 1  Instance: /SlowFast_testbench/SlowFast_0/\synchronizer/S1 
+run
+# ** Error: src/smartfusion.v(9868): $setup( posedge D:114906313 ps, posedge CLK:114906812 ps, 522 ps );
+#    Time: 114906812 ps  Iteration: 1  Instance: /SlowFast_testbench/SlowFast_0/\synchronizer/S1 
+# ** Error: src/smartfusion.v(9869): $setup( negedge D:115056373 ps, posedge CLK:115056812 ps, 490 ps );
+#    Time: 115056812 ps  Iteration: 1  Instance: /SlowFast_testbench/SlowFast_0/\synchronizer/S1 
+# ** Error: src/smartfusion.v(9868): $setup( posedge D:115206713 ps, posedge CLK:115206812 ps, 522 ps );
+#    Time: 115206812 ps  Iteration: 1  Instance: /SlowFast_testbench/SlowFast_0/\synchronizer/S1 
+# ** Error: src/smartfusion.v(9869): $setup( negedge D:115356773 ps, posedge CLK:115356812 ps, 490 ps );
+#    Time: 115356812 ps  Iteration: 1  Instance: /SlowFast_testbench/SlowFast_0/\synchronizer/S1 
+run
+# ** Error: src/smartfusion.v(9868): $setup( posedge D:122416313 ps, posedge CLK:122416812 ps, 522 ps );
+#    Time: 122416812 ps  Iteration: 1  Instance: /SlowFast_testbench/SlowFast_0/\synchronizer/S1 
+# ** Error: src/smartfusion.v(9869): $setup( negedge D:122566373 ps, posedge CLK:122566812 ps, 490 ps );
+#    Time: 122566812 ps  Iteration: 1  Instance: /SlowFast_testbench/SlowFast_0/\synchronizer/S1 
+# ** Error: src/smartfusion.v(9868): $setup( posedge D:122716713 ps, posedge CLK:122716812 ps, 522 ps );
+#    Time: 122716812 ps  Iteration: 1  Instance: /SlowFast_testbench/SlowFast_0/\synchronizer/S1 
+# ** Error: src/smartfusion.v(9869): $setup( negedge D:122866773 ps, posedge CLK:122866812 ps, 490 ps );
+#    Time: 122866812 ps  Iteration: 1  Instance: /SlowFast_testbench/SlowFast_0/\synchronizer/S1 
+# ** Error: src/smartfusion.v(9868): $setup( posedge D:129926313 ps, posedge CLK:129926812 ps, 522 ps );
+#    Time: 129926812 ps  Iteration: 1  Instance: /SlowFast_testbench/SlowFast_0/\synchronizer/S1 
+# ** Error: src/smartfusion.v(9869): $setup( negedge D:130076373 ps, posedge CLK:130076812 ps, 490 ps );
+#    Time: 130076812 ps  Iteration: 1  Instance: /SlowFast_testbench/SlowFast_0/\synchronizer/S1 
+# ** Error: src/smartfusion.v(9868): $setup( posedge D:130226713 ps, posedge CLK:130226812 ps, 522 ps );
+#    Time: 130226812 ps  Iteration: 1  Instance: /SlowFast_testbench/SlowFast_0/\synchronizer/S1 
+# ** Error: src/smartfusion.v(9869): $setup( negedge D:130376773 ps, posedge CLK:130376812 ps, 490 ps );
+#    Time: 130376812 ps  Iteration: 1  Instance: /SlowFast_testbench/SlowFast_0/\synchronizer/S1 
+run
+# ** Error: src/smartfusion.v(9868): $setup( posedge D:137436313 ps, posedge CLK:137436812 ps, 522 ps );
+#    Time: 137436812 ps  Iteration: 1  Instance: /SlowFast_testbench/SlowFast_0/\synchronizer/S1 
+# ** Error: src/smartfusion.v(9869): $setup( negedge D:137586373 ps, posedge CLK:137586812 ps, 490 ps );
+#    Time: 137586812 ps  Iteration: 1  Instance: /SlowFast_testbench/SlowFast_0/\synchronizer/S1 
+# ** Error: src/smartfusion.v(9868): $setup( posedge D:137736713 ps, posedge CLK:137736812 ps, 522 ps );
+#    Time: 137736812 ps  Iteration: 1  Instance: /SlowFast_testbench/SlowFast_0/\synchronizer/S1 
+# ** Error: src/smartfusion.v(9869): $setup( negedge D:137886773 ps, posedge CLK:137886812 ps, 490 ps );
+#    Time: 137886812 ps  Iteration: 1  Instance: /SlowFast_testbench/SlowFast_0/\synchronizer/S1 
+run
+# ** Error: src/smartfusion.v(9868): $setup( posedge D:144946313 ps, posedge CLK:144946812 ps, 522 ps );
+#    Time: 144946812 ps  Iteration: 1  Instance: /SlowFast_testbench/SlowFast_0/\synchronizer/S1 
+# ** Error: src/smartfusion.v(9869): $setup( negedge D:145096373 ps, posedge CLK:145096812 ps, 490 ps );
+#    Time: 145096812 ps  Iteration: 1  Instance: /SlowFast_testbench/SlowFast_0/\synchronizer/S1 
+# ** Error: src/smartfusion.v(9868): $setup( posedge D:145246713 ps, posedge CLK:145246812 ps, 522 ps );
+#    Time: 145246812 ps  Iteration: 1  Instance: /SlowFast_testbench/SlowFast_0/\synchronizer/S1 
+# ** Error: src/smartfusion.v(9869): $setup( negedge D:145396773 ps, posedge CLK:145396812 ps, 490 ps );
+#    Time: 145396812 ps  Iteration: 1  Instance: /SlowFast_testbench/SlowFast_0/\synchronizer/S1 
+run
+# ** Error: src/smartfusion.v(9868): $setup( posedge D:152456313 ps, posedge CLK:152456812 ps, 522 ps );
+#    Time: 152456812 ps  Iteration: 1  Instance: /SlowFast_testbench/SlowFast_0/\synchronizer/S1 
+# ** Error: src/smartfusion.v(9869): $setup( negedge D:152606373 ps, posedge CLK:152606812 ps, 490 ps );
+#    Time: 152606812 ps  Iteration: 1  Instance: /SlowFast_testbench/SlowFast_0/\synchronizer/S1 
+# ** Error: src/smartfusion.v(9868): $setup( posedge D:152756713 ps, posedge CLK:152756812 ps, 522 ps );
+#    Time: 152756812 ps  Iteration: 1  Instance: /SlowFast_testbench/SlowFast_0/\synchronizer/S1 
+# ** Error: src/smartfusion.v(9869): $setup( negedge D:152906773 ps, posedge CLK:152906812 ps, 490 ps );
+#    Time: 152906812 ps  Iteration: 1  Instance: /SlowFast_testbench/SlowFast_0/\synchronizer/S1 
+# ** Error: src/smartfusion.v(9868): $setup( posedge D:159966313 ps, posedge CLK:159966812 ps, 522 ps );
+#    Time: 159966812 ps  Iteration: 1  Instance: /SlowFast_testbench/SlowFast_0/\synchronizer/S1 
+# ** Error: src/smartfusion.v(9869): $setup( negedge D:160116373 ps, posedge CLK:160116812 ps, 490 ps );
+#    Time: 160116812 ps  Iteration: 1  Instance: /SlowFast_testbench/SlowFast_0/\synchronizer/S1 
+# ** Error: src/smartfusion.v(9868): $setup( posedge D:160266713 ps, posedge CLK:160266812 ps, 522 ps );
+#    Time: 160266812 ps  Iteration: 1  Instance: /SlowFast_testbench/SlowFast_0/\synchronizer/S1 
+# ** Error: src/smartfusion.v(9869): $setup( negedge D:160416773 ps, posedge CLK:160416812 ps, 490 ps );
+#    Time: 160416812 ps  Iteration: 1  Instance: /SlowFast_testbench/SlowFast_0/\synchronizer/S1 
+run
+# ** Error: src/smartfusion.v(9868): $setup( posedge D:167476313 ps, posedge CLK:167476812 ps, 522 ps );
+#    Time: 167476812 ps  Iteration: 1  Instance: /SlowFast_testbench/SlowFast_0/\synchronizer/S1 
+# ** Error: src/smartfusion.v(9869): $setup( negedge D:167626373 ps, posedge CLK:167626812 ps, 490 ps );
+#    Time: 167626812 ps  Iteration: 1  Instance: /SlowFast_testbench/SlowFast_0/\synchronizer/S1 
+# ** Error: src/smartfusion.v(9868): $setup( posedge D:167776713 ps, posedge CLK:167776812 ps, 522 ps );
+#    Time: 167776812 ps  Iteration: 1  Instance: /SlowFast_testbench/SlowFast_0/\synchronizer/S1 
+# ** Error: src/smartfusion.v(9869): $setup( negedge D:167926773 ps, posedge CLK:167926812 ps, 490 ps );
+#    Time: 167926812 ps  Iteration: 1  Instance: /SlowFast_testbench/SlowFast_0/\synchronizer/S1 
+run
+# ** Error: src/smartfusion.v(9868): $setup( posedge D:174986313 ps, posedge CLK:174986812 ps, 522 ps );
+#    Time: 174986812 ps  Iteration: 1  Instance: /SlowFast_testbench/SlowFast_0/\synchronizer/S1 
+# ** Error: src/smartfusion.v(9869): $setup( negedge D:175136373 ps, posedge CLK:175136812 ps, 490 ps );
+#    Time: 175136812 ps  Iteration: 1  Instance: /SlowFast_testbench/SlowFast_0/\synchronizer/S1 
+# ** Error: src/smartfusion.v(9868): $setup( posedge D:175286713 ps, posedge CLK:175286812 ps, 522 ps );
+#    Time: 175286812 ps  Iteration: 1  Instance: /SlowFast_testbench/SlowFast_0/\synchronizer/S1 
+# ** Error: src/smartfusion.v(9869): $setup( negedge D:175436773 ps, posedge CLK:175436812 ps, 490 ps );
+#    Time: 175436812 ps  Iteration: 1  Instance: /SlowFast_testbench/SlowFast_0/\synchronizer/S1 
+run
+# ** Error: src/smartfusion.v(9868): $setup( posedge D:182496313 ps, posedge CLK:182496812 ps, 522 ps );
+#    Time: 182496812 ps  Iteration: 1  Instance: /SlowFast_testbench/SlowFast_0/\synchronizer/S1 
+# ** Error: src/smartfusion.v(9869): $setup( negedge D:182646373 ps, posedge CLK:182646812 ps, 490 ps );
+#    Time: 182646812 ps  Iteration: 1  Instance: /SlowFast_testbench/SlowFast_0/\synchronizer/S1 
+# ** Error: src/smartfusion.v(9868): $setup( posedge D:182796713 ps, posedge CLK:182796812 ps, 522 ps );
+#    Time: 182796812 ps  Iteration: 1  Instance: /SlowFast_testbench/SlowFast_0/\synchronizer/S1 
+# ** Error: src/smartfusion.v(9869): $setup( negedge D:182946773 ps, posedge CLK:182946812 ps, 490 ps );
+#    Time: 182946812 ps  Iteration: 1  Instance: /SlowFast_testbench/SlowFast_0/\synchronizer/S1 
+# ** Error: src/smartfusion.v(9868): $setup( posedge D:190006313 ps, posedge CLK:190006812 ps, 522 ps );
+#    Time: 190006812 ps  Iteration: 1  Instance: /SlowFast_testbench/SlowFast_0/\synchronizer/S1 
+# ** Error: src/smartfusion.v(9869): $setup( negedge D:190156373 ps, posedge CLK:190156812 ps, 490 ps );
+#    Time: 190156812 ps  Iteration: 1  Instance: /SlowFast_testbench/SlowFast_0/\synchronizer/S1 
+# ** Error: src/smartfusion.v(9868): $setup( posedge D:190306713 ps, posedge CLK:190306812 ps, 522 ps );
+#    Time: 190306812 ps  Iteration: 1  Instance: /SlowFast_testbench/SlowFast_0/\synchronizer/S1 
+# ** Error: src/smartfusion.v(9869): $setup( negedge D:190456773 ps, posedge CLK:190456812 ps, 490 ps );
+#    Time: 190456812 ps  Iteration: 1  Instance: /SlowFast_testbench/SlowFast_0/\synchronizer/S1 
+run
+# ** Error: src/smartfusion.v(9868): $setup( posedge D:197516313 ps, posedge CLK:197516812 ps, 522 ps );
+#    Time: 197516812 ps  Iteration: 1  Instance: /SlowFast_testbench/SlowFast_0/\synchronizer/S1 
+# ** Error: src/smartfusion.v(9869): $setup( negedge D:197666373 ps, posedge CLK:197666812 ps, 490 ps );
+#    Time: 197666812 ps  Iteration: 1  Instance: /SlowFast_testbench/SlowFast_0/\synchronizer/S1 
+# ** Error: src/smartfusion.v(9868): $setup( posedge D:197816713 ps, posedge CLK:197816812 ps, 522 ps );
+#    Time: 197816812 ps  Iteration: 1  Instance: /SlowFast_testbench/SlowFast_0/\synchronizer/S1 
+# ** Error: src/smartfusion.v(9869): $setup( negedge D:197966773 ps, posedge CLK:197966812 ps, 490 ps );
+#    Time: 197966812 ps  Iteration: 1  Instance: /SlowFast_testbench/SlowFast_0/\synchronizer/S1 
+run
+# ** Error: src/smartfusion.v(9868): $setup( posedge D:205026313 ps, posedge CLK:205026812 ps, 522 ps );
+#    Time: 205026812 ps  Iteration: 1  Instance: /SlowFast_testbench/SlowFast_0/\synchronizer/S1 
+# ** Error: src/smartfusion.v(9869): $setup( negedge D:205176373 ps, posedge CLK:205176812 ps, 490 ps );
+#    Time: 205176812 ps  Iteration: 1  Instance: /SlowFast_testbench/SlowFast_0/\synchronizer/S1 
+# ** Error: src/smartfusion.v(9868): $setup( posedge D:205326713 ps, posedge CLK:205326812 ps, 522 ps );
+#    Time: 205326812 ps  Iteration: 1  Instance: /SlowFast_testbench/SlowFast_0/\synchronizer/S1 
+# ** Error: src/smartfusion.v(9869): $setup( negedge D:205476773 ps, posedge CLK:205476812 ps, 490 ps );
+#    Time: 205476812 ps  Iteration: 1  Instance: /SlowFast_testbench/SlowFast_0/\synchronizer/S1 
+run
+# ** Error: src/smartfusion.v(9868): $setup( posedge D:212536313 ps, posedge CLK:212536812 ps, 522 ps );
+#    Time: 212536812 ps  Iteration: 1  Instance: /SlowFast_testbench/SlowFast_0/\synchronizer/S1 
+# ** Error: src/smartfusion.v(9869): $setup( negedge D:212686373 ps, posedge CLK:212686812 ps, 490 ps );
+#    Time: 212686812 ps  Iteration: 1  Instance: /SlowFast_testbench/SlowFast_0/\synchronizer/S1 
+# ** Error: src/smartfusion.v(9868): $setup( posedge D:212836713 ps, posedge CLK:212836812 ps, 522 ps );
+#    Time: 212836812 ps  Iteration: 1  Instance: /SlowFast_testbench/SlowFast_0/\synchronizer/S1 
+# ** Error: src/smartfusion.v(9869): $setup( negedge D:212986773 ps, posedge CLK:212986812 ps, 490 ps );
+#    Time: 212986812 ps  Iteration: 1  Instance: /SlowFast_testbench/SlowFast_0/\synchronizer/S1 
+# ** Error: src/smartfusion.v(9868): $setup( posedge D:220046313 ps, posedge CLK:220046812 ps, 522 ps );
+#    Time: 220046812 ps  Iteration: 1  Instance: /SlowFast_testbench/SlowFast_0/\synchronizer/S1 
+# ** Error: src/smartfusion.v(9869): $setup( negedge D:220196373 ps, posedge CLK:220196812 ps, 490 ps );
+#    Time: 220196812 ps  Iteration: 1  Instance: /SlowFast_testbench/SlowFast_0/\synchronizer/S1 
+# ** Error: src/smartfusion.v(9868): $setup( posedge D:220346713 ps, posedge CLK:220346812 ps, 522 ps );
+#    Time: 220346812 ps  Iteration: 1  Instance: /SlowFast_testbench/SlowFast_0/\synchronizer/S1 
+# ** Error: src/smartfusion.v(9869): $setup( negedge D:220496773 ps, posedge CLK:220496812 ps, 490 ps );
+#    Time: 220496812 ps  Iteration: 1  Instance: /SlowFast_testbench/SlowFast_0/\synchronizer/S1 
+run
+# ** Error: src/smartfusion.v(9868): $setup( posedge D:227556313 ps, posedge CLK:227556812 ps, 522 ps );
+#    Time: 227556812 ps  Iteration: 1  Instance: /SlowFast_testbench/SlowFast_0/\synchronizer/S1 
+# ** Error: src/smartfusion.v(9869): $setup( negedge D:227706373 ps, posedge CLK:227706812 ps, 490 ps );
+#    Time: 227706812 ps  Iteration: 1  Instance: /SlowFast_testbench/SlowFast_0/\synchronizer/S1 
+# ** Error: src/smartfusion.v(9868): $setup( posedge D:227856713 ps, posedge CLK:227856812 ps, 522 ps );
+#    Time: 227856812 ps  Iteration: 1  Instance: /SlowFast_testbench/SlowFast_0/\synchronizer/S1 
+# ** Error: src/smartfusion.v(9869): $setup( negedge D:228006773 ps, posedge CLK:228006812 ps, 490 ps );
+#    Time: 228006812 ps  Iteration: 1  Instance: /SlowFast_testbench/SlowFast_0/\synchronizer/S1 
+# End time: 21:24:40 on Nov 20,2019, Elapsed time: 0:00:34
+# Errors: 124, Warnings: 0

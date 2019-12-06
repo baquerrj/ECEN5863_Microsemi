@@ -1,0 +1,1043 @@
+Timing Report Min Delay Analysis
+
+SmartTime Version v11.8
+Microsemi Corporation - Microsemi Libero Software Release v11.8 (Version 11.8.0.26)
+Date: Tue Nov 05 17:23:32 2019
+
+
+Design: top_level_counter
+Family: SmartFusion
+Die: A2F200M3F
+Package: 484 FBGA
+Temperature Range: 0 - 85 C
+Voltage Range: 1.425 - 1.575 V
+Speed Grade: STD
+Design State: Post-Layout
+Data source: Silicon verified
+Min Operating Conditions: BEST - 1.575 V - 0 C
+Max Operating Conditions: WORST - 1.425 V - 85 C
+Using Enhanced Min Delay Analysis
+Scenario for Timing Analysis: Primary
+
+
+-----------------------------------------------------
+SUMMARY
+
+Clock Domain:               CLK
+Period (ns):                7.754
+Frequency (MHz):            128.966
+Required Period (ns):       N/A
+Required Frequency (MHz):   N/A
+External Setup (ns):        2.606
+External Hold (ns):         -0.425
+Min Clock-To-Out (ns):      2.919
+Max Clock-To-Out (ns):      14.462
+
+Clock Domain:               skewedClock_0/DFN1P0_0:Q
+Period (ns):                2.445
+Frequency (MHz):            408.998
+Required Period (ns):       N/A
+Required Frequency (MHz):   N/A
+External Setup (ns):        N/A
+External Hold (ns):         N/A
+Min Clock-To-Out (ns):      2.503
+Max Clock-To-Out (ns):      10.595
+
+Clock Domain:               skewedClock_0/DFN1P0_1:Q
+Period (ns):                3.032
+Frequency (MHz):            329.815
+Required Period (ns):       N/A
+Required Frequency (MHz):   N/A
+External Setup (ns):        N/A
+External Hold (ns):         N/A
+Min Clock-To-Out (ns):      2.474
+Max Clock-To-Out (ns):      9.840
+
+Clock Domain:               skewedClock_0/DFN1P0_2:Q
+Period (ns):                2.883
+Frequency (MHz):            346.861
+Required Period (ns):       N/A
+Required Frequency (MHz):   N/A
+External Setup (ns):        N/A
+External Hold (ns):         N/A
+Min Clock-To-Out (ns):      2.456
+Max Clock-To-Out (ns):      10.244
+
+                            Input to Output
+Min Delay (ns):             N/A
+Max Delay (ns):             N/A
+
+END SUMMARY
+-----------------------------------------------------
+
+Clock Domain CLK
+
+SET Register to Register
+
+Path 1
+  From:                        Skewed_0/uQ[11]:CLK
+  To:                          Skewed_0/uQ[11]:D
+  Delay (ns):                  0.762
+  Slack (ns):
+  Arrival (ns):                1.602
+  Required (ns):
+  Hold (ns):                   0.000
+
+Path 2
+  From:                        Skewed_0/uQ[0]:CLK
+  To:                          Skewed_0/uQ[1]:D
+  Delay (ns):                  0.776
+  Slack (ns):
+  Arrival (ns):                1.633
+  Required (ns):
+  Hold (ns):                   0.000
+
+Path 3
+  From:                        Skewed_0/uQ[0]:CLK
+  To:                          Skewed_0/uQ[0]:D
+  Delay (ns):                  0.817
+  Slack (ns):
+  Arrival (ns):                1.674
+  Required (ns):
+  Hold (ns):                   0.000
+
+Path 4
+  From:                        Skewed_0/uQ[1]:CLK
+  To:                          Skewed_0/uQ[1]:D
+  Delay (ns):                  0.817
+  Slack (ns):
+  Arrival (ns):                1.663
+  Required (ns):
+  Hold (ns):                   0.000
+
+Path 5
+  From:                        Skewed_0/uQ[7]:CLK
+  To:                          Skewed_0/uQ[7]:D
+  Delay (ns):                  0.822
+  Slack (ns):
+  Arrival (ns):                1.662
+  Required (ns):
+  Hold (ns):                   0.000
+
+
+Expanded Path 1
+  From: Skewed_0/uQ[11]:CLK
+  To: Skewed_0/uQ[11]:D
+  data arrival time                              1.602
+  data required time                         -   N/C
+  slack                                          N/C
+  ________________________________________________________
+  Data arrival time calculation
+  0.000                        CLK
+               +     0.000          Clock source
+  0.000                        CLK (r)
+               +     0.000          net: CLK
+  0.000                        CLK_pad/U0/U0:PAD (r)
+               +     0.391          cell: ADLIB:IOPAD_IN
+  0.391                        CLK_pad/U0/U0:Y (r)
+               +     0.000          net: CLK_pad/U0/NET1
+  0.391                        CLK_pad/U0/U1:A (r)
+               +     0.148          cell: ADLIB:CLKSRC
+  0.539                        CLK_pad/U0/U1:Y (r)
+               +     0.301          net: CLK_c
+  0.840                        Skewed_0/uQ[11]:CLK (r)
+               +     0.249          cell: ADLIB:DFN1E0
+  1.089                        Skewed_0/uQ[11]:Q (r)
+               +     0.163          net: Q_c[15]
+  1.252                        Skewed_0/uQ_n11_0:A (r)
+               +     0.198          cell: ADLIB:XA1
+  1.450                        Skewed_0/uQ_n11_0:Y (f)
+               +     0.152          net: Skewed_0/uQ_n11
+  1.602                        Skewed_0/uQ[11]:D (f)
+                                    
+  1.602                        data arrival time
+  ________________________________________________________
+  Data required time calculation
+  N/C                          CLK
+               +     0.000          Clock source
+  N/C                          CLK (r)
+               +     0.000          net: CLK
+  N/C                          CLK_pad/U0/U0:PAD (r)
+               +     0.391          cell: ADLIB:IOPAD_IN
+  N/C                          CLK_pad/U0/U0:Y (r)
+               +     0.000          net: CLK_pad/U0/NET1
+  N/C                          CLK_pad/U0/U1:A (r)
+               +     0.148          cell: ADLIB:CLKSRC
+  N/C                          CLK_pad/U0/U1:Y (r)
+               +     0.301          net: CLK_c
+  N/C                          Skewed_0/uQ[11]:CLK (r)
+               +     0.000          Library hold time: ADLIB:DFN1E0
+  N/C                          Skewed_0/uQ[11]:D
+
+
+END SET Register to Register
+
+----------------------------------------------------
+
+SET External Hold
+
+Path 1
+  From:                        CLR
+  To:                          Skewed_0/uQ[9]:E
+  Delay (ns):                  1.453
+  Slack (ns):
+  Arrival (ns):                1.453
+  Required (ns):
+  Hold (ns):                   0.000
+  External Hold (ns):          -0.425
+
+Path 2
+  From:                        CLR
+  To:                          Skewed_0/uQ[2]:E
+  Delay (ns):                  1.453
+  Slack (ns):
+  Arrival (ns):                1.453
+  Required (ns):
+  Hold (ns):                   0.000
+  External Hold (ns):          -0.425
+
+Path 3
+  From:                        CLR
+  To:                          Skewed_0/uQ[0]:E
+  Delay (ns):                  1.453
+  Slack (ns):
+  Arrival (ns):                1.453
+  Required (ns):
+  Hold (ns):                   0.000
+  External Hold (ns):          -0.425
+
+Path 4
+  From:                        CLR
+  To:                          Skewed_0/uQ[3]:E
+  Delay (ns):                  1.444
+  Slack (ns):
+  Arrival (ns):                1.444
+  Required (ns):
+  Hold (ns):                   0.000
+  External Hold (ns):          -0.435
+
+Path 5
+  From:                        CLR
+  To:                          Skewed_0/uQ[5]:E
+  Delay (ns):                  1.444
+  Slack (ns):
+  Arrival (ns):                1.444
+  Required (ns):
+  Hold (ns):                   0.000
+  External Hold (ns):          -0.435
+
+
+Expanded Path 1
+  From: CLR
+  To: Skewed_0/uQ[9]:E
+  data arrival time                              1.453
+  data required time                         -   N/C
+  slack                                          N/C
+  ________________________________________________________
+  Data arrival time calculation
+  0.000                        CLR (f)
+               +     0.000          net: CLR
+  0.000                        CLR_pad/U0/U0:PAD (f)
+               +     0.293          cell: ADLIB:IOPAD_IN
+  0.293                        CLR_pad/U0/U0:Y (f)
+               +     0.000          net: CLR_pad/U0/NET1
+  0.293                        CLR_pad/U0/U1:YIN (f)
+               +     0.017          cell: ADLIB:IOIN_IB
+  0.310                        CLR_pad/U0/U1:Y (f)
+               +     0.594          net: CLR_c
+  0.904                        Skewed_0/uQlde_i_a2:A (f)
+               +     0.230          cell: ADLIB:NOR2
+  1.134                        Skewed_0/uQlde_i_a2:Y (r)
+               +     0.319          net: Skewed_0/N_89
+  1.453                        Skewed_0/uQ[9]:E (r)
+                                    
+  1.453                        data arrival time
+  ________________________________________________________
+  Data required time calculation
+  N/C                          CLK
+               +     0.000          Clock source
+  N/C                          CLK (r)
+               +     0.000          net: CLK
+  N/C                          CLK_pad/U0/U0:PAD (r)
+               +     0.470          cell: ADLIB:IOPAD_IN
+  N/C                          CLK_pad/U0/U0:Y (r)
+               +     0.000          net: CLK_pad/U0/NET1
+  N/C                          CLK_pad/U0/U1:A (r)
+               +     0.177          cell: ADLIB:CLKSRC
+  N/C                          CLK_pad/U0/U1:Y (r)
+               +     0.381          net: CLK_c
+  N/C                          Skewed_0/uQ[9]:CLK (r)
+               +     0.000          Library hold time: ADLIB:DFN1E0
+  N/C                          Skewed_0/uQ[9]:E
+
+
+END SET External Hold
+
+----------------------------------------------------
+
+SET Clock to Output
+
+Path 1
+  From:                        Skewed_0/uQ[8]:CLK
+  To:                          Q[12]
+  Delay (ns):                  2.069
+  Slack (ns):
+  Arrival (ns):                2.919
+  Required (ns):
+  Clock to Out (ns):           2.919
+
+Path 2
+  From:                        Skewed_0/uQ[3]:CLK
+  To:                          Q[7]
+  Delay (ns):                  2.122
+  Slack (ns):
+  Arrival (ns):                2.962
+  Required (ns):
+  Clock to Out (ns):           2.962
+
+Path 3
+  From:                        Skewed_0/uQ[10]:CLK
+  To:                          Q[14]
+  Delay (ns):                  2.149
+  Slack (ns):
+  Arrival (ns):                2.995
+  Required (ns):
+  Clock to Out (ns):           2.995
+
+Path 4
+  From:                        Skewed_0/uQ[5]:CLK
+  To:                          Q[9]
+  Delay (ns):                  2.190
+  Slack (ns):
+  Arrival (ns):                3.030
+  Required (ns):
+  Clock to Out (ns):           3.030
+
+Path 5
+  From:                        Skewed_0/uQ[6]:CLK
+  To:                          Q[10]
+  Delay (ns):                  2.201
+  Slack (ns):
+  Arrival (ns):                3.041
+  Required (ns):
+  Clock to Out (ns):           3.041
+
+
+Expanded Path 1
+  From: Skewed_0/uQ[8]:CLK
+  To: Q[12]
+  data arrival time                              2.919
+  data required time                         -   N/C
+  slack                                          N/C
+  ________________________________________________________
+  Data arrival time calculation
+  0.000                        CLK
+               +     0.000          Clock source
+  0.000                        CLK (r)
+               +     0.000          net: CLK
+  0.000                        CLK_pad/U0/U0:PAD (r)
+               +     0.391          cell: ADLIB:IOPAD_IN
+  0.391                        CLK_pad/U0/U0:Y (r)
+               +     0.000          net: CLK_pad/U0/NET1
+  0.391                        CLK_pad/U0/U1:A (r)
+               +     0.148          cell: ADLIB:CLKSRC
+  0.539                        CLK_pad/U0/U1:Y (r)
+               +     0.311          net: CLK_c
+  0.850                        Skewed_0/uQ[8]:CLK (r)
+               +     0.249          cell: ADLIB:DFN1E0
+  1.099                        Skewed_0/uQ[8]:Q (r)
+               +     0.444          net: Q_c[12]
+  1.543                        Q_pad[12]/U0/U1:D (r)
+               +     0.257          cell: ADLIB:IOTRI_OB_EB
+  1.800                        Q_pad[12]/U0/U1:DOUT (r)
+               +     0.000          net: Q_pad[12]/U0/NET1
+  1.800                        Q_pad[12]/U0/U0:D (r)
+               +     1.119          cell: ADLIB:IOPAD_TRI
+  2.919                        Q_pad[12]/U0/U0:PAD (r)
+               +     0.000          net: Q[12]
+  2.919                        Q[12] (r)
+                                    
+  2.919                        data arrival time
+  ________________________________________________________
+  Data required time calculation
+  N/C                          CLK
+               +     0.000          Clock source
+  N/C                          CLK (r)
+                                    
+  N/C                          Q[12] (r)
+
+
+END SET Clock to Output
+
+----------------------------------------------------
+
+SET Register to Asynchronous
+
+No Path
+
+END SET Register to Asynchronous
+
+----------------------------------------------------
+
+SET External Removal
+
+Path 1
+  From:                        PRE
+  To:                          skewedClock_0/DFN1P0_0:PRE
+  Delay (ns):                  0.920
+  Slack (ns):
+  Arrival (ns):                0.920
+  Required (ns):
+  Removal (ns):                0.000
+  External Removal (ns):       0.069
+
+
+Expanded Path 1
+  From: PRE
+  To: skewedClock_0/DFN1P0_0:PRE
+  data arrival time                              0.920
+  data required time                         -   N/C
+  slack                                          N/C
+  ________________________________________________________
+  Data arrival time calculation
+  0.000                        PRE (r)
+               +     0.000          net: PRE
+  0.000                        PRE_pad/U0/U0:PAD (r)
+               +     0.405          cell: ADLIB:IOPAD_IN
+  0.405                        PRE_pad/U0/U0:Y (r)
+               +     0.000          net: PRE_pad/U0/NET1
+  0.405                        PRE_pad/U0/U1:YIN (r)
+               +     0.018          cell: ADLIB:IOIN_IB
+  0.423                        PRE_pad/U0/U1:Y (r)
+               +     0.497          net: PRE_c
+  0.920                        skewedClock_0/DFN1P0_0:PRE (r)
+                                    
+  0.920                        data arrival time
+  ________________________________________________________
+  Data required time calculation
+  N/C                          CLK
+               +     0.000          Clock source
+  N/C                          CLK (r)
+               +     0.000          net: CLK
+  N/C                          CLK_pad/U0/U0:PAD (r)
+               +     0.470          cell: ADLIB:IOPAD_IN
+  N/C                          CLK_pad/U0/U0:Y (r)
+               +     0.000          net: CLK_pad/U0/NET1
+  N/C                          CLK_pad/U0/U1:A (r)
+               +     0.177          cell: ADLIB:CLKSRC
+  N/C                          CLK_pad/U0/U1:Y (r)
+               +     0.342          net: CLK_c
+  N/C                          skewedClock_0/DFN1P0_0:CLK (r)
+               +     0.000          Library removal time: ADLIB:DFN1P0
+  N/C                          skewedClock_0/DFN1P0_0:PRE
+
+
+END SET External Removal
+
+----------------------------------------------------
+
+SET Asynchronous to Register
+
+No Path
+
+END SET Asynchronous to Register
+
+----------------------------------------------------
+
+Clock Domain skewedClock_0/DFN1P0_0:Q
+
+SET Register to Register
+
+Path 1
+  From:                        skewedClock_0/DFN1P0_1:CLK
+  To:                          skewedClock_0/DFN1P0_1:D
+  Delay (ns):                  0.765
+  Slack (ns):
+  Arrival (ns):                0.911
+  Required (ns):
+  Hold (ns):                   0.000
+
+
+Expanded Path 1
+  From: skewedClock_0/DFN1P0_1:CLK
+  To: skewedClock_0/DFN1P0_1:D
+  data arrival time                              0.911
+  data required time                         -   N/C
+  slack                                          N/C
+  ________________________________________________________
+  Data arrival time calculation
+  0.000                        skewedClock_0/DFN1P0_0:Q
+               +     0.000          Clock source
+  0.000                        skewedClock_0/DFN1P0_0:Q (r)
+               +     0.146          net: sQ0
+  0.146                        skewedClock_0/DFN1P0_1:CLK (r)
+               +     0.226          cell: ADLIB:DFN1P0
+  0.372                        skewedClock_0/DFN1P0_1:Q (r)
+               +     0.189          net: sQ1
+  0.561                        skewedClock_0/INV_1:A (r)
+               +     0.202          cell: ADLIB:INV
+  0.763                        skewedClock_0/INV_1:Y (f)
+               +     0.148          net: skewedClock_0/INV_1_Y
+  0.911                        skewedClock_0/DFN1P0_1:D (f)
+                                    
+  0.911                        data arrival time
+  ________________________________________________________
+  Data required time calculation
+  N/C                          skewedClock_0/DFN1P0_0:Q
+               +     0.000          Clock source
+  N/C                          skewedClock_0/DFN1P0_0:Q (r)
+               +     0.146          net: sQ0
+  N/C                          skewedClock_0/DFN1P0_1:CLK (r)
+               +     0.000          Library hold time: ADLIB:DFN1P0
+  N/C                          skewedClock_0/DFN1P0_1:D
+
+
+END SET Register to Register
+
+----------------------------------------------------
+
+SET External Hold
+
+No Path
+
+END SET External Hold
+
+----------------------------------------------------
+
+SET Clock to Output
+
+Path 1
+  From:                        skewedClock_0/DFN1P0_1:CLK
+  To:                          sQ1
+  Delay (ns):                  2.357
+  Slack (ns):
+  Arrival (ns):                2.503
+  Required (ns):
+  Clock to Out (ns):           2.503
+
+Path 2
+  From:                        skewedClock_0/DFN1P0_1:CLK
+  To:                          Q[1]
+  Delay (ns):                  2.716
+  Slack (ns):
+  Arrival (ns):                2.862
+  Required (ns):
+  Clock to Out (ns):           2.862
+
+Path 3
+  From:                        skewedClock_0/DFN1P0_1:CLK
+  To:                          TC
+  Delay (ns):                  4.505
+  Slack (ns):
+  Arrival (ns):                4.651
+  Required (ns):
+  Clock to Out (ns):           4.651
+
+
+Expanded Path 1
+  From: skewedClock_0/DFN1P0_1:CLK
+  To: sQ1
+  data arrival time                              2.503
+  data required time                         -   N/C
+  slack                                          N/C
+  ________________________________________________________
+  Data arrival time calculation
+  0.000                        skewedClock_0/DFN1P0_0:Q
+               +     0.000          Clock source
+  0.000                        skewedClock_0/DFN1P0_0:Q (r)
+               +     0.146          net: sQ0
+  0.146                        skewedClock_0/DFN1P0_1:CLK (r)
+               +     0.226          cell: ADLIB:DFN1P0
+  0.372                        skewedClock_0/DFN1P0_1:Q (r)
+               +     0.755          net: sQ1
+  1.127                        sQ1_pad/U0/U1:D (r)
+               +     0.257          cell: ADLIB:IOTRI_OB_EB
+  1.384                        sQ1_pad/U0/U1:DOUT (r)
+               +     0.000          net: sQ1_pad/U0/NET1
+  1.384                        sQ1_pad/U0/U0:D (r)
+               +     1.119          cell: ADLIB:IOPAD_TRI
+  2.503                        sQ1_pad/U0/U0:PAD (r)
+               +     0.000          net: sQ1_c
+  2.503                        sQ1 (r)
+                                    
+  2.503                        data arrival time
+  ________________________________________________________
+  Data required time calculation
+  N/C                          skewedClock_0/DFN1P0_0:Q
+               +     0.000          Clock source
+  N/C                          skewedClock_0/DFN1P0_0:Q (r)
+                                    
+  N/C                          sQ1 (r)
+
+
+END SET Clock to Output
+
+----------------------------------------------------
+
+SET Register to Asynchronous
+
+No Path
+
+END SET Register to Asynchronous
+
+----------------------------------------------------
+
+SET External Removal
+
+Path 1
+  From:                        PRE
+  To:                          skewedClock_0/DFN1P0_1:PRE
+  Delay (ns):                  1.016
+  Slack (ns):
+  Arrival (ns):                1.016
+  Required (ns):
+  Removal (ns):                0.000
+  External Removal (ns):       -0.841
+
+
+Expanded Path 1
+  From: PRE
+  To: skewedClock_0/DFN1P0_1:PRE
+  data arrival time                              1.016
+  data required time                         -   N/C
+  slack                                          N/C
+  ________________________________________________________
+  Data arrival time calculation
+  0.000                        PRE (r)
+               +     0.000          net: PRE
+  0.000                        PRE_pad/U0/U0:PAD (r)
+               +     0.405          cell: ADLIB:IOPAD_IN
+  0.405                        PRE_pad/U0/U0:Y (r)
+               +     0.000          net: PRE_pad/U0/NET1
+  0.405                        PRE_pad/U0/U1:YIN (r)
+               +     0.018          cell: ADLIB:IOIN_IB
+  0.423                        PRE_pad/U0/U1:Y (r)
+               +     0.593          net: PRE_c
+  1.016                        skewedClock_0/DFN1P0_1:PRE (r)
+                                    
+  1.016                        data arrival time
+  ________________________________________________________
+  Data required time calculation
+  N/C                          skewedClock_0/DFN1P0_0:Q
+               +     0.000          Clock source
+  N/C                          skewedClock_0/DFN1P0_0:Q (r)
+               +     0.175          net: sQ0
+  N/C                          skewedClock_0/DFN1P0_1:CLK (r)
+               +     0.000          Library removal time: ADLIB:DFN1P0
+  N/C                          skewedClock_0/DFN1P0_1:PRE
+
+
+END SET External Removal
+
+----------------------------------------------------
+
+SET Asynchronous to Register
+
+No Path
+
+END SET Asynchronous to Register
+
+----------------------------------------------------
+
+Clock Domain skewedClock_0/DFN1P0_1:Q
+
+SET Register to Register
+
+Path 1
+  From:                        skewedClock_0/DFN1P0_2:CLK
+  To:                          skewedClock_0/DFN1P0_2:D
+  Delay (ns):                  1.026
+  Slack (ns):
+  Arrival (ns):                1.223
+  Required (ns):
+  Hold (ns):                   0.000
+
+
+Expanded Path 1
+  From: skewedClock_0/DFN1P0_2:CLK
+  To: skewedClock_0/DFN1P0_2:D
+  data arrival time                              1.223
+  data required time                         -   N/C
+  slack                                          N/C
+  ________________________________________________________
+  Data arrival time calculation
+  0.000                        skewedClock_0/DFN1P0_1:Q
+               +     0.000          Clock source
+  0.000                        skewedClock_0/DFN1P0_1:Q (r)
+               +     0.197          net: sQ1
+  0.197                        skewedClock_0/DFN1P0_2:CLK (r)
+               +     0.226          cell: ADLIB:DFN1P0
+  0.423                        skewedClock_0/DFN1P0_2:Q (r)
+               +     0.289          net: sQ2
+  0.712                        skewedClock_0/INV_3:A (r)
+               +     0.202          cell: ADLIB:INV
+  0.914                        skewedClock_0/INV_3:Y (f)
+               +     0.309          net: skewedClock_0/INV_3_Y
+  1.223                        skewedClock_0/DFN1P0_2:D (f)
+                                    
+  1.223                        data arrival time
+  ________________________________________________________
+  Data required time calculation
+  N/C                          skewedClock_0/DFN1P0_1:Q
+               +     0.000          Clock source
+  N/C                          skewedClock_0/DFN1P0_1:Q (r)
+               +     0.197          net: sQ1
+  N/C                          skewedClock_0/DFN1P0_2:CLK (r)
+               +     0.000          Library hold time: ADLIB:DFN1P0
+  N/C                          skewedClock_0/DFN1P0_2:D
+
+
+END SET Register to Register
+
+----------------------------------------------------
+
+SET External Hold
+
+No Path
+
+END SET External Hold
+
+----------------------------------------------------
+
+SET Clock to Output
+
+Path 1
+  From:                        skewedClock_0/DFN1P0_2:CLK
+  To:                          sQ2
+  Delay (ns):                  2.277
+  Slack (ns):
+  Arrival (ns):                2.474
+  Required (ns):
+  Clock to Out (ns):           2.474
+
+Path 2
+  From:                        skewedClock_0/DFN1P0_2:CLK
+  To:                          Q[2]
+  Delay (ns):                  2.869
+  Slack (ns):
+  Arrival (ns):                3.066
+  Required (ns):
+  Clock to Out (ns):           3.066
+
+Path 3
+  From:                        skewedClock_0/DFN1P0_2:CLK
+  To:                          TC
+  Delay (ns):                  4.128
+  Slack (ns):
+  Arrival (ns):                4.325
+  Required (ns):
+  Clock to Out (ns):           4.325
+
+
+Expanded Path 1
+  From: skewedClock_0/DFN1P0_2:CLK
+  To: sQ2
+  data arrival time                              2.474
+  data required time                         -   N/C
+  slack                                          N/C
+  ________________________________________________________
+  Data arrival time calculation
+  0.000                        skewedClock_0/DFN1P0_1:Q
+               +     0.000          Clock source
+  0.000                        skewedClock_0/DFN1P0_1:Q (r)
+               +     0.197          net: sQ1
+  0.197                        skewedClock_0/DFN1P0_2:CLK (r)
+               +     0.226          cell: ADLIB:DFN1P0
+  0.423                        skewedClock_0/DFN1P0_2:Q (r)
+               +     0.675          net: sQ2
+  1.098                        sQ2_pad/U0/U1:D (r)
+               +     0.257          cell: ADLIB:IOTRI_OB_EB
+  1.355                        sQ2_pad/U0/U1:DOUT (r)
+               +     0.000          net: sQ2_pad/U0/NET1
+  1.355                        sQ2_pad/U0/U0:D (r)
+               +     1.119          cell: ADLIB:IOPAD_TRI
+  2.474                        sQ2_pad/U0/U0:PAD (r)
+               +     0.000          net: sQ2_c
+  2.474                        sQ2 (r)
+                                    
+  2.474                        data arrival time
+  ________________________________________________________
+  Data required time calculation
+  N/C                          skewedClock_0/DFN1P0_1:Q
+               +     0.000          Clock source
+  N/C                          skewedClock_0/DFN1P0_1:Q (r)
+                                    
+  N/C                          sQ2 (r)
+
+
+END SET Clock to Output
+
+----------------------------------------------------
+
+SET Register to Asynchronous
+
+No Path
+
+END SET Register to Asynchronous
+
+----------------------------------------------------
+
+SET External Removal
+
+Path 1
+  From:                        PRE
+  To:                          skewedClock_0/DFN1P0_2:PRE
+  Delay (ns):                  0.996
+  Slack (ns):
+  Arrival (ns):                0.996
+  Required (ns):
+  Removal (ns):                0.000
+  External Removal (ns):       -0.759
+
+
+Expanded Path 1
+  From: PRE
+  To: skewedClock_0/DFN1P0_2:PRE
+  data arrival time                              0.996
+  data required time                         -   N/C
+  slack                                          N/C
+  ________________________________________________________
+  Data arrival time calculation
+  0.000                        PRE (r)
+               +     0.000          net: PRE
+  0.000                        PRE_pad/U0/U0:PAD (r)
+               +     0.405          cell: ADLIB:IOPAD_IN
+  0.405                        PRE_pad/U0/U0:Y (r)
+               +     0.000          net: PRE_pad/U0/NET1
+  0.405                        PRE_pad/U0/U1:YIN (r)
+               +     0.018          cell: ADLIB:IOIN_IB
+  0.423                        PRE_pad/U0/U1:Y (r)
+               +     0.573          net: PRE_c
+  0.996                        skewedClock_0/DFN1P0_2:PRE (r)
+                                    
+  0.996                        data arrival time
+  ________________________________________________________
+  Data required time calculation
+  N/C                          skewedClock_0/DFN1P0_1:Q
+               +     0.000          Clock source
+  N/C                          skewedClock_0/DFN1P0_1:Q (r)
+               +     0.237          net: sQ1
+  N/C                          skewedClock_0/DFN1P0_2:CLK (r)
+               +     0.000          Library removal time: ADLIB:DFN1P0
+  N/C                          skewedClock_0/DFN1P0_2:PRE
+
+
+END SET External Removal
+
+----------------------------------------------------
+
+SET Asynchronous to Register
+
+No Path
+
+END SET Asynchronous to Register
+
+----------------------------------------------------
+
+Clock Domain skewedClock_0/DFN1P0_2:Q
+
+SET Register to Register
+
+Path 1
+  From:                        skewedClock_0/DFN1P0_3:CLK
+  To:                          skewedClock_0/DFN1P0_3:D
+  Delay (ns):                  0.962
+  Slack (ns):
+  Arrival (ns):                1.108
+  Required (ns):
+  Hold (ns):                   0.000
+
+
+Expanded Path 1
+  From: skewedClock_0/DFN1P0_3:CLK
+  To: skewedClock_0/DFN1P0_3:D
+  data arrival time                              1.108
+  data required time                         -   N/C
+  slack                                          N/C
+  ________________________________________________________
+  Data arrival time calculation
+  0.000                        skewedClock_0/DFN1P0_2:Q
+               +     0.000          Clock source
+  0.000                        skewedClock_0/DFN1P0_2:Q (r)
+               +     0.146          net: sQ2
+  0.146                        skewedClock_0/DFN1P0_3:CLK (r)
+               +     0.226          cell: ADLIB:DFN1P0
+  0.372                        skewedClock_0/DFN1P0_3:Q (r)
+               +     0.260          net: sQ3_c
+  0.632                        skewedClock_0/INV_2:A (r)
+               +     0.202          cell: ADLIB:INV
+  0.834                        skewedClock_0/INV_2:Y (f)
+               +     0.274          net: skewedClock_0/INV_2_Y
+  1.108                        skewedClock_0/DFN1P0_3:D (f)
+                                    
+  1.108                        data arrival time
+  ________________________________________________________
+  Data required time calculation
+  N/C                          skewedClock_0/DFN1P0_2:Q
+               +     0.000          Clock source
+  N/C                          skewedClock_0/DFN1P0_2:Q (r)
+               +     0.146          net: sQ2
+  N/C                          skewedClock_0/DFN1P0_3:CLK (r)
+               +     0.000          Library hold time: ADLIB:DFN1P0
+  N/C                          skewedClock_0/DFN1P0_3:D
+
+
+END SET Register to Register
+
+----------------------------------------------------
+
+SET External Hold
+
+No Path
+
+END SET External Hold
+
+----------------------------------------------------
+
+SET Clock to Output
+
+Path 1
+  From:                        skewedClock_0/DFN1P0_3:CLK
+  To:                          sQ3
+  Delay (ns):                  2.310
+  Slack (ns):
+  Arrival (ns):                2.456
+  Required (ns):
+  Clock to Out (ns):           2.456
+
+Path 2
+  From:                        skewedClock_0/DFN1P0_3:CLK
+  To:                          Q[3]
+  Delay (ns):                  3.207
+  Slack (ns):
+  Arrival (ns):                3.353
+  Required (ns):
+  Clock to Out (ns):           3.353
+
+Path 3
+  From:                        skewedClock_0/DFN1P0_3:CLK
+  To:                          TC
+  Delay (ns):                  4.310
+  Slack (ns):
+  Arrival (ns):                4.456
+  Required (ns):
+  Clock to Out (ns):           4.456
+
+
+Expanded Path 1
+  From: skewedClock_0/DFN1P0_3:CLK
+  To: sQ3
+  data arrival time                              2.456
+  data required time                         -   N/C
+  slack                                          N/C
+  ________________________________________________________
+  Data arrival time calculation
+  0.000                        skewedClock_0/DFN1P0_2:Q
+               +     0.000          Clock source
+  0.000                        skewedClock_0/DFN1P0_2:Q (r)
+               +     0.146          net: sQ2
+  0.146                        skewedClock_0/DFN1P0_3:CLK (r)
+               +     0.226          cell: ADLIB:DFN1P0
+  0.372                        skewedClock_0/DFN1P0_3:Q (r)
+               +     0.708          net: sQ3_c
+  1.080                        sQ3_pad/U0/U1:D (r)
+               +     0.257          cell: ADLIB:IOTRI_OB_EB
+  1.337                        sQ3_pad/U0/U1:DOUT (r)
+               +     0.000          net: sQ3_pad/U0/NET1
+  1.337                        sQ3_pad/U0/U0:D (r)
+               +     1.119          cell: ADLIB:IOPAD_TRI
+  2.456                        sQ3_pad/U0/U0:PAD (r)
+               +     0.000          net: sQ3
+  2.456                        sQ3 (r)
+                                    
+  2.456                        data arrival time
+  ________________________________________________________
+  Data required time calculation
+  N/C                          skewedClock_0/DFN1P0_2:Q
+               +     0.000          Clock source
+  N/C                          skewedClock_0/DFN1P0_2:Q (r)
+                                    
+  N/C                          sQ3 (r)
+
+
+END SET Clock to Output
+
+----------------------------------------------------
+
+SET Register to Asynchronous
+
+No Path
+
+END SET Register to Asynchronous
+
+----------------------------------------------------
+
+SET External Removal
+
+Path 1
+  From:                        PRE
+  To:                          skewedClock_0/DFN1P0_3:PRE
+  Delay (ns):                  0.891
+  Slack (ns):
+  Arrival (ns):                0.891
+  Required (ns):
+  Removal (ns):                0.000
+  External Removal (ns):       -0.716
+
+
+Expanded Path 1
+  From: PRE
+  To: skewedClock_0/DFN1P0_3:PRE
+  data arrival time                              0.891
+  data required time                         -   N/C
+  slack                                          N/C
+  ________________________________________________________
+  Data arrival time calculation
+  0.000                        PRE (r)
+               +     0.000          net: PRE
+  0.000                        PRE_pad/U0/U0:PAD (r)
+               +     0.405          cell: ADLIB:IOPAD_IN
+  0.405                        PRE_pad/U0/U0:Y (r)
+               +     0.000          net: PRE_pad/U0/NET1
+  0.405                        PRE_pad/U0/U1:YIN (r)
+               +     0.018          cell: ADLIB:IOIN_IB
+  0.423                        PRE_pad/U0/U1:Y (r)
+               +     0.468          net: PRE_c
+  0.891                        skewedClock_0/DFN1P0_3:PRE (r)
+                                    
+  0.891                        data arrival time
+  ________________________________________________________
+  Data required time calculation
+  N/C                          skewedClock_0/DFN1P0_2:Q
+               +     0.000          Clock source
+  N/C                          skewedClock_0/DFN1P0_2:Q (r)
+               +     0.175          net: sQ2
+  N/C                          skewedClock_0/DFN1P0_3:CLK (r)
+               +     0.000          Library removal time: ADLIB:DFN1P0
+  N/C                          skewedClock_0/DFN1P0_3:PRE
+
+
+END SET External Removal
+
+----------------------------------------------------
+
+SET Asynchronous to Register
+
+No Path
+
+END SET Asynchronous to Register
+
+----------------------------------------------------
+
+Path set Pin to Pin
+
+SET Input to Output
+
+No Path
+
+END SET Input to Output
+
+----------------------------------------------------
+
+Path set User Sets
+

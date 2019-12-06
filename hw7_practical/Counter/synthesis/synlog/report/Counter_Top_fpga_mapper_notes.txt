@@ -1,0 +1,28 @@
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+@N: MO231 :"c:\microsemi_prj\hw7_practical\counter\hdl\counter.vhd":43:6:43:7|Found counter in view:work.Counter_74(counter_arch) instance count[15:0] 
+@N: MO231 :"c:\microsemi_prj\hw7_practical\counter\hdl\counter.vhd":43:6:43:7|Found counter in view:work.Counter_3(counter_arch) instance count[15:0] 
+@N: MO231 :"c:\microsemi_prj\hw7_practical\counter\hdl\counter.vhd":43:6:43:7|Found counter in view:work.Counter_14(counter_arch) instance count[15:0] 
+@N: MO231 :"c:\microsemi_prj\hw7_practical\counter\hdl\counter.vhd":43:6:43:7|Found counter in view:work.Counter_18(counter_arch) instance count[15:0] 
+@N: MO231 :"c:\microsemi_prj\hw7_practical\counter\hdl\counter.vhd":43:6:43:7|Found counter in view:work.Counter(counter_arch) instance count[15:0] 
+@N: MO231 :"c:\microsemi_prj\hw7_practical\counter\hdl\counter.vhd":43:6:43:7|Found counter in view:work.Counter_6(counter_arch) instance count[15:0] 
+@N: MO231 :"c:\microsemi_prj\hw7_practical\counter\hdl\counter.vhd":43:6:43:7|Found counter in view:work.Counter_4(counter_arch) instance count[15:0] 
+@N: MO231 :"c:\microsemi_prj\hw7_practical\counter\hdl\counter.vhd":43:6:43:7|Found counter in view:work.Counter_5(counter_arch) instance count[15:0] 
+@N: MO231 :"c:\microsemi_prj\hw7_practical\counter\hdl\counter.vhd":43:6:43:7|Found counter in view:work.Counter_1(counter_arch) instance count[15:0] 
+@N: MO231 :"c:\microsemi_prj\hw7_practical\counter\hdl\counter.vhd":43:6:43:7|Found counter in view:work.Counter_8(counter_arch) instance count[15:0] 
+@N: MO231 :"c:\microsemi_prj\hw7_practical\counter\hdl\counter.vhd":43:6:43:7|Found counter in view:work.Counter_2(counter_arch) instance count[15:0] 
+@N: MO231 :"c:\microsemi_prj\hw7_practical\counter\hdl\counter.vhd":43:6:43:7|Found counter in view:work.Counter_17(counter_arch) instance count[15:0] 
+@N: MO231 :"c:\microsemi_prj\hw7_practical\counter\hdl\counter.vhd":43:6:43:7|Found counter in view:work.Counter_16(counter_arch) instance count[15:0] 
+@N: MO231 :"c:\microsemi_prj\hw7_practical\counter\hdl\counter.vhd":43:6:43:7|Found counter in view:work.Counter_19(counter_arch) instance count[15:0] 
+@N: MO231 :"c:\microsemi_prj\hw7_practical\counter\hdl\counter.vhd":43:6:43:7|Found counter in view:work.Counter_15(counter_arch) instance count[15:0] 
+@N: MO231 :"c:\microsemi_prj\hw7_practical\counter\hdl\counter.vhd":43:6:43:7|Found counter in view:work.Counter_10(counter_arch) instance count[15:0] 
+@N: MO231 :"c:\microsemi_prj\hw7_practical\counter\hdl\counter.vhd":43:6:43:7|Found counter in view:work.Counter_11(counter_arch) instance count[15:0] 
+@N: MO231 :"c:\microsemi_prj\hw7_practical\counter\hdl\counter.vhd":43:6:43:7|Found counter in view:work.Counter_12(counter_arch) instance count[15:0] 
+@N: MO231 :"c:\microsemi_prj\hw7_practical\counter\hdl\counter.vhd":43:6:43:7|Found counter in view:work.Counter_7(counter_arch) instance count[15:0] 
+@N: MO231 :"c:\microsemi_prj\hw7_practical\counter\hdl\counter.vhd":43:6:43:7|Found counter in view:work.Counter_9(counter_arch) instance count[15:0] 
+@N: MO231 :"c:\microsemi_prj\hw7_practical\counter\hdl\counter.vhd":43:6:43:7|Found counter in view:work.Counter_13(counter_arch) instance count[15:0] 
+@N: MO231 :"c:\microsemi_prj\hw7_practical\counter\hdl\counter.vhd":43:6:43:7|Found counter in view:work.Counter_0(counter_arch) instance count[15:0] 
+@N: FP130 |Promoting Net CLK_c on CLKBUF  CLK_pad 
+@N: FP130 |Promoting Net RESET_c on CLKINT  I_1201 
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.

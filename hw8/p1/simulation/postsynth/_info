@@ -1,0 +1,208 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Microsemi_Prj/hw8/p1/simulation
+Ecdc3ff
+Z1 w1573419045
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z4 8C:/Microsemi_Prj/hw8/p1/synthesis/CDC3FF_MSS.vhd
+Z5 FC:/Microsemi_Prj/hw8/p1/synthesis/CDC3FF_MSS.vhd
+l0
+L245
+VWgEclTfE9Th=aKJKO9d9G3
+!s100 J[VB2X1JfLG4d4YH[om>02
+Z6 OW;C;10.5c;63
+33
+Z7 !s110 1573421543
+!i10b 1
+Z8 !s108 1573421543.000000
+Z9 !s90 -reportprogress|300|-2008|-explicit|-work|postsynth|C:/Microsemi_Prj/hw8/p1/synthesis/CDC3FF_MSS.vhd|
+Z10 !s107 C:/Microsemi_Prj/hw8/p1/synthesis/CDC3FF_MSS.vhd|
+!i113 1
+Z11 o-2008 -explicit -work postsynth -O0
+Z12 tCvgOpt 0
+Adef_arch
+R2
+R3
+Z13 DEx4 work 6 cdc3ff 0 22 WgEclTfE9Th=aKJKO9d9G3
+l277
+L255
+VD2^PVgaRBLaY2h;4^Za_l3
+!s100 @0@>`Qb>>X2k3H`oX_T>J1
+R6
+33
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Ecdc3ff_mss
+R1
+R2
+R3
+R0
+R4
+R5
+l0
+L305
+V2m]81=Ek58c];O863da`41
+!s100 o[zM[ggkWI9P^AMOIZ?PF1
+R6
+33
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Adef_arch
+R13
+Z14 DEx4 work 14 clk_source_mss 0 22 eIXXWi@<P5H2MKi9;V[921
+R2
+R3
+DEx4 work 10 cdc3ff_mss 0 22 2m]81=Ek58c];O863da`41
+l358
+L313
+VOQTg0lD9Q7HUMO=HZi13;2
+!s100 ca^aARQS_AK2J?F@o4l5k2
+R6
+33
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Ecdc3ff_tb
+Z15 w1573419484
+R2
+R3
+R0
+Z16 8C:/Microsemi_Prj/hw8/p1/stimulus/CDC3FF_tb.vhd
+Z17 FC:/Microsemi_Prj/hw8/p1/stimulus/CDC3FF_tb.vhd
+l0
+L23
+V7?[`FM[CGaJHlCOGGbQe`1
+!s100 E:BVfeFYQmalDM7k[G3_[2
+R6
+33
+R7
+!i10b 1
+R8
+Z18 !s90 -reportprogress|300|-2008|-explicit|-work|postsynth|C:/Microsemi_Prj/hw8/p1/stimulus/CDC3FF_tb.vhd|
+Z19 !s107 C:/Microsemi_Prj/hw8/p1/stimulus/CDC3FF_tb.vhd|
+!i113 1
+R11
+R12
+Abehavioral
+R2
+R3
+Z20 DEx4 work 9 cdc3ff_tb 0 22 7?[`FM[CGaJHlCOGGbQe`1
+l48
+L26
+Z21 VCiMzU0kFHCgAn5BkWE3d=1
+Z22 !s100 7hNz]6>9acfRi9iXIoTbW1
+R6
+33
+R7
+!i10b 1
+R8
+R18
+R19
+!i113 1
+R11
+R12
+Eclk_source_mss
+R1
+R2
+R3
+R0
+R4
+R5
+l0
+L194
+VeIXXWi@<P5H2MKi9;V[921
+!s100 U4afCWNBb4J<`O<zZQ<EH1
+R6
+33
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Adef_arch
+Z23 DEx4 work 36 clk_source_mss_tmp_mss_ccc_0_mss_ccc 0 22 U7VOlS:e_=P1I_A?AWln=1
+R2
+R3
+R14
+l224
+L202
+Vj?@Li^^`Czz@7NC`J_]@e2
+!s100 08bhbZP=W3>0_VTgaRa:N2
+R6
+33
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Eclk_source_mss_tmp_mss_ccc_0_mss_ccc
+R1
+R2
+R3
+R0
+R4
+R5
+l0
+L8
+VU7VOlS:e_=P1I_A?AWln=1
+!s100 M9TbB^DTE64ZOUCkXI29o3
+R6
+33
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Adef_arch
+R2
+R3
+R23
+l81
+L16
+V7A@@[fiU0l;3f4V^@4k1N0
+!s100 @Q31=eNnD9UnBkgbR21d^0
+R6
+33
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12

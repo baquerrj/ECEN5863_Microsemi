@@ -1,0 +1,7 @@
+C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\bin64\syn_nfilter.exe  -link  -top  CD3FF  -multisrs  C:\Microsemi_Prj\hw8\problem1_b\synthesis\synwork\CD3FF_comp.srs  -osyn  C:\Microsemi_Prj\hw8\problem1_b\synthesis\synwork\CD3FF_mult.srs  -log  C:\Microsemi_Prj\hw8\problem1_b\synthesis\synlog\CD3FF_multi_srs_gen.srr 
+rc:0 success:1 runtime:0
+file:C:\Microsemi_Prj\hw8\problem1_b\synthesis\synwork\CD3FF_comp.srs|io:i|time:1574303319|size:2280|exec:0
+file:C:\Microsemi_Prj\hw8\problem1_b\synthesis\synwork\CD3FF_mult.srs|io:o|time:1574303320|size:1759|exec:0
+file:C:\Microsemi_Prj\hw8\problem1_b\synthesis\synlog\CD3FF_multi_srs_gen.srr|io:o|time:1574303320|size:409|exec:0
+file:C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\bin\syn_nfilter.exe|io:i|time:1479398858|size:3128320|exec:1
+file:C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\bin64\syn_nfilter.exe|io:i|time:1479399124|size:4208128|exec:1

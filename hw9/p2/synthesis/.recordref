@@ -1,0 +1,2 @@
+fifo2x8 port fifo_0[7:0] fifo[7:0]
+fifo2x8 port fifo_1[7:0] fifo[15:8]

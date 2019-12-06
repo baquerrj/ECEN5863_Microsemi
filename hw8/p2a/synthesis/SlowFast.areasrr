@@ -1,0 +1,38 @@
+----------------------------------------------------------------------
+Report for cell SlowFast.verilog
+                                          Cell usage:
+                               cell       count     area    count*area
+                             CLKBUF         2       0.0        0.0
+                               DFN1         9       1.0        9.0
+                                GND         1       0.0        0.0
+                              INBUF         1       0.0        0.0
+                                MX2         4       1.0        4.0
+                               NOR2         1       1.0        1.0
+                              NOR2A         8       1.0        8.0
+                             OUTBUF         4       0.0        0.0
+                      ShiftRegister         1       4.0        4.0
+                       Synchronizer         1       6.0        6.0
+                                VCC         1       0.0        0.0
+                            
+                         TOTAL             33                 32.0
+----------------------------------------------------------------------
+Report for cell Synchronizer.netlist
+     Instance path:  synchronizer
+                                          Cell usage:
+                               cell       count     area    count*area
+                               DFN1         3       1.0        3.0
+                                GND         1       0.0        0.0
+                              NOR2A         3       1.0        3.0
+                                VCC         1       0.0        0.0
+                            
+                         TOTAL              8                  6.0
+----------------------------------------------------------------------
+Report for cell ShiftRegister.netlist
+     Instance path:  shiftRegister
+                                          Cell usage:
+                               cell       count     area    count*area
+                               DFN1         4       1.0        4.0
+                                GND         1       0.0        0.0
+                                VCC         1       0.0        0.0
+                            
+                         TOTAL              6                  4.0

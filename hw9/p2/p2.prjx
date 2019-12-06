@@ -1,0 +1,362 @@
+KEY LIBERO "11.8"
+KEY CAPTURE "11.8.0.26"
+KEY DEFAULT_IMPORT_LOC "X:\Projects\Interrupts_MSS_GPIO\Design\Verilog"
+KEY DEFAULT_OPEN_LOC ""
+KEY ProjectID "0"
+KEY HDLTechnology "VHDL"
+KEY VERILOGMODE "VERILOG2001"
+KEY VHDLMODE "VHDL2008"
+KEY UseConstraintFlowTechnology "FALSE"
+KEY VendorTechnology_Family "SmartFusion"
+KEY VendorTechnology_Die "IP4X3M1"
+KEY VendorTechnology_Package "fg484"
+KEY VendorTechnology_Speed "STD"
+KEY VendorTechnology_DieVoltage "1.5"
+KEY VendorTechnology_PART_RANGE "COM"
+KEY VendorTechnology_DSW_VCCA_VOLTAGE_RAMP_RATE ""
+KEY VendorTechnology_IO_DEFT_STD "LVTTL"
+KEY VendorTechnology_OPCONR ""
+KEY VendorTechnology_PLL_SUPPLY ""
+KEY VendorTechnology_RAD_EXPOSURE ""
+KEY VendorTechnology_RESERVEMIGRATIONPINS "1"
+KEY VendorTechnology_RESTRICTPROBEPINS "1"
+KEY VendorTechnology_RESTRICTSPIPINS "0"
+KEY VendorTechnology_SYSTEM_CONTROLLER_SUSPEND_MODE ""
+KEY VendorTechnology_TARGETDEVICESFORMIGRATION "IP4X3M1"
+KEY VendorTechnology_TEMPR "COM"
+KEY VendorTechnology_UNUSED_MSS_IO_RESISTOR_PULL "None"
+KEY VendorTechnology_VCCI_1.5_VOLTR "COM"
+KEY VendorTechnology_VCCI_1.8_VOLTR "COM"
+KEY VendorTechnology_VCCI_2.5_VOLTR "COM"
+KEY VendorTechnology_VCCI_3.3_VOLTR "COM"
+KEY VendorTechnology_VOLTR "COM"
+KEY ProjectLocation "C:\Microsemi_Prj\hw9\p2"
+KEY ProjectDescription ""
+KEY Pa4PeripheralNewSeq "GOOD"
+KEY SimulationType "VHDL"
+KEY Vendor "Actel"
+KEY ActiveRoot "fifo2x8::work"
+LIST REVISIONS
+VALUE="Impl1",NUM=1
+CURREV=1
+ENDLIST
+LIST FileManager
+VALUE "<project>\designer\impl1\fifo2x8.adb,adb"
+STATE="ood"
+TIME="1575426090"
+SIZE="110080"
+ENDFILE
+VALUE "<project>\designer\impl1\fifo2x8.ide_des,ide_des"
+STATE="utd"
+TIME="1575426090"
+SIZE="1067"
+ENDFILE
+VALUE "<project>\designer\impl1\fifo2x8_ba.sdf,ba_sdf"
+STATE="ood"
+TIME="1575425974"
+SIZE="60004"
+ENDFILE
+VALUE "<project>\designer\impl1\fifo2x8_ba.vhd,ba_hdl"
+STATE="ood"
+TIME="1575425974"
+SIZE="23972"
+ENDFILE
+VALUE "<project>\designer\impl1\fifo2x8_compile_log.rpt,log"
+STATE="utd"
+TIME="1575426090"
+SIZE="8637"
+ENDFILE
+VALUE "<project>\designer\impl1\fifo2x8_timingconstraints_log.rpt,log"
+STATE="utd"
+TIME="1575425978"
+SIZE="9637"
+ENDFILE
+VALUE "<project>\designer\impl1\sync_write.ide_des,ide_des"
+STATE="utd"
+TIME="1575143371"
+SIZE="185"
+ENDFILE
+VALUE "<project>\hdl\fifo2x8.vhd,hdl"
+STATE="utd"
+TIME="1575426805"
+SIZE="4977"
+ENDFILE
+VALUE "<project>\hdl\fifo_array_type.vhd,hdl"
+STATE="utd"
+TIME="1575427140"
+SIZE="795"
+ENDFILE
+VALUE "<project>\hdl\sync_write.vhd,hdl"
+STATE="utd"
+TIME="1575143801"
+SIZE="696"
+ENDFILE
+VALUE "<project>\simulation\run.do,do"
+STATE="utd"
+TIME="1575427442"
+SIZE="724"
+ENDFILE
+VALUE "<project>\stimulus\fifo2x8_tb.vhd,tb_hdl"
+STATE="utd"
+TIME="1575427358"
+SIZE="3896"
+ENDFILE
+VALUE "<project>\synthesis\fifo2x8.edn,syn_edn"
+STATE="ood"
+TIME="1575599849"
+SIZE="44291"
+ENDFILE
+VALUE "<project>\synthesis\fifo2x8.sdc,sdc"
+STATE="utd"
+TIME="1575426050"
+SIZE="450"
+ENDFILE
+VALUE "<project>\synthesis\fifo2x8.so,so"
+STATE="utd"
+TIME="1575599849"
+SIZE="207"
+ENDFILE
+VALUE "<project>\synthesis\fifo2x8_sdc.sdc,syn_sdc"
+STATE="ood"
+TIME="1575599849"
+SIZE="488"
+ENDFILE
+VALUE "<project>\synthesis\fifo2x8_syn.prj,prj"
+STATE="utd"
+TIME="1575599849"
+SIZE="1822"
+ENDFILE
+VALUE "<project>\synthesis\sync_write.edn,syn_edn"
+STATE="utd"
+TIME="1575143805"
+SIZE="7390"
+ENDFILE
+VALUE "<project>\synthesis\sync_write.so,so"
+STATE="utd"
+TIME="1575143805"
+SIZE="213"
+ENDFILE
+VALUE "<project>\synthesis\sync_write_sdc.sdc,syn_sdc"
+STATE="utd"
+TIME="1575143805"
+SIZE="399"
+ENDFILE
+VALUE "<project>\synthesis\sync_write_syn.prj,prj"
+STATE="utd"
+TIME="1575143815"
+SIZE="1436"
+ENDFILE
+ENDLIST
+LIST UsedFile
+ENDLIST
+LIST NewModulesInfo
+LIST "fifo2x8::work"
+FILE "<project>\hdl\fifo2x8.vhd,hdl"
+LIST AssociatedStimulus
+VALUE "<project>\stimulus\fifo2x8_tb.vhd,tb_hdl"
+ENDLIST
+LIST SynthesisConstraints
+VALUE "<project>\synthesis\fifo2x8.sdc,sdc"
+ENDLIST
+LIST ProjectState5.1
+LIST Impl1
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+ENDLIST
+LIST "sync_write::work"
+FILE "<project>\hdl\sync_write.vhd,hdl"
+LIST ProjectState5.1
+LIST Impl1
+LiberoState=Post_Synthesis
+ideSYNTHESIS(<project>\synthesis\sync_write.edn,syn_edn)=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+ENDLIST
+ENDLIST
+LIST AssociatedStimulus
+LIST fifo2x8
+VALUE "<project>\stimulus\fifo2x8_tb.vhd,tb_hdl"
+ENDLIST
+ENDLIST
+LIST Other_Association
+ENDLIST
+LIST SimulationOptions
+UseAutomaticDoFile=true
+IncludeWaveDo=false
+Type=max
+RunTime=1000ns
+Resolution=1ps
+VsimOpt=
+EntityName=fifo2x8_tb
+TopInstanceName=<top>_0
+DoFileName=
+DoFileName2=wave.do
+DoFileParams=
+DisplayDUTWave=false
+LogAllSignals=false
+DisablePulseFiltering=false
+DumpVCD=false
+VCDFileName=power.vcd
+VHDL2008=false
+Verilog2001=false
+SystemVerilog=false
+TimeUnit=1
+TimeUnitBase=ns
+Precision=100
+PrecisionBase=ps
+ENDLIST
+LIST ModelSimLibPath
+UseCustomPath=FALSE
+LibraryPath=
+ENDLIST
+LIST GlobalFlowOptions
+GenerateHDLAfterSynthesis=FALSE
+GenerateHDLAfterPhySynthesis=FALSE
+RunDRCAfterSynthesis=TRUE
+AutoCheckConstraints=TRUE
+UpdateModelSimIni=TRUE
+NoIOMode=FALSE
+PeriInitStandalone=FALSE
+EnableViewDraw=FALSE
+UpdateViewDrawIni=TRUE
+GenerateHDLFromSchematic=TRUE
+VmNetlistFlowOn=FALSE
+EnableDesignSeparationOn=FALSE
+EnableSETMitigationOn=FALSE
+DisplayFanoutLimit=10
+AbortFlowOnPDCErrorsOn=TRUE
+AbortFlowOnSDCErrorsOn=TRUE
+FlashProInputFile=fdb
+SmartGenCompileReport=T
+ENDLIST
+LIST PhySynthesisOptions
+ENDLIST
+LIST Profiles
+NAME="SoftConsole"
+FUNCTION="SoftwareIDE"
+TOOL="SoftConsole"
+LOCATION="eclipse.exe"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+NAME="Synplify Pro ME"
+FUNCTION="Synthesis"
+TOOL="Synplify Pro ME"
+LOCATION="C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\bin\synplify_pro.exe"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+NAME="ModelSim ME"
+FUNCTION="Simulation"
+TOOL="ModelSim"
+LOCATION="C:\Microsemi\Libero_SoC_v11.8\Modelsim\win32acoem\modelsim.exe"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+NAME="FPExpress"
+FUNCTION="Program"
+TOOL="FlashPro"
+LOCATION="C:\Microsemi\Libero_SoC_v11.8\Designer\bin\FPExpress.exe"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+NAME="Identify Debugger"
+FUNCTION="IdentifyDebugger"
+TOOL="Identify Debugger"
+LOCATION="C:\Microsemi\Libero_SoC_v11.8\Identify\bin\identify_debugger.exe"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+ENDLIST
+LIST ProjectState5.1
+LIST "fifo2x8::work"
+LIST Impl1
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+LIST "sync_write::work"
+LIST Impl1
+LiberoState=Post_Synthesis
+ideSYNTHESIS(<project>\synthesis\sync_write.edn,syn_edn)=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+ENDLIST
+LIST ExcludePackageForSimulation
+ENDLIST
+LIST ExcludePackageForSynthesis
+ENDLIST
+LIST IncludeModuleForSimulation
+ENDLIST
+LIST CDBOrder
+ENDLIST
+LIST UserCustomizedFileList
+ENDLIST
+LIST OpenedFileList
+ORIENTATION;HORIZONTAL
+StartPage;StartPage;0
+ACTIVEVIEW;StartPage
+ENDLIST
+LIST ModuleSubBlockList
+LIST "fifo2x8::work","hdl\fifo2x8.vhd","FALSE","FALSE"
+ENDLIST
+LIST "fifo_array_type::work","hdl\fifo_array_type.vhd","FALSE","FALSE"
+ENDLIST
+LIST "sync_write::work","hdl\sync_write.vhd","FALSE","FALSE"
+ENDLIST
+LIST "fifo2x8_tb::work","stimulus\fifo2x8_tb.vhd","FALSE","TRUE"
+SUBBLOCK "fifo2x8::work","hdl\fifo2x8.vhd","FALSE","FALSE"
+ENDLIST
+ENDLIST
+LIST ActiveTestBenchList
+LIST "fifo2x8::work"
+ACTIVETESTBENCH "fifo2x8_tb::work","stimulus\fifo2x8_tb.vhd","FALSE"
+ENDLIST
+ENDLIST
+LIST IOTabList
+ENDLIST
+LIST FPTabList
+ENDLIST
+LIST TimingTabList
+VALUE "synthesis\fifo2x8.sdc"
+ENDLIST
+LIST FDCTabList
+ENDLIST

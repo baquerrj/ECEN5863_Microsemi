@@ -1,0 +1,31 @@
+Target Part: A2F200M3F_FBGA484_STD
+Report for cell CD3FF.verilog
+  Core Cell usage:
+              cell count     area count*area
+               GND     2      0.0        0.0
+              NOR2     1      1.0        1.0
+             NOR2A     4      1.0        4.0
+               VCC     2      0.0        0.0
+
+
+              DFN1     5      1.0        5.0
+              DLN1     1      1.0        1.0
+                   -----          ----------
+             TOTAL    15                11.0
+
+
+  IO Cell usage:
+              cell count
+            CLKBUF     2
+             INBUF     1
+            OUTBUF     1
+                   -----
+             TOTAL     4
+
+
+Core Cells         : 11 of 4608 (0%)
+IO Cells           : 4
+
+  RAM/ROM Usage Summary
+Block Rams : 0 of 8 (0%)
+

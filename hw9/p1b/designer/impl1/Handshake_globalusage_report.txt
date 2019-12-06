@@ -1,0 +1,23 @@
+********************************************************************
+                            Global Usage Report
+********************************************************************
+  
+Product: Designer
+Release: v11.8
+Version: 11.8.0.26
+Date: Mon Dec 02 20:00:14 2019
+Design Name: Handshake  Family: SmartFusion  Die: A2F200M3F  Package: 484 FBGA
+Design State: Post-Layout
+
+The following nets have been routed to a chip global resource:
+
+    Fanout            Name
+    ----------------------
+    20                Net   : aclk_c
+                      Driver: aclk_pad/U0/U1/U_GL
+    13                Net   : bclk_c
+                      Driver: bclk_pad/U0/U1/U_GL
+
+
+
+

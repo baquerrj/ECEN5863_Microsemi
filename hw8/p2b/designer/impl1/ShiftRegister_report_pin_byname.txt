@@ -1,0 +1,18 @@
+*****************************************************************
+Pin Report - Date: Wed Nov 20 21:33:11 2019 Pinchecksum: NOT-AVAILABLE
+Product: Designer
+Release: v11.8
+Version: 11.8.0.26
+Design Name: ShiftRegister
+Family: SmartFusion
+Die: A2F200M3F
+Package: 484 FBGA
+*****************************************************************
+Port        |Pin |Fixed |Function        |I/O Std |Output Drive (mA) |Slew |Resistor Pull |Schmitt Trigger |Skew |Output Load (pF) |Use I/O Reg |Hot Swappable |
+------------|----|------|----------------|--------|------------------|-----|--------------|----------------|-----|-----------------|------------|--------------|
+clk          H22  No     GCB0/IO27NDB1V0  LVTTL    ---                ---   None           No               ---   ---               No           No
+data_in      F1   No     GFB1/IO65PPB5V0  LVTTL    ---                ---   None           No               ---   ---               No           No
+data_out[0]  G4   No     GFC1/IO66PPB5V0  LVTTL    12                 High  None           ---              No    35                No           No
+data_out[1]  F2   No     IO67NPB5V0       LVTTL    12                 High  None           ---              No    35                No           No
+data_out[2]  E1   No     GFC2/IO67PPB5V0  LVTTL    12                 High  None           ---              No    35                No           No
+data_out[3]  H5   No     GFC0/IO66NPB5V0  LVTTL    12                 High  None           ---              No    35                No           No

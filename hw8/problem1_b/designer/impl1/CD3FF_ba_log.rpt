@@ -1,0 +1,23 @@
+Microsemi Libero Software
+Version: 11.8.0.26
+Release: v11.8
+
+Info: The design CD3FF.adb was last modified by software version 11.8.0.26.
+Opened an existing Libero design CD3FF.adb.
+'BA_NAME' set to 'CD3FF_ba'
+'IDE_DESIGNERVIEW_NAME' set to 'Impl1'
+'IDE_DESIGNERVIEW_COUNT' set to '1'
+'IDE_DESIGNERVIEW_REV0' set to 'Impl1'
+'IDE_DESIGNERVIEW_REVNUM0' set to '1'
+'IDE_DESIGNERVIEW_ROOTDIR' set to 'C:\Microsemi_Prj\hw8\problem1_b\designer'
+'IDE_DESIGNERVIEW_LASTREV' set to '1'
+Back-annotated to the file(s):
+   .\CD3FF_ba.sdf
+   .\CD3FF_ba.v
+
+The Back-Annotate command succeeded ( 00:00:01 )
+Design saved to file C:\Microsemi_Prj\hw8\problem1_b\designer\impl1\CD3FF.adb.
+
+The Execute Script command succeeded ( 00:00:02 )
+Design closed.
+

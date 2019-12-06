@@ -1,0 +1,158 @@
+(DELAYFILE
+(SDFVERSION "OVI 2.1")
+(DESIGN "fifo2x8")
+(DATE "123")
+(VENDOR "ProASIC3")
+(PROGRAM "Synplify")
+(VERSION "mapact, Build 1920R")
+(DIVIDER /)
+(VOLTAGE 2.500000:2.500000:2.500000)
+(PROCESS "TYPICAL")
+(TEMPERATURE 70.000000:70.000000:70.000000)
+(TIMESCALE 1ns)
+(CELL
+  (CELLTYPE "fifo2x8")
+  (INSTANCE)
+  (TIMINGCHECK
+
+    (PATHCONSTRAINT rdptr/CLK  rdptr/Q  rptrd1_RNO/A  rptrd1_RNO/Y  rptrd1/D  	(4.5:4.5:4.5) )
+
+    (PATHCONSTRAINT wrptr/CLK  wrptr/Q  wrptrd1_RNO/A  wrptrd1_RNO/Y  wrptrd1/D  	(4.5:4.5:4.5) )
+
+    (PATHCONSTRAINT fifo_0\[0\]/CLK  fifo_0\[0\]/Q  data_out_RNO\[0\]/A  data_out_RNO\[0\]/Y  data_out\[0\]/D  	(4.5:4.5:4.5) )
+
+    (PATHCONSTRAINT fifo_0\[1\]/CLK  fifo_0\[1\]/Q  data_out_RNO\[1\]/A  data_out_RNO\[1\]/Y  data_out\[1\]/D  	(4.5:4.5:4.5) )
+
+    (PATHCONSTRAINT fifo_0\[2\]/CLK  fifo_0\[2\]/Q  data_out_RNO\[2\]/A  data_out_RNO\[2\]/Y  data_out\[2\]/D  	(4.5:4.5:4.5) )
+
+    (PATHCONSTRAINT fifo_0\[3\]/CLK  fifo_0\[3\]/Q  data_out_RNO\[3\]/A  data_out_RNO\[3\]/Y  data_out\[3\]/D  	(4.5:4.5:4.5) )
+
+    (PATHCONSTRAINT fifo_0\[4\]/CLK  fifo_0\[4\]/Q  data_out_RNO\[4\]/A  data_out_RNO\[4\]/Y  data_out\[4\]/D  	(4.5:4.5:4.5) )
+
+    (PATHCONSTRAINT fifo_0\[5\]/CLK  fifo_0\[5\]/Q  data_out_RNO\[5\]/A  data_out_RNO\[5\]/Y  data_out\[5\]/D  	(4.5:4.5:4.5) )
+
+    (PATHCONSTRAINT fifo_0\[6\]/CLK  fifo_0\[6\]/Q  data_out_RNO\[6\]/A  data_out_RNO\[6\]/Y  data_out\[6\]/D  	(4.5:4.5:4.5) )
+
+    (PATHCONSTRAINT fifo_0\[7\]/CLK  fifo_0\[7\]/Q  data_out_RNO\[7\]/A  data_out_RNO\[7\]/Y  data_out\[7\]/D  	(4.5:4.5:4.5) )
+
+    (PATHCONSTRAINT fifo_1\[0\]/CLK  fifo_1\[0\]/Q  data_out_RNO\[0\]/B  data_out_RNO\[0\]/Y  data_out\[0\]/D  	(4.5:4.5:4.5) )
+
+    (PATHCONSTRAINT fifo_1\[1\]/CLK  fifo_1\[1\]/Q  data_out_RNO\[1\]/B  data_out_RNO\[1\]/Y  data_out\[1\]/D  	(4.5:4.5:4.5) )
+
+    (PATHCONSTRAINT fifo_1\[2\]/CLK  fifo_1\[2\]/Q  data_out_RNO\[2\]/B  data_out_RNO\[2\]/Y  data_out\[2\]/D  	(4.5:4.5:4.5) )
+
+    (PATHCONSTRAINT fifo_1\[3\]/CLK  fifo_1\[3\]/Q  data_out_RNO\[3\]/B  data_out_RNO\[3\]/Y  data_out\[3\]/D  	(4.5:4.5:4.5) )
+
+    (PATHCONSTRAINT fifo_1\[4\]/CLK  fifo_1\[4\]/Q  data_out_RNO\[4\]/B  data_out_RNO\[4\]/Y  data_out\[4\]/D  	(4.5:4.5:4.5) )
+
+    (PATHCONSTRAINT fifo_1\[5\]/CLK  fifo_1\[5\]/Q  data_out_RNO\[5\]/B  data_out_RNO\[5\]/Y  data_out\[5\]/D  	(4.5:4.5:4.5) )
+
+    (PATHCONSTRAINT fifo_1\[6\]/CLK  fifo_1\[6\]/Q  data_out_RNO\[6\]/B  data_out_RNO\[6\]/Y  data_out\[6\]/D  	(4.5:4.5:4.5) )
+
+    (PATHCONSTRAINT fifo_1\[7\]/CLK  fifo_1\[7\]/Q  data_out_RNO\[7\]/B  data_out_RNO\[7\]/Y  data_out\[7\]/D  	(4.5:4.5:4.5) )
+
+    (PATHCONSTRAINT rdptr/CLK  rdptr/Q  i_empty_RNO/B  i_empty_RNO/Y  i_empty/D  	(24.5:24.5:24.5) )
+
+    (PATHCONSTRAINT rdptr/CLK  rdptr/Q  rdptr_RNO/B  rdptr_RNO/Y  rdptr/D  	(24.5:24.5:24.5) )
+
+    (PATHCONSTRAINT rdptr/CLK  rdptr/Q  data_out_RNO\[0\]/S  data_out_RNO\[0\]/Y  data_out\[0\]/D  	(24.5:24.5:24.5) )
+
+    (PATHCONSTRAINT rdptr/CLK  rdptr/Q  data_out_RNO\[1\]/S  data_out_RNO\[1\]/Y  data_out\[1\]/D  	(24.5:24.5:24.5) )
+
+    (PATHCONSTRAINT rdptr/CLK  rdptr/Q  data_out_RNO\[2\]/S  data_out_RNO\[2\]/Y  data_out\[2\]/D  	(24.5:24.5:24.5) )
+
+    (PATHCONSTRAINT rdptr/CLK  rdptr/Q  data_out_RNO\[3\]/S  data_out_RNO\[3\]/Y  data_out\[3\]/D  	(24.5:24.5:24.5) )
+
+    (PATHCONSTRAINT rdptr/CLK  rdptr/Q  data_out_RNO\[4\]/S  data_out_RNO\[4\]/Y  data_out\[4\]/D  	(24.5:24.5:24.5) )
+
+    (PATHCONSTRAINT rdptr/CLK  rdptr/Q  data_out_RNO\[5\]/S  data_out_RNO\[5\]/Y  data_out\[5\]/D  	(24.5:24.5:24.5) )
+
+    (PATHCONSTRAINT rdptr/CLK  rdptr/Q  data_out_RNO\[6\]/S  data_out_RNO\[6\]/Y  data_out\[6\]/D  	(24.5:24.5:24.5) )
+
+    (PATHCONSTRAINT rdptr/CLK  rdptr/Q  data_out_RNO\[7\]/S  data_out_RNO\[7\]/Y  data_out\[7\]/D  	(24.5:24.5:24.5) )
+
+    (PATHCONSTRAINT i_empty/CLK  i_empty/Q  i_empty_RNO/C  i_empty_RNO/Y  i_empty/D  	(24.5:24.5:24.5) )
+
+    (PATHCONSTRAINT wrptrd1/CLK  wrptrd1/Q  wrptrd2_RNO/A  wrptrd2_RNO/Y  wrptrd2/D  	(24.5:24.5:24.5) )
+
+    (PATHCONSTRAINT wrptrd2/CLK  wrptrd2/Q  i_empty_RNO/A  i_empty_RNO/Y  i_empty/D  	(24.5:24.5:24.5) )
+
+    (PATHCONSTRAINT wrptr/CLK  wrptr/Q  wr_pad_RNIS489/A  wr_pad_RNIS489/Y  fifo_1\[7\]/E  	(39.6:39.6:39.6) )
+
+    (PATHCONSTRAINT wrptr/CLK  wrptr/Q  wr_pad_RNIS489/A  wr_pad_RNIS489/Y  fifo_1\[6\]/E  	(39.6:39.6:39.6) )
+
+    (PATHCONSTRAINT wrptr/CLK  wrptr/Q  wr_pad_RNIS489/A  wr_pad_RNIS489/Y  fifo_1\[5\]/E  	(39.6:39.6:39.6) )
+
+    (PATHCONSTRAINT wrptr/CLK  wrptr/Q  wr_pad_RNIS489/A  wr_pad_RNIS489/Y  fifo_1\[4\]/E  	(39.6:39.6:39.6) )
+
+    (PATHCONSTRAINT wrptr/CLK  wrptr/Q  wr_pad_RNIS489/A  wr_pad_RNIS489/Y  fifo_1\[3\]/E  	(39.6:39.6:39.6) )
+
+    (PATHCONSTRAINT wrptr/CLK  wrptr/Q  wr_pad_RNIS489/A  wr_pad_RNIS489/Y  fifo_1\[2\]/E  	(39.6:39.6:39.6) )
+
+    (PATHCONSTRAINT wrptr/CLK  wrptr/Q  wr_pad_RNIS489/A  wr_pad_RNIS489/Y  fifo_1\[1\]/E  	(39.6:39.6:39.6) )
+
+    (PATHCONSTRAINT wrptr/CLK  wrptr/Q  wr_pad_RNIS489/A  wr_pad_RNIS489/Y  fifo_1\[0\]/E  	(39.6:39.6:39.6) )
+
+    (PATHCONSTRAINT wrptr/CLK  wrptr/Q  fifo_0_0_sqmuxa/B  fifo_0_0_sqmuxa/Y  fifo_0\[7\]/E  	(39.6:39.6:39.6) )
+
+    (PATHCONSTRAINT wrptr/CLK  wrptr/Q  fifo_0_0_sqmuxa/B  fifo_0_0_sqmuxa/Y  fifo_0\[5\]/E  	(39.6:39.6:39.6) )
+
+    (PATHCONSTRAINT wrptr/CLK  wrptr/Q  fifo_0_0_sqmuxa/B  fifo_0_0_sqmuxa/Y  fifo_0\[4\]/E  	(39.6:39.6:39.6) )
+
+    (PATHCONSTRAINT wrptr/CLK  wrptr/Q  fifo_0_0_sqmuxa/B  fifo_0_0_sqmuxa/Y  fifo_0\[3\]/E  	(39.6:39.6:39.6) )
+
+    (PATHCONSTRAINT wrptr/CLK  wrptr/Q  fifo_0_0_sqmuxa/B  fifo_0_0_sqmuxa/Y  fifo_0\[2\]/E  	(39.6:39.6:39.6) )
+
+    (PATHCONSTRAINT wrptr/CLK  wrptr/Q  fifo_0_0_sqmuxa/B  fifo_0_0_sqmuxa/Y  fifo_0\[1\]/E  	(39.6:39.6:39.6) )
+
+    (PATHCONSTRAINT wrptr/CLK  wrptr/Q  fifo_0_0_sqmuxa/B  fifo_0_0_sqmuxa/Y  fifo_0\[0\]/E  	(39.6:39.6:39.6) )
+
+    (PATHCONSTRAINT wrptr/CLK  wrptr/Q  i_full_RNO/A  i_full_RNO/Y  i_full/D  	(39.5:39.5:39.5) )
+
+    (PATHCONSTRAINT wrptr/CLK  wrptr/Q  wrptr_RNO/B  wrptr_RNO/Y  wrptr/D  	(39.5:39.5:39.5) )
+
+    (PATHCONSTRAINT rptrd1/CLK  rptrd1/Q  rptrd2_RNO/A  rptrd2_RNO/Y  rptrd2/D  	(39.5:39.5:39.5) )
+
+    (PATHCONSTRAINT rptrd2/CLK  rptrd2/Q  i_full_RNO/B  i_full_RNO/Y  i_full/D  	(39.5:39.5:39.5) )
+
+    (PATHCONSTRAINT i_full/CLK  i_full/Q  i_full_RNO/C  i_full_RNO/Y  i_full/D  	(39.5:39.5:39.5) )
+
+    (PATHCONSTRAINT fifo_0\[0\]/CLK  fifo_0\[0\]/Q  fifo_pad\[0\]/D  fifo_pad\[0\]/PAD  	(40.0:40.0:40.0) )
+
+    (PATHCONSTRAINT fifo_0\[1\]/CLK  fifo_0\[1\]/Q  fifo_pad\[1\]/D  fifo_pad\[1\]/PAD  	(40.0:40.0:40.0) )
+
+    (PATHCONSTRAINT fifo_0\[2\]/CLK  fifo_0\[2\]/Q  fifo_pad\[2\]/D  fifo_pad\[2\]/PAD  	(40.0:40.0:40.0) )
+
+    (PATHCONSTRAINT fifo_0\[3\]/CLK  fifo_0\[3\]/Q  fifo_pad\[3\]/D  fifo_pad\[3\]/PAD  	(40.0:40.0:40.0) )
+
+    (PATHCONSTRAINT fifo_0\[4\]/CLK  fifo_0\[4\]/Q  fifo_pad\[4\]/D  fifo_pad\[4\]/PAD  	(40.0:40.0:40.0) )
+
+    (PATHCONSTRAINT fifo_0\[5\]/CLK  fifo_0\[5\]/Q  fifo_pad\[5\]/D  fifo_pad\[5\]/PAD  	(40.0:40.0:40.0) )
+
+    (PATHCONSTRAINT fifo_0\[6\]/CLK  fifo_0\[6\]/Q  fifo_pad\[6\]/D  fifo_pad\[6\]/PAD  	(40.0:40.0:40.0) )
+
+    (PATHCONSTRAINT fifo_0\[7\]/CLK  fifo_0\[7\]/Q  fifo_pad\[7\]/D  fifo_pad\[7\]/PAD  	(40.0:40.0:40.0) )
+
+    (PATHCONSTRAINT fifo_1\[0\]/CLK  fifo_1\[0\]/Q  fifo_pad\[8\]/D  fifo_pad\[8\]/PAD  	(40.0:40.0:40.0) )
+
+    (PATHCONSTRAINT fifo_1\[1\]/CLK  fifo_1\[1\]/Q  fifo_pad\[9\]/D  fifo_pad\[9\]/PAD  	(40.0:40.0:40.0) )
+
+    (PATHCONSTRAINT fifo_1\[2\]/CLK  fifo_1\[2\]/Q  fifo_pad\[10\]/D  fifo_pad\[10\]/PAD  	(40.0:40.0:40.0) )
+
+    (PATHCONSTRAINT fifo_1\[3\]/CLK  fifo_1\[3\]/Q  fifo_pad\[11\]/D  fifo_pad\[11\]/PAD  	(40.0:40.0:40.0) )
+
+    (PATHCONSTRAINT fifo_1\[4\]/CLK  fifo_1\[4\]/Q  fifo_pad\[12\]/D  fifo_pad\[12\]/PAD  	(40.0:40.0:40.0) )
+
+    (PATHCONSTRAINT fifo_1\[5\]/CLK  fifo_1\[5\]/Q  fifo_pad\[13\]/D  fifo_pad\[13\]/PAD  	(40.0:40.0:40.0) )
+
+    (PATHCONSTRAINT fifo_1\[6\]/CLK  fifo_1\[6\]/Q  fifo_pad\[14\]/D  fifo_pad\[14\]/PAD  	(40.0:40.0:40.0) )
+
+    (PATHCONSTRAINT fifo_1\[7\]/CLK  fifo_1\[7\]/Q  fifo_pad\[15\]/D  fifo_pad\[15\]/PAD  	(40.0:40.0:40.0) )
+
+    (PATHCONSTRAINT i_empty/CLK  i_empty/Q  empty_pad/D  empty_pad/PAD  	(25.0:25.0:25.0) )
+
+    (PATHCONSTRAINT i_full/CLK  i_full/Q  full_pad/D  full_pad/PAD  	(40.0:40.0:40.0) )
+
+  )
+)
+)

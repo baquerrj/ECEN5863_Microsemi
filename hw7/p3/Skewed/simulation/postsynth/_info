@@ -1,0 +1,57 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Microsemi_Prj/hw7/p3/Skewed/simulation
+vSkewed
+Z1 !s110 1572932576
+!i10b 1
+!s100 UHMFo^`oM7B9?JleK<cR:2
+I2PYi9=QD6lTKP4:mk>1ol0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1572932557
+8C:/Microsemi_Prj/hw7/p3/Skewed/synthesis/Skewed.v
+FC:/Microsemi_Prj/hw7/p3/Skewed/synthesis/Skewed.v
+L0 5
+Z3 OW;L;10.5c;63
+r1
+!s85 0
+31
+Z4 !s108 1572932576.000000
+!s107 C:/Microsemi_Prj/hw7/p3/Skewed/synthesis/Skewed.v|
+!s90 -reportprogress|300|-vlog01compat|-work|postsynth|C:/Microsemi_Prj/hw7/p3/Skewed/synthesis/Skewed.v|
+!s101 -O0
+!i113 1
+Z5 o-vlog01compat -work postsynth -O0
+Z6 tCvgOpt 0
+n@skewed
+vSkewed_tb
+R1
+!i10b 1
+!s100 dG]RziCCoAjX4a`@2<BSW0
+IjKBHCNAoZh`3VHegQMl3I1
+R2
+R0
+w1572932530
+8C:/Microsemi_Prj/hw7/p3/Skewed/stimulus/Skewed_tb.v
+FC:/Microsemi_Prj/hw7/p3/Skewed/stimulus/Skewed_tb.v
+L0 30
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Microsemi_Prj/hw7/p3/Skewed/stimulus/Skewed_tb.v|
+!s90 -reportprogress|300|+incdir+C:/Microsemi_Prj/hw7/p3/Skewed/stimulus|-vlog01compat|-work|postsynth|C:/Microsemi_Prj/hw7/p3/Skewed/stimulus/Skewed_tb.v|
+!s101 -O0
+!i113 1
+R5
+!s92 +incdir+C:/Microsemi_Prj/hw7/p3/Skewed/stimulus -vlog01compat -work postsynth -O0
+R6
+n@skewed_tb

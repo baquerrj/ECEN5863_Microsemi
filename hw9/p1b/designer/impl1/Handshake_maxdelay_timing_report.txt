@@ -1,0 +1,956 @@
+Timing Report Max Delay Analysis
+
+SmartTime Version v11.8
+Microsemi Corporation - Microsemi Libero Software Release v11.8 (Version 11.8.0.26)
+Date: Mon Dec 02 20:00:21 2019
+
+
+Design: Handshake
+Family: SmartFusion
+Die: A2F200M3F
+Package: 484 FBGA
+Temperature Range: 0 - 85 C
+Voltage Range: 1.425 - 1.575 V
+Speed Grade: STD
+Design State: Post-Layout
+Data source: Silicon verified
+Min Operating Conditions: BEST - 1.575 V - 0 C
+Max Operating Conditions: WORST - 1.425 V - 85 C
+Using Enhanced Min Delay Analysis
+Scenario for Timing Analysis: Primary
+
+
+-----------------------------------------------------
+SUMMARY
+
+Clock Domain:               Handshake|aclk
+Period (ns):                10.036
+Frequency (MHz):            99.641
+Required Period (ns):       26.667
+Required Frequency (MHz):   37.500
+External Setup (ns):        3.846
+External Hold (ns):         0.196
+Min Clock-To-Out (ns):      2.859
+Max Clock-To-Out (ns):      14.135
+
+Clock Domain:               Handshake|bclk
+Period (ns):                5.673
+Frequency (MHz):            176.274
+Required Period (ns):       40.000
+Required Frequency (MHz):   25.000
+External Setup (ns):        3.102
+External Hold (ns):         0.185
+Min Clock-To-Out (ns):      2.638
+Max Clock-To-Out (ns):      10.235
+
+                            Input to Output
+Min Delay (ns):             N/A
+Max Delay (ns):             N/A
+
+END SUMMARY
+-----------------------------------------------------
+
+Clock Domain Handshake|aclk
+
+SET Register to Register
+
+Path 1
+  From:                        data_source/adata[6]:CLK
+  To:                          data_source/adata[7]:D
+  Delay (ns):                  9.527
+  Slack (ns):                  16.631
+  Arrival (ns):                11.390
+  Required (ns):               28.021
+  Setup (ns):                  0.522
+  Minimum Period (ns):         10.036
+
+Path 2
+  From:                        data_source/adata[6]:CLK
+  To:                          data_source/adata[5]:D
+  Delay (ns):                  9.495
+  Slack (ns):                  16.669
+  Arrival (ns):                11.358
+  Required (ns):               28.027
+  Setup (ns):                  0.522
+  Minimum Period (ns):         9.998
+
+Path 3
+  From:                        data_source/adata[6]:CLK
+  To:                          data_source/adata[6]:D
+  Delay (ns):                  9.450
+  Slack (ns):                  16.695
+  Arrival (ns):                11.313
+  Required (ns):               28.008
+  Setup (ns):                  0.522
+  Minimum Period (ns):         9.972
+
+Path 4
+  From:                        data_source/adata[6]:CLK
+  To:                          data_source/adata[2]:D
+  Delay (ns):                  9.205
+  Slack (ns):                  16.918
+  Arrival (ns):                11.068
+  Required (ns):               27.986
+  Setup (ns):                  0.522
+  Minimum Period (ns):         9.749
+
+Path 5
+  From:                        data_generator/q[1]:CLK
+  To:                          data_generator/q[7]:D
+  Delay (ns):                  9.159
+  Slack (ns):                  17.050
+  Arrival (ns):                11.005
+  Required (ns):               28.055
+  Setup (ns):                  0.490
+  Minimum Period (ns):         9.617
+
+
+Expanded Path 1
+  From: data_source/adata[6]:CLK
+  To: data_source/adata[7]:D
+  data required time                             28.021
+  data arrival time                          -   11.390
+  slack                                          16.631
+  ________________________________________________________
+  Data arrival time calculation
+  0.000                        Handshake|aclk
+               +     0.000          Clock source
+  0.000                        aclk (r)
+               +     0.000          net: aclk
+  0.000                        aclk_pad/U0/U0:PAD (r)
+               +     0.935          cell: ADLIB:IOPAD_IN
+  0.935                        aclk_pad/U0/U0:Y (r)
+               +     0.000          net: aclk_pad/U0/NET1
+  0.935                        aclk_pad/U0/U1:A (r)
+               +     0.314          cell: ADLIB:CLKSRC
+  1.249                        aclk_pad/U0/U1:Y (r)
+               +     0.614          net: aclk_c
+  1.863                        data_source/adata[6]:CLK (r)
+               +     0.671          cell: ADLIB:DFN1
+  2.534                        data_source/adata[6]:Q (f)
+               +     1.736          net: adata_c[6]
+  4.270                        HIEFFPLA_INST_0_680:B (f)
+               +     0.899          cell: ADLIB:XOR2
+  5.169                        HIEFFPLA_INST_0_680:Y (f)
+               +     0.296          net: HIEFFPLA_NET_0_1457
+  5.465                        HIEFFPLA_INST_0_677:C (f)
+               +     0.683          cell: ADLIB:NAND3C
+  6.148                        HIEFFPLA_INST_0_677:Y (f)
+               +     0.294          net: HIEFFPLA_NET_0_1458
+  6.442                        HIEFFPLA_INST_0_675:C (f)
+               +     0.479          cell: ADLIB:XO1
+  6.921                        HIEFFPLA_INST_0_675:Y (f)
+               +     0.876          net: HIEFFPLA_NET_0_1459
+  7.797                        HIEFFPLA_INST_0_771:B (f)
+               +     0.552          cell: ADLIB:AOI1D
+  8.349                        HIEFFPLA_INST_0_771:Y (f)
+               +     1.475          net: HIEFFPLA_NET_0_1438
+  9.824                        HIEFFPLA_INST_0_760:S (f)
+               +     0.437          cell: ADLIB:MX2
+  10.261                       HIEFFPLA_INST_0_760:Y (r)
+               +     0.334          net: HIEFFPLA_NET_0_1440
+  10.595                       HIEFFPLA_INST_0_699:B (r)
+               +     0.470          cell: ADLIB:AND2A
+  11.065                       HIEFFPLA_INST_0_699:Y (r)
+               +     0.325          net: HIEFFPLA_NET_0_1448
+  11.390                       data_source/adata[7]:D (r)
+                                    
+  11.390                       data arrival time
+  ________________________________________________________
+  Data required time calculation
+  26.667                       Handshake|aclk
+               +     0.000          Clock source
+  26.667                       aclk (r)
+               +     0.000          net: aclk
+  26.667                       aclk_pad/U0/U0:PAD (r)
+               +     0.935          cell: ADLIB:IOPAD_IN
+  27.602                       aclk_pad/U0/U0:Y (r)
+               +     0.000          net: aclk_pad/U0/NET1
+  27.602                       aclk_pad/U0/U1:A (r)
+               +     0.314          cell: ADLIB:CLKSRC
+  27.916                       aclk_pad/U0/U1:Y (r)
+               +     0.627          net: aclk_c
+  28.543                       data_source/adata[7]:CLK (r)
+               -     0.522          Library setup time: ADLIB:DFN1
+  28.021                       data_source/adata[7]:D
+                                    
+  28.021                       data required time
+
+
+END SET Register to Register
+
+----------------------------------------------------
+
+SET External Setup
+
+Path 1
+  From:                        arst
+  To:                          b2a_sync/q1:D
+  Delay (ns):                  2.060
+  Slack (ns):                  1.011
+  Arrival (ns):                2.360
+  Required (ns):               3.371
+  Setup (ns):                  0.490
+  External Setup (ns):         0.689
+
+Path 2
+  From:                        arst
+  To:                          data_generator/q[6]:E
+  Delay (ns):                  5.308
+  Slack (ns):                  22.521
+  Arrival (ns):                5.608
+  Required (ns):               28.129
+  Setup (ns):                  0.395
+  External Setup (ns):         3.846
+
+Path 3
+  From:                        arst
+  To:                          data_generator/q[5]:E
+  Delay (ns):                  5.298
+  Slack (ns):                  22.531
+  Arrival (ns):                5.598
+  Required (ns):               28.129
+  Setup (ns):                  0.395
+  External Setup (ns):         3.836
+
+Path 4
+  From:                        arst
+  To:                          data_generator/q[4]:E
+  Delay (ns):                  5.116
+  Slack (ns):                  22.717
+  Arrival (ns):                5.416
+  Required (ns):               28.133
+  Setup (ns):                  0.395
+  External Setup (ns):         3.650
+
+Path 5
+  From:                        arst
+  To:                          data_generator/q[7]:E
+  Delay (ns):                  5.070
+  Slack (ns):                  22.780
+  Arrival (ns):                5.370
+  Required (ns):               28.150
+  Setup (ns):                  0.395
+  External Setup (ns):         3.587
+
+
+Expanded Path 1
+  From: arst
+  To: b2a_sync/q1:D
+  data required time                             3.371
+  data arrival time                          -   2.360
+  slack                                          1.011
+  ________________________________________________________
+  Data arrival time calculation
+  0.000                        Handshake|aclk
+               +     0.300          Input Delay Constraint
+  0.300                        arst (r)
+               +     0.000          net: arst
+  0.300                        arst_pad/U0/U0:PAD (r)
+               +     0.967          cell: ADLIB:IOPAD_IN
+  1.267                        arst_pad/U0/U0:Y (r)
+               +     0.000          net: arst_pad/U0/NET1
+  1.267                        arst_pad/U0/U1:YIN (r)
+               +     0.039          cell: ADLIB:IOIN_IB
+  1.306                        arst_pad/U0/U1:Y (r)
+               +     0.280          net: arst_c
+  1.586                        HIEFFPLA_INST_0_518:A (r)
+               +     0.468          cell: ADLIB:AND2A
+  2.054                        HIEFFPLA_INST_0_518:Y (f)
+               +     0.306          net: HIEFFPLA_NET_0_1512
+  2.360                        b2a_sync/q1:D (f)
+                                    
+  2.360                        data arrival time
+  ________________________________________________________
+  Data required time calculation
+  2.000                        Handshake|aclk
+               +     0.000          Clock source
+  2.000                        aclk (r)
+               +     0.000          net: aclk
+  2.000                        aclk_pad/U0/U0:PAD (r)
+               +     0.935          cell: ADLIB:IOPAD_IN
+  2.935                        aclk_pad/U0/U0:Y (r)
+               +     0.000          net: aclk_pad/U0/NET1
+  2.935                        aclk_pad/U0/U1:A (r)
+               +     0.314          cell: ADLIB:CLKSRC
+  3.249                        aclk_pad/U0/U1:Y (r)
+               +     0.612          net: aclk_c
+  3.861                        b2a_sync/q1:CLK (r)
+               -     0.490          Library setup time: ADLIB:DFN1
+  3.371                        b2a_sync/q1:D
+                                    
+  3.371                        data required time
+
+
+END SET External Setup
+
+----------------------------------------------------
+
+SET Clock to Output
+
+Path 1
+  From:                        data_source/adata[6]:CLK
+  To:                          anxtdata
+  Delay (ns):                  12.272
+  Slack (ns):
+  Arrival (ns):                14.135
+  Required (ns):
+  Clock to Out (ns):           14.135
+
+Path 2
+  From:                        data_generator/q[4]:CLK
+  To:                          anxtdata
+  Delay (ns):                  11.822
+  Slack (ns):
+  Arrival (ns):                13.683
+  Required (ns):
+  Clock to Out (ns):           13.683
+
+Path 3
+  From:                        data_generator/q[6]:CLK
+  To:                          anxtdata
+  Delay (ns):                  11.508
+  Slack (ns):
+  Arrival (ns):                13.365
+  Required (ns):
+  Clock to Out (ns):           13.365
+
+Path 4
+  From:                        data_source/adata[4]:CLK
+  To:                          anxtdata
+  Delay (ns):                  11.171
+  Slack (ns):
+  Arrival (ns):                13.012
+  Required (ns):
+  Clock to Out (ns):           13.012
+
+Path 5
+  From:                        data_generator/q[1]:CLK
+  To:                          anxtdata
+  Delay (ns):                  11.003
+  Slack (ns):
+  Arrival (ns):                12.849
+  Required (ns):
+  Clock to Out (ns):           12.849
+
+
+Expanded Path 1
+  From: data_source/adata[6]:CLK
+  To: anxtdata
+  data required time                             N/C
+  data arrival time                          -   14.135
+  slack                                          N/C
+  ________________________________________________________
+  Data arrival time calculation
+  0.000                        Handshake|aclk
+               +     0.000          Clock source
+  0.000                        aclk (r)
+               +     0.000          net: aclk
+  0.000                        aclk_pad/U0/U0:PAD (r)
+               +     0.935          cell: ADLIB:IOPAD_IN
+  0.935                        aclk_pad/U0/U0:Y (r)
+               +     0.000          net: aclk_pad/U0/NET1
+  0.935                        aclk_pad/U0/U1:A (r)
+               +     0.314          cell: ADLIB:CLKSRC
+  1.249                        aclk_pad/U0/U1:Y (r)
+               +     0.614          net: aclk_c
+  1.863                        data_source/adata[6]:CLK (r)
+               +     0.671          cell: ADLIB:DFN1
+  2.534                        data_source/adata[6]:Q (f)
+               +     1.736          net: adata_c[6]
+  4.270                        HIEFFPLA_INST_0_680:B (f)
+               +     0.899          cell: ADLIB:XOR2
+  5.169                        HIEFFPLA_INST_0_680:Y (f)
+               +     0.296          net: HIEFFPLA_NET_0_1457
+  5.465                        HIEFFPLA_INST_0_677:C (f)
+               +     0.683          cell: ADLIB:NAND3C
+  6.148                        HIEFFPLA_INST_0_677:Y (f)
+               +     0.294          net: HIEFFPLA_NET_0_1458
+  6.442                        HIEFFPLA_INST_0_675:C (f)
+               +     0.479          cell: ADLIB:XO1
+  6.921                        HIEFFPLA_INST_0_675:Y (f)
+               +     1.133          net: HIEFFPLA_NET_0_1459
+  8.054                        HIEFFPLA_INST_0_523:B (f)
+               +     0.592          cell: ADLIB:NAND2B
+  8.646                        HIEFFPLA_INST_0_523:Y (f)
+               +     1.590          net: anxtdata_c
+  10.236                       anxtdata_pad/U0/U1:D (f)
+               +     0.530          cell: ADLIB:IOTRI_OB_EB
+  10.766                       anxtdata_pad/U0/U1:DOUT (f)
+               +     0.000          net: anxtdata_pad/U0/NET1
+  10.766                       anxtdata_pad/U0/U0:D (f)
+               +     3.369          cell: ADLIB:IOPAD_TRI
+  14.135                       anxtdata_pad/U0/U0:PAD (f)
+               +     0.000          net: anxtdata
+  14.135                       anxtdata (f)
+                                    
+  14.135                       data arrival time
+  ________________________________________________________
+  Data required time calculation
+  N/C                          Handshake|aclk
+               +     0.000          Clock source
+  N/C                          aclk (r)
+                                    
+  N/C                          anxtdata (f)
+
+
+END SET Clock to Output
+
+----------------------------------------------------
+
+SET Register to Asynchronous
+
+No Path
+
+END SET Register to Asynchronous
+
+----------------------------------------------------
+
+SET External Recovery
+
+No Path
+
+END SET External Recovery
+
+----------------------------------------------------
+
+SET Asynchronous to Register
+
+No Path
+
+END SET Asynchronous to Register
+
+----------------------------------------------------
+
+SET Handshake|bclk to Handshake|aclk
+
+Path 1
+  From:                        data_sink/fsm/state_1[0]:CLK
+  To:                          b2a_sync/q1:D
+  Delay (ns):                  2.950
+  Slack (ns):                  9.882
+  Arrival (ns):                4.823
+  Required (ns):               14.705
+  Setup (ns):                  0.490
+
+
+Expanded Path 1
+  From: data_sink/fsm/state_1[0]:CLK
+  To: b2a_sync/q1:D
+  data required time                             14.705
+  data arrival time                          -   4.823
+  slack                                          9.882
+  ________________________________________________________
+  Data arrival time calculation
+  0.000                        Handshake|bclk
+               +     0.000          Clock source
+  0.000                        bclk (r)
+               +     0.000          net: bclk
+  0.000                        bclk_pad/U0/U0:PAD (r)
+               +     0.935          cell: ADLIB:IOPAD_IN
+  0.935                        bclk_pad/U0/U0:Y (r)
+               +     0.000          net: bclk_pad/U0/NET1
+  0.935                        bclk_pad/U0/U1:A (r)
+               +     0.314          cell: ADLIB:CLKSRC
+  1.249                        bclk_pad/U0/U1:Y (r)
+               +     0.624          net: bclk_c
+  1.873                        data_sink/fsm/state_1[0]:CLK (r)
+               +     0.671          cell: ADLIB:DFN1
+  2.544                        data_sink/fsm/state_1[0]:Q (f)
+               +     1.399          net: back_c_c
+  3.943                        HIEFFPLA_INST_0_518:B (f)
+               +     0.574          cell: ADLIB:AND2A
+  4.517                        HIEFFPLA_INST_0_518:Y (f)
+               +     0.306          net: HIEFFPLA_NET_0_1512
+  4.823                        b2a_sync/q1:D (f)
+                                    
+  4.823                        data arrival time
+  ________________________________________________________
+  Data required time calculation
+  13.334                       Handshake|aclk
+               +     0.000          Clock source
+  13.334                       aclk (r)
+               +     0.000          net: aclk
+  13.334                       aclk_pad/U0/U0:PAD (r)
+               +     0.935          cell: ADLIB:IOPAD_IN
+  14.269                       aclk_pad/U0/U0:Y (r)
+               +     0.000          net: aclk_pad/U0/NET1
+  14.269                       aclk_pad/U0/U1:A (r)
+               +     0.314          cell: ADLIB:CLKSRC
+  14.583                       aclk_pad/U0/U1:Y (r)
+               +     0.612          net: aclk_c
+  15.195                       b2a_sync/q1:CLK (r)
+               -     0.490          Library setup time: ADLIB:DFN1
+  14.705                       b2a_sync/q1:D
+                                    
+  14.705                       data required time
+
+
+END SET Handshake|bclk to Handshake|aclk
+
+----------------------------------------------------
+
+Clock Domain Handshake|bclk
+
+SET Register to Register
+
+Path 1
+  From:                        data_sink/fsm/state_1[1]:CLK
+  To:                          data_sink/bdata[4]:D
+  Delay (ns):                  5.140
+  Slack (ns):                  34.327
+  Arrival (ns):                7.006
+  Required (ns):               41.333
+  Setup (ns):                  0.522
+  Minimum Period (ns):         5.673
+
+Path 2
+  From:                        data_sink/fsm/state_1[1]:CLK
+  To:                          data_sink/bdata[5]:D
+  Delay (ns):                  5.132
+  Slack (ns):                  34.372
+  Arrival (ns):                6.998
+  Required (ns):               41.370
+  Setup (ns):                  0.490
+  Minimum Period (ns):         5.628
+
+Path 3
+  From:                        data_sink/fsm/state_1[1]:CLK
+  To:                          data_sink/bdata[7]:D
+  Delay (ns):                  4.996
+  Slack (ns):                  34.522
+  Arrival (ns):                6.862
+  Required (ns):               41.384
+  Setup (ns):                  0.490
+  Minimum Period (ns):         5.478
+
+Path 4
+  From:                        bloadq:CLK
+  To:                          data_sink/bdata[7]:D
+  Delay (ns):                  4.720
+  Slack (ns):                  34.804
+  Arrival (ns):                6.580
+  Required (ns):               41.384
+  Setup (ns):                  0.490
+  Minimum Period (ns):         5.196
+
+Path 5
+  From:                        bloadq:CLK
+  To:                          data_sink/bdata[1]:D
+  Delay (ns):                  4.686
+  Slack (ns):                  34.819
+  Arrival (ns):                6.546
+  Required (ns):               41.365
+  Setup (ns):                  0.490
+  Minimum Period (ns):         5.181
+
+
+Expanded Path 1
+  From: data_sink/fsm/state_1[1]:CLK
+  To: data_sink/bdata[4]:D
+  data required time                             41.333
+  data arrival time                          -   7.006
+  slack                                          34.327
+  ________________________________________________________
+  Data arrival time calculation
+  0.000                        Handshake|bclk
+               +     0.000          Clock source
+  0.000                        bclk (r)
+               +     0.000          net: bclk
+  0.000                        bclk_pad/U0/U0:PAD (r)
+               +     0.935          cell: ADLIB:IOPAD_IN
+  0.935                        bclk_pad/U0/U0:Y (r)
+               +     0.000          net: bclk_pad/U0/NET1
+  0.935                        bclk_pad/U0/U1:A (r)
+               +     0.314          cell: ADLIB:CLKSRC
+  1.249                        bclk_pad/U0/U1:Y (r)
+               +     0.617          net: bclk_c
+  1.866                        data_sink/fsm/state_1[1]:CLK (r)
+               +     0.671          cell: ADLIB:DFN1
+  2.537                        data_sink/fsm/state_1[1]:Q (f)
+               +     2.700          net: bvalid_c_c
+  5.237                        HIEFFPLA_INST_0_625:B (f)
+               +     0.584          cell: ADLIB:AND3
+  5.821                        HIEFFPLA_INST_0_625:Y (f)
+               +     0.296          net: HIEFFPLA_NET_0_1475
+  6.117                        HIEFFPLA_INST_0_581:A (f)
+               +     0.593          cell: ADLIB:AOI1C
+  6.710                        HIEFFPLA_INST_0_581:Y (f)
+               +     0.296          net: HIEFFPLA_NET_0_1487
+  7.006                        data_sink/bdata[4]:D (f)
+                                    
+  7.006                        data arrival time
+  ________________________________________________________
+  Data required time calculation
+  40.000                       Handshake|bclk
+               +     0.000          Clock source
+  40.000                       bclk (r)
+               +     0.000          net: bclk
+  40.000                       bclk_pad/U0/U0:PAD (r)
+               +     0.935          cell: ADLIB:IOPAD_IN
+  40.935                       bclk_pad/U0/U0:Y (r)
+               +     0.000          net: bclk_pad/U0/NET1
+  40.935                       bclk_pad/U0/U1:A (r)
+               +     0.314          cell: ADLIB:CLKSRC
+  41.249                       bclk_pad/U0/U1:Y (r)
+               +     0.606          net: bclk_c
+  41.855                       data_sink/bdata[4]:CLK (r)
+               -     0.522          Library setup time: ADLIB:DFN1
+  41.333                       data_sink/bdata[4]:D
+                                    
+  41.333                       data required time
+
+
+END SET Register to Register
+
+----------------------------------------------------
+
+SET External Setup
+
+Path 1
+  From:                        brst
+  To:                          a2b_sync/q1:D
+  Delay (ns):                  2.083
+  Slack (ns):                  0.988
+  Arrival (ns):                2.383
+  Required (ns):               3.371
+  Setup (ns):                  0.490
+  External Setup (ns):         0.712
+
+Path 2
+  From:                        brst
+  To:                          data_sink/bdata[3]:D
+  Delay (ns):                  4.437
+  Slack (ns):                  36.598
+  Arrival (ns):                4.737
+  Required (ns):               41.335
+  Setup (ns):                  0.522
+  External Setup (ns):         3.102
+
+Path 3
+  From:                        brst
+  To:                          data_sink/bdata[7]:D
+  Delay (ns):                  4.395
+  Slack (ns):                  36.657
+  Arrival (ns):                4.695
+  Required (ns):               41.352
+  Setup (ns):                  0.522
+  External Setup (ns):         3.043
+
+Path 4
+  From:                        brst
+  To:                          data_sink/bdata[0]:D
+  Delay (ns):                  3.597
+  Slack (ns):                  37.419
+  Arrival (ns):                3.897
+  Required (ns):               41.316
+  Setup (ns):                  0.522
+  External Setup (ns):         2.281
+
+Path 5
+  From:                        brst
+  To:                          data_sink/fsm/state_1[1]:D
+  Delay (ns):                  3.153
+  Slack (ns):                  37.891
+  Arrival (ns):                3.453
+  Required (ns):               41.344
+  Setup (ns):                  0.522
+  External Setup (ns):         1.809
+
+
+Expanded Path 1
+  From: brst
+  To: a2b_sync/q1:D
+  data required time                             3.371
+  data arrival time                          -   2.383
+  slack                                          0.988
+  ________________________________________________________
+  Data arrival time calculation
+  0.000                        Handshake|bclk
+               +     0.300          Input Delay Constraint
+  0.300                        brst (r)
+               +     0.000          net: brst
+  0.300                        brst_pad/U0/U0:PAD (r)
+               +     0.967          cell: ADLIB:IOPAD_IN
+  1.267                        brst_pad/U0/U0:Y (r)
+               +     0.000          net: brst_pad/U0/NET1
+  1.267                        brst_pad/U0/U1:YIN (r)
+               +     0.039          cell: ADLIB:IOIN_IB
+  1.306                        brst_pad/U0/U1:Y (r)
+               +     0.303          net: brst_c
+  1.609                        HIEFFPLA_INST_0_516:A (r)
+               +     0.468          cell: ADLIB:AND2A
+  2.077                        HIEFFPLA_INST_0_516:Y (f)
+               +     0.306          net: HIEFFPLA_NET_0_1514
+  2.383                        a2b_sync/q1:D (f)
+                                    
+  2.383                        data arrival time
+  ________________________________________________________
+  Data required time calculation
+  2.000                        Handshake|bclk
+               +     0.000          Clock source
+  2.000                        bclk (r)
+               +     0.000          net: bclk
+  2.000                        bclk_pad/U0/U0:PAD (r)
+               +     0.935          cell: ADLIB:IOPAD_IN
+  2.935                        bclk_pad/U0/U0:Y (r)
+               +     0.000          net: bclk_pad/U0/NET1
+  2.935                        bclk_pad/U0/U1:A (r)
+               +     0.314          cell: ADLIB:CLKSRC
+  3.249                        bclk_pad/U0/U1:Y (r)
+               +     0.612          net: bclk_c
+  3.861                        a2b_sync/q1:CLK (r)
+               -     0.490          Library setup time: ADLIB:DFN1
+  3.371                        a2b_sync/q1:D
+                                    
+  3.371                        data required time
+
+
+END SET External Setup
+
+----------------------------------------------------
+
+SET Clock to Output
+
+Path 1
+  From:                        data_sink/fsm/state_1[1]:CLK
+  To:                          bstate[0]
+  Delay (ns):                  8.369
+  Slack (ns):
+  Arrival (ns):                10.235
+  Required (ns):
+  Clock to Out (ns):           10.235
+
+Path 2
+  From:                        data_sink/fsm/state_1[0]:CLK
+  To:                          bstate[0]
+  Delay (ns):                  7.980
+  Slack (ns):
+  Arrival (ns):                9.853
+  Required (ns):
+  Clock to Out (ns):           9.853
+
+Path 3
+  From:                        data_sink/fsm/state_1[0]:CLK
+  To:                          back
+  Delay (ns):                  7.713
+  Slack (ns):
+  Arrival (ns):                9.586
+  Required (ns):
+  Clock to Out (ns):           9.586
+
+Path 4
+  From:                        data_sink/fsm/state_1[0]:CLK
+  To:                          back_fsm
+  Delay (ns):                  7.402
+  Slack (ns):
+  Arrival (ns):                9.275
+  Required (ns):
+  Clock to Out (ns):           9.275
+
+Path 5
+  From:                        data_sink/fsm/state_1[1]:CLK
+  To:                          bvalid
+  Delay (ns):                  6.764
+  Slack (ns):
+  Arrival (ns):                8.630
+  Required (ns):
+  Clock to Out (ns):           8.630
+
+
+Expanded Path 1
+  From: data_sink/fsm/state_1[1]:CLK
+  To: bstate[0]
+  data required time                             N/C
+  data arrival time                          -   10.235
+  slack                                          N/C
+  ________________________________________________________
+  Data arrival time calculation
+  0.000                        Handshake|bclk
+               +     0.000          Clock source
+  0.000                        bclk (r)
+               +     0.000          net: bclk
+  0.000                        bclk_pad/U0/U0:PAD (r)
+               +     0.935          cell: ADLIB:IOPAD_IN
+  0.935                        bclk_pad/U0/U0:Y (r)
+               +     0.000          net: bclk_pad/U0/NET1
+  0.935                        bclk_pad/U0/U1:A (r)
+               +     0.314          cell: ADLIB:CLKSRC
+  1.249                        bclk_pad/U0/U1:Y (r)
+               +     0.617          net: bclk_c
+  1.866                        data_sink/fsm/state_1[1]:CLK (r)
+               +     0.671          cell: ADLIB:DFN1
+  2.537                        data_sink/fsm/state_1[1]:Q (f)
+               +     2.287          net: bvalid_c_c
+  4.824                        HIEFFPLA_INST_0_652:A (f)
+               +     0.489          cell: ADLIB:NAND2B
+  5.313                        HIEFFPLA_INST_0_652:Y (f)
+               +     1.023          net: state_1_RNIJN77[0]
+  6.336                        bstate_pad[0]/U0/U1:D (f)
+               +     0.530          cell: ADLIB:IOTRI_OB_EB
+  6.866                        bstate_pad[0]/U0/U1:DOUT (f)
+               +     0.000          net: bstate_pad[0]/U0/NET1
+  6.866                        bstate_pad[0]/U0/U0:D (f)
+               +     3.369          cell: ADLIB:IOPAD_TRI
+  10.235                       bstate_pad[0]/U0/U0:PAD (f)
+               +     0.000          net: bstate[0]
+  10.235                       bstate[0] (f)
+                                    
+  10.235                       data arrival time
+  ________________________________________________________
+  Data required time calculation
+  N/C                          Handshake|bclk
+               +     0.000          Clock source
+  N/C                          bclk (r)
+                                    
+  N/C                          bstate[0] (f)
+
+
+END SET Clock to Output
+
+----------------------------------------------------
+
+SET Register to Asynchronous
+
+No Path
+
+END SET Register to Asynchronous
+
+----------------------------------------------------
+
+SET External Recovery
+
+No Path
+
+END SET External Recovery
+
+----------------------------------------------------
+
+SET Asynchronous to Register
+
+No Path
+
+END SET Asynchronous to Register
+
+----------------------------------------------------
+
+SET Handshake|aclk to Handshake|bclk
+
+Path 1
+  From:                        data_source/adata[4]:CLK
+  To:                          data_sink/bdata[4]:D
+  Delay (ns):                  4.343
+  Slack (ns):                  8.514
+  Arrival (ns):                6.184
+  Required (ns):               14.698
+  Setup (ns):                  0.490
+
+Path 2
+  From:                        data_source/adata[6]:CLK
+  To:                          data_sink/bdata[6]:D
+  Delay (ns):                  4.070
+  Slack (ns):                  8.759
+  Arrival (ns):                5.933
+  Required (ns):               14.692
+  Setup (ns):                  0.490
+
+Path 3
+  From:                        data_source/adata[2]:CLK
+  To:                          data_sink/bdata[2]:D
+  Delay (ns):                  4.058
+  Slack (ns):                  8.810
+  Arrival (ns):                5.899
+  Required (ns):               14.709
+  Setup (ns):                  0.490
+
+Path 4
+  From:                        data_source/adata[3]:CLK
+  To:                          data_sink/bdata[3]:D
+  Delay (ns):                  3.779
+  Slack (ns):                  9.039
+  Arrival (ns):                5.661
+  Required (ns):               14.700
+  Setup (ns):                  0.490
+
+Path 5
+  From:                        data_source/adata[5]:CLK
+  To:                          data_sink/bdata[5]:D
+  Delay (ns):                  3.725
+  Slack (ns):                  9.096
+  Arrival (ns):                5.607
+  Required (ns):               14.703
+  Setup (ns):                  0.490
+
+
+Expanded Path 1
+  From: data_source/adata[4]:CLK
+  To: data_sink/bdata[4]:D
+  data required time                             14.698
+  data arrival time                          -   6.184
+  slack                                          8.514
+  ________________________________________________________
+  Data arrival time calculation
+  0.000                        Handshake|aclk
+               +     0.000          Clock source
+  0.000                        aclk (r)
+               +     0.000          net: aclk
+  0.000                        aclk_pad/U0/U0:PAD (r)
+               +     0.935          cell: ADLIB:IOPAD_IN
+  0.935                        aclk_pad/U0/U0:Y (r)
+               +     0.000          net: aclk_pad/U0/NET1
+  0.935                        aclk_pad/U0/U1:A (r)
+               +     0.314          cell: ADLIB:CLKSRC
+  1.249                        aclk_pad/U0/U1:Y (r)
+               +     0.592          net: aclk_c
+  1.841                        data_source/adata[4]:CLK (r)
+               +     0.528          cell: ADLIB:DFN1
+  2.369                        data_source/adata[4]:Q (r)
+               +     1.701          net: adata_c[4]
+  4.070                        HIEFFPLA_INST_0_625:C (r)
+               +     0.683          cell: ADLIB:AND3
+  4.753                        HIEFFPLA_INST_0_625:Y (r)
+               +     0.306          net: HIEFFPLA_NET_0_1475
+  5.059                        HIEFFPLA_INST_0_581:A (r)
+               +     0.819          cell: ADLIB:AOI1C
+  5.878                        HIEFFPLA_INST_0_581:Y (r)
+               +     0.306          net: HIEFFPLA_NET_0_1487
+  6.184                        data_sink/bdata[4]:D (r)
+                                    
+  6.184                        data arrival time
+  ________________________________________________________
+  Data required time calculation
+  13.333                       Handshake|bclk
+               +     0.000          Clock source
+  13.333                       bclk (r)
+               +     0.000          net: bclk
+  13.333                       bclk_pad/U0/U0:PAD (r)
+               +     0.935          cell: ADLIB:IOPAD_IN
+  14.268                       bclk_pad/U0/U0:Y (r)
+               +     0.000          net: bclk_pad/U0/NET1
+  14.268                       bclk_pad/U0/U1:A (r)
+               +     0.314          cell: ADLIB:CLKSRC
+  14.582                       bclk_pad/U0/U1:Y (r)
+               +     0.606          net: bclk_c
+  15.188                       data_sink/bdata[4]:CLK (r)
+               -     0.490          Library setup time: ADLIB:DFN1
+  14.698                       data_sink/bdata[4]:D
+                                    
+  14.698                       data required time
+
+
+END SET Handshake|aclk to Handshake|bclk
+
+----------------------------------------------------
+
+Path set Pin to Pin
+
+SET Input to Output
+
+No Path
+
+END SET Input to Output
+
+----------------------------------------------------
+
+Path set User Sets
+

@@ -1,0 +1,1 @@
+@W: MT530 :"c:\microsemi_prj\hw7_practical\counter\hdl\counter.vhd":43:6:43:7|Found inferred clock Counter_Top|CLK which controls 1200 sequential elements including GEN_COUNTER\.0\.first\.u0.count[15:0]. This clock has no specified timing constraint which may adversely impact design performance. 

@@ -1,0 +1,214 @@
+Timing Violation Report Max Delay Analysis
+
+SmartTime Version v11.8
+Microsemi Corporation - Microsemi Libero Software Release v11.8 (Version 11.8.0.26)
+Date: Sun Nov 03 19:59:14 2019
+
+
+Design: Strained
+Family: SmartFusion
+Die: A2F500M3G
+Package: 208 PQFP
+Temperature Range: -40 - 100 C
+Voltage Range: 1.425 - 1.575 V
+Speed Grade: -1
+Design State: Post-Layout
+Data source: Silicon verified
+Min Operating Conditions: BEST - 1.575 V - -40 C
+Max Operating Conditions: WORST - 1.425 V - 100 C
+Using Enhanced Min Delay Analysis
+Scenario for Timing Analysis: Primary
+
+
+Path 1
+  From:                        Q[1]:CLK
+  To:                          TC
+  Delay (ns):                  9.697
+  Slack (ns):                  -8.082
+  Arrival (ns):                12.082
+  Required (ns):               4.000
+
+Path 2
+  From:                        Q[13]:CLK
+  To:                          TC
+  Delay (ns):                  9.596
+  Slack (ns):                  -7.997
+  Arrival (ns):                11.997
+  Required (ns):               4.000
+
+Path 3
+  From:                        Q[0]:CLK
+  To:                          TC
+  Delay (ns):                  9.548
+  Slack (ns):                  -7.933
+  Arrival (ns):                11.933
+  Required (ns):               4.000
+
+Path 4
+  From:                        Q[5]:CLK
+  To:                          TC
+  Delay (ns):                  9.438
+  Slack (ns):                  -7.838
+  Arrival (ns):                11.838
+  Required (ns):               4.000
+
+Path 5
+  From:                        Q[9]:CLK
+  To:                          TC
+  Delay (ns):                  9.436
+  Slack (ns):                  -7.836
+  Arrival (ns):                11.836
+  Required (ns):               4.000
+
+Path 6
+  From:                        Q[8]:CLK
+  To:                          TC
+  Delay (ns):                  9.225
+  Slack (ns):                  -7.626
+  Arrival (ns):                11.626
+  Required (ns):               4.000
+
+Path 7
+  From:                        Q[2]:CLK
+  To:                          TC
+  Delay (ns):                  9.150
+  Slack (ns):                  -7.535
+  Arrival (ns):                11.535
+  Required (ns):               4.000
+
+Path 8
+  From:                        Q[10]:CLK
+  To:                          TC
+  Delay (ns):                  9.077
+  Slack (ns):                  -7.478
+  Arrival (ns):                11.478
+  Required (ns):               4.000
+
+Path 9
+  From:                        Q[12]:CLK
+  To:                          TC
+  Delay (ns):                  8.949
+  Slack (ns):                  -7.349
+  Arrival (ns):                11.349
+  Required (ns):               4.000
+
+Path 10
+  From:                        Q[7]:CLK
+  To:                          TC
+  Delay (ns):                  8.778
+  Slack (ns):                  -7.178
+  Arrival (ns):                11.178
+  Required (ns):               4.000
+
+Path 11
+  From:                        Q[3]:CLK
+  To:                          TC
+  Delay (ns):                  8.603
+  Slack (ns):                  -7.003
+  Arrival (ns):                11.003
+  Required (ns):               4.000
+
+Path 12
+  From:                        Q[19]:CLK
+  To:                          TC
+  Delay (ns):                  8.632
+  Slack (ns):                  -6.999
+  Arrival (ns):                10.999
+  Required (ns):               4.000
+
+Path 13
+  From:                        Q[6]:CLK
+  To:                          TC
+  Delay (ns):                  8.561
+  Slack (ns):                  -6.962
+  Arrival (ns):                10.962
+  Required (ns):               4.000
+
+Path 14
+  From:                        Q[11]:CLK
+  To:                          TC
+  Delay (ns):                  8.427
+  Slack (ns):                  -6.828
+  Arrival (ns):                10.828
+  Required (ns):               4.000
+
+Path 15
+  From:                        Q[4]:CLK
+  To:                          TC
+  Delay (ns):                  8.326
+  Slack (ns):                  -6.704
+  Arrival (ns):                10.704
+  Required (ns):               4.000
+
+Path 16
+  From:                        Q[15]:CLK
+  To:                          TC
+  Delay (ns):                  8.214
+  Slack (ns):                  -6.608
+  Arrival (ns):                10.608
+  Required (ns):               4.000
+
+Path 17
+  From:                        Q[23]:CLK
+  To:                          TC
+  Delay (ns):                  8.183
+  Slack (ns):                  -6.577
+  Arrival (ns):                10.577
+  Required (ns):               4.000
+
+Path 18
+  From:                        Q[18]:CLK
+  To:                          TC
+  Delay (ns):                  8.018
+  Slack (ns):                  -6.385
+  Arrival (ns):                10.385
+  Required (ns):               4.000
+
+Path 19
+  From:                        Q[20]:CLK
+  To:                          TC
+  Delay (ns):                  7.813
+  Slack (ns):                  -6.180
+  Arrival (ns):                10.180
+  Required (ns):               4.000
+
+Path 20
+  From:                        Q[21]:CLK
+  To:                          TC
+  Delay (ns):                  7.782
+  Slack (ns):                  -6.176
+  Arrival (ns):                10.176
+  Required (ns):               4.000
+
+Path 21
+  From:                        Q[17]:CLK
+  To:                          TC
+  Delay (ns):                  7.491
+  Slack (ns):                  -5.869
+  Arrival (ns):                9.869
+  Required (ns):               4.000
+
+Path 22
+  From:                        Q[22]:CLK
+  To:                          TC
+  Delay (ns):                  7.289
+  Slack (ns):                  -5.683
+  Arrival (ns):                9.683
+  Required (ns):               4.000
+
+Path 23
+  From:                        Q[16]:CLK
+  To:                          TC
+  Delay (ns):                  7.261
+  Slack (ns):                  -5.655
+  Arrival (ns):                9.655
+  Required (ns):               4.000
+
+Path 24
+  From:                        Q[14]:CLK
+  To:                          TC
+  Delay (ns):                  6.365
+  Slack (ns):                  -4.765
+  Arrival (ns):                8.765
+  Required (ns):               4.000
+

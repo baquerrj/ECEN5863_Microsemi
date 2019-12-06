@@ -1,0 +1,172 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Microsemi_Prj/hw7/SkewedProblemCounter/simulation
+vmyCounter
+!s110 1572754394
+!i10b 1
+!s100 o_SME?<KPL`g_[=O;FLNW1
+IXlkNFa[;X_Zme400K`AnZ2
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1572754361
+8C:/Microsemi_Prj/hw7/SkewedProblemCounter/designer/impl1/myCounter_ba.v
+FC:/Microsemi_Prj/hw7/SkewedProblemCounter/designer/impl1/myCounter_ba.v
+L0 6
+Z2 OW;L;10.5c;63
+r1
+!s85 0
+31
+!s108 1572754394.000000
+!s107 C:/Microsemi_Prj/hw7/SkewedProblemCounter/designer/impl1/myCounter_ba.v|
+!s90 -reportprogress|300|-vlog01compat|-work|postlayout|C:/Microsemi_Prj/hw7/SkewedProblemCounter/designer/impl1/myCounter_ba.v|
+!s101 -O0
+!i113 1
+Z3 o-vlog01compat -work postlayout -O0
+Z4 tCvgOpt 0
+nmy@counter
+vmyCounter_tb
+!s110 1572810457
+!i10b 1
+!s100 gTKc38Y]cOE3leGUMaWDV1
+IWY1d47_`0faiUH`F:BhZR3
+R1
+R0
+w1572810451
+Z5 8C:/Microsemi_Prj/hw7/SkewedProblemCounter/stimulus/top_level_counter_tb.v
+Z6 FC:/Microsemi_Prj/hw7/SkewedProblemCounter/stimulus/top_level_counter_tb.v
+Z7 L0 30
+R2
+r1
+!s85 0
+31
+!s108 1572810457.000000
+Z8 !s107 C:/Microsemi_Prj/hw7/SkewedProblemCounter/stimulus/top_level_counter_tb.v|
+Z9 !s90 -reportprogress|300|+incdir+C:/Microsemi_Prj/hw7/SkewedProblemCounter/stimulus|-vlog01compat|-work|postlayout|C:/Microsemi_Prj/hw7/SkewedProblemCounter/stimulus/top_level_counter_tb.v|
+!s101 -O0
+!i113 1
+R3
+Z10 !s92 +incdir+C:/Microsemi_Prj/hw7/SkewedProblemCounter/stimulus -vlog01compat -work postlayout -O0
+R4
+nmy@counter_tb
+vskewed_tb
+Z11 !s110 1572811848
+!i10b 1
+!s100 cJV1P0DzfKCho[^T5CM_<1
+I2Vc4F9En8b2;e6ggh3TQ21
+R1
+R0
+w1572811289
+8C:/Microsemi_Prj/hw7/SkewedProblemCounter/stimulus/skewed_tb.v
+FC:/Microsemi_Prj/hw7/SkewedProblemCounter/stimulus/skewed_tb.v
+Z12 L0 21
+R2
+r1
+!s85 0
+31
+Z13 !s108 1572811848.000000
+!s107 C:/Microsemi_Prj/hw7/SkewedProblemCounter/stimulus/skewed_tb.v|
+!s90 -reportprogress|300|+incdir+C:/Microsemi_Prj/hw7/SkewedProblemCounter/stimulus|-vlog01compat|-work|postlayout|C:/Microsemi_Prj/hw7/SkewedProblemCounter/stimulus/skewed_tb.v|
+!s101 -O0
+!i113 1
+R3
+R10
+R4
+vskewedClock
+Z14 !s110 1572759961
+!i10b 1
+!s100 I<@he:8@[gkMdY<c8lhaF2
+I][h3Vo2>k0GL5aLN8V8b10
+R1
+R0
+w1572759682
+8C:/Microsemi_Prj/hw7/SkewedProblemCounter/designer/impl1/skewedClock_ba.v
+FC:/Microsemi_Prj/hw7/SkewedProblemCounter/designer/impl1/skewedClock_ba.v
+L0 6
+R2
+r1
+!s85 0
+31
+Z15 !s108 1572759961.000000
+!s107 C:/Microsemi_Prj/hw7/SkewedProblemCounter/designer/impl1/skewedClock_ba.v|
+!s90 -reportprogress|300|-vlog01compat|-work|postlayout|C:/Microsemi_Prj/hw7/SkewedProblemCounter/designer/impl1/skewedClock_ba.v|
+!s101 -O0
+!i113 1
+R3
+R4
+nskewed@clock
+vskewedClock_tb
+R14
+!i10b 1
+!s100 :k2^6VSU99^L]]R`6M=A20
+IEOOh5UA3@;NOk3Vn<`4XS2
+R1
+R0
+w1572759959
+8C:/Microsemi_Prj/hw7/SkewedProblemCounter/stimulus/skewedClock_tb.v
+FC:/Microsemi_Prj/hw7/SkewedProblemCounter/stimulus/skewedClock_tb.v
+R12
+R2
+r1
+!s85 0
+31
+R15
+!s107 C:/Microsemi_Prj/hw7/SkewedProblemCounter/stimulus/skewedClock_tb.v|
+!s90 -reportprogress|300|+incdir+C:/Microsemi_Prj/hw7/SkewedProblemCounter/stimulus|-vlog01compat|-work|postlayout|C:/Microsemi_Prj/hw7/SkewedProblemCounter/stimulus/skewedClock_tb.v|
+!s101 -O0
+!i113 1
+R3
+R10
+R4
+nskewed@clock_tb
+vtop_level_counter
+R11
+!i10b 1
+!s100 H<JSBZkY45NeaWzfOC<7B0
+ID0OEhQTRN4z8`3M;hSEMZ2
+R1
+R0
+w1572811844
+8C:/Microsemi_Prj/hw7/SkewedProblemCounter/designer/impl1/top_level_counter_ba.v
+FC:/Microsemi_Prj/hw7/SkewedProblemCounter/designer/impl1/top_level_counter_ba.v
+L0 6
+R2
+r1
+!s85 0
+31
+R13
+!s107 C:/Microsemi_Prj/hw7/SkewedProblemCounter/designer/impl1/top_level_counter_ba.v|
+!s90 -reportprogress|300|-vlog01compat|-work|postlayout|C:/Microsemi_Prj/hw7/SkewedProblemCounter/designer/impl1/top_level_counter_ba.v|
+!s101 -O0
+!i113 1
+R3
+R4
+vtop_level_counter_tb
+!s110 1572810644
+!i10b 1
+!s100 :hISU:=4hWUjR9>^1WRF]2
+IiLO=g595<nLV^^c101PJ01
+R1
+R0
+w1572810577
+R5
+R6
+R7
+R2
+r1
+!s85 0
+31
+!s108 1572810644.000000
+R8
+R9
+!s101 -O0
+!i113 1
+R3
+R10
+R4
